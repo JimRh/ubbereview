@@ -1,0 +1,106 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [ "master" , "development"]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-20.04
+    strategy:
+      max-parallel: 4
+      matrix:
+        python-version: ["3.10"]
+        redis-version: ["7.0.8"]
+    env:
+      ALLOWEDHOSTS: ${{ secrets.ALLOWEDHOSTS }}
+      API2SHIPAPIURL: ${{ secrets.API2SHIPAPIURL }}
+      APIACTIONENDPOINTURL: ${{ secrets.APIACTIONENDPOINTURL }}
+      APIBCCUSTOMERS: ${{ secrets.APIBCCUSTOMERS }}
+      APIBCITEMS: ${{ secrets.APIBCITEMS }}
+      APIBCJOBLIST: ${{ secrets.APIBCJOBLIST }}
+      APIBCJOBS: ${{ secrets.APIBCJOBS }}
+      APIBCPASS: ${{ secrets.APIBCPASS }}
+      APIBCURL: ${{ secrets.APIBCURL }}
+      APIBCUSER: ${{ secrets.APIBCUSER }}
+      APIBCVENDORS: ${{ secrets.APIBCVENDORS }}
+      APICARGOJETENDPOINTURL: ${{ secrets.APICARGOJETENDPOINTURL }}
+      APIDATABASE: ${{ secrets.APIDATABASE }}
+      APIDATAKEY: ${{ secrets.APIDATAKEY }}
+      APIDAYROSSAPIURL: ${{ secrets.APIDAYROSSAPIURL }}
+      APIDJANGOKEY: ${{ secrets.APIDJANGOKEY }}
+      APIFEDEXENDPOINTURL: ${{ secrets.APIFEDEXENDPOINTURL }}
+      APIGOOGLEAPIKEY: ${{ secrets.APIGOOGLEAPIKEY }}
+      APIHOST: ${{ secrets.APIHOST }}
+      APIMANITOULINURL: ${{ secrets.APIMANITOULINURL }}
+      APIOPENEXCHANGERATE: ${{ secrets.APIOPENEXCHANGERATE }}
+      APIPASSWORD: ${{ secrets.APIPASSWORD }}
+      APIPICKUPREEQUESTEMAIL: ${{ secrets.APIPICKUPREEQUESTEMAIL }}
+      APIPUROENDPOINTURL: ${{ secrets.APIPUROENDPOINTURL }}
+      APISHIPMENTREQUESTEMAIL: ${{ secrets.APISHIPMENTREQUESTEMAIL }}
+      APISHOPIFYKEY: ${{ secrets.APISHOPIFYKEY }}
+      APISHOPIFYSECRETKEY: ${{ secrets.APISHOPIFYSECRETKEY }}
+      APISKYLINEAPIURL: ${{ secrets.APISKYLINEAPIURL }}
+      APISKYLINEPICKUPREQUESTEMAIL: ${{ secrets.APISKYLINEPICKUPREQUESTEMAIL }}
+      APITAXJARAPIKEY: ${{ secrets.APITAXJARAPIKEY }}
+      APITWOSHIPAPIKEY: ${{ secrets.APITWOSHIPAPIKEY }}
+      APIUSER: ${{ secrets.APIUSER }}
+      APIWESTJETAPIURL: ${{ secrets.APIWESTJETAPIURL }}
+      APIYRCRESTAPIURL: ${{ secrets.APIYRCRESTAPIURL }}
+      APIYRCSOAPAPIURL: ${{ secrets.APIYRCSOAPAPIURL }}
+      CANADAPOSTENDPOINTURL: ${{ secrets.CANADAPOSTENDPOINTURL }}
+      DDAPIBCURL: ${{ secrets.DDAPIBCURL }}
+      DJANGODEBUG: ${{ secrets.DJANGODEBUG }}
+      LOGGERFROMEMAIL: ${{ secrets.LOGGERFROMEMAIL }}
+      LOGGERTOEMAIL: ${{ secrets.LOGGERTOEMAIL }}
+      SMTPPASSWORD: ${{ secrets.SMTPPASSWORD }}
+      SMTPPORT: ${{ secrets.SMTPPORT }}
+      SMTPSERVER: ${{ secrets.SMTPSERVER }}
+      SMTPTLS: ${{ secrets.SMTPTLS }}
+      SMTPUSER: ${{ secrets.SMTPUSER }}
+
+    services:
+      # Label used to access the service container
+      redis:
+        # Docker Hub image
+        image: redis
+        # Set health checks to wait until redis has started
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          # Maps port 6379 on service container to the host
+          - 6379:6379
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install Dependencies
+      run: |
+        mkdir logs
+        mkdir logs/critical
+        mkdir logs/info
+        mkdir logs/warning
+        mkdir logs/error
+        mkdir logs/debug
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Setup Project
+      run: |
+        celery -A brain worker -l info &
+        python manage.py makemigrations api
+        python manage.py makemigrations books
+        python manage.py migrate
+
+    - name: Run Tests
+      run: |
+        python manage.py test

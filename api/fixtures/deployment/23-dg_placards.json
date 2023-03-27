@@ -1,0 +1,212 @@
+[
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 1,
+    "fields": {
+      "name": "Lithium Batteries 9",
+      "background_rgb": "255,255,255",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/9-lithium-batteries.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 2,
+    "fields": {
+      "name": "Miscellaneous Products, Substances, or Organisms 9",
+      "background_rgb": "255,255,255",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/9-other-dangerous-goods.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 3,
+    "fields": {
+      "name": "Corrosive Substances 8",
+      "background_rgb": "255,255,255",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/8-corrosive.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 4,
+    "fields": {
+      "name": "Radioactive Materials 7",
+      "background_rgb": "255,255,255",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/7-radioactive-i.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 5,
+    "fields": {
+      "name": "Toxic and Infectious Substances 6.2",
+      "background_rgb": "255,255,255",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/6.2-infectious-substance.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 6,
+    "fields": {
+      "name": "Toxic and Infectious Substances 6.1",
+      "background_rgb": "255,255,255",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/6.1-toxic.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 7,
+    "fields": {
+      "name": "Oxidizing Substances, Organic Peroxides 5.2",
+      "background_rgb": "255,199,0",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/5.2-organic-peroxide.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 8,
+    "fields": {
+      "name": "Oxidizing Substances, Organic Peroxides 5.1",
+      "background_rgb": "255,199,0",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/5.1-oxidizer.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 9,
+    "fields": {
+      "name": "Flammable Solids 4.3",
+      "background_rgb": "38,87,191",
+      "font_rgb": "255,255,255",
+      "label": "assets/dangerous_goods/placards/4.3-dangerous-when-wet.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 10,
+    "fields": {
+      "name": "Flammable Solids 4.2",
+      "background_rgb": "255,255,255",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/4.2-spontaneously-combustible.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 11,
+    "fields": {
+      "name": "Flammable Solids 4.1",
+      "background_rgb": "212,0,20",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/4.1-flammable-solid.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 12,
+    "fields": {
+      "name": "Flammable Liquids 3",
+      "background_rgb": "212,0,20",
+      "font_rgb": "255,255,255",
+      "label": "assets/dangerous_goods/placards/3-flammable-liquid.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 13,
+    "fields": {
+      "name": "Gases 2.3",
+      "background_rgb": "255,255,255",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/2.3-poison-gas.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 14,
+    "fields": {
+      "name": "Gases 2.2",
+      "background_rgb": "0,143,56",
+      "font_rgb": "255,255,255",
+      "label": "assets/dangerous_goods/placards/2.2-non-flammable-gas.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 15,
+    "fields": {
+      "name": "Gases 2.1",
+      "background_rgb": "212,0,20",
+      "font_rgb": "255,255,255",
+      "label": "assets/dangerous_goods/placards/2.1-flammable-gas.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 16,
+    "fields": {
+      "name": "Explosives 1.6",
+      "background_rgb": "255,138,66",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/1.6-explosive.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 17,
+    "fields": {
+      "name": "Explosives 1.5",
+      "background_rgb": "255,138,66",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/1.5-explosive.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 18,
+    "fields": {
+      "name": "Explosives 1.4",
+      "background_rgb": "255,138,66",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/1.4-explosive.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 19,
+    "fields": {
+      "name": "Explosives 1.3",
+      "background_rgb": "255,138,66",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/1.3-explosive.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 20,
+    "fields": {
+      "name": "Explosives 1.2",
+      "background_rgb": "255,138,66",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/1.2-explosive.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodplacard",
+    "pk": 21,
+    "fields": {
+      "name": "Explosives 1.1",
+      "background_rgb": "255,138,66",
+      "font_rgb": "0,0,0",
+      "label": "assets/dangerous_goods/placards/1.1-explosive.png"
+    }
+  }
+]

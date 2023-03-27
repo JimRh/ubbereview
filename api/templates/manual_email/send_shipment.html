@@ -1,0 +1,488 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ubbe Confirmation Email</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin: 0; padding: 0;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="700" style="border-collapse: collapse;">
+        <tr>
+            <td align="center"  style="padding: 20px 0 10px 0;">
+                <img src="cid:Horiz_Ubbe_Logo_Flat_Colour.png" width="250" height="160" style="width: 250px; height: 160px" alt="ubbe">
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="" style="padding: 10px 30px 40px 30px;">
+                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                     <tr>
+                         <td style="color: #25215F; font-family: sans-serif; font-size: 24px;" align="center">
+                             <h1 style="font-size: 45px;text-align: center;line-height: 1.1;color: #25215F;display: block;margin: 0;padding: 0;font-style: normal;font-weight: 800;letter-spacing: normal;"><strong>Shipment Request</strong></h1>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="line-height: 15px">
+                             &nbsp;
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="padding: 20px 0 30px 0; color: #25215F; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                            Please bill this shipment to BBE Expediting Ltd.{% if account_number %} (account number {{ carrier_account }}){% endif %}. Please send all
+                             documents and confirmation to <a href="mailto:{{ reply_to }}">{{ reply_to }}</a> for the following shipment request:
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                 <tr>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td>
+                                                    <strong style="font-size: 18px; color:#25215F; line-height: 1.6;">Shipment ID: <span style="color: #153742">{{ order_number }}</span></strong>
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                     <td style="font-size: 0; line-height: 0;" width="20">
+                                         &nbsp;
+                                     </td>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="text-align: right">
+                                                    <strong style="font-size: 18px; color:#25215F; line-height: 1.6;">Request Date: <span style="color: #153742">{{ order_date }}</span></strong>
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                 </tr>
+                             </table>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <hr style="border-top: 1px solid #a9a9a9">
+                         </td>
+                     </tr>
+
+                    <tr>
+                         <td>
+                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                 <tr>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="padding: 25px 0 0 0; color: #25215F; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                     <strong style="font-size: 24px; color:#25215F; line-height: 1.6;">Carrier Information</strong><br>
+                                                     {{ carrier_name }}<br>
+                                                     {{ service_name }}<br>
+                                                     {{ service_code }}<br>
+                                                     {% if sailing_port %}
+                                                        Port: {{ sailing_port}}<br>
+                                                     {% endif %}
+                                                     {% if sailing_date %}
+                                                        Sailing Date: {{ sailing_date }}<br>
+                                                     {% endif %}
+                                                     {% if booking_number %}
+                                                        Sealift Booking: {{ booking_number }}<br>
+                                                     {% endif %}
+                                                     {% if bol %}
+                                                         <span style="background-color: #FFFF00">Reference/ProBill Number: {{ bol }}</span><br>
+                                                     {% endif %}
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                     <td style="font-size: 0; line-height: 0;" width="80">
+                                         &nbsp;
+                                     </td>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="padding: 25px 0 0 0; color: #25215F; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                     <strong style="font-size: 24px; color:#25215F; line-height: 1.6;">Pickup Information</strong><br>
+                                                     {% if is_sealift %}
+                                                        No Pickup Requested
+                                                     {% else %}
+                                                         Date: {{ pickup.date }}<br>
+                                                         Pickup Window: {{ pickup.start_time }} to {{ pickup.end_time }}<br>
+                                                     {% endif %}
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                 </tr>
+                             </table>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                 <tr>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="padding: 25px 0 0 0; color: #25215F; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                     <strong style="font-size: 24px; color:#25215F; line-height: 1.6;">Origin</strong><br>
+                                                     {{ origin.company_name }}<br>
+                                                     {{ origin.name }}<br>
+                                                     {{ origin.email }}<br>
+                                                     {{ origin.phone }}<br>
+                                                     {{ origin.address }}<br>
+                                                     {{ origin.city }}, {{ origin.province }} {{ origin.postal_code }}<br>
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                     <td style="font-size: 0; line-height: 0;" width="80">
+                                         &nbsp;
+                                     </td>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="padding: 25px 0 0 0; color: #25215F; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                     <strong style="font-size: 24px; color:#25215F; line-height: 1.6;">Destination</strong><br>
+                                                     {{ destination.company_name }}<br>
+                                                     {{ destination.name }}<br>
+                                                     {{ destination.email }}<br>
+                                                     {{ destination.phone }}<br>
+                                                     {{ destination.address }}<br>
+                                                     {{ destination.city }}, {{ destination.province }} {{ destination.postal_code }}<br>
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                 </tr>
+                             </table>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="line-height: 35px">
+                             &nbsp;
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <table class="order-table" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                 <tbody>
+                                    <tr>
+                                        <td colspan="4" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                            <strong style="font-size: 24px; color:#25215F; line-height: 1.6;">Packages:</strong>
+                                            <br><br>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td style="padding-right: 8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                            <strong>QTY</strong>
+                                        </td>
+                                        <td style="padding-right: 8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                            <strong>Description</strong>
+                                        </td>
+                                        <td style="padding-right: 8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                            <strong>DIMENSIONS</strong>
+                                        </td>
+                                        <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                            <strong>WEIGHT</strong>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="4" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                            <div style="height: 3px; width: 100%; background-color: #c8c8c8; margin-top: 5px; margin-bottom: 10px;"></div>
+                                        </td>
+                                    </tr>
+
+                                    {% for item in packages %}
+                                        <tr>
+                                            <td>{{ item.quantity }}</td>
+                                            <td>
+                                                {{ item.package_type_name }}<br>
+                                                {{ item.description }}<br>
+                                            </td>
+                                            <td>{{ item.length }} cm x {{ item.width }} cm x {{ item.height }} cm</td>
+                                            <td>{{ item.weight }} kg</td>
+                                        </tr>
+
+                                        {% if item.is_pharma %}
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td colspan="3"><em class="pkg-dg" style="font-size: 15px; color: #dd1313;">Pharma Good</em></td>
+                                            </tr>
+                                            {% if item.is_cos %}
+                                                <tr>
+                                                    <td>&nbsp;</td>
+                                                    <td colspan="3">
+                                                        <strong>Chain of Signature Required</strong>
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                            {% if item.is_time_sensitive %}
+                                                <tr>
+                                                    <td>&nbsp;</td>
+                                                    <td><strong>Times Sensitive</strong></td>
+                                                    <td colspan="2">
+                                                        {{ item.time_sensitive_hours }} Hours
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+                                        {% endif %}
+
+                                        {% if item.is_dangerous_good %}
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td colspan="3"><em class="pkg-dg" style="font-size: 15px; color: #dd1313;">Dangerous Good</em></td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>UN Number</strong></td>
+                                                <td colspan="2">{{ item.un_number }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>Shipping Name</strong></td>
+                                                <td colspan="2">
+                                                    {% if item.IsNOS %}
+                                                        {{ item.proper_shipping_name }}, {{ item.nos }}
+                                                    {% else %}
+                                                        {{ item.proper_shipping_name }}
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>PACKING GROUP</strong></td>
+                                                <td colspan="2">{{ item.packing_group_name }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+                                        {% endif %}
+
+                                        {% if item.package_type == "CONTAINER" %}
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>Container Number</strong></td>
+                                                <td colspan="2">{{ item.container_number }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>Status</strong></td>
+                                                <td colspan="2">{{ item.status }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+
+                                        {% elif item.package_type == "VEHICLE" %}
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>Vehicle</strong></td>
+                                                <td colspan="2">{{ item.year }} - {{ item.model }} - VIN: {{ item.vin }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>Running Condition</strong></td>
+                                                <td colspan="2">{{ item.condition }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>Anti Theft</strong></td>
+                                                <td colspan="2">{{ item.anti_theft }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+                                        {% elif item.package_type == "SKID" %}
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td><strong>class</strong></td>
+                                                <td colspan="2">{{ item.freight_class }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4">&nbsp;</td>
+                                            </tr>
+
+                                        {% endif %}
+
+
+                                    {% endfor %}
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td><strong>Total Weight:</strong></td>
+                                        <td><strong>{{ total_weight }} kg</strong></td>
+                                    </tr>
+
+                                 </tbody>
+                             </table>
+                         </td>
+                     </tr>
+
+                     <tr>
+                         <td style="line-height: 35px">
+                             &nbsp;
+                         </td>
+                     </tr>
+                    <tr>
+                         <td>
+                             <table class="order-table" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                 <tbody>
+                                    <tr>
+                                        <td style="padding-right: 8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" colspan="4">
+                                            <strong>The following options have been selected:</strong>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="4" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                            <div style="height: 3px; width: 100%; background-color: #c8c8c8; margin-top: 5px; margin-bottom: 10px;"></div>
+                                        </td>
+                                    </tr>
+                                    {% if options %}
+                                        {% for option in options %}
+                                            <tr>
+                                                <td colspan="4">{{ option }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    {% else %}
+                                        <tr>
+                                            <td colspan="4">No options were selected</td>
+                                        </tr>
+                                    {% endif %}
+                                 </tbody>
+                             </table>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="line-height: 35px">
+                             &nbsp;
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <strong style="font-size: 24px; color:#25215F; line-height: 1.6;">Additional Information</strong>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="line-height: 10px">
+                             &nbsp;
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                 <tr>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td>
+                                                    <label>Primary Reference: <span>{{ reference_one }}</span></label>
+                                                     {% if awb %}
+                                                        <label>Airway Bill: <span>{{ awb }}</span></label>
+                                                     {% endif %}
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                     <td style="font-size: 0; line-height: 0;" width="20">
+                                         &nbsp;
+                                     </td>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="text-align: right">
+                                                     {% if reference_two %}
+                                                        <label>Reference Two: <span>{{ reference_two }}</span></label>
+                                                     {% endif %}
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                 </tr>
+                             </table>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="line-height: 35px">
+                             &nbsp;
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" >
+                                <tr style="line-height: 1.1">
+                                    <td>
+                                        <label>Handling Instructions:</label>
+                                        {{ special_instructions }}
+                                    </td>
+                                </tr>
+                            </table>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="line-height: 35px">
+                             &nbsp;
+                         </td>
+                     </tr>
+
+                 </table>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#141B4D" style="padding: 30px 30px 30px 30px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="75%" style="color: #ffffff; font-family: sans-serif; font-size: 14px;">
+                            Copyright © 2020 ubbe, All rights reserved.
+                        </td>
+                        <td align="right">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <a href="https://twitter.com/BBExpediting">
+                                            <img src="cid:sm-twitter.png" alt="twitter" style="color: #ffffff;">
+                                        </a>
+                                    </td>
+                                    <td style="font-size: 0; line-height: 0;" width="20">&nbsp;</td>
+                                    <td>
+                                        <a href="https://www.facebook.com/BradenBurryExpeditingLtd">
+                                            <img src="cid:sm-facebook.png" alt="facebook" style="color: #ffffff;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

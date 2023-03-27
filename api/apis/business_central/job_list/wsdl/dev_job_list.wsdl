@@ -1,0 +1,215 @@
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:microsoft-dynamics-schemas/page/ubbe_job_list" targetNamespace="urn:microsoft-dynamics-schemas/page/ubbe_job_list">
+    <types>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/page/ubbe_job_list">
+            <xsd:complexType name="Ubbe_Job_List">
+                <xsd:sequence>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="Key" type="xsd:string"/>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="No" type="xsd:string"/>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="Description" type="xsd:string"/>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Customer_No" type="xsd:string"/>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="Bill_to_Name" type="xsd:string"/>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="Created_By" type="xsd:string"/>
+                    <xsd:element minOccurs="0" maxOccurs="1" name="File_Owner" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="Ubbe_Job_List_List">
+                <xsd:sequence>
+                    <xsd:element minOccurs="1" maxOccurs="unbounded" name="Ubbe_Job_List" type="tns:Ubbe_Job_List"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:simpleType name="Ubbe_Job_List_Fields">
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="No"/>
+                    <xsd:enumeration value="Description"/>
+                    <xsd:enumeration value="Bill_to_Customer_No"/>
+                    <xsd:enumeration value="Bill_to_Name"/>
+                    <xsd:enumeration value="Created_By"/>
+                    <xsd:enumeration value="File_Owner"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+            <xsd:complexType name="Ubbe_Job_List_Filter">
+                <xsd:sequence>
+                    <xsd:element minOccurs="1" maxOccurs="1" name="Field" type="tns:Ubbe_Job_List_Fields"/>
+                    <xsd:element minOccurs="1" maxOccurs="1" name="Criteria" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:element name="Read">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="1" maxOccurs="1" name="No" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="Read_Result">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="0" maxOccurs="1" name="Ubbe_Job_List" type="tns:Ubbe_Job_List"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="ReadByRecId">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="1" maxOccurs="1" name="recId" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="ReadByRecId_Result">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="0" maxOccurs="1" name="Ubbe_Job_List" type="tns:Ubbe_Job_List"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="ReadMultiple">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="1" maxOccurs="unbounded" name="filter" type="tns:Ubbe_Job_List_Filter"/>
+                        <xsd:element minOccurs="0" maxOccurs="1" name="bookmarkKey" type="xsd:string"/>
+                        <xsd:element minOccurs="1" maxOccurs="1" name="setSize" type="xsd:int"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="ReadMultiple_Result">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="0" maxOccurs="1" name="ReadMultiple_Result" type="tns:Ubbe_Job_List_List"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="IsUpdated">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="1" maxOccurs="1" name="Key" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="IsUpdated_Result">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="1" maxOccurs="1" name="IsUpdated_Result" type="xsd:boolean"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="GetRecIdFromKey">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="1" maxOccurs="1" name="Key" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="GetRecIdFromKey_Result">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="1" maxOccurs="1" name="GetRecIdFromKey_Result" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:schema>
+    </types>
+    <message name="Read">
+        <part name="parameters" element="tns:Read"/>
+    </message>
+    <message name="Read_Result">
+        <part name="parameters" element="tns:Read_Result"/>
+    </message>
+    <message name="ReadByRecId">
+        <part name="parameters" element="tns:ReadByRecId"/>
+    </message>
+    <message name="ReadByRecId_Result">
+        <part name="parameters" element="tns:ReadByRecId_Result"/>
+    </message>
+    <message name="ReadMultiple">
+        <part name="parameters" element="tns:ReadMultiple"/>
+    </message>
+    <message name="ReadMultiple_Result">
+        <part name="parameters" element="tns:ReadMultiple_Result"/>
+    </message>
+    <message name="IsUpdated">
+        <part name="parameters" element="tns:IsUpdated"/>
+    </message>
+    <message name="IsUpdated_Result">
+        <part name="parameters" element="tns:IsUpdated_Result"/>
+    </message>
+    <message name="GetRecIdFromKey">
+        <part name="parameters" element="tns:GetRecIdFromKey"/>
+    </message>
+    <message name="GetRecIdFromKey_Result">
+        <part name="parameters" element="tns:GetRecIdFromKey_Result"/>
+    </message>
+    <portType name="Ubbe_Job_List_Port">
+        <operation name="Read">
+            <input name="Read" message="tns:Read"/>
+            <output name="Read_Result" message="tns:Read_Result"/>
+        </operation>
+        <operation name="ReadByRecId">
+            <input name="ReadByRecId" message="tns:ReadByRecId"/>
+            <output name="ReadByRecId_Result" message="tns:ReadByRecId_Result"/>
+        </operation>
+        <operation name="ReadMultiple">
+            <input name="ReadMultiple" message="tns:ReadMultiple"/>
+            <output name="ReadMultiple_Result" message="tns:ReadMultiple_Result"/>
+        </operation>
+        <operation name="IsUpdated">
+            <input name="IsUpdated" message="tns:IsUpdated"/>
+            <output name="IsUpdated_Result" message="tns:IsUpdated_Result"/>
+        </operation>
+        <operation name="GetRecIdFromKey">
+            <input name="GetRecIdFromKey" message="tns:GetRecIdFromKey"/>
+            <output name="GetRecIdFromKey_Result" message="tns:GetRecIdFromKey_Result"/>
+        </operation>
+    </portType>
+    <binding name="Ubbe_Job_List_Binding" type="tns:Ubbe_Job_List_Port">
+        <binding xmlns="http://schemas.xmlsoap.org/wsdl/soap/" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="Read">
+            <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:microsoft-dynamics-schemas/page/ubbe_job_list:Read" style="document"/>
+            <input name="Read">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </input>
+            <output name="Read_Result">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </output>
+        </operation>
+        <operation name="ReadByRecId">
+            <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:microsoft-dynamics-schemas/page/ubbe_job_list:ReadByRecId" style="document"/>
+            <input name="ReadByRecId">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </input>
+            <output name="ReadByRecId_Result">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </output>
+        </operation>
+        <operation name="ReadMultiple">
+            <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:microsoft-dynamics-schemas/page/ubbe_job_list:ReadMultiple" style="document"/>
+            <input name="ReadMultiple">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </input>
+            <output name="ReadMultiple_Result">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </output>
+        </operation>
+        <operation name="IsUpdated">
+            <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:microsoft-dynamics-schemas/page/ubbe_job_list:IsUpdated" style="document"/>
+            <input name="IsUpdated">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </input>
+            <output name="IsUpdated_Result">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </output>
+        </operation>
+        <operation name="GetRecIdFromKey">
+            <operation xmlns="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="urn:microsoft-dynamics-schemas/page/ubbe_job_list:GetRecIdFromKey" style="document"/>
+            <input name="GetRecIdFromKey">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </input>
+            <output name="GetRecIdFromKey_Result">
+                <body xmlns="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+            </output>
+        </operation>
+    </binding>
+    <service name="Ubbe_Job_List_Service">
+        <port name="Ubbe_Job_List_Port" binding="tns:Ubbe_Job_List_Binding">
+            <address xmlns="http://schemas.xmlsoap.org/wsdl/soap/" location="http://vm-bbeaz-bc01.bbex.local:7347/TestJobs/WS/BBE_TestJobs/Page/Ubbe_Job_List"/>
+        </port>
+    </service>
+</definitions>

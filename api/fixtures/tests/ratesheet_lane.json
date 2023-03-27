@@ -1,0 +1,22 @@
+[
+  {
+    "model": "api.ratesheetlane",
+    "pk": 3,
+    "fields": {
+      "rate_sheet": 1,
+      "min_value": "10.00",
+      "max_value": "50.00",
+      "cost": "1.35"
+    }
+  },
+  {
+    "model": "api.ratesheetlane",
+    "pk": 4,
+    "fields": {
+      "rate_sheet": 5,
+      "min_value": "1.00",
+      "max_value": "50.00",
+      "cost": "1.35"
+    }
+  }
+]

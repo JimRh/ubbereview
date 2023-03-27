@@ -1,0 +1,146 @@
+[
+  {
+    "model": "api.optionname",
+    "pk": 1,
+    "fields": {
+      "name": "Delivery Appointment",
+      "description": "The carrier will need to call to book a delivery appointment",
+      "is_mandatory": false
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 2,
+    "fields": {
+      "name": "Pickup Appointment",
+      "description": "The carrier will need to call to book a pickup appointment",
+      "is_mandatory": false
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 3,
+    "fields": {
+      "name": "Power Tailgate",
+      "description": "Shipment requires a truck with a power tailgate",
+      "is_mandatory": false
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 4,
+    "fields": {
+      "name": "Dangerous Goods",
+      "description": "Shipment requires additional charges due to dangerous goods",
+      "is_mandatory": true
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 5,
+    "fields": {
+      "name": "Refrigerated Truck",
+      "description": "Shipment requires refrigerated truck",
+      "is_mandatory": false
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 6,
+    "fields": {
+      "name": "Heated Truck",
+      "description": "Shipment requires heated truck",
+      "is_mandatory": false
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 7,
+    "fields": {
+      "name": "Residential Delivery",
+      "description": "Shipment requires residential delivery",
+      "is_mandatory": true
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 8,
+    "fields": {
+      "name": "Residential Pickup",
+      "description": "Shipment requires residential pickup",
+      "is_mandatory": true
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 9,
+    "fields": {
+      "name": "Inside Pickup",
+      "description": "Shipment requires pickup inside a business",
+      "is_mandatory": false
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 10,
+    "fields": {
+      "name": "Inside Delivery",
+      "description": "Shipment requires deliver inside a business",
+      "is_mandatory": false
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 11,
+    "fields": {
+      "name": "AB Carbon Tax",
+      "description": "Shipment must pay carbon tax levy only in Alberta",
+      "is_mandatory": true
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 12,
+    "fields": {
+      "name": "Deh Cho Bridge",
+      "description": "Bridge toll fee",
+      "is_mandatory": true
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 13,
+    "fields": {
+      "name": "Newfoundland Ferry",
+      "description": "Shipment requires a ferry to travel to newfoundland",
+      "is_mandatory": true
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 14,
+    "fields": {
+      "name": "Northern Road Ban",
+      "description": "Road closure/winter road",
+      "is_mandatory": true
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 15,
+    "fields": {
+      "name": "Long Freight",
+      "description": "Freight over carrier length limit",
+      "is_mandatory": true
+    }
+  },
+  {
+    "model": "api.optionname",
+    "pk": 16,
+    "fields": {
+      "name": "Weekend or Holiday Pickup",
+      "description": "The pickup is being made on a weekend or holiday (Outside normal service)",
+      "is_mandatory": true
+    }
+  }
+]

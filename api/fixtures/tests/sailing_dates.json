@@ -1,0 +1,202 @@
+[
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 3,
+    "fields": {
+      "carrier": 35,
+      "port": 1,
+      "name": "FI",
+      "sailing_date": "2019-06-16T00:00:00Z",
+      "dg_packing_cutoff": "2019-05-31T00:00:00Z",
+      "cargo_packing_cutoff": "2019-06-05T00:00:00Z",
+      "bbe_dg_cutoff": "2019-05-24T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-05-29T00:00:00Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 4,
+    "fields": {
+      "carrier": 35,
+      "port": 1,
+      "name": "FI",
+      "sailing_date": "2019-06-16T00:00:00Z",
+      "dg_packing_cutoff": "2019-05-31T00:00:00Z",
+      "cargo_packing_cutoff": "2019-06-06T00:00:00Z",
+      "bbe_dg_cutoff": "2019-05-24T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-05-30T00:00:00Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 5,
+    "fields": {
+      "carrier": 35,
+      "port": 1,
+      "name": "SE",
+      "sailing_date": "2019-08-01T00:00:00Z",
+      "dg_packing_cutoff": "2019-07-12T00:00:00Z",
+      "cargo_packing_cutoff": "2019-07-19T00:00:00Z",
+      "bbe_dg_cutoff": "2019-07-05T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-07-12T00:00:00Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 6,
+    "fields": {
+      "carrier": 35,
+      "port": 1,
+      "name": "SE",
+      "sailing_date": "2019-07-27T00:00:00Z",
+      "dg_packing_cutoff": "2019-07-12T00:00:00Z",
+      "cargo_packing_cutoff": "2019-07-19T00:00:00Z",
+      "bbe_dg_cutoff": "2019-07-05T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-07-12T00:00:00Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 7,
+    "fields": {
+      "carrier": 35,
+      "port": 1,
+      "name": "TH",
+      "sailing_date": "2019-09-15T00:00:00Z",
+      "dg_packing_cutoff": "2019-08-30T00:00:00Z",
+      "cargo_packing_cutoff": "2019-09-05T00:00:00Z",
+      "bbe_dg_cutoff": "2019-08-23T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-08-29T00:00:00Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 8,
+    "fields": {
+      "carrier": 35,
+      "port": 1,
+      "name": "TH",
+      "sailing_date": "2019-09-13T00:00:00Z",
+      "dg_packing_cutoff": "2019-08-30T00:00:00Z",
+      "cargo_packing_cutoff": "2019-09-05T00:00:00Z",
+      "bbe_dg_cutoff": "2019-08-23T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-08-29T00:00:00Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 9,
+    "fields": {
+      "carrier": 36,
+      "port": 1,
+      "name": "FI",
+      "sailing_date": "2019-06-14T00:00:00Z",
+      "dg_packing_cutoff": "2019-05-31T00:00:00Z",
+      "cargo_packing_cutoff": "2019-06-03T00:00:00Z",
+      "bbe_dg_cutoff": "2019-05-24T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-05-27T00:00:00Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 11,
+    "fields": {
+      "carrier": 36,
+      "port": 1,
+      "name": "SE",
+      "sailing_date": "2019-07-26T00:00:00Z",
+      "dg_packing_cutoff": "2019-07-10T00:00:00Z",
+      "cargo_packing_cutoff": "2019-07-17T00:00:00Z",
+      "bbe_dg_cutoff": "2019-07-03T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-07-10T00:00:00Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 12,
+    "fields": {
+      "carrier": 36,
+      "port": 1,
+      "name": "TH",
+      "sailing_date": "2019-12-20T00:00:00Z",
+      "dg_packing_cutoff": "2019-12-02T23:30:53Z",
+      "cargo_packing_cutoff": "2019-12-02T23:30:42Z",
+      "bbe_dg_cutoff": "2019-11-25T23:30:53Z",
+      "bbe_cargo_cutoff": "2019-11-25T23:30:42Z",
+      "weight_capacity": "10000.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.sealiftsailingdates",
+    "pk": 13,
+    "fields": {
+      "carrier": 35,
+      "port": 1,
+      "name": "FI",
+      "sailing_date": "2019-07-09T00:00:00Z",
+      "dg_packing_cutoff": "2019-08-01T00:00:00Z",
+      "cargo_packing_cutoff": "2019-07-23T00:00:00Z",
+      "bbe_dg_cutoff": "2019-07-25T00:00:00Z",
+      "bbe_cargo_cutoff": "2019-07-16T00:00:00Z",
+      "weight_capacity": "112.00",
+      "current_weight": "0.00",
+      "status": "EP",
+      "port_destinations": [
+        2
+      ]
+    }
+  }
+]

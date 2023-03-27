@@ -1,0 +1,11 @@
+[
+  {
+    "model": "api.tax",
+    "pk": 1,
+    "fields": {
+      "province": 1,
+      "tax_rate": "5.00",
+      "expiry": "2022-07-06T16:53:37.871Z"
+    }
+  }
+]

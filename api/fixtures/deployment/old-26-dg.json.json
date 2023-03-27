@@ -1,0 +1,1391 @@
+[
+  {
+    "model": "api.dangerousgood",
+    "pk": 1,
+    "fields": {
+      "un_number": 1950,
+      "short_proper_shipping_name": "Aerosols, flammable",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 7,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "1.000",
+      "ground_maximum_quantity_cutoff": "75.000",
+      "is_gross_measure": true,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        24,
+        25,
+        26
+      ],
+      "air_special_provisions": [
+        1,
+        2,
+        3
+      ],
+      "ground_special_provisions": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 2,
+    "fields": {
+      "un_number": 1950,
+      "short_proper_shipping_name": "Aerosols, flammable, containing substances in Class 8, Packing Group I",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 7,
+      "specialty_label": null,
+      "packing_group": 1,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": true,
+      "subrisks": [
+        19
+      ],
+      "air_quantity_cutoff": [
+        2,
+        53,
+        54
+      ],
+      "air_special_provisions": [],
+      "ground_special_provisions": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 3,
+    "fields": {
+      "un_number": 1950,
+      "short_proper_shipping_name": "Aerosols, flammable, containing substances in Class 8, Packing Group II",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 7,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "1.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": true,
+      "subrisks": [
+        19
+      ],
+      "air_quantity_cutoff": [
+        2,
+        53,
+        54
+      ],
+      "air_special_provisions": [],
+      "ground_special_provisions": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 4,
+    "fields": {
+      "un_number": 1950,
+      "short_proper_shipping_name": "Aerosols, flammable, containing substances in Class 8, Packing Group III",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 7,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "1.000",
+      "ground_maximum_quantity_cutoff": "75.000",
+      "is_gross_measure": true,
+      "subrisks": [
+        19
+      ],
+      "air_quantity_cutoff": [
+        24,
+        25,
+        26
+      ],
+      "air_special_provisions": [
+        1,
+        2,
+        3
+      ],
+      "ground_special_provisions": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 5,
+    "fields": {
+      "un_number": 49,
+      "short_proper_shipping_name": "Cartridges, flash",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 1,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        53,
+        54
+      ],
+      "air_special_provisions": [],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 6,
+    "fields": {
+      "un_number": 50,
+      "short_proper_shipping_name": "Cartridges, flash",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 3,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        1,
+        55,
+        56
+      ],
+      "air_special_provisions": [
+        3
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 7,
+    "fields": {
+      "un_number": 1133,
+      "short_proper_shipping_name": "Adhesives",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "containing flammable liquid",
+      "classification": 10,
+      "specialty_label": null,
+      "packing_group": 1,
+      "excepted_quantity": 4,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.500",
+      "ground_maximum_quantity_cutoff": "1.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        5,
+        6
+      ],
+      "air_special_provisions": [],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 8,
+    "fields": {
+      "un_number": 1133,
+      "short_proper_shipping_name": "Adhesives",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "containing flammable liquid",
+      "classification": 10,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 3,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        7,
+        8,
+        9
+      ],
+      "air_special_provisions": [],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 9,
+    "fields": {
+      "un_number": 1133,
+      "short_proper_shipping_name": "Adhesives",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "containing flammable liquid",
+      "classification": 10,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "60.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        10,
+        11,
+        12
+      ],
+      "air_special_provisions": [],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 10,
+    "fields": {
+      "un_number": 1956,
+      "short_proper_shipping_name": "Compressed gas, n.o.s",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 7,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.125",
+      "ground_maximum_quantity_cutoff": "75.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        3,
+        4
+      ],
+      "air_special_provisions": [
+        5
+      ],
+      "ground_special_provisions": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 11,
+    "fields": {
+      "un_number": 1263,
+      "short_proper_shipping_name": "Paint",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "includes paint, lacquer, enamel, stain, shellac, varnish, polish, liquid, filler and liquid lacquer base",
+      "classification": 10,
+      "specialty_label": null,
+      "packing_group": 1,
+      "excepted_quantity": 4,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.500",
+      "ground_maximum_quantity_cutoff": "1.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        5,
+        6
+      ],
+      "air_special_provisions": [
+        4,
+        6,
+        7
+      ],
+      "ground_special_provisions": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 12,
+    "fields": {
+      "un_number": 1263,
+      "short_proper_shipping_name": "Paint",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "includes paint, lacquer, enamel, stain, shellac, varnish, polish, liquid, filler and liquid lacquer base",
+      "classification": 10,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 3,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        7,
+        8,
+        9
+      ],
+      "air_special_provisions": [
+        4,
+        6,
+        7
+      ],
+      "ground_special_provisions": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 13,
+    "fields": {
+      "un_number": 1263,
+      "short_proper_shipping_name": "Paint",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "includes paint, lacquer, enamel, stain, shellac, varnish, polish, liquid, filler and liquid lacquer base",
+      "classification": 10,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "60.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        10,
+        11,
+        12
+      ],
+      "air_special_provisions": [
+        4,
+        6,
+        7
+      ],
+      "ground_special_provisions": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 14,
+    "fields": {
+      "un_number": 3091,
+      "short_proper_shipping_name": "Lithium Metal Batteries Packed With Equipment",
+      "verbose_proper_shipping_name": "LITHIUM METAL BATTERIES PACKED WITH EQUIPMENT (including lithium alloy batteries)",
+      "identification_details": "",
+      "classification": 21,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        51,
+        52
+      ],
+      "air_special_provisions": [
+        15,
+        8,
+        9,
+        10,
+        11,
+        16,
+        17,
+        14,
+        195
+      ],
+      "ground_special_provisions": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 15,
+    "fields": {
+      "un_number": 3090,
+      "short_proper_shipping_name": "Lithium Metal Batteries",
+      "verbose_proper_shipping_name": "LITHIUM METAL BATTERIES (including lithium alloy batteries)",
+      "identification_details": "",
+      "classification": 21,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        53,
+        33
+      ],
+      "air_special_provisions": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        195,
+        196,
+        3
+      ],
+      "ground_special_provisions": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        11
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 16,
+    "fields": {
+      "un_number": 3480,
+      "short_proper_shipping_name": "Lithium Ion Batteries",
+      "verbose_proper_shipping_name": "LITHIUM ION BATTERIES (including lithium ion polymer batteries)",
+      "identification_details": "",
+      "classification": 21,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        53,
+        45
+      ],
+      "air_special_provisions": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        195,
+        18,
+        196,
+        3
+      ],
+      "ground_special_provisions": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        11
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 17,
+    "fields": {
+      "un_number": 3481,
+      "short_proper_shipping_name": "Lithium Ion Batteries Contained In Equipment",
+      "verbose_proper_shipping_name": "LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT (including lithium ion polymer batteries)",
+      "identification_details": "",
+      "classification": 21,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        49,
+        50
+      ],
+      "air_special_provisions": [
+        15,
+        8,
+        9,
+        10,
+        11,
+        16,
+        17,
+        14,
+        195
+      ],
+      "ground_special_provisions": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 18,
+    "fields": {
+      "un_number": 1338,
+      "short_proper_shipping_name": "Phosphorus, Amorphous",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 11,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "25.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        13,
+        14,
+        15
+      ],
+      "air_special_provisions": [
+        19
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 19,
+    "fields": {
+      "un_number": 1219,
+      "short_proper_shipping_name": "Isopropyl Alcohol",
+      "verbose_proper_shipping_name": "ISOPROPANOL or ISOPROPYL ALCOHOL",
+      "identification_details": "",
+      "classification": 10,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 3,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "1.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        7,
+        8,
+        9
+      ],
+      "air_special_provisions": [
+        20
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 20,
+    "fields": {
+      "un_number": 1971,
+      "short_proper_shipping_name": "Methane, Compressed",
+      "verbose_proper_shipping_name": "METHANE, COMPRESSED; or NATURAL GAS, COMPRESSED with high methane content",
+      "identification_details": "",
+      "classification": 7,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.125",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        53,
+        4
+      ],
+      "air_special_provisions": [
+        21
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 21,
+    "fields": {
+      "un_number": 1789,
+      "short_proper_shipping_name": "Hydrochloric Acid",
+      "verbose_proper_shipping_name": "HYDROCHLORIC ACID",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 3,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "1.000",
+      "ground_maximum_quantity_cutoff": "1.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        18,
+        19,
+        20
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 22,
+    "fields": {
+      "un_number": 1789,
+      "short_proper_shipping_name": "Hydrochloric Acid",
+      "verbose_proper_shipping_name": "HYDROCHLORIC ACID",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        21,
+        22,
+        23
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 23,
+    "fields": {
+      "un_number": 1977,
+      "short_proper_shipping_name": "Nitrogen, Refrigerated Liquid",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 8,
+      "specialty_label": 6,
+      "packing_group": 4,
+      "excepted_quantity": 2,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.125",
+      "ground_maximum_quantity_cutoff": "50.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        27,
+        28
+      ],
+      "air_special_provisions": [
+        150
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 24,
+    "fields": {
+      "un_number": 1972,
+      "short_proper_shipping_name": "Methane, Refrigerated Liquid",
+      "verbose_proper_shipping_name": "METHANE, REFRIGERATED LIQUID; or NATURAL GAS, REFRIGERATED LIQUID with high methane content",
+      "identification_details": "",
+      "classification": 7,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        53,
+        54
+      ],
+      "air_special_provisions": [],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 25,
+    "fields": {
+      "un_number": 1002,
+      "short_proper_shipping_name": "Air, Compressed",
+      "verbose_proper_shipping_name": "AIR, COMPRESSED, with not more than 23.5% oxygen, by volume",
+      "identification_details": "",
+      "classification": 8,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.125",
+      "ground_maximum_quantity_cutoff": "75.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        3,
+        4
+      ],
+      "air_special_provisions": [
+        190
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 26,
+    "fields": {
+      "un_number": 3363,
+      "short_proper_shipping_name": "Dangerous Goods In Apparatus; Or Dangerous Goods In Machinery",
+      "verbose_proper_shipping_name": "DANGEROUS GOODS IN APPARATUS;\r\nor\r\nDANGEROUS GOODS IN MACHINERY",
+      "identification_details": "",
+      "classification": 20,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        36,
+        59
+      ],
+      "air_special_provisions": [
+        15,
+        118
+      ],
+      "ground_special_provisions": [
+        129
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 27,
+    "fields": {
+      "un_number": 1066,
+      "short_proper_shipping_name": "Nitrogen, Compressed",
+      "verbose_proper_shipping_name": "NITROGEN, COMPRESSED",
+      "identification_details": "",
+      "classification": 8,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 2,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.125",
+      "ground_maximum_quantity_cutoff": "75.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        3,
+        4
+      ],
+      "air_special_provisions": [
+        84,
+        5
+      ],
+      "ground_special_provisions": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 28,
+    "fields": {
+      "un_number": 8000,
+      "short_proper_shipping_name": "Consumer Commodity",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "Containers, empty or re-used, not containing dangerous goods residue",
+      "classification": 20,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": true,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        48,
+        60,
+        61
+      ],
+      "air_special_provisions": [
+        122
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 29,
+    "fields": {
+      "un_number": 1791,
+      "short_proper_shipping_name": "Hypochlorite Solution",
+      "verbose_proper_shipping_name": "Hypochlorite solution with more than 7% available chlorine",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 3,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "1.000",
+      "ground_maximum_quantity_cutoff": "1.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        18,
+        19,
+        20
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 30,
+    "fields": {
+      "un_number": 1791,
+      "short_proper_shipping_name": "Hypochlorite Solution",
+      "verbose_proper_shipping_name": "Hypochlorite solution with more than 7% available chlorine",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        21,
+        22,
+        23
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 31,
+    "fields": {
+      "un_number": 3264,
+      "short_proper_shipping_name": "Corrosive Liquid, Acidic, Inorganic, N.o.s.",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 1,
+      "excepted_quantity": 1,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "0.500",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        16,
+        17
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 32,
+    "fields": {
+      "un_number": 3264,
+      "short_proper_shipping_name": "Corrosive Liquid, Acidic, Inorganic, N.o.s.",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 3,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "1.000",
+      "ground_maximum_quantity_cutoff": "1.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        18,
+        19,
+        20
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 33,
+    "fields": {
+      "un_number": 3264,
+      "short_proper_shipping_name": "Corrosive Liquid, Acidic, Inorganic, N.o.s.",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        21,
+        22,
+        23
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 34,
+    "fields": {
+      "un_number": 1760,
+      "short_proper_shipping_name": "Corrosive Liquid, N.o.s.",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 1,
+      "excepted_quantity": 1,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "0.500",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        16,
+        17
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 35,
+    "fields": {
+      "un_number": 1760,
+      "short_proper_shipping_name": "Corrosive Liquid, N.o.s.",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 3,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "1.000",
+      "ground_maximum_quantity_cutoff": "1.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        18,
+        19,
+        20
+      ],
+      "air_special_provisions": [
+        4,
+        19
+      ],
+      "ground_special_provisions": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 36,
+    "fields": {
+      "un_number": 1760,
+      "short_proper_shipping_name": "Corrosive Liquid, N.o.s.",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 19,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        21,
+        22,
+        23
+      ],
+      "air_special_provisions": [
+        50,
+        19
+      ],
+      "ground_special_provisions": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 37,
+    "fields": {
+      "un_number": 3414,
+      "short_proper_shipping_name": "Sodium Cyanide Solution",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 16,
+      "specialty_label": null,
+      "packing_group": 1,
+      "excepted_quantity": 6,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "1.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        37,
+        38
+      ],
+      "air_special_provisions": [
+        4
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 38,
+    "fields": {
+      "un_number": 3414,
+      "short_proper_shipping_name": "Sodium Cyanide Solution",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 16,
+      "specialty_label": null,
+      "packing_group": 2,
+      "excepted_quantity": 5,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "0.100",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        39,
+        40,
+        41
+      ],
+      "air_special_provisions": [
+        4
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 39,
+    "fields": {
+      "un_number": 3414,
+      "short_proper_shipping_name": "Sodium Cyanide Solution",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 16,
+      "specialty_label": null,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "60.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        42,
+        43,
+        44
+      ],
+      "air_special_provisions": [
+        4
+      ],
+      "ground_special_provisions": []
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 40,
+    "fields": {
+      "un_number": 3082,
+      "short_proper_shipping_name": "Environmentally Hazardous Substance, Liquid, N.o.s.",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 20,
+      "specialty_label": 10,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "V",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": true,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        31,
+        32,
+        58
+      ],
+      "air_special_provisions": [
+        110,
+        218,
+        177
+      ],
+      "ground_special_provisions": [
+        6,
+        70
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 41,
+    "fields": {
+      "un_number": 3077,
+      "short_proper_shipping_name": "Environmentally Hazardous Substance, Solid, N.o.s.",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 20,
+      "specialty_label": 10,
+      "packing_group": 3,
+      "excepted_quantity": 2,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "5.000",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": true,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        29,
+        30,
+        57
+      ],
+      "air_special_provisions": [
+        110,
+        218,
+        164,
+        177
+      ],
+      "ground_special_provisions": [
+        6,
+        70
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 42,
+    "fields": {
+      "un_number": 1950,
+      "short_proper_shipping_name": "Aerosols, flammable, containing substances in Class 6.1, packing group III and in Class 8, packing group II",
+      "verbose_proper_shipping_name": "",
+      "identification_details": "",
+      "classification": 7,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.125",
+      "ground_maximum_quantity_cutoff": "0.000",
+      "is_gross_measure": true,
+      "subrisks": [
+        16,
+        19
+      ],
+      "air_quantity_cutoff": [
+        24,
+        25,
+        26
+      ],
+      "air_special_provisions": [
+        1,
+        2,
+        3
+      ],
+      "ground_special_provisions": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 43,
+    "fields": {
+      "un_number": 3481,
+      "short_proper_shipping_name": "Lithium Ion Batteries Packed with Equipment",
+      "verbose_proper_shipping_name": "LITHIUM ION BATTERIES PACKED WITH EQUIPMENT (including lithium ion polymer batteries)",
+      "identification_details": "",
+      "classification": 21,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        46,
+        47
+      ],
+      "air_special_provisions": [
+        8,
+        9,
+        10,
+        11,
+        16,
+        17,
+        14,
+        195
+      ],
+      "ground_special_provisions": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgood",
+    "pk": 44,
+    "fields": {
+      "un_number": 3091,
+      "short_proper_shipping_name": "Lithium Metal Batteries Contained In Equipment",
+      "verbose_proper_shipping_name": "LITHIUM METAL BATTERIES CONTAINED IN EQUIPMENT (including lithium alloy batteries)",
+      "identification_details": "",
+      "classification": 21,
+      "specialty_label": null,
+      "packing_group": 4,
+      "excepted_quantity": 1,
+      "unit_measure": "K",
+      "ground_limited_quantity_cutoff": "0.000",
+      "ground_maximum_quantity_cutoff": "5.000",
+      "is_gross_measure": false,
+      "subrisks": [],
+      "air_quantity_cutoff": [
+        2,
+        34,
+        35
+      ],
+      "air_special_provisions": [
+        15,
+        8,
+        9,
+        10,
+        11,
+        16,
+        17,
+        14,
+        195
+      ],
+      "ground_special_provisions": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  }
+]

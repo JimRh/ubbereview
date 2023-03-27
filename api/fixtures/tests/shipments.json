@@ -1,0 +1,121 @@
+[
+  {
+    "model": "api.shipment",
+    "pk": 1,
+    "fields": {
+      "shipment_id": "GO8305884695",
+      "subaccount": 1,
+      "user": 1,
+      "sender": 1,
+      "receiver": 1,
+      "purchase_order": "None",
+      "markup": "0.0",
+      "freight": "0.0",
+      "surcharge": "0.0",
+      "tax": "0.0",
+      "cost": 1188,
+      "reference_one": "",
+      "reference_two": "",
+      "requested_pickup_close_time": "0001-01-01T00:00:00Z",
+      "requested_pickup_time": "0001-01-01T00:00:00Z",
+      "destination": 1,
+      "origin": 1,
+      "creation_date": "0001-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.shipment",
+    "pk": 2,
+    "fields": {
+      "shipment_id": "GO4524470434",
+      "subaccount": 1,
+      "user": 1,
+      "sender": 1,
+      "receiver": 1,
+      "purchase_order": "None",
+      "markup": "0.0",
+      "freight": "0.0",
+      "surcharge": "0.0",
+      "tax": "0.0",
+      "cost": 1230,
+      "reference_one": "FF123456",
+      "reference_two": "GG123456",
+      "requested_pickup_close_time": "0001-01-01T00:00:00Z",
+      "requested_pickup_time": "0001-01-01T00:00:00Z",
+      "destination": 1,
+      "origin": 1,
+      "creation_date": "0001-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.shipment",
+    "pk": 3,
+    "fields": {
+      "shipment_id": "GO4202834828",
+      "subaccount": 1,
+      "user": 1,
+      "sender": 1,
+      "receiver": 1,
+      "purchase_order": "None",
+      "markup": "0.0",
+      "freight": "0.0",
+      "surcharge": "0.0",
+      "tax": "0.0",
+      "cost": 1237,
+      "reference_one": "",
+      "reference_two": "",
+      "requested_pickup_close_time": "0001-01-01T00:00:00Z",
+      "requested_pickup_time": "0001-01-01T00:00:00Z",
+      "destination": 1,
+      "origin": 1,
+      "creation_date": "0001-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.shipment",
+    "pk": 4,
+    "fields": {
+      "shipment_id": "GO4207834828",
+      "subaccount": 1,
+      "user": 1,
+      "sender": 1,
+      "receiver": 1,
+      "purchase_order": "None",
+      "markup": "0.0",
+      "freight": "0.0",
+      "surcharge": "0.0",
+      "tax": "0.0",
+      "cost": 1244,
+      "reference_one": "",
+      "reference_two": "",
+      "requested_pickup_close_time": "0001-01-01T00:00:00Z",
+      "requested_pickup_time": "0001-01-01T00:00:00Z",
+      "destination": 1,
+      "origin": 1,
+      "creation_date": "0001-01-01T00:00:00Z"
+    }
+  },{
+    "model": "api.shipment",
+    "pk": 5,
+    "fields": {
+      "shipment_id": "GO83058846222",
+      "subaccount": 1,
+      "user": 1,
+      "sender": 1,
+      "receiver": 1,
+      "purchase_order": "None",
+      "markup": "0.0",
+      "freight": "0.0",
+      "surcharge": "0.0",
+      "tax": "0.0",
+      "cost": 1188,
+      "reference_one": "",
+      "reference_two": "",
+      "requested_pickup_close_time": "0001-01-01T00:00:00Z",
+      "requested_pickup_time": "0001-01-01T00:00:00Z",
+      "destination": 1,
+      "origin": 1,
+      "creation_date": "2020-01-01T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,368 @@
+[
+  {
+    "model": "api.packagetype",
+    "pk": 1,
+    "fields": {
+      "account": 1,
+      "code": "BOX",
+      "name": "Package",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "378.00",
+      "min_weight": "0.00",
+      "max_weight": "70.00",
+      "is_common": true,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 2,
+    "fields": {
+      "account": 1,
+      "code": "DGBOX",
+      "name": "Dangerous Good Package",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "370.00",
+      "min_weight": "0.00",
+      "max_weight": "70.00",
+      "is_common": true,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 3,
+    "fields": {
+      "account": 1,
+      "code": "CONTAINER",
+      "name": "Container",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "20000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 4,
+    "fields": {
+      "account": 1,
+      "code": "CRATE",
+      "name": "Crate",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": true,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 5,
+    "fields": {
+      "account": 1,
+      "code": "SKID",
+      "name": "Skid",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "455000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": true,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 6,
+    "fields": {
+      "account": 1,
+      "code": "BUNDLES",
+      "name": "Bundles",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "1000.00",
+      "min_weight": "0.00",
+      "max_weight": "1000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 7,
+    "fields": {
+      "account": 1,
+      "code": "DRUM",
+      "name": "Drum",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "1000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 8,
+    "fields": {
+      "account": 1,
+      "code": "ENVELOPE",
+      "name": "Envelope",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "200.00",
+      "min_weight": "0.00",
+      "max_weight": "50.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 9,
+    "fields": {
+      "account": 1,
+      "code": "PAIL",
+      "name": "Pail",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 10,
+    "fields": {
+      "account": 1,
+      "code": "REEL",
+      "name": "Reel",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 11,
+    "fields": {
+      "account": 1,
+      "code": "ROLL",
+      "name": "Roll",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 12,
+    "fields": {
+      "account": 1,
+      "code": "TOTES",
+      "name": "Totes",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 13,
+    "fields": {
+      "account": 1,
+      "code": "TUBE",
+      "name": "Tube",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 14,
+    "fields": {
+      "account": 1,
+      "code": "VEHICLE",
+      "name": "Vehicle",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "20000.00",
+      "min_weight": "0.00",
+      "max_weight": "20000.00",
+      "is_common": false,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        17
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 15,
+    "fields": {
+      "account": 1,
+      "code": "PHFRO",
+      "name": "Pharma Frozen (-18C or below)",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": true,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 16,
+    "fields": {
+      "account": 1,
+      "code": "PHREF",
+      "name": "Pharma Refrigerated (+2C to +8C)",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": true,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        32,
+        9,
+        4
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 17,
+    "fields": {
+      "account": 1,
+      "code": "PHCONR",
+      "name": "Pharma Controlled Room (+15C to 25C)",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": true,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        32,
+        9,
+        4
+      ]
+    }
+  },
+  {
+    "model": "api.packagetype",
+    "pk": 18,
+    "fields": {
+      "account": 1,
+      "code": "PHEXR",
+      "name": "Pharma Extended Room (+2C to 25C)",
+      "min_overall_dims": "0.00",
+      "max_overall_dims": "10000.00",
+      "min_weight": "0.00",
+      "max_weight": "10000.00",
+      "is_common": true,
+      "is_pharma": true,
+      "is_dangerous_good": true,
+      "is_active": true,
+      "carrier": [
+        32,
+        9,
+        4
+      ]
+    }
+  }
+]

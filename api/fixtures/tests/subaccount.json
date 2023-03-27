@@ -1,0 +1,288 @@
+[
+  {
+    "model": "api.subaccount",
+    "pk": 1,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": true,
+      "subaccount_number": "8cd0cae7-6a22-4477-97e1-a7ccfbed3e01"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 2,
+    "fields": {
+      "client_account": 2,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 59,
+      "contact": 8,
+      "markup": 2,
+      "is_default": false,
+      "subaccount_number": "71f3c75f-9f92-48d7-ae5b-844dc78410ff"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 3,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 2,
+      "is_default": false,
+      "subaccount_number": "425c976c-e386-4bdf-85ea-60eb15f1075d"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 4,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "6b74637c-f9f8-470d-9b1c-8dce0ff72b33"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 5,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "cce0a34c-8674-46ea-bd2c-977139904156"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 6,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 2,
+      "is_default": false,
+      "subaccount_number": "ff782854-ee3c-40f4-ae4a-3ef71a4b778c"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 7,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "e6eb7b2e-c3de-4ec5-94bb-7d8922d3f113"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 9,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "f6a07702-d539-4997-bc3c-5795021bfbd6"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 10,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "69e02ab9-53ab-417e-8658-39afef44ed82"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 11,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "f25793e8-66f2-47c9-b330-4495f1c98dfc"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 12,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "2fae17f3-2a2b-4cc8-aea8-dfda1ba40e20"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 13,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "8814f886-566c-4010-b070-94fd31b22249"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 14,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "3832cbf3-1550-4074-a4fc-21dbd4706501"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 15,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "5bf0caac-b480-470f-a034-1de68beb3b8d"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 16,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "e0c0d5f3-5f5e-4e82-b013-bfdb747f5f6b"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 17,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "28805c0f-7178-41e2-ac28-0b611927d5a5"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 18,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "07382da8-a8d4-47b8-a746-234deda94935"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 19,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "cb6f0845-c087-40f9-b063-e379f13c4b08"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 20,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "b0e68341-9ba6-4a2a-b963-1fb196c8398c"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 21,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "9ea248f5-f2a0-4be6-a376-dee2832ed3a5"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 22,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "85557bb3-16e0-4196-8430-0e14e652d1a3"
+    }
+  },
+  {
+    "model": "api.subaccount",
+    "pk": 23,
+    "fields": {
+      "client_account": 1,
+      "creation_date": "0001-01-01T00:00:00Z",
+      "address": 58,
+      "contact": 7,
+      "markup": 1,
+      "is_default": false,
+      "subaccount_number": "b3232d25-e972-4c87-9f4c-5ae655ab7dff"
+    }
+  }
+]

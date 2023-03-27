@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Pickup Notification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin: 0; padding: 0; background-color: white">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="700" style="border-collapse: collapse;">
+        <tr>
+            <td bgcolor="" style="padding: 40px 30px 40px 30px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="color: #385E9D; font-family: sans-serif; font-size: 24px;" align="center">
+
+                            {% if is_fail %}
+                                <h1 style="font-size: 45px;text-align: center;line-height: 1.1;color: #141B4D;display: block;margin: 0;padding: 0;font-style: normal;font-weight: 800;letter-spacing: normal;"><strong>{{ carrier_name }} Pickup Booking Failure</strong></h1>
+                            {% else %}
+                                <h1 style="font-size: 45px;text-align: center;line-height: 1.1;color: #141B4D;display: block;margin: 0;padding: 0;font-style: normal;font-weight: 800;letter-spacing: normal;"><strong>{{ carrier_name }} Pickup Booking Modified Time Notification</strong></h1>
+                            {% endif %}
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="line-height: 15px">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td width="260" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <strong style="font-size: 16px; color:#141B4D; line-height: 1.6;">GoBox Number: <span style="color: #153742">{{ order_number }}</span></strong>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="font-size: 0; line-height: 0;" width="20">
+                                         &nbsp;
+                                    </td>
+                                    <td width="260" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td style="text-align: right">
+                                                    <strong style="font-size: 16px; color:#141B4D; line-height: 1.6;">AirwayBill Number: <span style="color: #153742">{{ airwaybill }}</span></strong>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr style="border-top: 1px solid #385E9D">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td width="260" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 25px 0 0 0; color: #385E9D; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                    <strong style="font-size: 18px; color:#141B4D; line-height: 1.6;">Pickup request data</strong><br>
+                                                    {{ pickup.date }}<br>
+                                                    From {{ pickup.start_time }} - {{ pickup_end_time }}<br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="font-size: 0; line-height: 0;" width="80">
+                                        &nbsp;
+                                    </td>
+                                    <td width="260" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 25px 0 0 0; color: #385E9D; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                    {% if is_fail %}
+                                                        <h1 style="font-size: 45px;text-align: center;line-height: 1.1;color: #141B4D;display: block;margin: 0;padding: 0;font-style: normal;font-weight: 800;letter-spacing: normal;"><strong>{{ carrier_name }} Pickup Booking Failure</strong></h1>
+                                                    {% else %}
+                                                        <strong style="font-size: 18px; color:#141B4D; line-height: 1.6;">Pickup request data</strong><br>
+                                                        Modified pickup datetime:<br>
+                                                        {{ PickupDate }}<br>
+                                                        From {{ ReadyTime }} - {{ CompanyCloseTime }}<br>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr style="border-top: 1px solid #385E9D">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td width="260" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 25px 0 0 0; color: #385E9D; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                    <strong style="font-size: 18px; color:#141B4D; line-height: 1.6;">Origin</strong><br>
+                                                    {{ origin.company_name }}<br>
+                                                    {{ origin.name }}<br>
+                                                    {{ origin.email }}<br>
+                                                    {{ origin.phone }}<br>
+                                                    {{ origin.address }}<br>
+                                                    {{ origin.city }}, {{ origin.province }}, {{ origin.country }}<br>
+                                                    {{ origin.postal_code }}<br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td style="font-size: 0; line-height: 0;" width="80">
+                                        &nbsp;
+                                    </td>
+                                    <td width="260" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 25px 0 0 0; color: #385E9D; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                    <strong style="font-size: 18px; color:#141B4D; line-height: 1.6;">Destination</strong><br>
+                                                    {{ destination.company_name }}<br>
+                                                    {{ destination.name }}<br>
+                                                    {{ destination.email }}<br>
+                                                    {{ destination.phone }}<br>
+                                                    {{ destination.address }}<br>
+                                                    {{ destination.city }}, {{ destination.province }}, {{ destination.country }}<br>
+                                                    {{ destination.postal_code }}<br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="line-height: 35px">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td colspan="3" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                        <strong style="font-size: 18px; color:#141B4D; line-height: 1.6;">Packages</strong>
+                                        <br><br>
+                                    </td>
+                                </tr>
+
+                                <tr style="line-height: 1.1">
+                                    <td><strong style="font-size: 18px; line-height: 1.6;">QTY</strong></td>
+                                    <td><strong style="font-size: 18px; line-height: 1.6;">Description</strong></td>
+                                    <td><strong style="font-size: 18px; line-height: 1.6;">Dimension (CM)</strong></td>
+                                    <td><strong style="font-size: 18px; line-height: 1.6;">Weight (KG)</strong></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                        <div style="height: 3px; width: 100%; background-color: #141B4D; margin-top: 5px; margin-bottom: 10px;"></div>
+                                    </td>
+                                </tr>
+
+                                {% for pack in pieces %}
+                                    <tr style="line-height: 1.6">
+                                        <td>{{ pack.quantity }}</td>
+                                        <td>{{ pack.description }}</td>
+                                        <td>{{ pack.length }} x {{ pack.width }} x {{ pack.height }}</td>
+                                        <td>{{ pack.weight }}</td>
+                                    </tr>
+                                {% endfor %}
+
+                                <tr style="line-height: 1.1">
+                                    <td>Total Packages</td>
+                                    <td>{{ total_packages }}</td>
+                                    <td>Total Weight</td>
+                                    <td>{{ total_weight }} {{ weight_unit }}</td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="line-height: 35px">
+                             &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px 0 30px 0; color: #385E9D; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                            <strong style="font-size: 16px; color:#141B4D; line-height: 1.6;">Extra Information:</strong>
+                            <p>{{ awb_message }}</p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

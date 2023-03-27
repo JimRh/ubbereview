@@ -1,0 +1,20 @@
+[
+  {
+    "model": "api.billoflading",
+    "pk": 1,
+    "fields": {
+      "dispatch": 1,
+      "bill_of_lading": "SAS6033593",
+      "is_available": true
+    }
+  },
+  {
+    "model": "api.billoflading",
+    "pk": 2,
+    "fields": {
+      "dispatch": 2,
+      "bill_of_lading": "SAS6033588",
+      "is_available": false
+    }
+  }
+]

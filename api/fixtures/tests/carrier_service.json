@@ -1,0 +1,418 @@
+[
+  {
+    "model": "api.carrierservice",
+    "pk": 5,
+    "fields": {
+      "carrier": 1,
+      "name": "Priority Overnight",
+      "code": "PRIORITY_OVERNIGHT",
+      "description": "Morning, next business day to most metropolitan areas",
+      "exceptions": "2 to 3 business days to other areas. Saturday: most major cities in Canada and select international points",
+      "service_days": "Monday to Saturday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 6,
+    "fields": {
+      "carrier": 1,
+      "name": "First Overnight",
+      "code": "FIRST_OVERNIGHT",
+      "description": "10 a.m. next business day to most metropolitan areas",
+      "exceptions": "Saturday service: pickup only. Limited locations. Saturday: most major cities in Canada and select international points",
+      "service_days": "Monday to Saturday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 7,
+    "fields": {
+      "carrier": 1,
+      "name": "Standard Overnight",
+      "code": "STANDARD_OVERNIGHT",
+      "description": "Next business day by 5 p.m. to businesses and by 8 p.m. to residences in most metropolitan areas",
+      "exceptions": "Saturday service: pickup only. Limited locations. Saturday: most major cities in Canada and select international points",
+      "service_days": "Monday to Saturday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 8,
+    "fields": {
+      "carrier": 1,
+      "name": "2Day",
+      "code": "FEDEX_2_DAY",
+      "description": "1 to 2 business days by 5 p.m. to businesses and by 8 p.m. to residences in most metropolitan areas",
+      "exceptions": "Saturday: most major cities in Canada and select international points",
+      "service_days": "Monday to Saturday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 9,
+    "fields": {
+      "carrier": 1,
+      "name": "Economy",
+      "code": "FEDEX_EXPRESS_SAVER",
+      "description": "1 to 3 business days by 5 p.m. to businesses and by 8 p.m. to residences in most metropolitan areas",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 10,
+    "fields": {
+      "carrier": 1,
+      "name": "Ground",
+      "code": "FEDEX_GROUND",
+      "description": "1 to 7 business days",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 11,
+    "fields": {
+      "carrier": 2,
+      "name": "Express 9AM",
+      "code": "200",
+      "description": "Guaranteed delivery in Canada by 9 a.m. the next business day",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 12,
+    "fields": {
+      "carrier": 2,
+      "name": "Express 10:30AM",
+      "code": "201",
+      "description": "Guaranteed delivery in Canada by 10:30 a.m. the next business day",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 13,
+    "fields": {
+      "carrier": 2,
+      "name": "Express",
+      "code": "202",
+      "description": "Guaranteed delivery in Canada by the end of the next business day",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 14,
+    "fields": {
+      "carrier": 2,
+      "name": "Express Evening",
+      "code": "203",
+      "description": "Guaranteed delivery in Canada between 5:30 p.m. and 9 p.m. of the next business day",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 15,
+    "fields": {
+      "carrier": 2,
+      "name": "Ground 9AM",
+      "code": "263",
+      "description": "Guaranteed delivery in Canada by 9 a.m. in two or more business days",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 16,
+    "fields": {
+      "carrier": 2,
+      "name": "Ground 10:30AM",
+      "code": "264",
+      "description": "Guaranteed delivery in Canada by 10:30 a.m. in two or more business days",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 17,
+    "fields": {
+      "carrier": 2,
+      "name": "Ground",
+      "code": "260",
+      "description": "One or more business days",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 18,
+    "fields": {
+      "carrier": 2,
+      "name": "Ground Evening",
+      "code": "261",
+      "description": "Guaranteed delivery between 5:30 p.m. and 9 p.m. in two or more business days",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 19,
+    "fields": {
+      "carrier": 19,
+      "name": "Regular Parcel",
+      "code": "DOM.RP",
+      "description": "2 to 9 business days",
+      "exceptions": "Local: up to 2 days, Regional: up to 5 days, National: up to 9 days",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 20,
+    "fields": {
+      "carrier": 19,
+      "name": "Expedited Parcel",
+      "code": "DOM.EP",
+      "description": "Delivery Guarantee with Delivery Confirmation",
+      "exceptions": "Local: 1 day, Regional: 1 to 3 days, National: 2 to 7 days. Between major urban centres",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 21,
+    "fields": {
+      "carrier": 19,
+      "name": "Xpresspost",
+      "code": "DOM.XP",
+      "description": "Guaranteed next-day and 2-day shipping",
+      "exceptions": "National: 2 days",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 22,
+    "fields": {
+      "carrier": 19,
+      "name": "Xpresspost Certified",
+      "code": "DOM.XP.CERT",
+      "description": "Next-day and 2 day delivery",
+      "exceptions": "National: 2 days",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 23,
+    "fields": {
+      "carrier": 19,
+      "name": "Priority",
+      "code": "DOM.PC",
+      "description": "Next day",
+      "exceptions": "",
+      "service_days": "Monday to Friday",
+      "is_international": false
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 24,
+    "fields": {
+      "carrier": 1,
+      "name": "International First",
+      "code": "INTERNATIONAL_FIRST",
+      "description": "1, 2, or 3 business days to select postal codes in 20 key global markets",
+      "exceptions": "Saturday service: pickup only, limited locations, and additional charge. Delivery by 10 a.m. in 1 business day to Canada. 11 a.m. in 1 business day to Mexico (2 business days for nondocument shipments)",
+      "service_days": "Monday to Saturday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 25,
+    "fields": {
+      "carrier": 1,
+      "name": "International Economy",
+      "code": "INTERNATIONAL_ECONOMY",
+      "description": "2\u20135 business days (typically 2 or 3 business days to Canada, Mexico and Puerto Rico)",
+      "exceptions": "Saturday service: available in countries where Saturday is a regular business day",
+      "service_days": "Monday to Saturday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 26,
+    "fields": {
+      "carrier": 1,
+      "name": "International Priority",
+      "code": "INTERNATIONAL_PRIORITY",
+      "description": "1, 2 or 3 business days",
+      "exceptions": "Canada and Mexico typically in 1 business day, and major cities in Europe, Asia and Brazil by noon typically in 2 business days",
+      "service_days": "Monday to Saturday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 27,
+    "fields": {
+      "carrier": 2,
+      "name": "International 9AM",
+      "code": "401",
+      "description": "Guaranteed delivery to and from select international destinations by 9 a.m. the second business day",
+      "exceptions": "End of day is 6 p.m",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 28,
+    "fields": {
+      "carrier": 2,
+      "name": "International 10:30AM",
+      "code": "402",
+      "description": "Guaranteed delivery to and from select international destinations by 10:30 a.m. the second business day",
+      "exceptions": "End of day is 6 p.m",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 29,
+    "fields": {
+      "carrier": 2,
+      "name": "International 12PM",
+      "code": "403",
+      "description": "Guaranteed delivery from select points in Canada to international destinations by 12 p.m. (noon) the second business day",
+      "exceptions": "End of day is 6 p.m",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 30,
+    "fields": {
+      "carrier": 2,
+      "name": "International",
+      "code": "400",
+      "description": "Guaranteed delivery to and from most international destinations by the second business day",
+      "exceptions": "End of day is 6 p.m",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 31,
+    "fields": {
+      "carrier": 19,
+      "name": "Expedited Parcel USA",
+      "code": "USA.EP",
+      "description": "4-7 day delivery",
+      "exceptions": "Duties and taxes collected from receiver",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 32,
+    "fields": {
+      "carrier": 19,
+      "name": "Xpresspost USA",
+      "code": "USA.XP",
+      "description": "2-3 days delivery",
+      "exceptions": "Duties and taxes collected from receiver",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 33,
+    "fields": {
+      "carrier": 19,
+      "name": "Xpresspost International",
+      "code": "INT.XP",
+      "description": "4-7 days delivery to a limited number of countries",
+      "exceptions": "Duties and taxes collected from receiver",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 34,
+    "fields": {
+      "carrier": 19,
+      "name": "International Parcel Air",
+      "code": "INT.IP.AIR",
+      "description": "6-10 day delivery",
+      "exceptions": "Duties and taxes collected from receiver. Small package shipping (less than 1kg)",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 35,
+    "fields": {
+      "carrier": 19,
+      "name": "International Parcel Surface",
+      "code": "INT.IP.SURF",
+      "description": "1-2 day delivery to Europe and South America. 2-3 day delivery to Asia-Pacific, Australia, and Africa",
+      "exceptions": "Duties and taxes collected from receiver. Small package shipping (less than 1kg)",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  },
+  {
+    "model": "api.carrierservice",
+    "pk": 36,
+    "fields": {
+      "carrier": 19,
+      "name": "Priority Worldwide parcel Int\u2019l",
+      "code": "INT.PW.PARCEL",
+      "description": "2-3 day delivery",
+      "exceptions": "Duties and taxes collected from receiver",
+      "service_days": "Monday to Friday",
+      "is_international": true
+    }
+  }
+]

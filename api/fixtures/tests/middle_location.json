@@ -1,0 +1,11 @@
+[
+  {
+    "model": "api.middlelocation",
+    "pk": 1,
+    "fields": {
+      "address": 1,
+      "code": "YEG",
+      "is_available": true
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ubbe Cancel Shipment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style=" background: url('{%  static 'img/hex.png' %}'), url('{%  static 'img/hex.png' %}'),  url('{%  static 'img/hex.png' %}');
+    background-position: top left, center 30vh, 50vw -88vh ;
+    background-repeat: no-repeat;
+    background-size: 100% 90vh,100% 180vh, 54% auto;
+    overflow-x: hidden;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="800" style="border-collapse: collapse;">
+        <tr>
+            <td align="center"  style="padding: 20px 0 10px 0;">
+                <img src="cid:Horiz_Ubbe_Logo_Flat_Colour.png" width="250" height="140" style="width: 250px; height: 140px" alt="ubbe">
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="" style="padding: 10px 30px 40px 30px;">
+                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                     <tr>
+                         <td style="color: #153643; font-family: sans-serif; font-size: 24px; border-bottom: 3px solid #FFCD00; " align="center">
+                             <h1 style="font-size: 45px;text-align: center;line-height: 1.1;color: #211261;display: block;margin: 0;padding: 0;font-style: normal;font-weight: 800;letter-spacing: normal;">
+                                 <strong>Cancel Pickup</strong></h1>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="line-height: 15px">
+                             &nbsp;
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="padding: 20px 0 30px 0; color: #211261; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                            A customer has requested the pickup {{ pickup_id }} to be cancelled for <span style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;"><strong style="font-size: 24px; color:#211261; line-height: 1.6;">{{ leg_id }}</strong></span>
+                         </td>
+                     </tr>
+
+                     <tr>
+                         <td style="line-height: 15px">
+                             &nbsp;
+                         </td>
+                     </tr>
+
+                 </table>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#211261" style="padding: 30px 30px 30px 30px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="33%" style="color: #ffffff; font-family: sans-serif; font-size: 14px; text-align: center; border-right: 1px solid #fff;">
+                            <img style="padding: 3px;" src="cid:web.png"><br>
+                            <a href="https://www.ubbe.com" style="color: white; text-decoration: none;" >ubbe.com </a>
+                        </td>
+                        <td width="33%" style="color: #ffffff; font-family: sans-serif; font-size: 14px; text-align: center; border-right: 1px solid #fff;">
+                            <img style="padding: 3px;" src="cid:chat.png"><br>
+                            <a href="mailto:customerservice@ubbe.com" style="color: white; text-decoration: none;">customerservice@ubbe.com </a>
+                        </td>
+                        <td width="33%" style="color: #ffffff; font-family: sans-serif; font-size: 14px; text-align: center;">
+                            <img style="padding: 3px;" src="cid:phone.png"><br>
+                            <a href="mailto:7808906893" style="color: white; text-decoration: none; ">7808906893 </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

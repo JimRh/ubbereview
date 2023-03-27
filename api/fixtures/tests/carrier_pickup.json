@@ -1,0 +1,30 @@
+[
+  {
+    "model": "api.carrierpickuprestriction",
+    "pk": 1,
+    "fields": {
+      "carrier": 5,
+      "min_start_time": "08:00",
+      "max_start_time": "14:00",
+      "min_end_time": "15:00",
+      "max_end_time": "16:00",
+      "pickup_window": 2,
+      "min_time_same_day": "14:00",
+      "max_pickup_days": 10
+    }
+  },
+  {
+    "model": "api.carrierpickuprestriction",
+    "pk": 3,
+    "fields": {
+      "carrier": 19,
+      "min_start_time": "12:00",
+      "max_start_time": "13:00",
+      "min_end_time": "15:00",
+      "max_end_time": "17:00",
+      "pickup_window": 1,
+      "min_time_same_day": "17:00",
+      "max_pickup_days": 30
+    }
+  }
+]

@@ -1,0 +1,734 @@
+[
+  {
+    "model": "api.address",
+    "pk": 1,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "1759 35 Avenue E",
+      "address_two": "",
+      "postal_code": "T9E0V6",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 2,
+    "fields": {
+      "province": 7,
+      "city": "Inuvik",
+      "address": "2158 Airport Road",
+      "address_two": "",
+      "postal_code": "X0E0T0",
+      "has_shipping_bays": false
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 3,
+    "fields": {
+      "province": 8,
+      "city": "Ottawa",
+      "address": "140 Thad Johnson Road",
+      "address_two": "",
+      "postal_code": "K1V0R4",
+      "has_shipping_bays": false
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 4,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "8812 218 Street",
+      "address_two": "",
+      "postal_code": "T5T4R7",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 5,
+    "fields": {
+      "province": 8,
+      "city": "Ottawa",
+      "address": "Place",
+      "address_two": "",
+      "postal_code": "K1V0R4",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 6,
+    "fields": {
+      "province": 7,
+      "city": "Yellowknife",
+      "address": "100 Mcmillan Street",
+      "address_two": "",
+      "postal_code": "X1A3T2",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 7,
+    "fields": {
+      "province": 1,
+      "city": "Calgary",
+      "address": "130 9 Avenue Se",
+      "address_two": "",
+      "postal_code": "T2G0P3",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 8,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "8812 218 Street Nw",
+      "address_two": "",
+      "postal_code": "T5T4R7",
+      "has_shipping_bays": false
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 9,
+    "fields": {
+      "province": 7,
+      "city": "Inuvik",
+      "address": "79 Inuit Road",
+      "address_two": "",
+      "postal_code": "X0E0T0",
+      "has_shipping_bays": false
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 10,
+    "fields": {
+      "province": 1,
+      "city": "Calgary",
+      "address": "131 9 Avenue Se",
+      "address_two": "",
+      "postal_code": "T2G0P3",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 11,
+    "fields": {
+      "province": 14,
+      "city": "St Joseph",
+      "address": "3121 St Joseph Avenue",
+      "address_two": "",
+      "postal_code": "64505",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 12,
+    "fields": {
+      "province": 1,
+      "city": "Calgary",
+      "address": "132 9 Avenue Se",
+      "address_two": "",
+      "postal_code": "T2G0P3",
+      "has_shipping_bays": false
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 13,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "8813 218 Street Nw",
+      "address_two": "",
+      "postal_code": "T5T4R7",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 14,
+    "fields": {
+      "province": 1,
+      "city": "Calgary",
+      "address": "133 9 Avenue Se",
+      "address_two": "",
+      "postal_code": "T2G0P3",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 15,
+    "fields": {
+      "province": 8,
+      "city": "Inuvik",
+      "address": "Place",
+      "address_two": "",
+      "postal_code": "K1V0R4",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 16,
+    "fields": {
+      "province": 7,
+      "city": "Inuvik",
+      "address": "Place",
+      "address_two": "",
+      "postal_code": "X0E0T0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 17,
+    "fields": {
+      "province": 5,
+      "city": "St John'S",
+      "address": "114 Airport Service Road",
+      "address_two": "",
+      "postal_code": "A1A5T2",
+      "has_shipping_bays": false
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 18,
+    "fields": {
+      "province": 6,
+      "city": "Goff",
+      "address": "645 Pratt And Whitney Drive",
+      "address_two": "",
+      "postal_code": "B2T0H4",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 19,
+    "fields": {
+      "province": 4,
+      "city": "Dieppe",
+      "address": "287 Lieutenant-Colonel Rob Lane",
+      "address_two": "",
+      "postal_code": "E1A1R9",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 20,
+    "fields": {
+      "province": 10,
+      "city": "Dorval",
+      "address": "800 Stuart Graham Blvc S",
+      "address_two": "#110 Door K",
+      "postal_code": "H4Y1J6",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 21,
+    "fields": {
+      "province": 8,
+      "city": "Thunder Bay",
+      "address": "305 Hector Dougall Way",
+      "address_two": "",
+      "postal_code": "P7E6M5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 22,
+    "fields": {
+      "province": 8,
+      "city": "Mississauga",
+      "address": "2710 Britannia Road E",
+      "address_two": "Cargo 2 Door 7 Infield Cargo Terminal",
+      "postal_code": "L4W1S9",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 23,
+    "fields": {
+      "province": 3,
+      "city": "Winnipeg",
+      "address": "2019 Sargent Avenue",
+      "address_two": "Unit 16",
+      "postal_code": "R3H0Z7",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 24,
+    "fields": {
+      "province": 11,
+      "city": "Regina",
+      "address": "700-3010 Tutor Drive",
+      "address_two": "",
+      "postal_code": "S4W0R7",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 25,
+    "fields": {
+      "province": 11,
+      "city": "Saskatoon",
+      "address": "2515 Airport Drive",
+      "address_two": "Bay 7",
+      "postal_code": "S7L7L1",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 26,
+    "fields": {
+      "province": 1,
+      "city": "Calgary",
+      "address": "130-175 Aero Way Ne",
+      "address_two": "",
+      "postal_code": "T2E6K2",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 27,
+    "fields": {
+      "province": 1,
+      "city": "Grande Prairie",
+      "address": "10610 Airport Drive",
+      "address_two": "",
+      "postal_code": "T8V7Z5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 28,
+    "fields": {
+      "province": 1,
+      "city": "Fort Mcmurray",
+      "address": "222-100 Snowbird Way",
+      "address_two": "",
+      "postal_code": "T9H0G3",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 29,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "8814 218 Street Nw",
+      "address_two": "",
+      "postal_code": "T5T4R7",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 30,
+    "fields": {
+      "province": 7,
+      "city": "Yellowknife",
+      "address": "145 Bristol Avenue",
+      "address_two": "",
+      "postal_code": "X1A3T2",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 31,
+    "fields": {
+      "province": 2,
+      "city": "Richmond",
+      "address": "3611 Jericho Road",
+      "address_two": "",
+      "postal_code": "V7B1M3",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 32,
+    "fields": {
+      "province": 2,
+      "city": "Abbotsford",
+      "address": "7-30440 Liberator Avenue",
+      "address_two": "",
+      "postal_code": "V2T6H5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 33,
+    "fields": {
+      "province": 2,
+      "city": "Sidney",
+      "address": "105-1740 Convair Place",
+      "address_two": "",
+      "postal_code": "V8L5V4",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 34,
+    "fields": {
+      "province": 2,
+      "city": "Prince George",
+      "address": "4141 Airport Road",
+      "address_two": "",
+      "postal_code": "V2N4M6",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 35,
+    "fields": {
+      "province": 2,
+      "city": "Kelowna",
+      "address": "4B-5583 Airport Way",
+      "address_two": "",
+      "postal_code": "V4V1S1",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 36,
+    "fields": {
+      "province": 2,
+      "city": "Comox",
+      "address": "111-1250 Knight Road",
+      "address_two": "",
+      "postal_code": "V9M4H2",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 37,
+    "fields": {
+      "province": 13,
+      "city": "Pond Inlet",
+      "address": "General Delivery",
+      "address_two": "",
+      "postal_code": "X0A0S0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 38,
+    "fields": {
+      "province": 13,
+      "city": "Iqaluit",
+      "address": "Po Box 70",
+      "address_two": "",
+      "postal_code": "X0A0H0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 39,
+    "fields": {
+      "province": 13,
+      "city": "Hall Beach",
+      "address": "General Delivery",
+      "address_two": "",
+      "postal_code": "X0A0K0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 40,
+    "fields": {
+      "province": 13,
+      "city": "Pangnirtung",
+      "address": "General Delivery",
+      "address_two": "",
+      "postal_code": "X0A0R0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 41,
+    "fields": {
+      "province": 13,
+      "city": "Igloolik",
+      "address": "General Delivery",
+      "address_two": "",
+      "postal_code": "X0A0L0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 42,
+    "fields": {
+      "province": 13,
+      "city": "Qikiqtarjuaq",
+      "address": "General Delivery",
+      "address_two": "",
+      "postal_code": "X0A0B0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 43,
+    "fields": {
+      "province": 13,
+      "city": "Kugaaruk",
+      "address": "General Delivery",
+      "address_two": "",
+      "postal_code": "X0B1K0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 44,
+    "fields": {
+      "province": 13,
+      "city": "Cape Dorset",
+      "address": "General Delivery",
+      "address_two": "",
+      "postal_code": "X0A0C0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 45,
+    "fields": {
+      "province": 13,
+      "city": "Taloyoak",
+      "address": "Po Box 1",
+      "address_two": "",
+      "postal_code": "X0B1B0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 46,
+    "fields": {
+      "province": 13,
+      "city": "Gjoa Haven",
+      "address": "General Delivery",
+      "address_two": "",
+      "postal_code": "X0B1J0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 47,
+    "fields": {
+      "province": 13,
+      "city": "Cambridge Bay",
+      "address": "Po Box 1059",
+      "address_two": "",
+      "postal_code": "X0B0C0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 48,
+    "fields": {
+      "province": 13,
+      "city": "Rankin Inlet",
+      "address": "Po Box 711",
+      "address_two": "",
+      "postal_code": "X0C0G0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 49,
+    "fields": {
+      "province": 13,
+      "city": "Kugluktuk",
+      "address": "Po Box 271",
+      "address_two": "",
+      "postal_code": "X0B0E0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 50,
+    "fields": {
+      "province": 7,
+      "city": "Norman Wells",
+      "address": "Po Box 38",
+      "address_two": "",
+      "postal_code": "X0E0V0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 51,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "87",
+      "address_two": "",
+      "postal_code": "T6P1L5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 52,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "87",
+      "address_two": "",
+      "postal_code": "T6P1L5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 53,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "87",
+      "address_two": "",
+      "postal_code": "T6P1L5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 54,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "8812 218 Street Nw",
+      "address_two": "",
+      "postal_code": "T6P1L5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 55,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "87",
+      "address_two": "",
+      "postal_code": "T6P1L5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 56,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "87",
+      "address_two": "",
+      "postal_code": "T6P1L5",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 57,
+    "fields": {
+      "province": 1,
+      "city": "Cumberland House",
+      "address": "Po Box 220",
+      "address_two": "",
+      "postal_code": "S0E0S0",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 58,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "8812 218 Street Nw",
+      "address_two": "",
+      "postal_code": "T5T4R7",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 59,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "79 Inuit Road Cambridge Bay",
+      "address_two": "",
+      "postal_code": "T9E0V6",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 60,
+    "fields": {
+      "province": 1,
+      "city": "Edmonton",
+      "address": "Some Road",
+      "address_two": "",
+      "postal_code": "T5T4R7",
+      "has_shipping_bays": true
+    }
+  },
+  {
+    "model": "api.address",
+    "pk": 61,
+    "fields": {
+      "province": 7,
+      "city": "Inuvik",
+      "address": "Some Road",
+      "address_two": "",
+      "postal_code": "X0E0T0",
+      "has_shipping_bays": true
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "model": "api.carriermarkup",
+    "pk": 1,
+    "fields": {
+      "markup": 1,
+      "carrier": 1,
+      "percentage": "15"
+    }
+  },
+  {
+    "model": "api.carriermarkup",
+    "pk": 2,
+    "fields": {
+      "markup": 1,
+      "carrier": 4,
+      "percentage": "15"
+    }
+  },
+  {
+    "model": "api.carriermarkup",
+    "pk": 3,
+    "fields": {
+      "markup": 1,
+      "carrier": 5,
+      "percentage": "15"
+    }
+  }
+]

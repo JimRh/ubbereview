@@ -1,0 +1,2027 @@
+[
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 1,
+    "fields": {
+      "code": 145,
+      "description": "Waste Aerosols are forbidden from air transport.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 2,
+    "fields": {
+      "code": 167,
+      "description": "The provisions of 6.4.4 must be met.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 3,
+    "fields": {
+      "code": 802,
+      "description": "Notwithstanding the absence of a packing group in column E, substances and article assigned to these entries must be packing in UN Specification packagings that meet packing group II performance standards. This does not apply when aerosols are prepared for transport in accordance with the limited quantity provisions.",
+      "note": "For the purposes of identification and documentation, the packing group as shown in Table 4.2 applies and is to be used in the completion of the Shipper's Declaration, regardless of a packaging required to meet a higher packing group performance standard as indicated above."
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 4,
+    "fields": {
+      "code": 3,
+      "description": "If the chemical or physical properties of a substance covered by this description are such that, when tested, it does not meet the established defining criteria for the class or division listed in Columb C, or any other class or division, it is not subject to these Regulations.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 5,
+    "fields": {
+      "code": 202,
+      "description": "Radiation detectors containing this gas in non-refillable cylinders not meeting the requirements of 6.4 and Packing Instruction 200 may be transported under this entry provided:\n\n<strong>(a)</strong> the working pressure in each cylinder does exceed 50 bar;\n\n<strong>(b)</strong> the cylinder capactity does not exceed 12L;\n\n<strong>(c)</strong> each cylinder has a minimum burst pressure of at least 3 times the working pressure when a relief device is fitted and at least 4 times the working pressure when no relief device is fitted;\n\n<strong>(d)</strong> each cylinder is manufactured from material whcih will not fragment upon rupture;\n\n<strong>(e)</strong> each detector is manufatured under a registered quality assureance programme;\n\n<strong>(f)</strong> detectors are transported in strong outer packagings. The complete package must be capable of withstanding a 1.2 m drop test without breakage of the detector or rupture of the outer packaging. Equipment that includes a detector must be packed in a strong outer packing unless the detector is afforded equivalent protection by the equipment in which it is contained; and\n\n<strong>(g)</strong> transport in accordance with this special provision must be noted on the Shipper's Declaration.\n\nRadiation detectors, including detectors in radiation detection systems, are not subject to any other requirements of these Regulations if the detectors meet the requirements in (a) to (f) and the capacity of detector cylinder does not exceed 50 mL.",
+      "note": "<strong>(e)</strong> ISO 9001:2008 may be used for this purpose"
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 6,
+    "fields": {
+      "code": 72,
+      "description": "A substance specifically listed by name in Table 4.2 - List of Dangerous Goods must not be transported under this entry. Substances transported under this entry may contain 20% or less nitrocellulose provided the nitrocellulose contains 12.6% or less nitrogen.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 7,
+    "fields": {
+      "code": 192,
+      "description": "For the purposes of documentation and packing marking:\n\n<strong>(a)</strong> the proper shipping name <strong>Paint related material</strong> may be used for consignments of packages containing paint and paint related material in the same package;\n\n<strong>(b)</strong> the proper shipping name <strong>Paint related material, corrosive, flammable</strong> may be used for consignements of packages containing paint, corrosive, flammable and pain related material, corrosive, flammable in the same package;\n\n<strong>(c)</strong> the proper shipping name <strong>Printing related material, flammable, corrosive</strong> may be used for consignments of packages containing paint, flammable, corrosive and paint related material, flammable, corrosiv in the same package;\n\n<strong>(d)</strong> the proper shipping name <strong>Printing ink related material</strong> may be used for consignements of packages containing printing ink and printing ink related material in the same package.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 8,
+    "fields": {
+      "code": 88,
+      "description": "Pre-production prototypes of lithium batteries or cells, when these prototypes are transported for testing, or low production runs, (i.e. annual production runs consisting of no more than 100 lithium cells and batteries) of lithium cells or batteries that have not been tested to the requirements in subsection 38.3 of the <i>UN Manual of Tests and Criteria</i> may be transported aboard cargo aircraft, if approved by the appropriate authority of the State of origin and the requirements in Packing Instruction 910 of the Supplement to the Technical Instructions are met.\n\nA copy of the document of approval must accompany the consignment. Transport in accordance with this special provision must be noted on the Shipper's Declaration.\n\nIrrespective of the limit specified in Column L of Table 4.2, the battery or battery assembly as prepared for transport may have a mass exceeding 35 kg.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 9,
+    "fields": {
+      "code": 99,
+      "description": "Irrespective of the per package quantity limit for cargo aircraft specified in Column L of the List of Dangerous Goods (Subsection 4.2) and in Section I of Packing Instructions 965, 966, 967, 968, 969 or 970, a lithium battery or battery assembly (UN 3090 or UN 3480), including when packed with, or contained in equipment (UN 3091 or UN 3481) that meets the other requirements of Section I of the applicable packing instruction may have a mass exceeding 35 kg, if approved by the appropriate authority of the State of origin. A copy of the document of approval must accompany the consignment.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 10,
+    "fields": {
+      "code": 154,
+      "description": "Lithium batteries identified by the manufacturer as being defective for safety reasons, or that have been damaged, that have the potential of producing a dangerous evolution of heat, fire or short circuit are forbidden for transport (e.g. those being returned to the manufacturer for safety reasons or cells or batteries that cannot be diagnosed as damaged or defective prior to transport).",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 11,
+    "fields": {
+      "code": 164,
+      "description": "Any electrical battery or battery powered device, equipment or vehicle having the potential of a dangerous evolution or heat must be prepared for transport so as to prevent:\n\n<strong>(a)</strong> a short circuit (e.g. in the case of batteries by the effective insulation of exposed terminals; or in the case of equipment, by disconnection of the battery and protection of exposed terminals); and\n\n<strong>(b)</strong> unintentional activation",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 12,
+    "fields": {
+      "code": 183,
+      "description": "Waste batteries and batteries being shipped for recycling or disposal are forbidden from air transport unless approved by the appropriate national authority of the State of Origin and the State of the Operator.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 13,
+    "fields": {
+      "code": 201,
+      "description": "In instances where other forms of transport (including cargo aircraft) is impracticable, lithium cells or batteries may be transported as Class 9 (UN 3480 or UN 3090) on passenger aircraft with the prior approval of the authority of the State of Origin, the State of the Operator and the State of Destination under the written conditions established by those authorities, provided that the quantities per package do not exceed:\n\n<strong>(a)</strong> for lithium metal cells or batteries:\n        <strong>1.</strong> up to 2 batteries with lithium content more than 0.3 g but not more than 2 g per battery; or\n        <strong>2.</strong> up to 8 cells with lithium content more than 0.3 g but not more than 1 g per cell; or\n        <strong>3.</strong> up to 2,5 kg of cells and/or batteries with a lithium content not more than 0.3 g per cell or battery; or\n\n<strong>(b)</strong> for lithium ion cells or batteries:\n        <strong>1.</strong> up to 2 batteries with a Watt-hour (Wh) rating more than 2.7 Wh but not more than 100 Wh per battery; or\n        <strong>2.</strong> up to 8 cells with a Watt-hour rating more than 2.7 Wh but not more than 20 Wh per cell; or\n        <strong>3.</strong> up to 2.5 kg of cells and/or batteries with a Watt-hour rating not more than 2.7 Wh per cell or battery.\n\nWhen States, other than the State of Origin, the State of the Operator or State of Destination have lodged a variation advising that they require prior approval of shipments made under this special provision, approval must also be obtained from these States, as appropriate. The marking and labelling requirements of Section 7 for Class 9 (UN 3090 or UN 3480) lithium metal and lithium ion batteries apply. A copy of the document of approval including the quantity limitations must accompany the consignment.\n\nTransport in accordance with this special provision must be noted on the Shipper's Declaration.\n\nIf transported in accordance with this special provision is not possible, State concerned may grant an exemption from the prohibition to transport lithium metal or lithium ion batteries on passenger aircraft in accordance with 1.2.6.\n\nAuthorities issuing approvals or exemptions in accordance with this special provision must provide a copy to the Cheif of the Cargo Saftey Section within three months of issuance via email at: CSS@icao.int, via facsimile at +1 514-954-6077 or via post to the following address:\n\nChief, Cargo SafetySection\nInternational Civil Aviation Organization\n999 Robert Bourassa Boulevard\nMontreal, Quebec\nCANADA H3C 5H7",
+      "note": "Guidance for the processing of exemptions from the prohibition to transport lithium batteries may be found in Part S-1;4 of the ICAO Supplement to the Technical Instructions. see also special provision A334."
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 14,
+    "fields": {
+      "code": 206,
+      "description": "The hazard label must conform to that shown in Figure 7.3.X.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 15,
+    "fields": {
+      "code": 48,
+      "description": "Packaging tests are not considered necessary.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 16,
+    "fields": {
+      "code": 181,
+      "description": "When a package contains a combination of lithium batteries contained in equipment and lithium batteries packed with equipment, the following requirements apply:\n\n<strong>(a)</strong> the shipper must ensure that all applicable parts of both packing instructions are met. The total weight of lithium batteries contained in any package must not exceed the limits for passenger aircraft or cargo aircraft, as applicable;\n\n<strong>(b)</strong> the package must be marked UN 3091 <strong>Lithium metal batteries packed with equipment</strong>, or UN 3481 <strong>Lithium ion batteries packed with equipment</strong> as appropriate. If a package contains both lithium ion batteries and lithium metal batteries packed with and contained in equipment,  the package must be marked as required for both battery types. However, button cell batteries installed in equipment (including circuit boards) need not be considered.\n\n<strong>(c)</strong> the Shipper's Declaration must indicate UN 3091 <strong>Lithium metal batteries packed with equipment</strong> or UN 3481 <strong>Lithium ion batteries packed with equipment</strong>, as appropriate. If a package contains both lithium metal batteries and lithium ion batteries packed with and contained in equipment, then the dangerous goods transport document must indicate both UN 3091 <strong>Lithium metal batteries packed with equipment</strong> and UN 3481 <strong>Lithium ion batteries packed with equipment</strong>.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 17,
+    "fields": {
+      "code": 185,
+      "description": "Vehicles only powered by lithium metal batteries or lithium ion batteries must be consigned under the entry UN 3171, <strong>Battery-powered vehicle</strong>.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 18,
+    "fields": {
+      "code": 331,
+      "description": "Lithium ion cells or batteries may be offered for transport, on cargo aircraft only, at a state of charge greater than 30% of their rated capacity with the prior approval of the State of Origin and the State of the Operator under the written conditions established by those authorities. When considering an approval, at a minimum,  the following criteria should be considered to mitigate risks posed by a lithium cell or battery heat, smoke or fire event inside a package at the cell, battery or package level:\n\n<strong>(a)</strong> no hazardous amount of flame is allowed outside the package;\n\n<strong>(b)</strong> the external surface temperature of the package cannot exceed the amount that would ignite adjacent packing material or cause batteries or cells in adjacent packages to go into thermal runaway;\n\n<strong>(c)</strong> no hazardous fragments can exit the package, and the package must maintain structural integrity; and\n\n<strong>(d)</strong> the quantity of flammable vapour emitted must be less than the amount of gas that when mixed with air and ignited could cause a pressure pulse that could dislodge the overpressure panels of the aircraft cargo compartment or damage that aircraft cargo compartment liners.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 19,
+    "fields": {
+      "code": 803,
+      "description": "Notwithstanding the assignment of a packing group III in column E, substances assigned to these entries must be packed in UN Specification packagings that meet packing group II performance standards. This does not apply when the substances are prepared for air transport in accordance with the limited quantity provisions.",
+      "note": "For the purposes of identification and documentation, the packing group as shown in Table 4.2 applies and is to be used in the completion of the Shipper's Declaration, regardless of a packaging required to meet a higher packing group performance standard as indicated above."
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 20,
+    "fields": {
+      "code": 180,
+      "description": "Non-infectious specimens, such as specimens of mammals, birds, amphibians, reptiles, fish, insects and other invertebrates containing small quantities of UN 1170, UN 1198, UN 1987, or UN 1219 are not subject to these Regulations provided the following packing and marking requirements are met:\n\n<strong>(a)</strong> specimens are:\n    <strong>1.</strong> wrapped in paper towel and/or cheesecloth moistened with alcohol or an alcohol solution and then placed in a plastic bag that is heat sealed. Any free liquid in the bag must not exceed 30 mL; or\n\n    <strong>2.</strong> placed in vials or other rigid containers with no more than 30 mL of alcohol or an alcohol solution;\n\n<strong>(b)</strong> the prepared specimens are then placed in a plastic bag that is then heat-sealed\n\n<strong>(c)</strong> the bagged specimens are then placed inside another plastic bag with absorbent material then heat sealed;\n\n<strong>(d)</strong> the finished bag is then placed in a strong outer packaging with suitable cushioning material;\n\n<strong>(e)</strong> the total quantity of flammable liquid per outer packaging must not exceed 1 L; and\n\n<strong>(f)</strong> the completed package is marked \"scientific research specimens, not restricted Special Provision A180 applies\".\n\nThe words \"not restricted\" and the special provision number A180 must be included in the description of the substance on the Air Waybill as required by 8.2.6, when an Air Waybill is issued.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 21,
+    "fields": {
+      "code": 1,
+      "description": "This article or substance may be transported on passenger aircraft only with the prior approval of the appropriate authority of the state of origin and the state of the operator under the written conditions established by those authorities. A copy of the document of approval, showing the quantity limitations and packing requirements, must accompany the consignment. The article or substance may be carried on cargo aircraft in accordance with Columns K and L of the List of Dangerous Goods in Subsection 4.2. Where States, other than the State of origin and the State of the operator, have lodged a variation advising that they require prior approval of shipments made under this Special Provision, approval must also be obtained from these States, as appropriate.",
+      "note": "Where Special Provisions A1 applies to an item in Subsection 4.2 and the \"hand\" symbol \"u\"\\u261E\"\" is also shown in the left margin, these items may be accepted for transport by operator(s) on cargo aircraft provided approval has been received and advance arrangements made with the operator(s) (see also Subsection 9.0)"
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 22,
+    "fields": {
+      "code": 2,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 23,
+    "fields": {
+      "code": 4,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 24,
+    "fields": {
+      "code": 5,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 25,
+    "fields": {
+      "code": 6,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 26,
+    "fields": {
+      "code": 8,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 27,
+    "fields": {
+      "code": 9,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 28,
+    "fields": {
+      "code": 10,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 29,
+    "fields": {
+      "code": 11,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 30,
+    "fields": {
+      "code": 12,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 31,
+    "fields": {
+      "code": 13,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 32,
+    "fields": {
+      "code": 15,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 33,
+    "fields": {
+      "code": 16,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 34,
+    "fields": {
+      "code": 17,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 35,
+    "fields": {
+      "code": 18,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 36,
+    "fields": {
+      "code": 19,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 37,
+    "fields": {
+      "code": 20,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 38,
+    "fields": {
+      "code": 21,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 39,
+    "fields": {
+      "code": 22,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 40,
+    "fields": {
+      "code": 23,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 41,
+    "fields": {
+      "code": 24,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 42,
+    "fields": {
+      "code": 25,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 43,
+    "fields": {
+      "code": 26,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 44,
+    "fields": {
+      "code": 27,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 45,
+    "fields": {
+      "code": 28,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 46,
+    "fields": {
+      "code": 29,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 47,
+    "fields": {
+      "code": 30,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 48,
+    "fields": {
+      "code": 31,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 49,
+    "fields": {
+      "code": 32,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 50,
+    "fields": {
+      "code": 33,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 51,
+    "fields": {
+      "code": 34,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 52,
+    "fields": {
+      "code": 35,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 53,
+    "fields": {
+      "code": 36,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 54,
+    "fields": {
+      "code": 37,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 55,
+    "fields": {
+      "code": 38,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 56,
+    "fields": {
+      "code": 39,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 57,
+    "fields": {
+      "code": 40,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 58,
+    "fields": {
+      "code": 41,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 59,
+    "fields": {
+      "code": 42,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 60,
+    "fields": {
+      "code": 43,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 61,
+    "fields": {
+      "code": 44,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 62,
+    "fields": {
+      "code": 46,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 63,
+    "fields": {
+      "code": 47,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 64,
+    "fields": {
+      "code": 49,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 65,
+    "fields": {
+      "code": 50,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 66,
+    "fields": {
+      "code": 51,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 67,
+    "fields": {
+      "code": 52,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 68,
+    "fields": {
+      "code": 53,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 69,
+    "fields": {
+      "code": 54,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 70,
+    "fields": {
+      "code": 55,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 71,
+    "fields": {
+      "code": 56,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 72,
+    "fields": {
+      "code": 57,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 73,
+    "fields": {
+      "code": 58,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 74,
+    "fields": {
+      "code": 59,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 75,
+    "fields": {
+      "code": 60,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 76,
+    "fields": {
+      "code": 61,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 77,
+    "fields": {
+      "code": 62,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 78,
+    "fields": {
+      "code": 63,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 79,
+    "fields": {
+      "code": 64,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 80,
+    "fields": {
+      "code": 65,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 81,
+    "fields": {
+      "code": 66,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 82,
+    "fields": {
+      "code": 67,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 83,
+    "fields": {
+      "code": 68,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 84,
+    "fields": {
+      "code": 69,
+      "description": "The following are not subject to these Regulations when carried as cargo:\n\n<strong>(a)</strong> articles other than lamps, such as thermometers, switches and relays, each containing a total quantity of not more than 15 g of mercury, if they are installed as an integral part of a machine or apparatus and so fitted that shock or impact damage, leading to leakage of mercury, is unlikely to occur under normal conditions of transport;\n\n<strong>(b)</strong> articles other than lamps, each containing not more than 100 mg of mercury, gallium or inert gas and packaged so that the quantity of mercury, gallium or inert gas per package is 1 g or less.\n\nThe words \"Not Restricted\" and the Special Provision number must be included in the description of the substance on the Air Waybill as required by 8.2.6, when an Air Waybill is issued.",
+      "note": "For lamps containing dangerous goods, see 1.2.11"
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 85,
+    "fields": {
+      "code": 70,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 86,
+    "fields": {
+      "code": 71,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 87,
+    "fields": {
+      "code": 73,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 88,
+    "fields": {
+      "code": 74,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 89,
+    "fields": {
+      "code": 75,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 90,
+    "fields": {
+      "code": 76,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 91,
+    "fields": {
+      "code": 77,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 92,
+    "fields": {
+      "code": 78,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 93,
+    "fields": {
+      "code": 79,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 94,
+    "fields": {
+      "code": 80,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 95,
+    "fields": {
+      "code": 81,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 96,
+    "fields": {
+      "code": 82,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 97,
+    "fields": {
+      "code": 83,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 98,
+    "fields": {
+      "code": 84,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 99,
+    "fields": {
+      "code": 85,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 100,
+    "fields": {
+      "code": 86,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 101,
+    "fields": {
+      "code": 87,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 102,
+    "fields": {
+      "code": 89,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 103,
+    "fields": {
+      "code": 90,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 104,
+    "fields": {
+      "code": 91,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 105,
+    "fields": {
+      "code": 92,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 106,
+    "fields": {
+      "code": 93,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 107,
+    "fields": {
+      "code": 94,
+      "description": "Batteries or cells containing sodium must not contain dangerous goods other than sodium, sulphur or sodium compounds (e.g. sodium polysulphides and sodium tetrachloroaluminate). Batteries or cells must not be offered for transport at a temperature such that liquid elemental sodium is present in the battery or cell unless approved and under conditions established by the appropriate national authority.\n\nCells must consist of hermetically sealed metal casing which fully enclose the dangerous goods and which are so constructed and closed as to prevent the release of the dangerous goods under normal conditions of transport.\n\nBatteries must consist of cells secured within and fully enclosed by a metal casing so constructed and closed as to prevent the release of the dangerous goods under normal conditions of transport.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 108,
+    "fields": {
+      "code": 95,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 109,
+    "fields": {
+      "code": 96,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 110,
+    "fields": {
+      "code": 97,
+      "description": "These entries must be used for substances which are hazardous to the environment but do not meet the classification criteria of any other class or other substance within Class9. This must be based o the criteria as indicated in 3.9.2.4. This designation may also be used for wastes not otherwise subject to these Regulations but which are covered under the <i>Basle Convention on the Control of Transboundary Movements of Hazardous Wates and their Disposal</i>.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 111,
+    "fields": {
+      "code": 98,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 112,
+    "fields": {
+      "code": 100,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 113,
+    "fields": {
+      "code": 101,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 114,
+    "fields": {
+      "code": 102,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 115,
+    "fields": {
+      "code": 103,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 116,
+    "fields": {
+      "code": 105,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 117,
+    "fields": {
+      "code": 106,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 118,
+    "fields": {
+      "code": 107,
+      "description": "This entry only applies to machinery or apparatus containing dangerous goods as a residue or as an integral element of the machinery or apparatus. It must not be used for machinery or apparatus for which a proper shipping name already exists in Subsection 4.2-List of Dangerous Goods.\n\nWhere the quantity of dangerous goods contained as an integral element in machinery or apparatus exceeds the limits permitted by Packing Instruction 962, and the dangerous goods meet the provisions of Special Provision 301 of the UN Model Regulations, the machinery or apparatus may be transported only with the prior approval of the appropriate authority of the State of Origin and the State of the Operator under the written conditions established by those authorities.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 119,
+    "fields": {
+      "code": 108,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 120,
+    "fields": {
+      "code": 110,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 121,
+    "fields": {
+      "code": 111,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 122,
+    "fields": {
+      "code": 112,
+      "description": "Only substances of Class 2 (non-toxic aerosols only), Class 3 (Packing Group II or III), Division 6.1 (Packing Group III only), UN 3077, UN 3082, UN 3175, UN 3334, and UN 3335, without a subsidiary hazard, are permitted to be assigned to ID 8000, Consumer commodities. Dangerous goods that are forbidden for transport aboard passenger aircraft must not be classified as consumer commodities.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 123,
+    "fields": {
+      "code": 113,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 124,
+    "fields": {
+      "code": 114,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 125,
+    "fields": {
+      "code": 115,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 126,
+    "fields": {
+      "code": 116,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 127,
+    "fields": {
+      "code": 117,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 128,
+    "fields": {
+      "code": 118,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 129,
+    "fields": {
+      "code": 119,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 130,
+    "fields": {
+      "code": 120,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 131,
+    "fields": {
+      "code": 122,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 132,
+    "fields": {
+      "code": 123,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 133,
+    "fields": {
+      "code": 125,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 134,
+    "fields": {
+      "code": 129,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 135,
+    "fields": {
+      "code": 130,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 136,
+    "fields": {
+      "code": 131,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 137,
+    "fields": {
+      "code": 132,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 138,
+    "fields": {
+      "code": 133,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 139,
+    "fields": {
+      "code": 134,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 140,
+    "fields": {
+      "code": 136,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 141,
+    "fields": {
+      "code": 137,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 142,
+    "fields": {
+      "code": 138,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 143,
+    "fields": {
+      "code": 139,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 144,
+    "fields": {
+      "code": 140,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 145,
+    "fields": {
+      "code": 143,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 146,
+    "fields": {
+      "code": 144,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 147,
+    "fields": {
+      "code": 146,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 148,
+    "fields": {
+      "code": 150,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 149,
+    "fields": {
+      "code": 151,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 150,
+    "fields": {
+      "code": 152,
+      "description": "Insulated packagings conforming to the requirements of Packing Instruction 202 containing refrigerated liquid nitrogen fully absorbed in a porous material are not subject to these Regulations provided the design of the insulated packaging would not allow the build-up of pressure within the container and would not permit the release of any refrigerated liquid nitrogen irrespective of the orientation of the insulated packaging and any outer packaging or overpack used is closed in a way that will not allow the build-up of pressure within that packaging or overpack.\n\nWhen used to contain substances not subject to these Regulations the words \"Not Restricted\" and the Special Provision number must be included in the description of the substance on Air Waybill as required by 8.2.6, when an Air Waybill is issued.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 151,
+    "fields": {
+      "code": 163,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 152,
+    "fields": {
+      "code": 166,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 153,
+    "fields": {
+      "code": 165,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 154,
+    "fields": {
+      "code": 169,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 155,
+    "fields": {
+      "code": 170,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 156,
+    "fields": {
+      "code": 171,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 157,
+    "fields": {
+      "code": 172,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 158,
+    "fields": {
+      "code": 173,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 159,
+    "fields": {
+      "code": 174,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 160,
+    "fields": {
+      "code": 175,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 161,
+    "fields": {
+      "code": 176,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 162,
+    "fields": {
+      "code": 177,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 163,
+    "fields": {
+      "code": 178,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 164,
+    "fields": {
+      "code": 179,
+      "description": "For UN 3077, irrespective of the maximum net quantities specified in Columns J and L of Table 4.2, intermediate bulk containers (IBCs) with a maximum net quantity not exceeding 1,000 kg are permitted in accordance with Packing Instruction 956.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 165,
+    "fields": {
+      "code": 182,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 166,
+    "fields": {
+      "code": 184,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 167,
+    "fields": {
+      "code": 186,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 168,
+    "fields": {
+      "code": 187,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 169,
+    "fields": {
+      "code": 188,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 170,
+    "fields": {
+      "code": 189,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 171,
+    "fields": {
+      "code": 190,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 172,
+    "fields": {
+      "code": 191,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 173,
+    "fields": {
+      "code": 193,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 174,
+    "fields": {
+      "code": 194,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 175,
+    "fields": {
+      "code": 195,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 176,
+    "fields": {
+      "code": 196,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 177,
+    "fields": {
+      "code": 197,
+      "description": "These substances when transported in single or combination packagings containing a net quantity per single or inner packaging of 5 L or less for liquids or having a net mass of 5 kg or less for solids, are not subject to any other provisions of the Regulations provided the packagings meet the general provisions of 5.0.2.4.1, 5.0.2.6.1.1 and 5.0.2.8.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 178,
+    "fields": {
+      "code": 198,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 179,
+    "fields": {
+      "code": 199,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 180,
+    "fields": {
+      "code": 200,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 181,
+    "fields": {
+      "code": 203,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 182,
+    "fields": {
+      "code": 204,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 183,
+    "fields": {
+      "code": 205,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 184,
+    "fields": {
+      "code": 207,
+      "description": "<strong>Not used</strong>TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 185,
+    "fields": {
+      "code": 208,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 186,
+    "fields": {
+      "code": 209,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 187,
+    "fields": {
+      "code": 210,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 188,
+    "fields": {
+      "code": 211,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 189,
+    "fields": {
+      "code": 212,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 190,
+    "fields": {
+      "code": 302,
+      "description": "For the purposes of providing life support for aquatic animals during transport, the appropriate authorities of the States of origin and of the operator may approve the carriage of cylinders containing <strong>Oxygen compressed</strong>, UN 1072 or <strong>Air compressed</strong>, UN 1002, with the valves open to supply a controlled quantity of oxygen or air through a regulator into water containing the aquatic animals. The cylinder or cylinder valve must be fitted with a self-sealing device to prevent uncontrolled release of gas should the regulator malfunction or be broken or damaged. The cylinder must meet those parts of Packing Instruction 200 that apply, except for the need for valves to be closed. In addition, the following conditions apply as a minimum:\n\n<strong>(a)</strong> the water container with the attached cylinder must be designed and constructed to withstand all anticipated loads;\n\n<strong>(b)</strong> the water container with the gas supply operating must be tilt-tested at an angle of 45\u00b0 in four directions from the upright,  for a minimum duration of 10 minutes in each direction, without leakage of water;\n\n<strong>(c)</strong> the cylinder and regulator must be restrained and protected within the equipment;\n\n<strong>(d)</strong> the regulator used must have a maximum flow rate of not more than 5 L per minute;\n\n<strong>(e)</strong> the flow rate to the container must be limited to that sufficient to provide life support to the aquatic animals;\n\n<strong>(f)</strong> the quantity of gas provided must not exceed 150% of the oxygen required for the normal duration of air transport; and\n\n<strong>(g)</strong> only one cylinder may be carried for each 15 m\u00b3 of gross cargo hold volume. Under no circumstances may the rate of gas flow from the cylinder exceed 1 L per minute per 5m\u00b3 of gross cargo hold volume.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 191,
+    "fields": {
+      "code": 324,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 192,
+    "fields": {
+      "code": 801,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 193,
+    "fields": {
+      "code": 804,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 194,
+    "fields": {
+      "code": 805,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 195,
+    "fields": {
+      "code": 213,
+      "description": "Lithium batteries in conformity with 3.9.2.6.1(f) containing both primary lithium metal cells and rechargeable lithium ion cells must be assigned to UN3090 or UN 3091, as appropriate. When such batteries are transported in accordance with Section II of Packing Instruction 968, 969, or 970 the total lithium content of all lithium cells contained in the battery must not exceed 1.5g and the total capacity of all lithium ion cells contained in the battery must not exceed 10 Wh.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 196,
+    "fields": {
+      "code": 334,
+      "description": "In instances where other forms of transport (including cargo aircraft) is impracticable, lithium cells or batteries may be transported on passenger aircraft with the prior approval of the authority of the State of Origin, under the written conditions established by those authorities, provided that the following types and quantities are met:\n\n<strong>(a)</strong> quantities of lithium metal cells or batteries (UN 3090) are limited to the allowance permitted in Table 968-II of Packing Instruction 968; and\n\n<strong>(b)</strong> quantities of lithium ion cells or batteries (UN 3480) are limited to the allowance permitted in Table 965-II of Packing Instruction 965.\n\nWhen considering an approval, at a minimum,  authorities should consider the following criteria to mitigate risks posed by a lithium cell or battery hear, smoke or fire even inside a package at the cell, battery or package level:\n\n<strong>(a)</strong> no amount of flame is allowed outside the package;\n\n<strong>(b)</strong> the external surface temperature of the package cannot exceed the amount that would ignite adjacent packing material or cause batteries or cells in adjacent packages to go into thermal runaway;\n\n<strong>(c)</strong> no fragments can exit the package and the package must maintain structural integrity;\n\n<strong>(d)</strong> the quantity of flammable vapour emitted must be less than the amount of gas that when mixed with air and ignited could cause a pressure pulse that could dislodge the overpressure panels of the aircraft cargo compartment or damage the aircraft cargo compartment liners; and\n\n<strong>(e)</strong> when the package or overpack is exposed to an external fire (e.g. five-minute oil burner flame penetration resistance test) or elevated temperature environment (e.g. oven thermal resistance test), any hazardous effects caused by thermal runaway of the lithium cell or battery must be contained within the package.\n\nAdequate information and documentation on the above criteria (a) through (e) must be provided to the appropriate authority of the State issuing the approval upon request.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 197,
+    "fields": {
+      "code": 7,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 198,
+    "fields": {
+      "code": 14,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 199,
+    "fields": {
+      "code": 45,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 200,
+    "fields": {
+      "code": 104,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 201,
+    "fields": {
+      "code": 109,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 202,
+    "fields": {
+      "code": 121,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 203,
+    "fields": {
+      "code": 124,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 204,
+    "fields": {
+      "code": 126,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 205,
+    "fields": {
+      "code": 127,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 206,
+    "fields": {
+      "code": 135,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 207,
+    "fields": {
+      "code": 141,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 208,
+    "fields": {
+      "code": 142,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 209,
+    "fields": {
+      "code": 147,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 210,
+    "fields": {
+      "code": 148,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 211,
+    "fields": {
+      "code": 149,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 212,
+    "fields": {
+      "code": 153,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 213,
+    "fields": {
+      "code": 168,
+      "description": "<strong>Not used</strong>",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 214,
+    "fields": {
+      "code": 128,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 215,
+    "fields": {
+      "code": 155,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 216,
+    "fields": {
+      "code": 156,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 217,
+    "fields": {
+      "code": 157,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 218,
+    "fields": {
+      "code": 158,
+      "description": "Mixtures of solids which are not subject to these Regulations and liquid or solids classified by the shipper as environmentally hazardous substances (UN 3077 and UN 3082) may be transported under this entry, provided there is no free liquid visible at the time the substance is loaded or at the time the packaging is closed. Sealed packets and articles containing less than 10 mL of an environmentally hazardous liquid, absorbed into a solid material but no free liquid in the packet or article, or containing less than 10 g of an environmentally hazardous solid, are not subject to these Regulations.",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 219,
+    "fields": {
+      "code": 159,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 220,
+    "fields": {
+      "code": 160,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 221,
+    "fields": {
+      "code": 161,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 222,
+    "fields": {
+      "code": 162,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 223,
+    "fields": {
+      "code": 214,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 224,
+    "fields": {
+      "code": 806,
+      "description": "TMP",
+      "note": ""
+    }
+  },
+  {
+    "model": "api.dangerousgoodairspecialprovision",
+    "pk": 225,
+    "fields": {
+      "code": 807,
+      "description": "TMP",
+      "note": ""
+    }
+  }
+]

@@ -1,0 +1,1602 @@
+  Patch 3.13.0 (Mar 7, 2023)
+    Features:
+        -
+    Change:
+        -
+    Fix:
+        - Fix Saved Address and Saved Contact issues
+
+ Patch 3.12.0 (Mar 7, 2023)
+    Features:
+        -
+    Change:
+        - Exception Message to say "Internal Server Issue"
+    Fix:
+        - Fix Action Express Tracking
+        - Fix TST Tracking
+        - Fix 2Ship Tracking
+
+Patch 3.11.0 (Mar 4, 2023)
+    Features:
+        - Introduce Books App - Contain anything related to "saved"
+            - Saved Address
+                - Move Saved Addresses from Web to Api
+                - Add Pagination to Saved Addresses
+                - black & pylint files
+            - Saved Contact
+                - Move Saved Contacts from Web to Api
+                - Add Pagination to Saved Contacts
+                - black & pylint files
+    Change:
+        - Create Base Carrier Abstract Class
+            - Default Functionality to Cancel Shipments & Pickups (Email to Customer Service)
+        - Carriers
+            - 2Ship
+                - Rewrite Api
+                - Restructure Files
+                - Split Ship & Pickup Functionality
+                - Add Cancel Shipment & Pickup Functionality
+                - Add Missing Unit Tests
+                - Add POD Request on Tracking Delivered.
+                - black & pylint Files
+            - TST-CF Express
+                - Rewrite Api
+                - Restructure Files
+                - Split Ship & Pickup Functionality
+                - black & pylint Files
+                - Add Missing Unit Tests (More need to be added)
+            - Purolator
+                - Restructure Files
+                - Split Ship & Pickup Functionality
+                - black & pylint Files
+            - ubbe ML
+                - Restructure Files
+                - Split Ship & Pickup Functionality
+                - black & pylint Files
+            - Rate Sheets
+                - Restructure Files
+                - Split Ship & Pickup Functionality
+                - black Files
+            - Day Ross
+                - Restructure Files
+                - Split Ship & Pickup Functionality
+                - black Files
+            - Cargojet
+                - Restructure Files
+                - Split Ship & Disable Pickup with unsupported.
+                - black Files
+            - Calm Air
+                - Restructure Files
+                - Split Ship & Disable Pickup with unsupported.
+                - black Files
+            - Skyline
+                - Restructure Files
+                - Split Ship & Disable Pickup with unsupported.
+                - black Files
+            - ABF Freight
+                - Restructure Files
+                - black Files
+            - Action Express
+                - Restructure Files
+                - black Files
+            - Manitoulin
+                - Restructure Files
+            - FedEx
+                - Restructure Files
+                - Split Ship & Pickup Functionality
+        - Pickup
+            - Stand Alone Pickup Endpoint that allows Booking, Updating, and Canceling Pickup.
+        - Track
+            - Refactor Tracking and bring out saving from carrier apis into a standard spot.
+        - Saved Address
+            - Moves Saved Addresses from Web to Api
+            - Adds Pagination to Saved Addresses
+        - Saved Contact
+            - Moves Saved Contacts from Web to Api
+            - Adds Pagination to Saved Contacts
+    Fix:
+        - Broken Cancel Shipment Request Emails.
+
+Patch 3.10.0 (Jan 25, 2023)
+    Features:
+        - Add Manitoulin Api
+    Change:
+        - Add managed data values to Metric Account Endpoint.
+    Fix:
+        -
+
+Patch 3.9.0 (Dec 3, 2022)
+    Features:
+        -
+    Change:
+        - Add username filter to search endpoint.
+        - Modify Metric Apis to include Self-Managed, Managed, and Combined Metrics.
+        - Add additional metrics fields for managed shipments to Metric Account Model.
+        - Exclude select accounts from metric goals.
+    Fix:
+        -
+
+Patch 3.8.0 (Nov 8, 2022)
+    Features:
+        - Add Saved Packages DB Model, Serializer, and API
+    Change:
+        - Add country check to ABF Freight should only be CA,US, or MX.
+    Fix:
+        - Fix CN ottawa address issue for southbound cargo.
+
+Patch 3.7.0 (Oct 25, 2022)
+    Features:
+        - ABF Freight Api
+        - Multi Currency Functionality
+    Change:
+        - Add ubbe Quote ID to shipment response.
+        - Add ubbe Quote ID to search endpoint.
+    Fix:
+        - Fix Action Express rounding issue.
+
+Hotfix 3.6.1 (Oct 05, 2022)
+    Features:
+        -
+    Change:
+        -
+    Fix:
+        - Fix potential auth issue.
+
+Patch 3.6.0 (Sept 29, 2022)
+    Features:
+        - Add Postal Code Validation (Moved Over From Web).
+        - Add Create (Post) method for Shipment Api.
+        - Add Create (Post) method for Leg Api.
+        - Add Create (Post) method for Package Api.
+    Change:
+        - Change Carrier DB Table to include Manual Carrier as a type.
+        - Change Carrier Api to include filtering for carrier type.
+        - Change Rate Api Response to include Rate Log Id.
+        - Change Overdue Api to include Account Filtering.
+        - Change BC BBE push to check for markup on the leg and include it in the push.
+        - Change Rate Log to include ship request and shipment id in log and make ship api update it on ship.
+        - Code Clean Up
+    Fix:
+        - Fix Carrier white labeling of names for accounts.
+        - Fix Api Permissions to view documentation.
+        - Fix Purolator Cancel Logic (Carrier Account not found)
+        - Fix cancel shipment email not sending
+
+Patch 3.5.0 (July 27, 2022)
+    Features:
+        - Add ability to white label and unwhite label carrier names via admin and addeed to join rates v2.
+        - Add 'is_bbe_only' flag to carrier, if active will white carrier name for non bbe accounts.
+    Change:
+        - Start Rate V3 Refactoring and Optimizing
+            - Refactor Processing Request
+            - Add Caching of DB data where possible to improve rating speed.
+            - Change Rate Response
+        - Make Tracking Status on Leg Serializer be order by updated date.
+    Fix:
+        - TST US Rate Issue with discount.
+
+Patch 3.4.0 (June 23, 2022)
+    Features:
+        - Add Payment Receipt Generation and Adding to job file
+        - Add auto email of Payment Receipt
+        - Add Shipment Overview Report API
+        - Add Accounts Report API
+    Change:
+        - Default YRC Freight Class to 70.00 (Our Rates are unaffected with doing this)
+        - Generates Excel Report For Tracking Report on API
+    Fix:
+        -
+
+Patch 3.3.0 (June 15, 2022)
+    Features:
+        - Add Billing and Payer Information to Shipment
+        - Add Transaction for payments for a Shipment + Transaction Api
+        - Create and Management Promo Codes
+        - Add Job Note for BC + Config New Transactions to auto add note to job file if exists.
+        - Add Account Report Api
+    Change:
+        - Change Ship Api Response to be full Shipment information.
+        - Business Central
+            - Add Billing and Payer Information to job if exists.
+        - Moved Promo Codes from Ubbe Web to Api
+        - Able to Bulk Create Promo Codes
+    Fix:
+        - Tier Setting, defaults to enterprise.
+
+Patch 3.2.0 (May 31, 2022)
+    Features:
+        -
+    Change:
+        - Make Fuel Surcharge order by update date.
+        - Markup DB Table to have templates + Markup Apis
+        - Sub Account Serializer
+        - Add Special Instructions to shipment.
+        - Change Cargojet Api to include YYZ and YHM.
+        - Change Action Express to include nisku + devon into the city
+    Fix:
+        - Calm Air AWB # Not showing on AWB
+
+Patch 3.1.0 (April 27, 2022)
+    Features:
+        - Add Bandsta Carrier records
+        - Add A1 Delivery Carrier records
+        - Add Air Inuit Carrier records
+        - Add Sealift Sailing Dates Api - Get, Post, Put, Delete
+        - Add Search Shipment Api - Get
+        - Add Login Page that redirects to Redoc
+    Change:
+        - Update Project Requirements
+        - Update email for RS Expiry Email
+        - Move Fuel Surcharge to Website Admin
+        - Move Ports to Website Admin
+        - Change YRC Rate - "Invalid Canadian Province." Error Email to return no rates '[]'
+        - Change YRC Rate Service levels: Standard, Time Critical, and fall back to Spot
+        - Change YRC Ship & Pickup to account for new service levels + Quote ID
+        - Remove:
+            - Old Pickup Restrictions Management UI (Moved to ubbe web)
+            - Old Webhooks Management UI (Moved to ubbe web)
+            - Old Ports Management UI (Moved to ubbe web)
+            - Old FSC Management UI (Moved to ubbe web)
+            - Old Package Types Management UI (Moved to ubbe web)
+            - Old Markup Management UI (Moved to ubbe web)
+            - Old Sailing Management UI (Moved to ubbe web)
+            - Old Style + images
+    Fix:
+        - Add Tracking Status Error Response
+
+Hotfix 3.0.1 (April 11, 2022)
+    Features:
+        -
+    Change:
+        - Carrier Apis to have email default to "customerservice@ubbe.com"
+        - Ship Api: Change character limit to be 100 for emails
+    Fix:
+        -
+
+Release 3.0.0 (April 09, 2022)
+    Features:
+        - Add Error Code Table - Used to store information about potential issues points in our products.
+        - Add Rate Throttling to the system reflected to the tier system.
+        - Add Account Tier Table to start tier system.
+        - Add Account Tier Api - Get, Post, Put, Delete
+        - Add Api Permission Table and Crud Api - Get, Post, Put, Delete
+            - Ability to turn off endpoint methods and add endpoint to an account
+            - Ability to mark endpoints as admin only.
+    Change:
+        - V3 Endpoints with new urls v3 file:
+            - Shipment Apis
+                - Shipment Api & Shipment Detail Api - Get, Put
+                 - Leg Api & Leg Detail Api - Get, Post, Put
+                 - Package Api & Package Detail Api - Get
+                 - Surcharge Api & Surcharge Detail Api - Get
+            - Track Api (Moved to v3) - Get, Post, Put, Delete
+            - Cancel Api - Shipment and Leg - Post
+            - Document Api - Get, Post, Put, Delete
+            - Location Apis
+                - Country Api (Moved to v3) - Get, Post, Put, Delete
+                - Province Api (Moved to v3) - Get, Post, Put, Delete
+            - Option Apis
+                - Option Api - Get
+                - Option Names Api - Get, Post, Put, Delete
+                - Option Optional Api - Get, Post, Put, Delete
+                - Option Mandatory Api - Get, Post, Put, Delete
+            - Carrier Apis
+                - Carrier & Carrier Detail Api - Get, Post, Put
+                - Carrier Service & Carrier Service Detail Api - Get, Post, Put, Delete
+                - Fuel Surcharge & Fuel Surcharge Detail Api - Get, Post, Put, Delete
+                - Dispatch & Dispatch Detail Api - Get, Post, Put, Delete
+                - BOL & BOL Detail Api - Get, Post, Put, Delete
+                - City Alias & City Alias Api - Get, Post, Put, Delete
+                - Airbase & Airbase Api - Get, Post, Put, Delete
+            - Pickup Apis
+                - Pickup Restrictions & Pickup Restrictions Api - Get, Post, Put, Delete
+                - Pickup Timezone  (Moved to v3) - Get
+                - Pickup Validate (Moved to v3) - Get, Post
+            - Package Types & Package Types Detail Api - Get, Post, Put, Delete
+            - Account Apis
+                - Markup & Markup Detail Api - Get, Post, Put, Delete
+                - Carrier Markup & Carrier Markup Detail Api - Get, Put
+                - Markup History & Markup History Detail Api - Get
+                - Carrier Markup History & Carrier Markup History Detail Api - Get
+                - Account & Account Detail Api - Get, Post
+                - Sub Account & Sub Account Detail Api - Get, Post, Put
+                - Carrier Account & Carrier Account Detail Api - Get, Post, Put, Delete
+            - (Moved to V3) Business Central Apis: Vendor, Jobs, Items, and Customers - Get
+            - Report Apis:
+                - Quote History By leg - Get Excel report.
+                - Quote History - Get Excel report. Filter by mode and date range
+                - Tracking Report - Get data for report on ubbe side (moved and updated).
+            - Admin Apis
+                - Api & Api Detail Api - Get, Post, Put, Delete
+                - Airports & Airports Detail Api - Get, Post, Put, Delete
+                - Location Distance & Location Distance Detail Api - Get, Post, Put, Delete
+                - Middle Location & Middle Location Detail Api - Get, Post, Put, Delete
+            - Webhooks & Webhooks Detail Api - Get, Post, Put, Delete
+            - Port & Port Detail Api - Get, Post, Put, Delete
+            - Ratesheet & Ratesheet Detail Api - Get, Post, Put, Delete
+            - Ratesheet Cost & Ratesheet Cost Detail Api - Get, Post, Put, Delete
+            - Ratesheet Upload Api - Post
+            - Nature of goods Api (Moved to V3 from V2) - Get
+            - Dangerous Goods
+                - Dangerous Goods & Dangerous Goods Detail Api - Get, Post, Delete
+                - Classifications Api - Get
+                - Packing Group Api - Get
+                - Excepted Quantity Api - Get
+                - Air Cutoff Api - Get
+                - Air Special Provisions Api - Get
+                - Ground Special Provisions Api - Get
+                - Packing Types Api - Get
+                - Packaging Instructions Api - Get
+                - Placard Api - Get
+            - Rate Api using built in serializers (Further Clean up required)
+            - ubbe Rate Api using built in serializers (Further Clean up required)
+            - Ship Api using built in serializers (Further Clean up required down the rabbit hole)
+            - Canadian North Apis:
+                - Skyline Account Api & Skyline Account Detail Api - Get, Post, Put, Delete
+                - Skyline Transit Time Api & Skyline Transit Time Detail Api - Get, Post, Put, Delete
+                - Skyline PD Api & Skyline PD Detail Api - Get, Post, Put, Delete
+                - Skyline Interline Api & Skyline Interline Detail Api - Get, Post, Put, Delete
+        - Serializers:
+            - Private Serializers
+            - Public Serializers
+            - Common Serializers
+        - Api Caching Improvements:
+            - Location Apis
+            - Markup Apis
+            - Account Apis
+            - Admin Apis
+            - Options Apis
+            - Sea Apis
+            - BC Apis
+            - Pickup Apis
+            - Main Apis
+            - Carrier Apis
+        - Remove:
+            - Old Tracking implementations (3 versions)
+            - Old Package Api
+            - Old Shipments List Api
+            - Old Leg List Api
+            - Old Leg Api
+            - Old Shipment Api + Cancel
+            - Old Option Apis
+            - Old Carrier Apis
+            - Old Fuel Surcharge Apis
+            - Old Pickup Restriction Apis
+            - Old Markup and Carrier Markup Apis
+            - Old Overdue Report (Overdue Page should be used only)
+            - Old Port Apis
+            - Old Webhook Apis
+            - Old Ratesheet Apis
+            - Old DDG Apis
+            - Unused sea lift Apis
+            - Old DG Summary Api replaced with new Dangerous Goods Api
+            - Old DG Packing Types Api replaced with new Packing Types Api
+            - Old Account Apis
+            - Old sub Account Apis
+            - Old serializers
+            - Old account management
+            - Old account json check
+            - Old Find Shipment Api
+            - Old Ship Api
+            - Old Rate Api
+            - Old Json Check Files
+            - Old Serializer Files
+            - Old Carrier Management UI (Moved to ubbe web)
+            - Old Shipment Management UI (Moved to ubbe web)
+            - Old Leg History UI (Moved to ubbe web)
+            - Old Rate Sheet Management UI (Moved to ubbe web)
+            - Old DG Management UI (Moved to ubbe web)(Also incomplete)
+            - Old Account Management UI (Moved to ubbe web)
+            - Old Markup Management UI (Moved to ubbe web)
+        - Project Clean Up
+        - Start Updating Error Messages through out the code base
+        - Change current permissions to work off of new permissions
+        - Remove v2 urls and old permission classes
+        - Overhaul currently Api Documentation to be current and include new endpoints.
+    Fix:
+        - Buffalo Airways BBE AWB
+        - DHL US to US
+
+Patch 2.40.0 (Jan 31, 2022)
+    Features:
+        - Add YRC Freight Api Integration
+        - Add Support for Freight Class for Skid Package Type
+        - Add support for Canadian North Interline lanes
+    Changes:
+        - Modify TST freight class logic to take freight class from request.
+        - Add NU province check for TST-CF and return no rates to reduce emails errors of no rates and to reduce api calls.
+        - Add NT to NT province check for TST-CF and return no rates to reduce emails errors of no rates and to reduce api calls.
+        - Update project requirements
+    Fix:
+        - Purolator Voiding Pickup
+        - Cargojet tracking
+
+Patch 2.39.0 (Jan 10, 2022)
+    Features:
+        -
+    Change:
+        - Make Cargojet api for YEG and RateSheet for rest of the lanes.
+        - Remove loggers to shipments per year metric
+    Fix:
+        -
+
+Patch 2.38.0 (Jan 5, 2022)
+    Features:
+        -
+    Change:
+        - Modify Sub Account Adding and Updating
+        - Add loggers to shipments per year metric
+    Fix:
+        -
+
+Patch 2.37.0 (Dec 16, 2021)
+    Features:
+        -
+    Change:
+        - Cargojet changes for Shipper and Consignee name.
+        - Flag Delivery Exception and Undeliverable shipments.
+        - Add Broker Information to:
+            - Purolator
+            - TwoShip
+            - FedEx
+            - TST Overland Express
+        - Split Buffalo into two carriers: Courier and Airways
+        - Business Central, Requested by filled out with Account information plus user.
+        - ML Changes for updated pricing calculation.
+    Fix:
+        -
+
+Patch 2.36.0 (Nov 2, 2021)
+    Features:
+        -
+    Change:
+        - Add Post to new tracking
+        - Add more clarity to Air North Billing AWB.
+        - Carrier Tracking will un-flag pickup overdue
+    Fix:
+        -
+
+Patch 2.35.0 (Oct 28, 2021)
+    Features:
+        -
+    Change:
+        - Revise TST Api Usage to reduce Api calls to help with Rate Limiting.
+        - Remove Cargojet from excluded carriers for tracking.
+    Fix:
+        - Calm air price saving
+        - TST error catching
+
+Patch 2.34.0 (Oct 26, 2021)
+    Features:
+        - Add Transit Alert System - Overdue Pickup  & Delivery
+    Change:
+        - Start Revising Api Endpoints.
+            - Leg Api
+            - Track Api
+        - Remove Canada Post from multi modal
+        - Add budget line for insurance lines
+        - Action Express - Add shipment id and ref to descriptions
+    Fix:
+        -
+
+Patch 2.33.0 (Oct 21, 2021)
+    Features:
+
+    Change:
+        - Change Tracking Status Saving.
+        - Standardize Tracking Format (Part of Transit Overdue System):
+            - Canadian North
+            - Two Ship
+        - Limit TST Response Error to 100 characters as it was giving TST system stack trace.
+    Fix:
+        - Shipment Cancel Pickup with bad reference
+
+Patch 2.32.0 (Oct 17, 2021)
+    Features:
+        - Add Cargojet Api Integration
+        - Metric Account Daily. (DB Table, Cron Job, Api Endpoints.)
+        - Metric Overview V3
+            - Account Specific plus Date Range able
+            - All Accounts plus Date Range able (BBE Only)
+            - Can also disable accounts to be included in all version. (BBE Only)
+        - Metric Shipment Per Year V3
+            - Account Specific
+            - All Accounts (BBE Only)
+            - Can also disable accounts to be included in all version. (BBE Only)
+        - Metric Revenue Per Year V3
+            - Account Specific
+            - All Accounts (BBE Only)
+            - Can also disable accounts to be included in all version. (BBE Only)
+        - Metric Averages V3 (Shipment & Leg Costs)
+            - Account Specific
+            - All Accounts (BBE Only)
+            - Can also disable accounts to be included in all version. (BBE Only)
+        - Metric Routes V3 (Top Locations)
+            - Account Specific
+            - All Accounts (BBE Only)
+            - Can also disable accounts to be included in all version. (BBE Only)
+        - Metric Carriers V3 (Top Carriers Used)
+            - Account Specific
+            - All Accounts (BBE Only)
+            - Can also disable accounts to be included in all version. (BBE Only)
+        - Metric Goals V3 - (BBE Only)
+        - Metric Accounts V3 - (BBE Only)
+            - System Filter
+            - Year Filter
+    Change:
+        - Add is bbe and is metric included.
+        - Add est delivery date to shipment model that should match the last leg.
+        - Add shipment due date to BC Connector populated by est delivery date on shipment model
+        - Remove old metric apis:
+            - Shipment Per Year V2
+            - Revenue Per Year V2
+            - Shipment V2
+            - Leg V2
+            - Overview V2
+            - Finance V2
+            - Daily Metric
+        - Remove Analytic UI (Moved to ubbe Web)
+        - Remove Analytic UI (Moved to ubbe Web)
+        - Standardize Tracking Format (Part of Transit Overdue System):
+            - Calm Air
+            - Day & Ross
+            - TST-CF Express
+            - Fedex
+            - Canada Post
+            - Purolator
+    Fix:
+        -
+
+Patch 2.31.0 (Sept 23, 2021)
+    Features:
+        -
+    Change:
+        - Update Project Requirements
+        - Remove Null email backend didn't work
+        - Remove base table unit test as they are tested through other models and test fail due to Abstract models cannot be instantiated.
+        - Pickup window issue for allowing 1.5 for min of 2
+        - Change RateSheet Ship email to be user if its BBE, otherwise will send to customer service.
+        - Omit BBE Quote from Business Central Planning leg pushing.
+        - Add Est. Delivery date to job task function
+        - Add 1 day transit to CN P & D legs.
+    Fix:
+        - BBE Quote Shipping, will create a lee and email either customer service or expediting.
+        - Est. Delivery date saving for multi leg shipments.
+
+Patch 2.30.0 (Sept 15, 2021)
+    Features:
+        -
+    Change:
+        - Action Express: Dim Weight vs Total Weight
+        - Google Geocode: Remove "country" from geocode Api and only include "City" and Province/Region
+    Fix:
+        -
+
+Patch 2.29.0 (Sept 14, 2021)
+    Features:
+        -
+    Change:
+        - Ratesheet Ship Email: Highlight Carrier AWB and BOL Number
+        - Business Central: Add KBX-DCL Special logic for Business Central customer number choosing.
+        - Add new exception called "RateExceptionNoEmail", meaning do not send an error email.
+        - Action Express: Add package details to description.
+    Fix:
+        -
+
+Patch 2.28.0 (Sept 13, 2021)
+    Features:
+        -
+    Change:
+        - Modify AE Tracking to save delivered to person.
+    Fix:
+        -
+
+Patch 2.27.0 (Sept 13, 2021)
+    Features:
+        -
+    Change:
+        - Activate Action Express Api
+        - Modify Tracking Leg Status report to include fixes for leg status and add coloring.
+    Fix:
+        -
+
+Patch 2.26.0 (Sept 9, 2021)
+    Features:
+        - Action Express Api
+    Change:
+        - Update Project Requirements
+        - Skyline Modifications for BBE single account + BC change to remove CN Food.
+        - Modify Tracking Leg Status report to include Api column, correct date format, and fix pickup date.
+    Fix:
+        -
+
+Patch 2.25.0 (Sept 3, 2021)
+    Features:
+        -
+    Change:
+        - Added check to deliver CN PD legs once CN main leg is delivered
+        - Add Branch Code and Cost Centre and Location code to BC Planning line push
+    Fix:
+        -
+
+Patch 2.24.0 (Sept 1, 2021)
+    Features:
+        - City Database that will take over Airports,BBE City alias, and ports DB tables (Times, coords, alias, airports)
+        - Introduce way to get timezones via google geocode and timezones. (To be used in Pickup Apis)
+        - Add timezone check to pickup validation
+        - Add timezone Api
+    Change:
+        - Remove old account adding.
+        - Move external js from management app to website app
+        - Refactor Google Apis implementation and move folder
+        - Remove old timezone (Hard code ones)
+        - Remove Simple rest request. (Global)
+        - Change Naming of Rate Log Reports to be Quote History Reports
+        - Move DG adding to new UI
+        - FINALLY REMOVED OLD MANAGEMENT APP (OLD ADMIN UI THAT USED AJAX AND HAS ITS ONLY PROCESSING CODE), The new
+          admin should be working fully off API endpoints. (Removed duplicated saving and processing mainly)
+    Fix:
+        - Carrier Option not filtering out carriers with no option
+        - Fix DG Adding UI
+
+Patch 2.23.0 (August 21, 2021)
+    Features:
+        - Carrier Specific Pickup Restrictions (Fall back to defaults.)
+        - Pickup Validation Endpoint (GET and POST)
+        - Tracking Leg Status Report Api
+        - Add Est. Delivery Date to shipment leg modal.
+        - All undelivered filter for Shipment & Leg admin pages.
+    Change:
+        - Ensure Transit and Est. Delivery Date are standardized across carriers.
+        - Remove duplicated fields on shipment leg.
+    Fix:
+        - Shipment & Leg Canceled Filters
+        - Shipment & Leg Manual Carriers/Track Filters
+
+Patch 2.22.0 (July 28, 2021)
+    Features:
+        - Add CN Transit Upload Command
+    Change:
+        - Change BC Account pushing to be both Budget and Billable
+        - Change Province Carbon Tax to take the higher between two and add province check
+    Fix:
+        - Sub Account BC file owner not populating correctly
+
+Patch 2.21.0 (July 25, 2021)
+    Features:
+        - Add Canadian North Transit System
+        - Add Business Central Api for Job list to be used by ubbe web.
+        - Add Low Airwaybill Notification (Will be ran via Cron job on Tuesday Friday)
+        - Add Webhook System:
+            - Add Api Endpoints
+            - Add Management Page
+            - Events:
+                - Tracking Status Change Event
+        - Add Carbon Tax ability for each province.
+    Change:
+        - Purolator, Next day pickup logic if first fails.
+        - Change Deliver Job Task to have a second attempt after waiting 5 minutes.
+        - Refactor Rate Sheet uploading to perform divide and conquer with threads to improve efficiency and time
+        - Refactor Login to new style and redirect to new home.
+        - Remove more unused analytics and old management.
+    Fix:
+        - Rate Sheet Admin Searching.
+
+Patch 2.20.0 (July 02, 2021)
+    Features:
+        -
+    Change:
+        - Multi Address Changes:
+            - All carriers for pickup legs for Air will have this:
+                - Name -> Company
+                - Company -> Co "Carrier"
+        - AWB Documents, Add 'Please hold for "carrier" for furtherance to "destination"'
+        - Purolator, Special Instructions will include AWB then Special Instructions cut off at 30 chars.
+    Fix:
+        -
+
+Patch 2.19.0 (June 25, 2021)
+    Features:
+        - Add Fathom Version of BOL
+    Change:
+        - Modify Package Type process to be account and sub account specific
+        - Update DG statement
+        - Add northern check for ubbe ML
+    Fix:
+        - Sealift Cost Calculation
+
+Patch 2.18.0 (June 16, 2021)
+    Features:
+        - Add Administration Fee Option Type for ubbe ML
+        - Add Carrier Options for ubbe ML
+        - Add Fathom carrier code
+    Change:
+        - Add new TST Status to in transit
+    Fix:
+        - Package Type Filtering for account number.
+
+Patch 2.17.0 (June 8, 2021)
+    Features:
+        - Add Insurance Fields to api system.
+    Change:
+        - Fix TST Tracking for detecting status type. Also include received by information for delivered.
+        - Fix insurance issue not pushing into CENTRAL
+    Fix:
+        -
+
+Patch 2.16.0 (June 7, 2021)
+    Features:
+        - Add Insurance being added to Business Central
+    Change:
+        - Fix Job Task Deliver Function
+    Fix:
+        -
+
+Patch 2.15.0 (June 7, 2021)
+    Features:
+        - Add Interline Notification Email (BBE Internal)
+    Change:
+        - Fix Job Task Deliver Function
+        - Fix Job Planning Line Branch Code
+        - Fix Purolator Missing AWB Number
+        - When no tracking number, send ubbe id in job planning line.
+        - Convert Sealift to new Sealift
+    Fix:
+        -
+
+Patch 2.14.0 (May 17, 2021)
+    Features:
+        - Add Rate Log LTL Report
+    Change:
+        - Business Central Planning line, skip CN PD as its in main leg
+        - Change CN P and D not found critical emails to debug
+        - Convert Port to new style
+    Fix:
+        - Fix missing sub account update fields.
+
+Patch 2.13.0 (May 16, 2021)
+    Features:
+        - Add Cross Dock Fee for Interlines
+    Change:
+        - Update Business Central Functionality
+        - Move background tasks (celery) to folder.
+    Fix:
+        -
+
+Patch 2.12.0 (Apr 29, 2021)
+    Features:
+        - Add Interline Functionality
+        - Add Google Distance Matrix Api for middle location.
+        - Add Location Distance Database
+        - Add Westjet AWB Document
+        - Add Ubbe Machine Learning Carrier
+        - Add Ml Regressors table
+        - Add Westjet Mandatory Options
+        - Add Leg Api and Leg Page
+        - Add Rate Logging for all rates.
+        - Add Find Shipment Endpoint.
+        - Add Rate Logger with Rate Endpoint in excel.
+    Change:
+        - Remove more unused metrics
+        - Remove unused lane metrics
+        - Remove Manitoulin as its unused. Always can re-add at a later date.
+        - Remove Westjet Api and convert to RateSheet.
+    Fix:
+        - Fix incorrect metric exceptions
+        - Fix Carrier Account Editing
+
+2.11.0 Patch (Mar 11, 2021)
+    Features:
+        - Add Perimeter Airbase Support
+        - Add support for Carbon Tax and Nav Canada in mandatory options.
+    Change:
+        - Change MMA Pickup Destination Address to be final destination with CO Canadian North.
+    Fix:
+        - Fix TST-CF Express Options
+        - Fix Multi Modal RateSheet Air Leg Issue with pickup & delivery leg
+
+2.10.0 Patch (Feb 24, 2021)
+    Features:
+        - Feat Add AWB Template for Air Rate Sheet Carriers
+            - Main BBE Template
+            - Custom Templates: Air North, Calm Air Cargo Jet, and Perimeter.
+        - Add Cargojet Support
+        - Add Carrier Markup creation, when new carrier is added.
+    Change:
+        - Change DG Error Message Format
+        - Change Auto Track Email to Warning to stop the email spam.
+        - Change CN Documents to include Pharma information.
+    Fix:
+        -
+
+2.9.0 Patch (Feb 17, 2021)
+    Features:
+        - Add temp markup removal for CHL on les cedes to ottawa.
+    Change:
+        - Remove unused metric pages.
+    Fix:
+        -
+
+2.8.0 Patch (Feb 08, 2021)
+    Features:
+        - Package Type System
+        - Pharma Support
+        - New Admin UI
+            - New Account Management
+            - New Sub Account Management
+            - New Carrier Account Management
+    Change:
+        - Combine Metric Daily Shipment & Revenue Charts
+        - Metric Daily change page layout.
+        - Remove old Weekly Metrics
+        - Remove unused CityAirbaseMapping DB Model -> No usage anywhere, and not idea what it was intended for.
+        - Remove unused & out of date Samples
+        - Remove old Sub Account & Carrier Management
+    Fix:
+        - Fix Metric Daily Monthly Stats.
+        - Fix Metric Daily Quarterly Stats.
+        - Fix Metric Daily Weekly Stats.
+        - Fix Metric Goals not populating by year
+
+2.7.0 Patch (Jan 21, 2021)
+    Features:
+        - Markup Change Log
+        - Start new Admin UI (Designed to be move to ubbe Web project for all ui to be in one project):
+            - Analytics
+                - New Metric Home Page
+                - Milestone & Daily Metric Page
+            - Management
+                - Carrier
+                - Carrier Dispatch
+                - Carrier BOL
+                - Carrier City Alias
+                - Fuel Surcharge
+                - Markup
+                - Rate Sheet
+            - Shipments
+            - Shipment View
+            - Add Footer from web
+        - Rate Sheet:
+            - Expiry Date & Notification System
+            - Multi Account Support
+        - Purolator Api Connection
+        - New Apis
+            - Carrier Dispatch Api
+            - Carrier Dispatch BOL Api
+            - Carrier City Alias Api
+            - Metric Goal Api
+            - Metric Daily Api
+            - Metric Overview Api
+    Change:
+        - Update Project Requirements
+        - Update Markup Api auto documentation
+        - Convert old Markup Views to Api Views
+        - Convert old Rate Sheet Views to Api Views
+        - Remove:
+            - old Markup Management Pages
+            - old Rate Sheet Management Pages
+            - old Carrier Management Pages
+            - old Carrier City Alias Management Pages
+            - old BOL Management Pages
+            - old Dispatch Management Pages
+            - old Fuel Surcharge Management Pages
+            - old shipment lookup Pages
+            - old  shipment view Pages
+        - Revised Apis
+            - Account Api
+            - Sub Account Api
+            - Carrier Api
+            - Metric Shipments Per Year Api (Get to Post, with better filters)
+            - Metrsic Finance Per Year Api (Get to Post, with better filters)
+            - Shipment Tracking Api (Need to work on removing /track/ and /add_manual_track/)
+    Fix:
+        - Shipping was returning a generalized error, fixed to return the correct error message.
+    Known:
+        - Footer links are broken
+
+2.6.0 Patch (Oct 17, 2020)
+    Features:
+        - Add max weight limits for:
+            - Purolator Freight - 10,000 lbs
+            - Canadian North - 10,000 kgs
+            - Westjet - 10,000 kgs
+    Change:
+        - Change Tracking report to include time aspect of date.
+        - Change Calm Air Routing
+    Fix:
+        - Fix Manual Tracking Update not setting delivered Datetime.
+        - Fix Calm Air Multi-Model Routing Options
+        - Fix Calm Air Service Name issue, causing KeyError
+
+2.5.0 Patch (Sept 08, 2020)
+    Features:
+        - Add blank charter carrier ids.
+        - Add Panorama Aviation carrier id for RS.
+        - Add Generation of Calm Air Labels.
+    Change:
+        - Modify MMA AWB pulling and modify RS Ship to account for AWB.
+    Fix:
+        - Calm Rate No rate issue, cause the system to not return a rate.
+        - Fix TST-CF "carrier_name" key error.
+
+2.4.0 Patch (Aug 25, 2020)
+    Features:
+        - Configure Buffalo Airbase information.
+        - Add account id at package level
+            - Configured for Skyline and BBE BOLs
+        - Add Intercube and Pacer carrier records
+        - Add Calm Air api
+    Change:
+        - Change D&R Tracking logger from critical to warning, hopefully stops the emails.
+    Fix:
+        - Air Rate Sheet Multi Model.
+        - Fix BC Package creation in DG case.
+
+2.3.0 Patch (Aug 11, 2020)
+    Features:
+        - Add Air North Air Carrier.
+        - Add Account Ids
+    Change:
+        - Add missing postal codes for Westjet in Alberta.
+        - Remove TST Email, as tst ship handles it.
+    Fix:
+        -
+
+2.2.0 Patch (July 24, 2020)
+    Features:
+        - Add Tracking Status of "Created" and "Pickup has been dispatched" when shipment is created.
+        - Add new metric api - Revenue per year
+        - Add new rate api for ubbe rates: Economy, Standard, and Express.
+        - Add Buffalo Carrier.
+        - Add Tracking Report Api (json response, Future excel, pdf)
+    Change:
+        - Add AWB statement to RS, TST/CF, and Day Ross/Sameday.
+        - RS: Strip leading and trailing white space from city names
+        - Refactor rate api to use common functions
+        - Tracking
+            - Change response to include latest status for each leg.
+            - Format tracking status for each carrier into either Created, Intransit, or Delivered for consistency.
+        - Add more detail for CN manifested status. Ex: Flight No., Origin, Destination, and Departing time.
+        - Re-implement Day Ross api for day ross and sameday.
+    Fix:
+        - Manual Track Update, Delivered Time not being set when status is delivered.
+
+2.1.0 Patch (May 19, 2020)
+    Features:
+
+    Change:
+        - TST api changes to adjust for new api and merger.
+        - Email Server changes, from mail.bbex to cloud.
+    Fix:
+        - BC Account revenue adding blank expenses
+        - Pickup window issue for CN
+
+2.0.0 Release (May 8, 2020)
+    Features:
+        - Add Carrier Dispatches Model
+        - Add Carrier Dispatch BOL's Model
+        - Add UI for Dispatch and Bol CRUD
+        - Add Single lane rate sheet adding.
+        - Add TST Api
+        - Add CF Api
+        - Add Metric Apis (bbex.com/ubbe dashboards)
+            - Add Shipment Metric api
+            - Add Shipments over years by Month api
+            - Add Leg Metric api
+            - Add Finance Metric api
+        - TwoShip Api:
+            - Add Purolator Freight Support
+            - Add UPS Support (If we want UPS)
+        - Add ability to add Carriers in admin.
+        - Add BBE Rates
+    Change:
+        - Improved Rate Sheet Functionality
+            - Consolidate Sealift and RateSheet Files
+            - Add ability to increase transit time based on pickup info
+            - Add Freight Class Support for International US Lanes
+            - Add missing unit tests for some files (More needed)
+            - Improve rate sheet import error reporting
+        - Separate Model file into individual files
+        - Modify UI for carriers
+        - Track api:
+            - Modify leg filtering to exclude non shipped and delivered shipments to reduce calls
+            - Canadian North Track api: Change how statuses are grabbed.
+            - TST Track api: Change statuses to be similar to rest of the carriers
+    Fix:
+        - Shipment api:
+            - Fix get method
+            - Fix put method
+            - Fix delete method
+            - re-add to_api_json in shipment and leg model
+            - half address and full address fix for snake case and pop origin, destination.
+        - Fix Fedex international api
+            - Fedex commodity issue
+    Known Issues:
+        - Missing AWB on BOL and Shipment Request.
+
+1.21.2 Hotfix (March 9, 2020)
+    Fix:
+        - City Alias delete all, to just delete carrier aliases.
+
+1.21.1 Hotfix (February 20, 2020)
+    Fix:
+        - Fix total package issue
+
+1.21.0 Patch (February 10, 2020)
+    Features:
+        - Add another way to turn off BC push to account level.
+    Change:
+        - Change CN to rate all southern airbase base on Origin and Destination
+        - BC: Remove Global Connection
+        - BC: Change Ref 3 to be Code 99 or Regular
+        - BC: Change Ref 4 to From To City
+        - BC: Change Summary Line to have: Sum Length, Longest Width and Biggest Height
+    Fix:
+        - BC: Fix potential Key error
+        - Sealift: Fix Saving
+        - Sealift: Fix Response Return
+        - Automated Tracking
+
+1.20.0 Patch (January 15, 2020)
+    Features:
+        - Add another way to turn off BC push to account level.
+    Change:
+        - Change Rev and Exp description format
+        - Change CAN NORTH AWB format
+
+1.19.0 Patch (January 13, 2020)
+    Features:
+        - Add ubbe carrier for LTL, courier, and air
+    Fix:
+        - Fix lane usage.
+
+1.18.0 Patch (January 12, 2020)
+    Features:
+        - Add Business Central Connector Integration
+        - Add BBE City Alias Model (Connector and Analytic usage)
+        - Add Travis CI Unit Testing
+        - Add Unit Tests
+        - Add Job Number Profile management
+        - Add Cancel Shipment Filters
+    Changes:
+        - Analytic changes (Changes to pages and how analytics are grabbed)
+    Fix:
+        - Fix date issue for analytics
+        - Fix Unit Tests
+
+1.17.0 Patch (November 24, 2019)
+    Changes:
+        - Analytic Changes and additional analytics
+        - Change Skyline to be whole numbers for dims
+    Fix:
+        - Fix CN PD not calculating correctly.
+        - Fix admin document downloading
+
+
+1.16.0 Patch (November 24, 2019)
+    Changes:
+        - Analytic Changes and additional analytics
+
+1.15.0 Patch (November 15, 2019)
+    Features:
+        - More Analytic stuff
+    Changes:
+        - Api Permission Changes
+    Fixes:
+        - Fix duplicate handling notes
+
+
+1.14.0 Patch (November 1, 2019)
+    Features:
+        - Redoc api documentation
+        - Add account specific Analytics
+    Changes:
+        - Add Yellowknife Option if YEG for CN
+        - Add Redirect for login page if already logged in
+        - Update Shipment Request Email
+        - Update Skyline Pickup Email
+        - Update Some Admin page style
+        - Modify Canadian North Airbase locations
+        - Modify Canadian North Nature of Goods
+        - Move Carrier Accounts to be at the start of rate and ship
+        - Refactor Rate api (Further refactoring needed)
+        - Refactor Ship api (Further refactoring needed)
+        - Reduce some DB Queries
+    Fix:
+        - Fix 2ship Pickup Key Error
+        - Fix commodities not saving
+        - Fix Pickup Information Issue in email
+        - Fix CP, Rate Sheet, and 2ship logger delay for object to json issue
+        - Fix small fixes in MM Files
+
+1.13.0 Patch (Sept 15, 2019)
+    Features:
+        - FedEx API Implementation
+        - Redis and Celery Implementation
+    Changes:
+        - Snake Case
+    Fix:
+        - Fix Some Unit Tests
+        - Fix small bugs
+
+
+1.12.0 (June 25, 2019)
+    Features:
+        - DG Adding Interface
+        - Manitoulin API Implementation
+    Changes:
+        - Update Base style
+        - Change City Alias UI
+        - More Analytics
+    Fix:
+        - Fix Some Unit Tests
+        - Fix Account Json Check
+
+1.11.1 (May 30, 2019)
+    Fix:
+        - Date Fix
+
+1.11.0 (May 24, 2019)
+    Features:
+        - Add Tracking Update
+        - Add API Documentation
+        - Add some analytics
+        - Add Account APIs
+    Changes:
+        - Update Rate Json parsing
+
+1.10.0 (May 09, 2019)
+    Features:
+        - Add City Alias adding UI
+        - Add Track API Documentation
+    Changes:
+        - Add additional fields to NSSI and NEAS form.
+        - Pass back Crating Cost
+        - Fix Tracking
+
+1.9.0 (April 30, 2019)
+    Features:
+        - Sealift Rating and Shipping
+        - FTL Rating and Shipping
+        - Rate API Documentation
+        - Process Rate Json
+        - Process Ship Json
+        - Sub Accounts with carrier accounts
+        - Add new carriers
+        - Admin Upgrade
+            - Account Management
+            - Carrier lookup
+            - Markup Management
+            - Rate Sheet Management
+            - Sealift Sailing Management
+            - Port Management
+        - Auto Fill NSSI and NEAS forms
+        - Add BBE as a Carrier,
+            - Will show up when no rates are returned.
+            - Also behaves like a Rate Sheet.
+    Changes:
+        - Update BOL
+        - Update Cargo Labels
+        - Update Request Email format
+        - Refactor Multi Modal Air Rating
+        - Refactor Ground Rating
+        - Reimplemented Skyline
+        - Reimplemented Markup
+        - Remove/limit amount of debug statements
+        - Directory Structure update
+        - Change DG APIs
+        - Remove IATA API
+    Fixes:
+        - Fix second leg push
+
+
+1.8.0 (Fed 28, 2019)
+    - Major refactor of all carrier apis. Extract major operations or objects into
+      separate self or child contained objects to increase testing surface, reduce memory
+      overhead, reduce computation complexity, reduce scope, increase error handling
+      (logging and messages), and reduce complexity
+    - Rename/Reformat project structure to match style guide
+    - Implement newly revised city name alias logic
+    - Add Purolator city name override for a given postal code
+    - Improve manual track api error checking
+    - Improve D&R logging
+    - All Purolator shipping and pickup origin and destination address fields are now
+      cutoff to Purolator specs
+    - Extra pickup instructions are now passed to Fedex, e.g. “Pickup at front door”
+    - Fix DG declaration, where either “UN” or “ID” was missing from the UN Number in
+      the package table.
+
+
+hotfix 1.7.2 (Fed 19, 2019)
+    - Fix total surcharges issue.
+
+hotfix 1.7.1 (Fed 19, 2019)
+    - Fix address filtering, causing multiple address returned.
+
+1.7.0 (Fed 19, 2019)
+    - Implement dangerous goods feature
+    - Refactor Fuel surcharge api
+    - Refactor Tax api
+    - Improve Canada postal code regex
+    - Improve logging & logging messages
+    - Improve exception messages
+    - Rename model Groups -> Account
+    - Prepare database for price migration from object to in model decimal fields
+    - Format classes to updated style guide
+    - Improve hierarchical object parent instantiation
+    - Add Canada Post international object boiler plate (SOAPObjs & cleaning)
+    - Add Surcharge object & implemented logic
+    - Improve HasShippingBays default value
+    - Improve Skyline nog query logic
+    - Added Country Currency Name and Currency Codes
+    - Added new model Airport holding Verbose Airport names and IATA codes for use with DG
+
+
+release-1.6.13
+
+1.6.12 (Dec 3)
+- Fix endpoint for cp pickup request
+
+1.6.11 (Nov 30)
+- Remove Canada Post pickup logic from JSON validate
+
+1.6.10 (Nov 22)
+- Fix TLS for emails
+
+1.6.9 (Nov 21)
+- Fix logger email setup
+
+1.6.8 (Nov 7)
+- Fix pickup availability endpoint
+
+1.6.7 (Nov 6)
+- Improve error logging in CP pickup
+
+1.6.6 (Nov 6)
+- Improve pickup request failure logging & pickup request checks
+
+1.6.5 (Nov 6)
+- Fix key error on null return from fail pickup
+
+1.6.4 (Nov 5)
+- Use service clients rather than default for CP
+
+1.6.3 (Nov 5)
+- Add more debug code to CP rating & validating services
+
+1.6.2 (Nov 5)
+- Add debug code to CP rate fails
+
+1.6.1 (Nov 5)
+- Fix valid services implementation for CP
+
+1.6.0 (Nov 5)
+- Improve pickup fail email sys
+- Add fail email on tracking operation
+- Improve & finalize Canada Post
+- Fix skyline weight rounding bug
+
+1.5.6 (Oct 31)
+- Add Mustang and BBE as manual carriers
+
+1.5.5 (Oct 30)
+- Add missing manual carrier codes
+
+1.5.4 (Oct 30)
+- Skipped
+
+1.5.3 (Oct 30)
+- Add logger critical to manual emails
+
+1.5.2 (Oct 23)
+- Fix Day and Ross pickup failure
+- Improve TwoShip pickup failure error handling
+
+1.5.1 (Oct 23)
+- Fix TwoShip pickup failure exception
+
+1.5 (Sept 18)
+- Implement Carrier Service Info
+- Implement Residential address options for carrier & courier
+
+1.4.12 (Oct 19)
+- Fix issue with Day & Ross tracking
+- Fix datetime issue with Skyline
+
+1.4.11 (Oct 11)
+- Implement CrossBorder
+
+1.4.10 (Sept 18)
+- Implement Gill Courier
+
+1.4.9 (Sept 13)
+- Implement highest value of dim weight vs actual weight for skyline
+
+1.4.8 (Sept 7)
+- Add WestJet forbidden territory restriction to origin province
+
+1.4.7 (Sept 6)
+- Force t9e0v6 to resolve to edmonton international airport
+
+1.4.6 (Sept 5)
+- Use django datetime zone rather than generic datetime zone in WestJet track
+- Fix WestJet Track bug that causes tracking to crash
+
+1.4.5 (Sept 4)
+- Add forbidden territories for WestJet
+
+1.4.4
+- Improve Day & Ross error handling
+
+1.4.3
+- Add province field to city name alias admin
+
+1.4.1
+- Remove regression exception code in westjet ship
+- Remove logger debugs
+- Improve DR imports
+
+1.3.36
+- Add logging before WestJet clean in instance of shipment failure to determine data provided
+
+1.3.35
+- Add 800 and 888 to valid area codes
+
+1.3.34
+- Fix KeyError on commercial invoice in WestJet Ship
+
+1.3.33
+- Add delivery date data in return data from two ship rate
+
+1.3.32
+- Optimized current logging statements relating to previous hotfix
+- Added preemptive logging to rate return error state
+
+1.3.29 - 1.3.31 (August 16)
+- Added various logging statements to determine live specific issue
+
+1.3.28 (August 16)
+- Add WestJet Tracking in leg tracking
+- Refactor WestJet tracking behaviour to grab only latest tracking event
+
+1.3.27 (August 15)
+- Remove debug code in leg tracking
+
+1.3.26 (August 15)
+- Add check for no tracking number on skyline
+
+1.3.25 (August 15)
+- Add debug code to skyline tracking
+
+1.3.24 (August 15)
+- Add Skyline tracking
+
+1.3.23 (August 15)
+- Revert TrackingStatus list casting to list encapsulation
+
+1.3.22 (August 15)
+- Add check for blank TwoShip tracking return on status
+
+1.3.21 (August 14)
+- Add unique together field in tracking status model to enforce unique records
+
+1.3.20 (August 9)
+- Convert rate sheet kilograms to pounds only after finding total shipment weight
+
+1.3.19 (August 9)
+- Revert 1.3.19
+
+1.3.18 (August 9)
+- Ensure Skyline API keys are being pulled as strings, not UUIDs
+
+1.3.17 (August 2)
+- Add debug code and more tracking exception handling
+
+1.3.16 (August 1)
+- Add destination select related field in undelivered legs
+
+1.3.15 (July 31)
+- Fix undelivered leg days out of bounds bug
+- Improve get all undelivered legs date range filter to inclusively include all legs from one month ago
+- Improve tracking
+
+1.3.14 (July 26)
+- Change destination country for Purolator pickups to DOM for Canada domestic, USA for Canada to US, INT for elsewhere
+
+1.3.13 (July 24)
+- Change 2Ship customs billing type to third-party
+
+1.3.12 (July 19)
+- Add new carrier for TST US
+
+1.3.11 (July 19)
+- Modify Skyline weight rounding
+
+1.4
+- Modularize tracking, keeping tracking code with respective carrier APIs
+- Initial implementation of Day & Ross API
+
+1.3.10 (July 17)
+- Add street number for Purolator pickups
+
+1.3.9 (July 16)
+- Remove 2Ship pickup fee from rate and ship (appears to now be included)
+
+1.3.8 (July 16)
+- Fix TwoShip Shiptime bug on get documents
+- Fix formatting on multiple references in AWB
+
+1.3.7 (July 13)
+- Fix conversions
+
+1.3.6 (July 13)
+- Update rate sheet tax percent calculation
+
+1.3.5 (July 13) Named 1.3.1 on Sys
+- Update Skyline height to be heigth x quantity
+
+1.3.4 (July 13)
+- Added AWB to CI and Piece label to WJ ship
+
+1.3.3 (July 13)
+- Added order number to FedEx pickup email
+- Added AWB to BOL
+- Fixed email address sending to Sender for WJ confirmation service
+- Improved various imports and exceptions
+
+1.3.2 (July 12)
+- Fix AWB key on FedEx manual pickup email
+- Add more testing & improve code coverage
+
+1.3.1 (July 12)
+- Add more westjet logging
+- Improve FedEx manual pickup email
+
+1.3.0 (July 11)
+- Clarify date, time, and boolean error messages in rate and ship JSON parsing (NE)
+- WestJet live implementation (ES)
+- Tracking upgrade (ES)
+- Per carrier city aliases (JM)
+- FedEx Express manual pickup email
+
+1.2.24 (July 10)
+- Handle Purolator address length requirement for 2Ship
+
+1.2.23 (July 9)
+- Ensure CarrierPickupID is standardized
+
+1.2.22 (July 9)
+- Fix quantizes again
+
+1.2.21 (July 9)
+- Ensure pickup request email is in settings.py
+
+1.2.20 (July 5)
+- Add cancel method to rate sheets
+
+1.2.19 (July 4)
+- Add tax percent to ship response
+- Add tax percent to rate response
+
+1.2.18 (June 29)
+- DeliveryLeg consistency
+
+1.2.16 (June 28)
+- Ensure special instructions and handling notes are on Skyline AWB
+
+1.2.15
+- Fix unittests and remove all self.maxDiff = None
+
+1.2.14
+- Check if WestJEt AWBs empty
+- Implement automated email when low on AWBs from WestJet
+
+1.2.13
+- Add WestJet AWB import
+
+1.2.12
+- Add Teamcity Configuration
+
+1.2.11
+- Remove WestJet Ship Confirmation from Ship
+
+1.2.10
+- Implement WestJet Tracking
+
+1.2.8
+- Input AWB field into WestJet ship call
+
+1.2.7 (June 26)
+- International commercial invoice for rate sheet shipping
+
+1.2.6
+- Catch tax request exceptions in manual rating
+
+1.2.5
+- Allow decimal weight breaks in rate sheets
+
+1.2.4
+- Close database connections
+
+1.2.3
+- Ship city name aliases
+
+1.2.2
+- Add description to Skyline packages
+
+1.2.1
+- Remove unique on city name alias
+
+1.1.2
+- Remove boy scout raise
+
+1.1.1
+- Reduce request timeout to 50s
+
+1.0.22
+- Add pickup error log
+
+1.0.21
+- Limit 2Ship carriers
+
+1.0.20
+- Add Gevent timeout to 2Ship rating
+
+1.0.19
+- Remove is food check on Skyline ship
+
+1.0.18
+- Limit length of PO number sent to Skyline
+
+1.0.17
+- Resolve probill number from probill object before email data created
+
+1.0.16
+- Piece label units
+
+1.0.15
+- Detect 2Ship exception state on rate and ship
+
+1.0.14
+- FedEx only past pickup
+
+1.0.13
+- Add company to Skyline destination
+
+1.0.12
+- Filter out unrequested airbases
+
+1.0.11
+- Fix the check on box type
+
+1.0.10
+- Update the data saved after last leg push
+- Update the return from last leg push
+
+1.0.9
+- Ensure handling notes are in Skyline handling notes and special instructions
+
+1.0.8
+- Next leg push pickup data creation
+- Next leg push pickup timezone
+
+1.0.7
+- Fix fuel surcharge
+
+1.0.6
+- Pickup cost
+
+1.0.5
+- Fix AWB description
+
+1.0.4
+- Remove duplicate fuel surcharge (*2)
+- Remove mandatory from non-api carriers
+- Move ship surcharge
+- Give PickupLegDropoffLocation and DeliveryLegPickupLocation at all times
+
+1.0.3
+- Remove the other pickup/delivery options when CN pickup/delivery is present
+
+1.0.2
+- Add the order number to the Skyline pickup request email

@@ -1,0 +1,146 @@
+[
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 2,
+    "fields": {
+      "province": 13,
+      "airbase": 53,
+      "city": "Qikiqtarjuaq"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 3,
+    "fields": {
+      "province": 13,
+      "airbase": 63,
+      "city": "Qikiqtarjuaq"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 4,
+    "fields": {
+      "province": 1,
+      "airbase": 3,
+      "city": "Edmointon"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 5,
+    "fields": {
+      "province": 1,
+      "airbase": 2,
+      "city": "Edmointon"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 6,
+    "fields": {
+      "province": 1,
+      "airbase": 3,
+      "city": "Edmonton"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 7,
+    "fields": {
+      "province": 1,
+      "airbase": 2,
+      "city": "Edmonton"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 8,
+    "fields": {
+      "province": 7,
+      "airbase": 4,
+      "city": "Inuvik"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 10,
+    "fields": {
+      "province": 7,
+      "airbase": 63,
+      "city": "Inuvik"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 11,
+    "fields": {
+      "province": 7,
+      "airbase": 21,
+      "city": "Yellownife"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 12,
+    "fields": {
+      "province": 7,
+      "airbase": 34,
+      "city": "Yellownife"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 13,
+    "fields": {
+      "province": 7,
+      "airbase": 21,
+      "city": "Yellowknife"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 14,
+    "fields": {
+      "province": 7,
+      "airbase": 34,
+      "city": "Yellowknife"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 15,
+    "fields": {
+      "province": 8,
+      "airbase": 5,
+      "city": "Ottawa"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 16,
+    "fields": {
+      "province": 8,
+      "airbase": 6,
+      "city": "Ottawa"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 17,
+    "fields": {
+      "province": 8,
+      "airbase": 5,
+      "city": "Ottawa"
+    }
+  },
+  {
+    "model": "api.cityairbasemapping",
+    "pk": 18,
+    "fields": {
+      "province": 8,
+      "airbase": 6,
+      "city": "Ottawa"
+    }
+  }
+]

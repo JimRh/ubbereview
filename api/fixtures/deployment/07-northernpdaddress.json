@@ -1,0 +1,178 @@
+[
+  {
+    "model": "api.northernpdaddress",
+    "pk": 1,
+    "fields": {
+      "address_id": 4,
+      "city_name": "Yellowknife",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 2,
+    "fields": {
+      "address_id": 18,
+      "city_name": "Inuvik",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 3,
+    "fields": {
+      "address_id": 21,
+      "city_name": "Norman Wells",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 4,
+    "fields": {
+      "address_id": 30,
+      "city_name": "Kugluktuk",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 5,
+    "fields": {
+      "address_id": 20,
+      "city_name": "Rankin Inlet",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 6,
+    "fields": {
+      "address_id": 31,
+      "city_name": "Cambridge Bay",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 7,
+    "fields": {
+      "address_id": 9,
+      "city_name": "Gjoa Haven",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 8,
+    "fields": {
+      "address_id": 10,
+      "city_name": "Taloyoak",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 9,
+    "fields": {
+      "address_id": 11,
+      "city_name": "Kugaaruk",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 10,
+    "fields": {
+      "address_id": 7,
+      "city_name": "Igloolik",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 11,
+    "fields": {
+      "address_id": 6,
+      "city_name": "Hall Beach",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 12,
+    "fields": {
+      "address_id": 29,
+      "city_name": "Pond Inlet",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 13,
+    "fields": {
+      "address_id": 8,
+      "city_name": "Cape Dorset",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 14,
+    "fields": {
+      "address_id": 28,
+      "city_name": "Qikiqtarjuaq",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 17,
+    "fields": {
+      "address_id": 5,
+      "city_name": "Iqaluit",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  },
+  {
+    "model": "api.northernpdaddress",
+    "pk": 18,
+    "fields": {
+      "address_id": 27,
+      "city_name": "Pangnirtung",
+      "price_per_kg": "0.18",
+      "min_price": "18.00",
+      "cutoff_weight": "45.00"
+    }
+  }
+]

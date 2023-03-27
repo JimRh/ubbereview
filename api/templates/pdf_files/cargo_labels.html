@@ -1,0 +1,179 @@
+{% load static %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cargo Label</title>
+        <meta name="description" content="Cargo Label">
+        <meta name="author" content="Kozea">
+        <style>
+            @page {
+                size: 4in 6in;
+                margin: 2cm;
+
+                @frame header_frame {
+                    -pdf-frame-content: header_content;
+                    left: .2in; width: 3.6in; top: .2in; height: .6in;
+                }
+                @frame content_frame {
+                    left: .2in; width: 3.6in; top: .8in; height: 4.5in;
+                    {#-pdf-frame-border: 1#}
+                }
+                @frame footer_frame {
+                    -pdf-frame-content:footer_content;
+                    left: .2in; width: 3.6in; top: 5.5in; height: .3in;
+                    {#-pdf-frame-border: 1#}
+                }
+            }
+
+             #information {
+              font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+
+            #information td {
+                border: 1px solid #ddd;
+                padding: 3px;
+            }
+
+            #information tr:nth-child(even){background-color: #f2f2f2;}
+
+            #information th, #sign th {
+                padding-top: 2px;
+                height: 20px;
+                background-color: #182370;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        {% for pack in cargo_packages %}
+            <div id="header_content">
+                <table>
+                    <tr>
+                        <td width="70%">
+                            Order Number: {{ order_number }}<br>
+                            Ref 1: {{ reference_one }}<br>
+                            Ref 2: {{ reference_two }}
+                        </td>
+                        <td width="60%" style="text-align: right">
+                            {{ order_date }}<br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="footer_content">
+                <div style="text-align: center; font-size: 10px; padding-top: 3px">
+                    <pdf:pagenumber> of <pdf:pagecount>
+                </div>
+            </div>
+            <table id="information">
+                <thead>
+                    <tr>
+                        <th width="100%">Origin</th>
+                    </tr>
+                </thead>
+                <tbody style="text-align: center">
+                    <tr>
+                        <td>
+                            {{ origin.company_name }}, {{ origin.name }},<br>
+                            {{ origin.address }}<br>
+                            {{ origin.city }}, {{ origin.postal_code }}, {{ origin.province }}, {{ origin.country }}<br>
+                            P: {{ origin.phone }}<br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="information">
+                <thead>
+                    <tr>
+                        <th width="100%">Destination</th>
+                    </tr>
+                </thead>
+                <tbody style="text-align: center">
+                        <td>
+                            {{ destination.company_name }}, {{ destination.name }},<br>
+                            {{ destination.address }}<br>
+                            {{ destination.city }}, {{ destination.postal_code }}, {{ destination.province }}, {{ destination.country }}<br>
+                            P: {{ destination.phone }}<br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="information">
+                <thead>
+                    <tr>
+                        <th width="100%">Carrier</th>
+                    </tr>
+                </thead>
+                <tbody style="text-align: center">
+                        <td>
+                            {{ carrier }} {% if service_name %} - {{ service_name }} {% endif %}<br>
+                            {% if bol %}
+
+                                {% if carrier_id == 616 or  carrier_id == 737 or carrier_id == 708 %}
+                                    Airway Bill: {{ bol }}<br>
+                                {% else %}
+                                    BOL: {{ bol }}<br>
+                                {% endif %}
+
+                            {% endif %}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            {% if carrier_id == 535 or carrier_id == 734 and bol_number %}
+                <div style="text-align: center; margin-top: 15px; margin-bottom: 15px">
+                     <pdf:barcode value="{{ bol_number }}" type="code128" humanreadable="1" align="middle" barheight="25"/>
+                </div>
+
+            {% elif carrier_id == 129 and bol_number %}
+                <div style="text-align: center; margin-top: 15px; margin-bottom: 15px">
+                     <pdf:barcode value="{{ bol_number }}" type="code39" humanreadable="1" align="middle" barheight="25" checksum="0"/>
+                </div>
+            {% endif %}
+
+            <table id="information">
+                <thead>
+                    <tr>
+                        <th width="100%">Package</th>
+                    </tr>
+                </thead>
+                <tbody style="text-align: center">
+                    <tr>
+                        <td>
+                            {% if pack.package_account_id %}
+                                <b>{{ pack.package_account_id }}</b><br>
+                            {% endif %}
+                            {{ pack.package_type_name }}<br>
+                            {{ pack.description }}<br>
+                            {% if is_carrier_metric %}
+                                {{ pack.length }}x{{ pack.width }}x{{ pack.height }} cm - Weight: {{ pack.weight }} kg<br>
+                            {% else %}
+                                {{ pack.imperial_length }}x{{ pack.imperial_width }}x{{ pack.imperial_height }} in - Weight: {{ pack.imperial_weight }} lbs<br>
+                            {% endif %}
+                            {% if pack.is_pharma %}
+{#                                Chain of Signature Required: {% if pack.is_cos %}Yes{% else %}No{% endif %}<br>#}
+                                {% if pack.is_time_sensitive %}
+                                    Time Sensitive: {{ pack.time_sensitive_hours }} Hours
+                                {% endif %}
+                            {% endif %}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            {% if pack.is_last %}
+                &nbsp;
+            {% else %}
+                <pdf:nextpage />
+            {% endif %}
+
+        {% endfor %}
+  </body>
+
+</html>

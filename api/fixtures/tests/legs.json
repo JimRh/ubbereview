@@ -1,0 +1,98 @@
+[
+  {
+    "model": "api.leg",
+    "pk": 1,
+    "fields": {
+      "shipment": 1,
+      "carrier": 1,
+      "leg_id": "GO7091160198D",
+      "ship_date": "2018-06-14T16:34:41.383Z",
+      "markup": "0.0",
+      "cost": 1194,
+      "freight": 1194,
+      "surcharge": 1194,
+      "tax": 1194,
+      "service_code": 20,
+      "service_name": "Fedex Express Saver",
+      "transit_days": 0,
+      "tracking_identifier": "780977235790",
+      "on_hold": false,
+      "carrier_pickup_identifier": "1234567890",
+      "origin": 1,
+      "destination": 1,
+      "type": "M"
+    }
+  },
+  {
+    "model": "api.leg",
+    "pk": 2,
+    "fields": {
+      "shipment": 2,
+      "carrier": 1,
+      "leg_id": "GO7091160199D",
+      "ship_date": "2018-03-29T16:34:41.383Z",
+      "markup": "0.0",
+      "cost": 1,
+      "freight": 1,
+      "surcharge": 1,
+      "tax": 1,
+      "service_code": 20,
+      "service_name": "Fedex Express Saver",
+      "transit_days": 0,
+      "tracking_identifier": "7091160198",
+      "on_hold": false,
+      "carrier_pickup_identifier": "1234567890",
+      "origin": 1,
+      "destination": 1,
+      "type": "M"
+    }
+  },
+  {
+    "model": "api.leg",
+    "pk": 3,
+    "fields": {
+      "shipment": 3,
+      "carrier": 4,
+      "leg_id": "GO7091162199D",
+      "ship_date": "2018-06-14T16:34:41.383Z",
+      "markup": "0.0",
+      "cost": 4,
+      "freight": 4,
+      "surcharge": 4,
+      "tax": 4,
+      "service_code": 20,
+      "service_name": "Fedex Express Saver",
+      "transit_days": 0,
+      "tracking_identifier": "518-YUX-10290383",
+      "on_hold": false,
+      "carrier_pickup_identifier": "1234567890",
+      "origin": 1,
+      "destination": 1,
+      "type": "M"
+    }
+  },
+  {
+    "model": "api.leg",
+    "pk": 4,
+    "fields": {
+      "shipment": 5,
+      "carrier": 4,
+      "leg_id": "GO7091162122D",
+      "ship_date": "2018-06-14T16:34:41.383Z",
+      "markup": "0.0",
+      "cost": 4,
+      "freight": 4,
+      "surcharge": 4,
+      "tax": 4,
+      "service_code": 20,
+      "service_name": "Fedex Express Saver",
+      "transit_days": 1,
+      "tracking_identifier": "518-YUX-10290383",
+      "on_hold": false,
+      "carrier_pickup_identifier": "1234567890",
+      "origin": 1,
+      "destination": 1,
+      "type": "M"
+    }
+  }
+]

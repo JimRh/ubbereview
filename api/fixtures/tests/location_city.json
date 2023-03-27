@@ -1,0 +1,263 @@
+[
+  {
+    "model": "api.locationcityalias",
+    "pk": 1,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edm international airport"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 2,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edm intl airport"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 3,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edm int'l airport"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 4,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edmonton int'l"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 5,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edmonton airport"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 6,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edmonton international"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 7,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "eia"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 8,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edmonton int'l airport"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 9,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edmonton intl airport"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 10,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edmonton intl"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 11,
+    "fields": {
+      "province": 1,
+      "name": "Edmonton International Airport",
+      "alias": "edm intl airport"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 12,
+    "fields": {
+      "province": 5,
+      "name": "Happy Valley Goose Bay",
+      "alias": "happy valley"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 13,
+    "fields": {
+      "province": 5,
+      "name": "Happy Valley Goose Bay",
+      "alias": "goose bay"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 14,
+    "fields": {
+      "province": 5,
+      "name": "Happy Valley Goose Bay",
+      "alias": "happy valley-goose bay"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 15,
+    "fields": {
+      "province": 5,
+      "name": "Happy Valley Goose Bay",
+      "alias": "happy vally goose bay"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 16,
+    "fields": {
+      "province": 5,
+      "name": "Happy Valley Goose Bay",
+      "alias": "happy valley - goose bay"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 17,
+    "fields": {
+      "province": 10,
+      "name": "Ste Catherine",
+      "alias": "st catherine"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 18,
+    "fields": {
+      "province": 10,
+      "name": "Ste Catherine",
+      "alias": "st. catherine"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 19,
+    "fields": {
+      "province": 10,
+      "name": "Val-D'or",
+      "alias": "val dor"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 20,
+    "fields": {
+      "province": 10,
+      "name": "Val-D'or",
+      "alias": "val d'or"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 21,
+    "fields": {
+      "province": 10,
+      "name": "Val-D'or",
+      "alias": "valdor"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 22,
+    "fields": {
+      "province": 10,
+      "name": "Val-D'or",
+      "alias": "valdo'r"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 23,
+    "fields": {
+      "province": 10,
+      "name": "Val-D'or",
+      "alias": "val'dor"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 24,
+    "fields": {
+      "province": 10,
+      "name": "Val-D'or",
+      "alias": "val D Or"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 25,
+    "fields": {
+      "province": 10,
+      "name": "Valleyfield",
+      "alias": "le port de valleyfield"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 26,
+    "fields": {
+      "province": 10,
+      "name": "Valleyfield",
+      "alias": "port de valleyfield"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 27,
+    "fields": {
+      "province": 10,
+      "name": "Valleyfield",
+      "alias": "port of valleyfield"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 28,
+    "fields": {
+      "province": 10,
+      "name": "Valleyfield",
+      "alias": "port valleyfield"
+    }
+  },
+  {
+    "model": "api.locationcityalias",
+    "pk": 29,
+    "fields": {
+      "province": 10,
+      "name": "Valleyfield",
+      "alias": "salaberry de valleyfield"
+    }
+  }
+]

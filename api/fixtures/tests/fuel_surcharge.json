@@ -1,0 +1,170 @@
+[
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 2,
+    "fields": {
+      "carrier": 5,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "17.30",
+      "ten_thou_to_fifty_five_thou": "40.60",
+      "fifty_five_thou_greater": "45.50"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 3,
+    "fields": {
+      "carrier": 6,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "22.30",
+      "ten_thou_to_fifty_five_thou": "47.30",
+      "fifty_five_thou_greater": "47.30"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 4,
+    "fields": {
+      "carrier": 7,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "29.40",
+      "ten_thou_to_fifty_five_thou": "54.70",
+      "fifty_five_thou_greater": "54.70"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 5,
+    "fields": {
+      "carrier": 10,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "22.70",
+      "ten_thou_to_fifty_five_thou": "47.90",
+      "fifty_five_thou_greater": "47.90"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 6,
+    "fields": {
+      "carrier": 11,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "17.30",
+      "ten_thou_to_fifty_five_thou": "40.60",
+      "fifty_five_thou_greater": "45.50"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 7,
+    "fields": {
+      "carrier": 12,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "35.29",
+      "ten_thou_to_fifty_five_thou": "52.87",
+      "fifty_five_thou_greater": "52.87"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 8,
+    "fields": {
+      "carrier": 14,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "33.95",
+      "ten_thou_to_fifty_five_thou": "48.95",
+      "fifty_five_thou_greater": "48.95"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 9,
+    "fields": {
+      "carrier": 22,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "20.00",
+      "ten_thou_to_fifty_five_thou": "20.00",
+      "fifty_five_thou_greater": "20.00"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 10,
+    "fields": {
+      "carrier": 23,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "9.00",
+      "ten_thou_to_fifty_five_thou": "9.00",
+      "fifty_five_thou_greater": "9.00"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 11,
+    "fields": {
+      "carrier": 24,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "20.80",
+      "ten_thou_to_fifty_five_thou": "20.80",
+      "fifty_five_thou_greater": "20.80"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 12,
+    "fields": {
+      "carrier": 26,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "26.90",
+      "ten_thou_to_fifty_five_thou": "40.10",
+      "fifty_five_thou_greater": "40.10"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 13,
+    "fields": {
+      "carrier": 27,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "26.90",
+      "ten_thou_to_fifty_five_thou": "32.90",
+      "fifty_five_thou_greater": "32.90"
+    }
+  },
+  {
+    "model": "api.fuelsurcharge",
+    "pk": 13,
+    "fields": {
+      "carrier": 32,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "10.10",
+      "ten_thou_to_fifty_five_thou": "32.90",
+      "fifty_five_thou_greater": "32.90"
+    }
+  },
+    {
+    "model": "api.fuelsurcharge",
+    "pk": 14,
+    "fields": {
+      "carrier": 45,
+      "fuel_type": "D",
+      "updated_date": "",
+      "ten_thou_under": "10.10",
+      "ten_thou_to_fifty_five_thou": "32.90",
+      "fifty_five_thou_greater": "32.90"
+    }
+  }
+]

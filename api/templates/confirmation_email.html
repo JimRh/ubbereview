@@ -1,0 +1,299 @@
+{% load static %}
+{% load filters %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ubbe Confirmation Email</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style=" background: url('{%  static 'img/hex.png' %}'), url('{%  static 'img/hex.png' %}'),  url('{%  static 'img/hex.png' %}');
+    background-position: top left, center 30vh, 50vw -88vh ;
+    background-repeat: no-repeat;
+    background-size: 100% 90vh,100% 180vh, 54% auto;
+    overflow-x: hidden;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="800" style="border-collapse: collapse;">
+        <tr>
+            <td align="center"  style="padding: 20px 0 10px 0;">
+                <img src="cid:Horiz_Ubbe_Logo_Flat_Colour.png" width="250" height="140" style="width: 250px; height: 140px" alt="ubbe">
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="" style="padding: 10px 30px 40px 30px;">
+                 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                     <tr>
+                         <td style="color: #153643; font-family: sans-serif; font-size: 24px; border-bottom: 3px solid #FFCD00; " align="center">
+                             <h1 style="font-size: 45px;text-align: center;line-height: 1.1;color: #211261;display: block;margin: 0;padding: 0;font-style: normal;font-weight: 800;letter-spacing: normal;">
+                                 <strong>Shipment Confirmation</strong></h1>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="line-height: 15px">
+                             &nbsp;
+                         </td>
+                     </tr>
+                     <tr>
+                         <td style="padding: 20px 0 30px 0; color: #211261; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                            Thank you for your order! This is your confirmation. You can use the Shipment number to track your package.
+                         </td>
+                     </tr>
+
+                     <tr>
+                         <td>
+                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                 <tr>
+                                     <td  valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                 <td colspan="2">
+                                                    <strong style="font-size: 24px; color:#211261; line-height: 1.6;">Shipment ID: </strong><span style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;">{{ shipment_id }}</span>
+                                                 </td>
+                                            </tr>
+                                            <tr>
+                                                 <td colspan="2" style="padding: 25px 0 4px 0; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                    <strong style="font-size: 24px; color:#211261; line-height: 1.6;" >Shipment Legs </strong>
+                                                 </td>
+                                            </tr>
+
+                                             {% for leg in legs %}
+                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px; margin-bottom:4px;">
+                                                        <td style="width: 35%;">
+                                                            <strong>Leg</strong>
+                                                        </td>
+                                                        <td>
+                                                            {{ leg.leg_id }}
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;margin-bottom:4px;">
+                                                        <td style="width: 30%;">
+                                                            <strong>Carrier</strong>
+                                                        </td>
+                                                        <td>
+                                                            {{ leg.carrier }} - {{ item.service_name }}
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;margin-bottom:4px;">
+                                                        <td style="width: 30%;">
+                                                            <strong>Carrier Tracking</strong>
+                                                        </td>
+                                                        <td>
+                                                            {{ leg.tracking_identifier }}
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;margin-bottom:4px;">
+                                                        <td style="width: 30%;">
+                                                            <strong>Pickup Number</strong>
+                                                        </td>
+                                                        <td>
+                                                            {{ leg.carrier_pickup_identifier }}
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;margin-bottom:4px;">
+                                                        <td style="width: 30%;">
+                                                            <strong>Route</strong>
+                                                        </td>
+                                                        <td>
+                                                            {{ leg.origin.city }}, {{ leg.origin.province }} --> {{ leg.destination.city }}, {{ leg.destination.province }}
+                                                        </td>
+                                                    </tr>
+{#                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;margin-bottom:4px;">#}
+{#                                                        <td style="width: 30%;">#}
+{#                                                            <strong>Freight</strong>#}
+{#                                                        </td>#}
+{#                                                        <td>#}
+{#                                                            {{ leg.freight }}#}
+{#                                                        </td>#}
+{#                                                    </tr>#}
+{#                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;margin-bottom:4px;">#}
+{#                                                        <td style="width: 30%;">#}
+{#                                                            <strong>Surcharges</strong>#}
+{#                                                        </td>#}
+{#                                                        <td>#}
+{#                                                            {{ leg.surcharge }}#}
+{#                                                        </td>#}
+{#                                                    </tr>#}
+{#                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;margin-bottom:4px;">#}
+{#                                                        <td style="width: 30%;">#}
+{#                                                            <strong>Tax</strong>#}
+{#                                                        </td>#}
+{#                                                        <td>#}
+{#                                                            {{ leg.tax }}#}
+{#                                                        </td>#}
+{#                                                    </tr>#}
+{#                                                    <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;margin-bottom:4px;">#}
+{#                                                        <td style="width: 30%;">#}
+{#                                                            <strong>Total</strong>#}
+{#                                                        </td>#}
+{#                                                        <td>#}
+{#                                                            ${{ leg.cost }}#}
+{#                                                        </td>#}
+{#                                                    </tr>#}
+
+                                            {% endfor %}
+
+                                            <tr>
+
+                                                {% if transactions %}
+                                                    {% for item in transactions %}
+                                                    <td colspan="2">
+                                                        <table class="order-table" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                                             <tbody>
+                                                                <tr>
+                                                                    <td colspan="2" style="padding: 25px 0 4px 0; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                                        <strong  style="font-size: 24px; color:#211261; line-height: 1.6;">Payment Receipt</strong>
+
+                                                                    </td>
+                                                                </tr>
+
+
+                                                                <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px; padding-bottom:8px;">
+                                                                     <strong style=""> Transaction Date:</strong>  {{ item.transaction_date }}
+                                                                </tr>
+                                                                <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px; padding-bottom:8px;">
+                                                                    <strong style="">Transaction ID: </strong>  {{ item.transaction_id }}
+                                                                </tr>
+                                                                <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px; padding-bottom:8px;">
+                                                                    <strong style="">Moneris Transaction ID:</strong>  {{ item.moneris_transaction_id }}
+                                                                </tr>
+
+
+                                                             </tbody>
+                                                        </table>
+                                                    </td>
+                                                    {% endfor %}
+                                                    {% else %}
+                                                    {#      do nothing#}
+                                                {% endif %}
+
+                                            </tr>
+
+                                         </table>
+                                     </td>
+                                     <td style="font-size: 0; line-height: 0;" width="80">
+                                         &nbsp;
+                                     </td>
+                                     <td width="260" valign="top">
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="">
+                                                    <strong style="font-size: 24px; color:#211261; line-height: 1.6;">Creation Date: </strong><span style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px;">{{ creation_date|ubbe_date }}</span>
+                                                 </td>
+                                             </tr>
+                                             <tr>
+                                                 <td style="padding: 25px 0 0 0; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                     <strong style="font-size: 24px; color:#211261; line-height: 1.6;">Origin</strong><br>
+                                                     {{ shipper.company_name }}<br>
+                                                     {{ shipper.name }}<br>
+                                                     {{ shipper.email }}<br>
+                                                     {{ shipper.phone }}<br>
+                                                     {{ origin.address }}<br>
+                                                     {{ origin.city }}, {{ origin.province }} {{ origin.postal_code }}<br>
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="padding: 25px 0 0 0; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                     <strong style="font-size: 24px; color:#211261; line-height: 1.6;">Destination</strong><br>
+                                                     {{ consignee.company_name }}<br>
+                                                     {{ consignee.name }}<br>
+                                                     {{ consignee.email }}<br>
+                                                     {{ consignee.phone }}<br>
+                                                     {{ destination.address }}<br>
+                                                     {{ destination.city }}, {{ destination.province }} {{ destination.postal_code }}<br>
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                         <table class="order-table" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" cellspacing="0" cellpadding="0" border="0" align="left" width="100%">
+                                             <tbody>
+                                                <tr>
+                                                    <td  style="padding: 25px 0 4px 0; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 20px; ">
+                                                        <strong  style="font-size: 24px; color:#211261; line-height: 1.6;">Packages</strong>
+
+                                                    </td>
+                                                </tr>
+
+                                                {% for item in packages %}
+                                                    <tr>
+                                                        <td>
+                                                            {{ item.quantity }} {{ item.package_type_name }} @ {{ item.length }} cm x {{ item.width }} cm x {{ item.height }} cm<br>
+                                                            {{ item.description }}
+                                                            {% if item.un_number != 0 %}
+                                                                <em class="pkg-dg" style="font-size: 15px; color: #dd1313;">DangerousGood</em>
+                                                            {% endif %} - {{ item.weight }} kg
+
+                                                        </td>
+                                                    </tr>
+
+
+                                                {% endfor %}
+                                                <tr>
+                                                    <td style="color: #333333; font-family: sans-serif; ">
+                                                        <strong style="">&nbsp;</strong>
+                                                    </td>
+                                                </tr>
+
+                                             </tbody>
+                                         </table>
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td  style="padding: 25px 0 4px 0; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                    <strong style="font-size: 24px; color:#211261; line-height: 1.6;">Pickup</strong>
+                                                 </td>
+                                             </tr>
+                                             <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px; padding-bottom:8px;">
+                                                 <strong style="">Date:</strong> {{ requested_pickup_time|ubbe_date }}
+                                             </tr>
+                                             <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px; padding-bottom:8px;">
+                                                 <strong style="">Start Time:</strong>  {{ requested_pickup_time|ubbe_time }}
+                                             </tr>
+                                             <tr style="color: #333333; font-family: sans-serif; font-size: 16px; line-height: 20px; padding-bottom:8px;">
+                                                 <strong style="">End Time:</strong> {{ requested_pickup_close_time|ubbe_time }}
+                                             </tr>
+                                         </table>
+                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                             <tr>
+                                                 <td style="padding: 25px 0 4px 0; color: #153643; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                                                    <strong style="font-size: 24px; color:#211261; line-height: 1.6;"> Special Instructions</strong> <br>
+                                                    {{ special_instructions }}
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                     </td>
+                                 </tr>
+                             </table>
+                         </td>
+                     </tr>
+
+                     <tr>
+                         <td style="line-height: 15px">
+                             &nbsp;
+                         </td>
+                     </tr>
+
+                 </table>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#211261" style="padding: 30px 30px 30px 30px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="33%" style="color: #ffffff; font-family: sans-serif; font-size: 14px; text-align: center; border-right: 1px solid #fff;">
+                            <img style="padding: 3px;" src="cid:web.png"><br>
+                            <a href="https://www.ubbe.com" style="color: white; text-decoration: none;" >ubbe.com </a>
+                        </td>
+                        <td width="33%" style="color: #ffffff; font-family: sans-serif; font-size: 14px; text-align: center; border-right: 1px solid #fff;">
+                            <img style="padding: 3px;" src="cid:chat.png"><br>
+                            <a href="mailto:customerservice@ubbe.com" style="color: white; text-decoration: none;">customerservice@ubbe.com </a>
+                        </td>
+                        <td width="33%" style="color: #ffffff; font-family: sans-serif; font-size: 14px; text-align: center;">
+                            <img style="padding: 3px;" src="cid:phone.png"><br>
+                            <a href="mailto:7808906893" style="color: white; text-decoration: none; ">7808906893 </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

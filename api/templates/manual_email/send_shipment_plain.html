@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<p>Please bill this shipment to BBE Expediting Ltd.{% if account_number %}(account number {{ account_number }}
+    ){% endif %}</p>
+<p>Hello,</p>
+<p>Please send all documents and confirmation to <a href="{{ shipemail }}">{{ shipemail }}</a> for the following
+    shipment request:</p>
+{% if bolnumber %}
+    <p>Your probill number: {{ bolnumber }}</p>
+{% endif %}
+<p>Requested pickup date/time: {{ pickupdate }} {{ pickuptime }}</p>
+{% if companyTime %}
+    <p>The shipper closes at: {{ companyTime }}</p>
+{% endif %}
+<p>
+    Origin:<br>
+    {{ originCompany }} - {{ originName }}<br>
+    {{ originAddress }}<br>
+    {{ originAddressTwo }}<br>
+    {{ originPhone }}
+</p>
+<p>
+    Destination:<br>
+    {{ destinationCompany }} - {{ destinationName }}<br>
+    {{ destinationAddress }}<br>
+    {{ destinationAddressTwo }}<br>
+    {{ destinationPhone }}
+</p>
+<p>
+    Carrier Service:<br>
+    {{ carrier }}<br>
+    {{ carrierService }}
+</p>
+<p>
+    Packages:<br>
+    {% for p in packages %}
+        {{ p.qty }} of {{ p.dim }} each weighing {{ p.weight }}<br>
+    {% endfor %}
+    Total Weight: {{ totalWeight }}
+</p>
+{% if handlingnotes %}
+    <p>Handling notes: {{ handlingnotes }}</p>
+{% endif %}
+{% if dangerousGoods %}
+    <p>The following dangerous goods have been declared:</p>
+    {% for dg in dangerousGoods %}
+        <p>{{ dg.class }} Notes: {{ dg.notes }}</p>
+    {% endfor %}
+{% endif %}
+{% if placardsRequired %}
+    <p style="font-weight: bold;">Please provide placards for the above dangerous goods declarations.</p>
+{% endif %}
+{% if options %}
+    <p>The following options have been selected:</p>
+    {% for o in options %}
+        <p>{{ o }}</p>
+    {% endfor %}
+{% endif %}
+{% if orderNumber %}
+    <p>Our order number: {{ orderNumber }}</p>
+{% endif %}
+{% if refOne %}
+    <p>Our reference and PRIMARY TRACKING NUMBER: {{ refOne }}</p>
+{% endif %}
+{% if refTwo %}
+    <p>Our reference: {{ refTwo }}</p>
+{% endif %}
+<p>Request Date: {{ requestDate|date:"m/d/Y" }} (MM/DD/YYYY)</p>
+{% if specialInstructions %}
+    <p>Special Instructions: {{ specialInstructions }}</p>
+{% endif %}
+<p>Please do not reply to this email.</p>
+</body>
+</html>

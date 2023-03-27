@@ -1,0 +1,497 @@
+[
+  {
+    "model": "api.airbase",
+    "pk": 1,
+    "fields": {
+      "address": null,
+      "carrier": 33,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 2,
+    "fields": {
+      "address": 1,
+      "carrier": 25,
+      "code": "YEG"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 3,
+    "fields": {
+      "address": 1,
+      "carrier": 4,
+      "code": "YEG"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 4,
+    "fields": {
+      "address": 2,
+      "carrier": 4,
+      "code": "YEV"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 5,
+    "fields": {
+      "address": 3,
+      "carrier": 4,
+      "code": "YOW"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 6,
+    "fields": {
+      "address": 3,
+      "carrier": 25,
+      "code": "YOW"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 7,
+    "fields": {
+      "address": null,
+      "carrier": 24,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 8,
+    "fields": {
+      "address": null,
+      "carrier": 9,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 9,
+    "fields": {
+      "address": null,
+      "carrier": 19,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 10,
+    "fields": {
+      "address": null,
+      "carrier": 12,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 11,
+    "fields": {
+      "address": null,
+      "carrier": 27,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 12,
+    "fields": {
+      "address": null,
+      "carrier": 1,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 13,
+    "fields": {
+      "address": null,
+      "carrier": 31,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 14,
+    "fields": {
+      "address": null,
+      "carrier": 6,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 15,
+    "fields": {
+      "address": null,
+      "carrier": 7,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 16,
+    "fields": {
+      "address": null,
+      "carrier": 8,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 17,
+    "fields": {
+      "address": null,
+      "carrier": 5,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 18,
+    "fields": {
+      "address": null,
+      "carrier": 30,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 19,
+    "fields": {
+      "address": null,
+      "carrier": 26,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 20,
+    "fields": {
+      "address": null,
+      "carrier": 2,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 21,
+    "fields": {
+      "address": 6,
+      "carrier": 4,
+      "code": "YZF"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 23,
+    "fields": {
+      "address": 17,
+      "carrier": 25,
+      "code": "YYT"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 24,
+    "fields": {
+      "address": 18,
+      "carrier": 25,
+      "code": "YHZ"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 25,
+    "fields": {
+      "address": 19,
+      "carrier": 25,
+      "code": "YQM"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 26,
+    "fields": {
+      "address": 20,
+      "carrier": 25,
+      "code": "YUL"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 27,
+    "fields": {
+      "address": 21,
+      "carrier": 25,
+      "code": "YQT"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 28,
+    "fields": {
+      "address": 22,
+      "carrier": 25,
+      "code": "YYZ"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 29,
+    "fields": {
+      "address": 23,
+      "carrier": 25,
+      "code": "YWG"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 30,
+    "fields": {
+      "address": 24,
+      "carrier": 25,
+      "code": "YQR"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 31,
+    "fields": {
+      "address": 25,
+      "carrier": 25,
+      "code": "YXE"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 32,
+    "fields": {
+      "address": 26,
+      "carrier": 25,
+      "code": "YYC"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 33,
+    "fields": {
+      "address": 27,
+      "carrier": 25,
+      "code": "YQU"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 34,
+    "fields": {
+      "address": 28,
+      "carrier": 25,
+      "code": "YMM"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 35,
+    "fields": {
+      "address": 31,
+      "carrier": 25,
+      "code": "YVR"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 36,
+    "fields": {
+      "address": 32,
+      "carrier": 25,
+      "code": "YXX"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 37,
+    "fields": {
+      "address": 33,
+      "carrier": 25,
+      "code": "YYJ"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 38,
+    "fields": {
+      "address": 34,
+      "carrier": 25,
+      "code": "YXS"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 39,
+    "fields": {
+      "address": 35,
+      "carrier": 25,
+      "code": "YLW"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 40,
+    "fields": {
+      "address": 36,
+      "carrier": 25,
+      "code": "YQQ"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 41,
+    "fields": {
+      "address": 37,
+      "carrier": 4,
+      "code": "YIO"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 42,
+    "fields": {
+      "address": 38,
+      "carrier": 4,
+      "code": "YFB"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 50,
+    "fields": {
+      "address": 39,
+      "carrier": 4,
+      "code": "YUX"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 51,
+    "fields": {
+      "address": 40,
+      "carrier": 4,
+      "code": "YXP"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 52,
+    "fields": {
+      "address": 41,
+      "carrier": 4,
+      "code": "YGT"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 53,
+    "fields": {
+      "address": 42,
+      "carrier": 4,
+      "code": "YVM"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 54,
+    "fields": {
+      "address": 43,
+      "carrier": 4,
+      "code": "YBB"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 55,
+    "fields": {
+      "address": 44,
+      "carrier": 4,
+      "code": "YTE"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 56,
+    "fields": {
+      "address": 45,
+      "carrier": 4,
+      "code": "YYH"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 57,
+    "fields": {
+      "address": 46,
+      "carrier": 4,
+      "code": "YHK"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 58,
+    "fields": {
+      "address": 47,
+      "carrier": 4,
+      "code": "YCB"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 59,
+    "fields": {
+      "address": 48,
+      "carrier": 4,
+      "code": "YRT"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 60,
+    "fields": {
+      "address": 49,
+      "carrier": 4,
+      "code": "YCO"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 61,
+    "fields": {
+      "address": 50,
+      "carrier": 4,
+      "code": "YVQ"
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 62,
+    "fields": {
+      "address": null,
+      "carrier": 4,
+      "code": ""
+    }
+  },
+  {
+    "model": "api.airbase",
+    "pk": 63,
+    "fields": {
+      "address": null,
+      "carrier": 25,
+      "code": ""
+    }
+  }
+]

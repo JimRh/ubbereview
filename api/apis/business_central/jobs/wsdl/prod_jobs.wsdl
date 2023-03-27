@@ -1,0 +1,359 @@
+<definitions targetNamespace="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe">
+    <types>
+        <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe" xmlns="http://www.w3.org/2001/XMLSchema">
+            <element name="UbbeRequest">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="jSONData" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="UbbeRequest_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="UpdateJobTask">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="pJobNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pLegID" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pDescription" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pWayBillNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pstrEstimatedDepartureDate" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pstrActualDepartureDate" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pstrEstimatedArrivalDate" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pstrActualArrivalDate" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pMode" type="int"/>
+                        <element minOccurs="1" maxOccurs="1" name="pCarrierName" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pCurrentStatus" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pInternalComment" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pConsignedToCompanyName" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="UpdateJobTask_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="DeliverJobTask">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="pJobNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pLegID" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pTransactionNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pstrActualArrivalDate" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pInternalComment" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="DeliverJobTask_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="UpdateJobStatus">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="pJobNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pNewStatus" type="int"/>
+                        <element minOccurs="1" maxOccurs="1" name="pFiledByExpediting" type="boolean"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="UpdateJobStatus_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="AddAttachment">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="pJobNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pLegID" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pFilename" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pComment" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pFileContent" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="AddAttachment_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="AddNote">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="pJobNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pLegID" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pNote" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pFromUserID" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pToUserID" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pstrCreatedDateTime" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pNotify" type="boolean"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="AddNote_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="CreateTerms">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="pTermCode" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pDescription" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="CreateTerms_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="AddTerms">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="pJobNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pTermCode" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="AddTerms_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="AddJobPlanningLine">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="pJobNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pLegID" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pLineType" type="int"/>
+                        <element minOccurs="1" maxOccurs="1" name="pLineID" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pDescription" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pType" type="int"/>
+                        <element minOccurs="1" maxOccurs="1" name="pNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pQuantity" type="decimal"/>
+                        <element minOccurs="1" maxOccurs="1" name="pExpectedVendorNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pVendorReferenceNo" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pMarkupPercentage" type="decimal"/>
+                        <element minOccurs="1" maxOccurs="1" name="pExpectedCost" type="decimal"/>
+                        <element minOccurs="1" maxOccurs="1" name="pExpectedRevenue" type="decimal"/>
+                        <element minOccurs="1" maxOccurs="1" name="pBranchCode" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pCostCenterCode" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pLocationCode" type="string"/>
+                        <element minOccurs="1" maxOccurs="1" name="pUserID" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="AddJobPlanningLine_Result">
+                <complexType>
+                    <sequence>
+                        <element minOccurs="1" maxOccurs="1" name="return_value" type="string"/>
+                    </sequence>
+                </complexType>
+            </element>
+        </schema>
+    </types>
+    <message name="UbbeRequest">
+        <part name="parameters" element="tns:UbbeRequest"/>
+    </message>
+    <message name="UbbeRequest_Result">
+        <part name="parameters" element="tns:UbbeRequest_Result"/>
+    </message>
+    <message name="UpdateJobTask">
+        <part name="parameters" element="tns:UpdateJobTask"/>
+    </message>
+    <message name="UpdateJobTask_Result">
+        <part name="parameters" element="tns:UpdateJobTask_Result"/>
+    </message>
+    <message name="DeliverJobTask">
+        <part name="parameters" element="tns:DeliverJobTask"/>
+    </message>
+    <message name="DeliverJobTask_Result">
+        <part name="parameters" element="tns:DeliverJobTask_Result"/>
+    </message>
+    <message name="UpdateJobStatus">
+        <part name="parameters" element="tns:UpdateJobStatus"/>
+    </message>
+    <message name="UpdateJobStatus_Result">
+        <part name="parameters" element="tns:UpdateJobStatus_Result"/>
+    </message>
+    <message name="AddAttachment">
+        <part name="parameters" element="tns:AddAttachment"/>
+    </message>
+    <message name="AddAttachment_Result">
+        <part name="parameters" element="tns:AddAttachment_Result"/>
+    </message>
+    <message name="AddNote">
+        <part name="parameters" element="tns:AddNote"/>
+    </message>
+    <message name="AddNote_Result">
+        <part name="parameters" element="tns:AddNote_Result"/>
+    </message>
+    <message name="CreateTerms">
+        <part name="parameters" element="tns:CreateTerms"/>
+    </message>
+    <message name="CreateTerms_Result">
+        <part name="parameters" element="tns:CreateTerms_Result"/>
+    </message>
+    <message name="AddTerms">
+        <part name="parameters" element="tns:AddTerms"/>
+    </message>
+    <message name="AddTerms_Result">
+        <part name="parameters" element="tns:AddTerms_Result"/>
+    </message>
+    <message name="AddJobPlanningLine">
+        <part name="parameters" element="tns:AddJobPlanningLine"/>
+    </message>
+    <message name="AddJobPlanningLine_Result">
+        <part name="parameters" element="tns:AddJobPlanningLine_Result"/>
+    </message>
+    <portType name="Jobs_Ubbe_Port">
+        <operation name="UbbeRequest">
+            <input name="UbbeRequest" message="tns:UbbeRequest"/>
+            <output name="UbbeRequest_Result" message="tns:UbbeRequest_Result"/>
+        </operation>
+        <operation name="UpdateJobTask">
+            <input name="UpdateJobTask" message="tns:UpdateJobTask"/>
+            <output name="UpdateJobTask_Result" message="tns:UpdateJobTask_Result"/>
+        </operation>
+        <operation name="DeliverJobTask">
+            <input name="DeliverJobTask" message="tns:DeliverJobTask"/>
+            <output name="DeliverJobTask_Result" message="tns:DeliverJobTask_Result"/>
+        </operation>
+        <operation name="UpdateJobStatus">
+            <input name="UpdateJobStatus" message="tns:UpdateJobStatus"/>
+            <output name="UpdateJobStatus_Result" message="tns:UpdateJobStatus_Result"/>
+        </operation>
+        <operation name="AddAttachment">
+            <input name="AddAttachment" message="tns:AddAttachment"/>
+            <output name="AddAttachment_Result" message="tns:AddAttachment_Result"/>
+        </operation>
+        <operation name="AddNote">
+            <input name="AddNote" message="tns:AddNote"/>
+            <output name="AddNote_Result" message="tns:AddNote_Result"/>
+        </operation>
+        <operation name="CreateTerms">
+            <input name="CreateTerms" message="tns:CreateTerms"/>
+            <output name="CreateTerms_Result" message="tns:CreateTerms_Result"/>
+        </operation>
+        <operation name="AddTerms">
+            <input name="AddTerms" message="tns:AddTerms"/>
+            <output name="AddTerms_Result" message="tns:AddTerms_Result"/>
+        </operation>
+        <operation name="AddJobPlanningLine">
+            <input name="AddJobPlanningLine" message="tns:AddJobPlanningLine"/>
+            <output name="AddJobPlanningLine_Result" message="tns:AddJobPlanningLine_Result"/>
+        </operation>
+    </portType>
+    <binding name="Jobs_Ubbe_Binding" type="tns:Jobs_Ubbe_Port">
+        <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+        <operation name="UbbeRequest">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:UbbeRequest" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="UbbeRequest">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="UbbeRequest_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+        <operation name="UpdateJobTask">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:UpdateJobTask" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="UpdateJobTask">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="UpdateJobTask_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+        <operation name="DeliverJobTask">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:DeliverJobTask" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="DeliverJobTask">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="DeliverJobTask_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+        <operation name="UpdateJobStatus">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:UpdateJobStatus" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="UpdateJobStatus">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="UpdateJobStatus_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+        <operation name="AddAttachment">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:AddAttachment" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="AddAttachment">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="AddAttachment_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+        <operation name="AddNote">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:AddNote" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="AddNote">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="AddNote_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+        <operation name="CreateTerms">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:CreateTerms" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="CreateTerms">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="CreateTerms_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+        <operation name="AddTerms">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:AddTerms" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="AddTerms">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="AddTerms_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+        <operation name="AddJobPlanningLine">
+            <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/Jobs_Ubbe:AddJobPlanningLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <input name="AddJobPlanningLine">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </input>
+            <output name="AddJobPlanningLine_Result">
+                <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </output>
+        </operation>
+    </binding>
+    <service name="Jobs_Ubbe">
+        <port name="Jobs_Ubbe_Port" binding="tns:Jobs_Ubbe_Binding">
+            <address location="http://20.151.64.156:13047/BC130/WS/BBE/Codeunit/Jobs_Ubbe" xmlns="http://schemas.xmlsoap.org/wsdl/soap/"/>
+        </port>
+    </service>
+</definitions>

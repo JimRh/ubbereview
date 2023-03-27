@@ -1,0 +1,22 @@
+[
+  {
+    "model": "api.country",
+    "pk": 1,
+    "fields": {
+      "name": "Canada",
+      "code": "CA",
+      "currency_code": "CAD",
+      "currency_name": "Canadian Dollar"
+    }
+  },
+  {
+    "model": "api.country",
+    "pk": 2,
+    "fields": {
+      "name": "United States",
+      "code": "US",
+      "currency_code": "USD",
+      "currency_name": "United States Dollar"
+    }
+  }
+]

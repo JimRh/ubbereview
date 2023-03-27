@@ -1,0 +1,548 @@
+[
+  {
+    "model": "api.mandatoryoption",
+    "pk": 2,
+    "fields": {
+      "evaluation_expression": "9.25",
+      "minimum_value": "9.25",
+      "maximum_value": "9.25",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 7
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 3,
+    "fields": {
+      "evaluation_expression": "37.50",
+      "minimum_value": "37.50",
+      "maximum_value": "37.50",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 5
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 4,
+    "fields": {
+      "evaluation_expression": "15.00",
+      "minimum_value": "15.00",
+      "maximum_value": "15.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 26
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 5,
+    "fields": {
+      "evaluation_expression": "15.00",
+      "minimum_value": "15.00",
+      "maximum_value": "15.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 27
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 6,
+    "fields": {
+      "evaluation_expression": "18.40",
+      "minimum_value": "18.40",
+      "maximum_value": "18.40",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 14
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 7,
+    "fields": {
+      "evaluation_expression": "49.95",
+      "minimum_value": "49.95",
+      "maximum_value": "49.95",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 12
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 9,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 7.5",
+      "minimum_value": "145.25",
+      "maximum_value": "345.25",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 7
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 10,
+    "fields": {
+      "evaluation_expression": "62.8",
+      "minimum_value": "62.80",
+      "maximum_value": "62.80",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 5
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 11,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 2.5",
+      "minimum_value": "35.00",
+      "maximum_value": "100.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 26
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 12,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 2.5",
+      "minimum_value": "35.00",
+      "maximum_value": "101.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 27
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 13,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 7.16",
+      "minimum_value": "71.10",
+      "maximum_value": "999999999999.99",
+      "percentage": "7.16",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 14
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 14,
+    "fields": {
+      "evaluation_expression": "49.95",
+      "minimum_value": "49.95",
+      "maximum_value": "49.95",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 12
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 16,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 7.5",
+      "minimum_value": "145.25",
+      "maximum_value": "345.25",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 7
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 17,
+    "fields": {
+      "evaluation_expression": "62.8",
+      "minimum_value": "62.80",
+      "maximum_value": "62.80",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 5
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 18,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 2.5",
+      "minimum_value": "35.00",
+      "maximum_value": "100.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 26
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 19,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 2.5",
+      "minimum_value": "35.00",
+      "maximum_value": "101.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 27
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 20,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 7.16",
+      "minimum_value": "71.10",
+      "maximum_value": "999999999999.99",
+      "percentage": "7.16",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 14
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 29,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 1.00",
+      "minimum_value": "4.25",
+      "maximum_value": "198.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 12,
+      "carrier": 7
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 30,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 0.93",
+      "minimum_value": "5.60",
+      "maximum_value": "264.15",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 12,
+      "carrier": 5
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 31,
+    "fields": {
+      "evaluation_expression": "(freight / 100) * 30.00",
+      "minimum_value": "0.00",
+      "maximum_value": "999999999999.99",
+      "percentage": "30.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 14,
+      "carrier": 5
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 32,
+    "fields": {
+      "evaluation_expression": "(freight / 100) * 35.00",
+      "minimum_value": "0.00",
+      "maximum_value": "999999999999.99",
+      "percentage": "35.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 14,
+      "carrier": 12
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 33,
+    "fields": {
+      "evaluation_expression": "where(weight < 7500, 21.82, 43.64)",
+      "minimum_value": "0.00",
+      "maximum_value": "999999999999.99",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 13,
+      "carrier": 12
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 37,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 460",
+      "minimum_value": "115.00",
+      "maximum_value": "175.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 10
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 38,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 460",
+      "minimum_value": "115.00",
+      "maximum_value": "175.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 10
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 39,
+    "fields": {
+      "evaluation_expression": "28.00",
+      "minimum_value": "28.00",
+      "maximum_value": "28.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 17
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 40,
+    "fields": {
+      "evaluation_expression": "18.40",
+      "minimum_value": "18.40",
+      "maximum_value": "18.40",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 30
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 42,
+    "fields": {
+      "evaluation_expression": "40.00",
+      "minimum_value": "40.00",
+      "maximum_value": "40.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 6
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 43,
+    "fields": {
+      "evaluation_expression": "35.00",
+      "minimum_value": "35.00",
+      "maximum_value": "35.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 12
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 44,
+    "fields": {
+      "evaluation_expression": "40.00",
+      "minimum_value": "40.00",
+      "maximum_value": "40.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 10
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 46,
+    "fields": {
+      "evaluation_expression": "(freight / 100) * 1.25",
+      "minimum_value": "0.00",
+      "maximum_value": "999999999999.99",
+      "percentage": "1.25",
+      "start_date": null,
+      "end_date": null,
+      "option": 11,
+      "carrier": 12
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 47,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 7.16",
+      "minimum_value": "71.10",
+      "maximum_value": "999999999999.99",
+      "percentage": "7.16",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 30
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 48,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 460",
+      "minimum_value": "115.00",
+      "maximum_value": "175.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 6
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 49,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 7.16",
+      "minimum_value": "71.10",
+      "maximum_value": "999999999999.99",
+      "percentage": "7.16",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 30
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 50,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 460",
+      "minimum_value": "115.00",
+      "maximum_value": "175.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 6
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 51,
+    "fields": {
+      "evaluation_expression": "(freight / 100) * 1.25",
+      "minimum_value": "0.00",
+      "maximum_value": "999999999999.99",
+      "percentage": "1.25",
+      "start_date": null,
+      "end_date": null,
+      "option": 11,
+      "carrier": 10
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 55,
+    "fields": {
+      "evaluation_expression": "25.00",
+      "minimum_value": "25.00",
+      "maximum_value": "25.00",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 29
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 56,
+    "fields": {
+      "evaluation_expression": "18.40",
+      "minimum_value": "18.40",
+      "maximum_value": "18.40",
+      "percentage": "0.00",
+      "start_date": null,
+      "end_date": null,
+      "option": 4,
+      "carrier": 31
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 57,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 7.16",
+      "minimum_value": "71.10",
+      "maximum_value": "999999999999.99",
+      "percentage": "7.16",
+      "start_date": null,
+      "end_date": null,
+      "option": 7,
+      "carrier": 31
+    }
+  },
+  {
+    "model": "api.mandatoryoption",
+    "pk": 58,
+    "fields": {
+      "evaluation_expression": "(weight / 100) * 7.16",
+      "minimum_value": "71.10",
+      "maximum_value": "999999999999.99",
+      "percentage": "7.16",
+      "start_date": null,
+      "end_date": null,
+      "option": 8,
+      "carrier": 31
+    }
+  }
+]

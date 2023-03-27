@@ -1,0 +1,145 @@
+{% load static %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cargo Label</title>
+        <meta name="description" content="Cargo Label">
+        <style>
+            @page {
+                size: 4in 6in;
+                margin: 2cm;
+
+                @frame content_frame {
+                    left: .2in; width: 3.6in; top: .1in; height: 5.1in;
+                    {#-pdf-frame-border: 1#}
+                }
+                @frame footer_frame {
+                    -pdf-frame-content:footer_content;
+                    left: .2in; width: 3.6in; top: 5.5in; height: .3in;
+                    {#-pdf-frame-border: 1#}
+                }
+            }
+
+             #information {
+              font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+
+            #information td {
+                border: 1px solid #ddd;
+                padding: 2px;
+            }
+
+            #information tr:nth-child(even){background-color: #f2f2f2;}
+
+            #information th, #sign th {
+                padding-top: 2px;
+                height: 20px;
+                background-color: #182370;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+
+        {% for pack in cargo_packages %}
+
+            <table id="information">
+                <tbody style="text-align: center;">
+                    <tr>
+                        <td>
+                            <img src="{% static 'img/airline_logos/logo-calmair.png' %}" alt="Calm air">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="information">
+                <tbody style="text-align: center">
+                    <tr>
+                        <td>
+                            <pdf:barcode value="{{ bol_number }}" type="qr" align="middle" barwidth="3cm" barheight="3cm"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="information">
+                <tbody style="text-align: center;">
+                    <tr>
+                        <td>
+                            <div style="padding-bottom: 2px">
+                                <label style="font-size: 2em; font-weight: bold">{{ bol_number }}</label>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="information">
+                <tbody style="text-align: center;">
+                     <tr>
+                        <td>
+                            <div>
+                                <label style="font-size: 5em; font-weight: bold">{{ destination.base}}</label>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="information">
+                <tbody>
+                    <tr>
+                        <td>
+                            Total No. Of Pieces
+                            <br>
+                            <br>
+                            <label style="font-weight: bold">{{ pack.quantity }}</label>
+                        </td>
+                        <td>
+                            Weight of Consignment
+                            <br>
+                            <br>
+                            <label style="font-weight: bold">{{ pack.weight }}</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="information">
+                <tbody>
+                    <tr>
+                        <td>
+                            Priority
+                            <br>
+                            <label style="font-weight: bold">{{ service_code }} Date {{ calm_air_format }}</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="information">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label style="font-weight: bold">{{ destination.name }} {{ destination.address}} {{ destination.city}} {{ destination.phone}}</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+            {% if pack.is_last %}
+                &nbsp;
+            {% else %}
+                <pdf:nextpage />
+            {% endif %}
+
+        {% endfor %}
+  </body>
+
+</html>

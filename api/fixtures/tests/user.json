@@ -1,0 +1,183 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$jfPyxVP1gsfj$OS9xLqCjeoLKsNJWGQZ3Q2LwrJpxv4xRJCrfs7ct5Hs=",
+      "last_login": "2020-10-23T21:16:06.934Z",
+      "is_superuser": true,
+      "username": "kenneth",
+      "first_name": "",
+      "last_name": "",
+      "email": "developer@bbex.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-01-29T20:36:18Z",
+      "groups": [
+        1,
+        2,
+        9
+      ],
+      "user_permissions": [
+        254,
+        225
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$01NsZ3pzU5sS$2AZL6vNeNccdg6RYUw40DoOppU6gxtbSNLdPvc/0WCg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "gobox",
+      "first_name": "GoBox",
+      "last_name": "GoBox",
+      "email": "developer@bbex.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-01-29T21:07:12Z",
+      "groups": [
+        1,
+        2
+      ],
+      "user_permissions": [
+        254,
+        225
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$d6k6pxfyXjHu$sLT+waT1qsV94P+EH9pjBuNlXz3DyZpId2YKp0ZkCe4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "testing",
+      "first_name": "test",
+      "last_name": "One",
+      "email": "developer@bbex.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-01-29T21:49:33.049Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": [
+        225
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$FwjY9R4ZiDmB$HcLe6JmBReCSRenFjPabjgIw5QIuerRofVSp8Ieed6w=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test",
+      "first_name": "Kenneth",
+      "last_name": "Carmichael",
+      "email": "kcarmichael@bbex.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-02-11T17:46:21.923Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": [
+        225
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$Ktnmc1hdfWk1$E6Hofu/wUr8QV1tpGFgUDhzX4zruQOgZStdsXJx33iU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test2",
+      "first_name": "Kenneth",
+      "last_name": "Carmichael",
+      "email": "developer@bbex.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-02-11T18:11:52.332Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": [
+        225
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$QfrkBQofq6Ow$KCN/yH7EFZw/tc/DmBuR4076MKLTvcMV0SPbKA8qKAU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test3",
+      "first_name": "Kenneth",
+      "last_name": "Carmichael",
+      "email": "developer@bbex.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-02-11T18:14:17.863Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": [
+        225
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$ILHJs8ZOgSHw$oFpoW8lYxoGVvPX32qQM6RkAwrBNQG0CArfrBpKALoE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "test4",
+      "first_name": "kenneth",
+      "last_name": "carmichael",
+      "email": "developer@bbex.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-02-11T18:28:03.127Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": [
+        225
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$xmRL51dLf4v8$nywn78JCs+fSaGfjGB91fewsrzZvCfTb5TofM90xyAE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "fetchable",
+      "first_name": "Fetchable",
+      "last_name": "Fetchable",
+      "email": "developer@bbex.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-03-06T17:29:17.487Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": [
+        225
+      ]
+    }
+  }
+]

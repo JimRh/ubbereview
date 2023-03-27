@@ -1,0 +1,99 @@
+.ubbe-blue {
+  color: #25215F;
+}
+
+.ubbe-yellow {
+  color: #FFCF01;
+}
+
+.ubbe-yellow-light {
+  color: #FFFEF8;
+}
+
+.ubbe-yellow-bg {
+  background-color: #FFCF01;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  --bg-color: white;
+  --text-color: black;
+  --title-color: #25215F;
+}
+
+.ubbe-logo-size {
+  height: 3em;
+}
+
+/***********************
+       Font
+************************/
+html, body, label, p {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.link-no-style {
+  text-decoration: none;
+  color: unset;
+}
+
+/***********************
+        Card Style
+************************/
+.ubbe-card {
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ubbe-card:hover {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+/***********************
+        Inputs
+************************/
+.ubbe-input, textarea, .ubbe-textarea {
+  background-color: #FFFEF8 !important;
+  border: 2px solid #25215F !important;
+}
+
+.no-border-input {
+  border: unset !important;
+  background-color: unset !important;
+}
+
+.dropdown-style {
+  background-color: #FFFEF8 !important;
+  border: 2px solid #25215F !important;
+  border-radius: 0.25rem;
+}
+
+/***********************
+        Buttons
+************************/
+.btn-ubbe {
+  color: #333333;
+  background-color: #FFCF01;
+  border-color: #FFCF01;
+}
+
+.btn-ubbe:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+/***********************
+        RESPONSIVE
+************************/
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  .ubbe-card-login-size {
+    margin: 10%;
+  }
+}
+
+/*# sourceMappingURL=ubbe.css.map */

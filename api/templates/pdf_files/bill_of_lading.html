@@ -1,0 +1,496 @@
+{% load static %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ order_number }} - Bill of Lading</title>
+        <meta name="description" content="BOL">
+        <meta name="BBE" content="BBE">
+        <style>
+            @page {
+                size: letter portrait;
+                margin: 2cm;
+
+                @frame header_frame {           /* Static Frame */
+                    -pdf-frame-content: header_content;
+                    left: 50pt; width: 512pt; top: 20pt; height: 72pt;
+                    {#-pdf-frame-border: 1#}
+                }
+                @frame content_frame {          /* Content Frame */
+                    left: 50pt; width: 512pt; top: 85pt; height: 580pt;
+                    {#-pdf-frame-border: 1#}
+                }
+                @frame footer_frame {           /* Another static Frame */
+                    -pdf-frame-content: footer_content;
+                    left: 50pt; width: 512pt; top: 655pt; height: 135pt;
+                    {#-pdf-frame-border: 1#}
+                }
+              }
+
+             #information {
+              font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+
+            #information td {
+                border: 1px solid #ddd;
+                padding: 2px;
+            }
+
+            #information tr:nth-child(even){background-color: #f2f2f2;}
+
+            #information th, #sign th {
+                padding-top: 2px;
+                height: 16px;
+                background-color: #182370;
+                color: white;
+            }
+
+            /* The standalone checkbox square*/
+            .checkbox {
+              width:20px;
+              height:20px;
+              border: 1px solid #000;
+              display: inline-block;
+            }
+
+            /* This is what simulates a checkmark icon */
+            .checkbox.checked:after {
+              content: '';
+              display: block;
+              width: 4px;
+              height: 7px;
+
+              /* "Center" the checkmark */
+              position:relative;
+              top:4px;
+              left:7px;
+
+              border: solid #000;
+              border-width: 0 2px 2px 0;
+              transform: rotate(45deg);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="header_content">
+            <table style="padding-bottom: 5px">
+                <tr>
+                    <td>
+                        {% if is_fathom %}
+                            <img src="{% static 'img/FAMLogoBlue.PNG' %}" alt="Fathom" style="width: 242px; height: 72px">
+                        {% else %}
+                            <img src="{% static 'img/BBE_LOGO.png' %}" alt="BBE" style="width: 91px; height: 72px">
+                        {% endif %}
+                    </td>
+                    <td style="text-align: center">
+                        <h1 style="font-size: 20px">Bill of Lading</h1>
+                    </td>
+                    <td style="text-align: right">
+                        {% if carrier_id == 535 or carrier_id == 734 and bol_number %}
+                            <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+                                 <pdf:barcode value="{{ bol_number }}" type="code128" humanreadable="1" align="middle" barheight="25"/>
+                            </div>
+                        {% elif carrier_id == 129 and bol_number %}
+                            <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+                                 <pdf:barcode value="{{ bol_number }}" type="code39" humanreadable="1" align="middle" barheight="25" checksum="0"/>
+                            </div>
+                        {% elif carrier_id == 616 or carrier_id == 737 and bol_number %}
+                            <div style="text-align: center; margin-top: 20px; margin-bottom: 20px">
+                                <h1 style="font-size: 22px"><b>{{ carrier }} AWB #<br>{{ bol_number }}</b></h1>
+                            </div>
+                        {% else %}
+                            <h1 style="font-size: 20px">{{ bol_number }}</h1>
+                        {% endif %}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="footer_content">
+            <table id="sign">
+                <thead>
+                    <tr>
+                        <th width="33.3%">Shipper</th>
+                        <th width="33.3%">Carrier</th>
+                        <th width="33.3%">Consignee</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="padding: 5px 0 0 5px">
+                        <td>
+                            <table>
+                                <tr>
+                                    <td width="30%">Company:</td>
+                                    <td width="70%">{{ origin.company_name }}</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Name:</td>
+                                    <td width="70%">{{ origin.name }}</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Signature:</td>
+                                    <td width="70%">___________________</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Date:</td>
+                                    <td width="70%">___________________</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td width="30%">Company:</td>
+                                    <td width="70%">{{ carrier }}</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Name:</td>
+                                    <td>___________________</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Signature:</td>
+                                    <td width="70%">___________________</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Date:</td>
+                                    <td width="70%">___________________</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td width="30%">Company:</td>
+                                    <td width="70%">{{ destination.name }}</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Name:</td>
+                                    <td width="70%">{{ destination.company_name }}</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Signature:</td>
+                                    <td width="70%">___________________</td>
+                                </tr>
+                                <tr style="padding-top: 1px">
+                                    <td width="30%">Date:</td>
+                                    <td width="70%">___________________</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="text-align: center; font-size: 10px; padding-top: 2px">
+                All BBE business is transacted in accordance with the CIFFA Standard Trading Conditions, available upon request or on our website: www.bbex.com
+            </div>
+{#            <div style="text-align: center; font-size: 10px;">#}
+{#                <pdf:pagenumber/> of <pdf:pagecount/>#}
+{#            </div>#}
+        </div>
+
+        <table id="information" style="text-align: center">
+            <thead>
+                <tr>
+                    <th width="25%">Order Number</th>
+                    <th width="25%">Reference One</th>
+                    <th width="25%">Reference Two</th>
+                    <th width="25%">Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span style="font-weight: bold">{{ order_number }}</span>
+                    </td>
+                    <td>
+                        {{ reference_one }}
+                    </td>
+                    <td>
+                        {{ reference_two }}
+                    </td>
+                    <td>
+                        {{ request_date }}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="information" style="text-align: center">
+            <thead>
+                <tr>
+                    <th width="25%">Carrier</th>
+                    <th width="25%">Service</th>
+                    <th width="25%">Account Number</th>
+                    <th width="25%">Pickup/Booking ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span style="font-weight: bold"> {{ carrier }}</span>
+                    </td>
+                    <td>
+                        {{ service }}
+                    </td>
+                    <td>
+                        {{ carrier_account }}
+                    </td>
+                    <td>
+                        {% if booking_id %}
+                            {{ booking_id }}
+                        {% endif %}
+                        {% if carrier_pickup_id %}
+                            {{ carrier_pickup_id }}
+                        {% endif %}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="information">
+            <thead>
+                <tr>
+                    <th width="33.3%">Origin</th>
+                    <th width="33.3%">Destination</th>
+                    <th width="33.3%">Bill (Account)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        {{ origin.company_name }}<br>
+                        {{ origin.name }}<br>
+                        {{ origin.address }}<br>
+                        {{ origin.city }}, {{ origin.postal_code }}, {{ origin.province }}, {{ origin.country }}<br>
+                        P: {{ origin.phone }}<br>
+                        E: {{ origin.email }}
+                    </td>
+                    <td>
+                        {{ destination.company_name }}<br>
+                        {{ destination.name }}<br>
+                        {{ destination.address }}<br>
+                        {{ destination.city }}, {{ destination.postal_code }}, {{ destination.province }}, {{ destination.country }}<br>
+                        P: {{ destination.phone }}<br>
+                        E: {{ destination.email }}
+                    </td>
+                    <td style="text-align: center">
+                        Third Party <br>
+                        Bill To BBE Expediting Ltd.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="information">
+            <thead>
+                <tr>
+                    <th width="100%">Handling Instructions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 55px;">
+                    <td style="text-align: unset">
+
+                        {% if awb %}
+                            <strong>Please reference {{ air_carrier }} Airway Bill: {{ awb }} on arrival.</strong> <br>
+                        {% endif %}
+
+                        {{ special_instructions }}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="information">
+            <thead>
+                <tr>
+                    <th width="100%">Carrier Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 40px;">
+                    <td style="text-align: unset">
+                       {{ names }}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        {% for list, is_next in bol_packages %}
+
+            <table id="information">
+                <thead>
+                    <tr>
+                        <th width="6%">QTY</th>
+                        <th width="6%">UN</th>
+                        <th width="8%">Class</th>
+                        <th width="45%">Description</th>
+                        <th width="7%">PG</th>
+                        <th width="14%">Dimensions ({% if is_carrier_metric %}cm{% else %}in{% endif %})</th>
+                        <th width="14%">Weight ({% if is_carrier_metric %}kg{% else %}lbs{% endif %})</th>
+                    </tr>
+                </thead>
+
+                 {% for package in list %}
+                    <tr>
+                        <td width="6%" style="text-align: center">{{ package.quantity }}</td>
+                        <td width="8%" style="text-align: center">{{ package.un_number }}</td>
+
+                        <td width="8%">{{ package.freight_class }}</td>
+                        <td width="40%">
+                            {% if package.package_account_id %}
+                                <b>{{ package.package_account_id }}</b><br>
+                            {% endif %}
+                            {{ package.package_type_name }}<br>
+                            {{ package.description }}<br>
+
+                            {% if package.is_dangerous_good %}
+                                {% if package.is_nos %}
+                                    {{ package.proper_shipping_name }} ({{ package.nos }})<br>
+                                {% else %}
+                                    {{ package.proper_shipping_name }}<br>
+                                {% endif %}
+                            {% endif %}
+                            {% if package.is_pharma %}
+                                {% if package.is_cos %}
+                                    Chain of Signature Required
+                                {% endif %}
+                                {% if package.is_time_sensitive %}
+                                    Times Sensitive: {{ package.time_sensitive_hours }} Hours
+                                {% endif %}
+                            {% endif %}
+                            {% if package.package_type == "CONTAINER" %}
+                                Container Number: {{ package.container_number }} - {{ package.status }}<br>
+                            {% elif package.package_type == "VEHICLE" %}
+                                {{ package.year }} - {{ package.model }}<br>
+                                Vin: {{ package.vin }} Running: {{ package.condition }} - Anti Theft: {{ package.anti_theft }}<br>
+                            {% endif %}
+                        </td>
+                        <td width="7%" style="text-align: center">{{ package.packing_group }}</td>
+
+                        {% if is_carrier_metric %}
+                            <td width="16%" style="text-align: center">{{ package.length|floatformat:"2" }}x{{ package.width|floatformat:"2" }}x{{ package.height|floatformat:"2" }}</td>
+                            <td width="15%" style="text-align: center">{{ package.total_weight|floatformat:"2" }}</td>
+                        {% else %}
+                            <td width="16%" style="text-align: center">{{ package.imperial_length|floatformat:"2" }}x{{ package.imperial_width|floatformat:"2" }}x{{ package.imperial_height|floatformat:"2" }}</td>
+                            <td width="15%" style="text-align: center">{{ package.total_weight_imperial|floatformat:"2" }}</td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </table>
+
+            {% if is_next %}
+                <pdf:nextpage />
+            {% endif %}
+        {% endfor %}
+
+
+        {% if is_move_both %}
+            <pdf:nextpage />
+        {% endif %}
+
+        <table id="information" >
+            <tr>
+                <td>
+                    <small>Total Pieces</small><br>
+                    {{ total_pieces }}
+                </td>
+                <td colspan="3">&nbsp;</td>
+                <td>
+                    {% if is_carrier_metric %}
+                        <small>Total Volume (cm³)</small><br>
+                        {{ total_volume }}
+                    {% else %}
+                        <small>Total Volume (cf³)</small><br>
+                        {{ total_volume_imperial }}
+                    {% endif %}
+                </td>
+                <td>
+                    {% if is_carrier_metric %}
+                        <small>Total Weight (kg)</small><br>
+                        {{ total_weight }}
+                    {% else %}
+                        <small>Total Weight (lbs)</small><br>
+                        {{ total_weight_imperial }}
+                    {% endif %}
+                </td>
+            </tr>
+        </table>
+
+        {% if is_move_dg %}
+            <pdf:nextpage />
+        {% endif %}
+
+        <table id="information" >
+            <thead>
+                <tr>
+                    <th colspan="3">Dangerous Goods</th>
+                </tr>
+            </thead>
+            <tr>
+                <td style="color: red">
+
+                    {% if is_dangerous_goods %}
+
+                        <table>
+                            <tr style="height: 25px;">
+                                <td style="border: none;color: red; font-size: 22px; text-align: center;line-height: 30px;" width="10%">
+                                    &nbsp;
+                                </td>
+                                <td style="border: none;color: red; font-size: 24px; text-align: center;line-height: 30px;" width="20%">
+                                    <div style="padding-top: 4px">Yes:</div>
+                                </td>
+                                <td style="border: none;color: red; font-size: 18px" width="15%">
+                                    <div style="max-width: 20px;max-height: 20px; width: 20px !important; height: 20px !important; border: black solid 1px; padding: 30px ;background-color: black">&nbsp</div>
+                                </td>
+                                <td style="border: none;color: red; font-size: 22px; text-align: center;line-height: 30px;" width="10%">
+                                    &nbsp;
+                                </td>
+                                <td style="border: none;color: red; font-size: 24px; text-align: center;line-height: 30px" width="20%">
+                                    <div style="padding-top: 4px">No:</div>
+                                </td>
+                                <td style="border: none;color: red; font-size: 18px" width="15%">
+                                    <div style="max-width: 20px;max-height: 20px; width: 20px !important; height: 20px !important; border: black solid 1px; padding: 30px">&nbsp</div>
+                                </td>
+                                <td style="border: none;color: red; font-size: 22px; text-align: center;line-height: 30px;" width="10%">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                    {% else %}
+                        <table>
+                            <tr style="height: 25px;">
+                                <td style="border: none;color: red; font-size: 22px; text-align: center;line-height: 30px;" width="10%">
+                                    &nbsp;
+                                </td>
+                                <td style="border: none;color: red; font-size: 24px; text-align: center;line-height: 30px;" width="20%">
+                                    <div style="padding-top: 4px">Yes:</div>
+                                </td>
+                                <td style="border: none;color: red; font-size: 18px" width="15%">
+                                    <div style="max-width: 20px;max-height: 20px; width: 20px !important; height: 20px !important; border: black solid 1px; padding: 30px">&nbsp</div>
+                                </td>
+                                <td style="border: none;color: red; font-size: 22px; text-align: center;line-height: 30px;" width="10%">
+                                    &nbsp;
+                                </td>
+                                <td style="border: none;color: red; font-size: 24px; text-align: center;line-height: 30px" width="20%">
+                                    <div style="padding-top: 4px">No:</div>
+                                </td>
+                                <td style="border: none;color: red; font-size: 18px" width="15%">
+                                    <div style="max-width: 20px;max-height: 20px; width: 20px !important; height: 20px !important; border: black solid 1px; padding: 30px;background-color: black">&nbsp</div>
+                                </td>
+                                <td style="border: none;color: red; font-size: 22px; text-align: center;line-height: 30px;" width="10%">
+                                    &nbsp;
+                                </td>
+                            </tr>
+                        </table>
+                    {% endif %}
+
+                    <div style="margin-top: 10px; text-align: center">
+                        Dangerous Goods as per attached DGD
+                    </div>
+                </td>
+                <td colspan="2" style="color: red">
+                    I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping name, are properly classified and packaged, have dangerous goods safety marks properly affixed or displayed on them. <br>&nbsp;<br>Shipper's 24 hour emergency phone number: {% if IsBBE %}CANUTEC 1-613-996-6666{% else %}___________________{% endif %}
+                </td>
+            </tr>
+        </table>
+  </body>
+
+</html>

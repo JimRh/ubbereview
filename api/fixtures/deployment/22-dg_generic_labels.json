@@ -1,0 +1,102 @@
+[
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 1,
+    "fields": {
+      "name": "Arrows",
+      "width": 100,
+      "height": 100,
+      "label": "assets/dangerous_goods/labels/generic/arrows.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 2,
+    "fields": {
+      "name": "Cargo Aircraft Only",
+      "width": 100,
+      "height": 100,
+      "label": "assets/dangerous_goods/labels/generic/cargo-aircraft-only.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 3,
+    "fields": {
+      "name": "Excepted Quantity",
+      "width": 100,
+      "height": 100,
+      "label": "assets/dangerous_goods/labels/generic/excepted-quantity.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 4,
+    "fields": {
+      "name": "Lithium Ion Battery",
+      "width": 120,
+      "height": 110,
+      "label": "assets/dangerous_goods/labels/generic/lithium-ion-battery.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 5,
+    "fields": {
+      "name": "Limited Quantity Air",
+      "width": 142,
+      "height": 142,
+      "label": "assets/dangerous_goods/labels/generic/limited-quantity-air.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 6,
+    "fields": {
+      "name": "Cryogenic Liquid",
+      "width": 74,
+      "height": 105,
+      "label": "assets/dangerous_goods/labels/generic/cryogenic-liquid.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 7,
+    "fields": {
+      "name": "Magnetized Material",
+      "width": 110,
+      "height": 90,
+      "label": "assets/dangerous_goods/labels/generic/magnetized-material.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 8,
+    "fields": {
+      "name": "Keep Away From Heat",
+      "width": 74,
+      "height": 105,
+      "label": "assets/dangerous_goods/labels/generic/keep-away-from-heat.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 9,
+    "fields": {
+      "name": "Limited Quantity Ground",
+      "width": 142,
+      "height": 142,
+      "label": "assets/dangerous_goods/labels/generic/limited-quantity-ground.png"
+    }
+  },
+  {
+    "model": "api.dangerousgoodgenericlabel",
+    "pk": 10,
+    "fields": {
+      "name": "Environmentally Hazardous",
+      "width": 142,
+      "height": 142,
+      "label": "assets/dangerous_goods/labels/generic/environmentally-hazardous.png"
+    }
+  }
+]

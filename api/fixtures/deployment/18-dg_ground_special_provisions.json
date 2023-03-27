@@ -1,0 +1,1042 @@
+[
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 1,
+    "fields": {
+      "code": 59,
+      "description": "Substances that are listed by name in Schedule 1 must not be transported under this shipping name. Substances transported under this shipping name may contain not more than 20 percent nitrocellulose if the nitrocellulose contains not more than 12.6 percent nitrogen (by dry mass)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 2,
+    "fields": {
+      "code": 142,
+      "description": "The following shipping names may be used to meet the requirements of Part 3 (Documentation) and Part 4 (Dangerous Goods Safety Marks) when these dangerous goods are offered for transport in the same means of containment: \n(a) \u201cPAINT RELATED MATERIAL\u201d may be used for a means of containment containing both paint and paint related material;\n(b) \u201cPAINT RELATED MATERIAL, CORROSIVE, FLAMMABLE\u201d may be used for a means of containment containing both paint, corrosive, flammable, and paint related material, corrosive, flammable;\n(c) \u201cPAINT RELATED MATERIAL, FLAMMABLE, CORROSIVE\u201d may be used for a means of containment containing both paint, flammable, corrosive, and paint related material, flammable, corrosive; and\n(d) \u201cPRINTING INK RELATED MATERIAL\u201d may be used for a means of containment containing both printing ink and printing ink related material."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 3,
+    "fields": {
+      "code": 80,
+      "description": "Despite section 1.17 of Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases), a person must not offer for transport or transport these dangerous goods unless they are in a means of containment that is in compliance with the requirements for transporting gases in Part 5 (Means of Containment)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 4,
+    "fields": {
+      "code": 107,
+      "description": "(1) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2, (Classification), do not apply to the handling, offering for transport or transporting of UN1950, AEROSOLS, and UN2037, GAS CARTRIDGES, that contain dangerous goods included in Class 2.1 or Class 2.2 and that are transported on a road vehicle, a railway vehicle or a vessel on a domestic voyage, if the aerosols or gas cartridges have a capacity less than or equal to 50 mL.\n(2) Subsection (1) does not apply to self-defence spray."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 5,
+    "fields": {
+      "code": 148,
+      "description": "(1) Part 5 (Means of Containment) does not apply to radiation detectors that contain these dangerous goods in non-refillable pressure receptacles if\n(a) the working pressure in each receptacle is less than 5 000 KPa;\n(b) the capacity of each receptacle is less than 12 L;\n(c) each receptacle has a minimum burst pressure of\n(i) at least 3 times the working pressure, when the receptacle is fitted with a relief device, or\n(ii) at least 4 times the working pressure, when the receptacle is not fitted with a relief device;\n(d) each receptacle is manufactured from material that will not fragment upon rupture;\n(e) each detector is manufactured under a quality assurance program;\nISO 9001:2008 is an example of a quality assurance program.\n(f) the detectors are transported in strong outer means of containment; and\n(g) a detector in its outer means of containment is capable of withstanding a 1.2 m drop test without breakage of the detector or rupture of the outer means of containment.\n(2) Part 5 (Means of Containment) does not apply to radiation detectors that contain these dangerous goods in non-refillable pressure receptacles and that are included in equipment, if\n(a) the conditions set out in paragraphs (1)(a) to (e) are met; and\n(b) the equipment is contained in a strong outer means of containment or the equipment affords the detectors with protection that is equivalent to that provided by a strong outer means of containment.\n(3) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to radiation detectors that contain these dangerous goods in non-refillable pressure receptacles, including detectors in radiation detection systems, if the detectors meet the requirements of subsection (1) or (2) , as applicable, and the capacity of the receptacles that contain the detectors is less than 50 mL."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 6,
+    "fields": {
+      "code": 16,
+      "description": "(1) The technical name of at least one of the most dangerous substances that predominantly contributes to the hazard or hazards posed by the dangerous goods must be shown, in parentheses, on the shipping document following the shipping name in accordance with clause 3.5(1)(c)(ii)(A) of Part 3 (Documentation). The technical name must also be shown, in parentheses, on a small means of containment or on a tag following the shipping name in accordance with subsections 4.11(2) and (3) of Part 4 (Dangerous Goods Safety Marks).\n(2) Despite subsection (1), the technical name for the following dangerous goods is not required to be shown on a shipping document or on a small means of containment when Canadian law for domestic transport or an international convention for international transport prohibits the disclosure of the technical name:\n(a) UN1544, ALKALOID SALTS, SOLID, N.O.S. or ALKALOIDS, SOLID, N.O.S.;\n(b) UN1851, MEDICINE, LIQUID, TOXIC, N.O.S.;\n(c) UN3140, ALKALOID SALTS, LIQUID, N.O.S. or ALKALOIDS, LIQUID, N.O.S.;\n(d) UN3248, MEDICINE, LIQUID, FLAMMABLE, TOXIC, N.O.S.; or\n(e) UN3249, MEDICINE, SOLID, TOXIC, N.O.S.\nAn example in Canada is the \u201cFood and Drugs Act\u201d.\n(3) Despite subsection (1), the technical name for the following dangerous goods is not required to be shown on a small means of containment:\n(a) UN2814, INFECTIOUS SUBSTANCE, AFFECTING HUMANS; or\n(b) UN2900, INFECTIOUS SUBSTANCE, AFFECTING ANIMALS."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 7,
+    "fields": {
+      "code": 34,
+      "description": "(1) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to the handling, offering for transport or transporting of lithium cells and batteries on a road vehicle, a railway vehicle or a vessel on a domestic voyage if\n(a) for a lithium metal or lithium alloy cell, the lithium content is not more than 1 g, and, for a lithium-ion cell, the watt-hour rating is not more than 20 Wh;\n(b) for a lithium metal or lithium alloy battery, the aggregate lithium content is not more than 2 g, and for a lithium-ion battery, the watt-hour rating is not more than 100 Wh;\n(c) lithium ion batteries are marked with the watt-hour rating on the outside case, except for those manufactured before January 1, 2009;\n(d) each cell and battery type passes each of the tests set out in paragraph 2.43.1(2)(a) of Part 2 (Classification);\n(e) the cells and batteries are afforded protection against short circuit, including protection against contact with conductive materials within the same packaging that could lead to a short circuit;\n(f) the cells and batteries are packed in a means of containment that completely encloses the cells and batteries;\n(g) the gross mass of the cells and batteries does not exceed 30 kg, except when the cells and batteries are installed in or packed with equipment; and\n(h) the cells and batteries are packed in a means of containment capable of withstanding a 1.2 m drop test in any orientation without damage to the cells or batteries contained inside the means of containment, without the contents shifting so as to allow battery-to-battery or cell-to-cell, contact, and without release of contents.\n(2) Cells and batteries referred to in subsection (1) that are installed in equipment must, unless they are afforded equivalent protection by the equipment in which they are contained,\n(a) be afforded protection against damage and short circuit, including protection against contact with conductive materials within the same packaging that could lead to a short circuit;\n(b) subject to subsection (3), be fitted to prevent accidental activation; and\n(c) be packed in a means of containment designed, constructed, filled, closed, secured and maintained so that under normal conditions of transport, including handling, there will be no release of the dangerous goods that could endanger public safety.\n(3) Paragraph (2)(b) does not apply to cells and batteries installed in devices that are intentionally active during transport such as radio frequency identification transmitters, watches and sensors, and that are not capable of generating a dangerous evolution of heat.\n(4) Except for means of containment containing button cell batteries installed in equipment, including circuit boards, or no more than four cells installed in equipment or no more than two batteries installed in equipment, each means of containment must be marked with the appropriate lithium battery mark in accordance with section 4.24.\n(5) Despite subsection (4), except for means of containment containing button cell batteries installed in equipment, including circuit boards, or no more than four cells installed in equipment or no more than two batteries installed in equipment, each means of containment may, until December 31, 2018, be marked with the following:\n(a) \u201clithium metal\u201d, \u201clithium m\u00e9tal\u201d, \u201clithium ion\u201d or \u201clithium ionique\u201d, as appropriate;\n(b) an indication that the means of containment must be handled with care and that a flammability hazard exists if the means of containment is damaged;\n(c) an indication that special procedures must be followed in the event the means of containment is damaged, including inspection and repacking, if necessary; and\n(d) a telephone number to call for additional information."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 8,
+    "fields": {
+      "code": 123,
+      "description": "(1) The testing requirements in subsection 38.3 of Part III of the Manual of Tests and Criteria do not apply to production runs consisting of not more than 100 cells and batteries or to pre-production prototypes of cells and batteries that are transported on a road vehicle, a railway vehicle or a vessel on a domestic voyage if\n(a) the cells or batteries are imported, offered for transport, handled or transported in accordance with Packing Instruction P910 of the UN Recommendations; and\n(b) the pre-production prototypes of cells and batteries are in transport for the purpose of testing.\n(2) Despite paragraph (1)(b), batteries that have a total mass of 12 kg or more and that have a strong, impact-resistant outer casing, or assemblies of them, may be packed in an outer means of containment or protective enclosure designed, constructed, filled, closed, secured and maintained so that under normal conditions of transport, including handling, there will be no release of the dangerous goods that could endanger public safety. The batteries or battery assemblies must be protected from short-circuit."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 9,
+    "fields": {
+      "code": 137,
+      "description": "(1) This shipping name applies to lithium ion cells or batteries, and lithium metal cells or batteries, that are damaged or defective and do not conform to subsection 2.43.1(2) of Part 2 (Classification).\n(2) Lithium ion cells or batteries and lithium metal cells or batteries that are damaged or defective, include, but are not limited to, cells or batteries that have leaked or vented, or have sustained physical or mechanical damage, and cannot be diagnosed prior to transport, or that have been identified as being defective for safety reasons.\n(3) Lithium ion cells or batteries and lithium metal cells or batteries that are damaged or defective must be packed in accordance with Packing Instructions P908 or LP904 of the UN Recommendations, as applicable.\n(4) As applicable, the outer means of containment or the overpack must be marked legibly and visibly on a contrasting background, with the words \u201cDamaged/Defective Lithium Ion Batteries\u201d, \u201cpiles au lithium ionique endommag\u00e9es/d\u00e9fectueuses\u201d, \u201cDamaged/Defective Lithium Metal Batteries\u201d or \u201cpiles au lithium m\u00e9tal endommag\u00e9es/d\u00e9fectueuses\u201d.\n(5) It is forbidden to transport lithium ion cells or batteries and lithium metal cells or batteries that are damaged or defective and that, under normal conditions of transport, are liable to disassemble rapidly, react dangerously, produce a flame or a dangerous evolution of heat, or produce a dangerous emission of toxic, corrosive or flammable gases or vapours.\n(6) It is forbidden to transport by aircraft lithium ion cells or batteries and lithium metal cells or batteries that are damaged or defective."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 10,
+    "fields": {
+      "code": 138,
+      "description": "(1) When transported for disposal or recycling, lithium ion cells or batteries and lithium metal cells or batteries, or equipment containing those cells or batteries,\n(a) are not subject to subsection 2.43.1(2) of Part 2 (Classification);\n(b) must be packed in accordance with Packing Instructions P909 or LP904 of the UN Recommendations, as applicable, whether packed with or without non-lithium cells or batteries or equipment containing those cells or batteries;\n(c) must be in a means of containment or an overpack that is marked legibly and visibly on a contrasting background with the words \u201cLithium batteries for disposal\u201d, \u201cPiles au lithium destin\u00e9es \u00e0 l\u2019\u00e9limination\u201d, \u201cLithium batteries for recycling\u201d or \u201cPiles au lithium destin\u00e9es au recyclage \u201d, as appropriate; and\n(d) are forbidden for transport by aircraft.\n(2) Damaged or defective cells and batteries must be offered for transport or transported under special provision 137."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 11,
+    "fields": {
+      "code": 159,
+      "description": "(1) Subject to subsection (2), the label to be used for these dangerous goods is the one illustrated under the heading for lithium batteries \u201cClass 9, Lithium Batteries\u201d in the appendix to Part 4 (Dangerous Goods Safety Marks).\n(2) The generic Class 9 label may be used until December 31, 2018."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 12,
+    "fields": {
+      "code": 149,
+      "description": "These dangerous goods are forbidden for transport as cargo on a passenger aircraft."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 13,
+    "fields": {
+      "code": 1,
+      "description": "If these explosives contain chlorates, they must not be packed in the same means of containment with explosives containing ammonium nitrate or any other ammonium salt. In addition, if these explosives are to be transported in the same means of transport with explosives containing ammonium nitrate or any other ammonium salt, they must be separated from those explosives so that there will be no reaction in the event of an accident."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 14,
+    "fields": {
+      "code": 4,
+      "description": "The net explosives quantity for these dangerous goods is calculated as 50% of the gross mass expressed in kilograms when the true net explosives quantity cannot reasonably be determined."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 15,
+    "fields": {
+      "code": 5,
+      "description": "The net explosives quantity for these dangerous goods is calculated as 25% of the gross mass expressed in kilograms when the true net explosives quantity cannot reasonably be determined."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 16,
+    "fields": {
+      "code": 10,
+      "description": "These dangerous goods may be included in Class 4.1 if\n(a) they are in a quantity less than or equal to 500 g per means of containment;\n(b) they contain not less than 10 percent water by mass; and\n(c) a negative test result is obtained when they are tested in accordance with the Series 6 type (c) test referred to in Section 16 of Part I of the Manual of Tests and Criteria."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 17,
+    "fields": {
+      "code": 17,
+      "description": "These dangerous goods may be handled, offered for transport or transported under the UN number and shipping name UN1268, PETROLEUM DISTILLATES, N.O.S., PETROLEUM PRODUCTS N.O.S., DISTILLATS DE P\u00c9TROLE, N.S.A. or PRODUITS P\u00c9TROLIERS, N.S.A."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 18,
+    "fields": {
+      "code": 18,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to UN1845, CARBON DIOXIDE, SOLID, or DRY ICE that is in a means of containment that is transported by a road vehicle or a railway vehicle if the means of containment is designed and constructed to permit the release of carbon dioxide in order to prevent the build-up of pressure that could rupture the means of containment."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 19,
+    "fields": {
+      "code": 19,
+      "description": "A person must not handle, offer for transport or transport chemically unstable mixtures of these dangerous goods."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 20,
+    "fields": {
+      "code": 20,
+      "description": "(1) This shipping name has the UN number\n(a) UN2990, if it is a life-saving appliance that is self-inflating and that includes as equipment one or more of the dangerous goods set out in subsection (2); or\n(b) UN3072, if it is a life saving appliance that is not self-inflating and that includes as equipment one or more of the dangerous goods set out in subsection (2).\n(2) The dangerous goods are\n(a) signal devices included in Class 1 that are contained in a means of containment designed, constructed, filled, closed, secured and maintained to prevent them from being inadvertently activated under normal conditions of transport;\n(b) non-flammable, non-toxic gases included in Class 2.2;\n(c) first aid kits or repair kits that contain dangerous goods included in Classes 3, 4.1, 5.2, 8 or 9 that are in quantities that are less than or equal to the limited quantities set out for them in column 6(a) of Schedule 1;\n(d) electric storage batteries included in Class 8 and lithium metal or lithium ion batteries included in Class 9;\n(e) \u201cstrike anywhere\u201d matches contained in one or more means of containment designed, constructed, filled, closed, secured and maintained to prevent them from being inadvertently activated under normal conditions of transport; and\n(f) for UN2990 only, cartridges, power devices, included in Class 1.4S, to activate the self-inflating appliance if the net explosive quantity in an appliance is less than or equal to 3 200 mg.\n(3) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to the handling, offering for transport or transport of a life-saving appliance on a road vehicle or a railway vehicle if\n(a) the life-saving appliance is contained in a means of containment that is designed, constructed, filled, closed, secured and maintained so that under normal conditions of transport, including handling, there will be no release of the dangerous goods that could endanger public safety;\n(b) the means of containment has a gross mass less than or equal to 40 kg;\n(c) the life-saving appliance contains only dangerous goods included in Class 2.2 with no subsidiary class;\n(d) the dangerous goods are contained in a cylinder with a capacity less than or equal to 120 mL; and\n(e) the cylinder is installed in the life-saving appliance for the purpose of activating the appliance."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 21,
+    "fields": {
+      "code": 23,
+      "description": "(1) A person must not import, offer for transport, handle or transport these dangerous goods unless\n(a) they are contained in a means of containment that is marked in accordance with section 4.23, or, for UN1005, ANHYDROUS AMMONIA, in a large means of containment, in accordance with section 4.18.2; and\n(b) they are accompanied by a shipping document that complies with subparagraph 3.5(1)(c)(vii).\n(2) This special provision does not apply to a person who transports these dangerous goods in accordance with an exemption set out in section 1.15, 1.17, 1.17.1 or 1.24 of Part 1 (Coming Into Force, Repeal, Interpretation, General Provisions and Special Cases)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 22,
+    "fields": {
+      "code": 24,
+      "description": "Lead compounds are considered to be insoluble if they exhibit a solubility of 5 percent or less when they are mixed in a ratio of 1:1000 with 0.07 molar hydrochloric acid and stirred for one hour at a temperature of 23\u00b0C \u00b1 2\u00b0C."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 23,
+    "fields": {
+      "code": 25,
+      "description": "(1) These dangerous goods may be handled, offered for transport or transported under this shipping name as component parts of vehicle air bags or seat belt pretensioners if they are tested in accordance with the Series 6 type (c) test in Section 16 of Part I of the Manual of Tests and Criteria and show no explosion of the device, no fragmentation of device casings and no projection hazard or thermal effect that could hinder fire fighting or other emergency response efforts. If the air bag inflator unit passes the Series 6 type (c) test, the test does not have to be repeated on the air bag module itself.\n(2) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to safety devices, electrically initiated, or safety devices, pyrotechnic, installed in road vehicles, vessels or aircraft or in completed components such as steering columns, door panels and seats."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 24,
+    "fields": {
+      "code": 28,
+      "description": "A person must not handle, offer for transport or transport these dangerous goods unless they are stabilized and their temperature is maintained below the control temperature while they are being transported."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 25,
+    "fields": {
+      "code": 31,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to dangerous goods transported under this shipping name if the dangerous goods contain 10 percent or less ammonium nitrate and at least 12 percent water."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 26,
+    "fields": {
+      "code": 32,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases), Part 2 (Classification) and Part 3 (Documentation), do not apply to these dangerous goods if they are transported by road vehicle or railway vehicle in a large means of containment and SOR/2014-306\n(a) the large means of containment is in standard with CSA B621 for transport by road vehicle or with TP14877 for transport by railway vehicle; and\nSOR/2014-152\n(b) the road vehicle or railway vehicle is marked on each side, in letters and numerals that are at least 6 mm wide and 100 mm high, with\n(i) the letters and numerals UN2448, or\n(ii) the numerals 2448 and the words MOLTEN SULPHUR, MOLTEN SULFUR or SOUFRE FONDU."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 27,
+    "fields": {
+      "code": 33,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to these dangerous goods if the dangerous goods SOR/2014-306\n(a) are in a quantity less than or equal to 400 kg per means of containment; or\n(b) have been formed to a specific shape such as prills, granules, pellets, pastilles or flakes."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 28,
+    "fields": {
+      "code": 36,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to the handling, offering for transport or transporting of these dangerous goods by road vehicle or railway vehicle if they are in the form of pellets or dry bulk mash meeting the requirements of CGSB-32.301."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 29,
+    "fields": {
+      "code": 37,
+      "description": "Part 3, Documentation, Part 4, Dangerous Goods Safety Marks, and Part 6, Training, do not apply to these dangerous goods or mixtures or solutions of them if they are transported by road vehicle and are\n(a) purchased by retail sale and are being transported between any of the following places:\n(i) the place of purchase,\nConsolidated Transportation of Dangerous Goods Regulations including Amendment SOR/2017-253\nSchedule 2 S2-7\n(ii) the place of use or consumption, and\n(iii) the purchaser\u2019s place of residence;\n(b) in a quantity less than or equal to 13.6 tonnes; and\n(c) accompanied by a record sheet that includes the shipping name, the UN number and the quantity of the dangerous goods or mixtures or solutions of them."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 30,
+    "fields": {
+      "code": 38,
+      "description": "A person must not handle, offer for transport or transport these dangerous goods in a large means of containment if they are in direct contact with the large means of containment."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 31,
+    "fields": {
+      "code": 39,
+      "description": "(1) These dangerous goods may be handled, offered for transport or transported under this shipping name if the dangerous goods are\n(a) protected from short circuits; and\n(b) capable of withstanding, without leakage of battery fluid, the following tests:\n(i) a vibration test, in which\n(A) the battery is rigidly clamped to the platform of a vibration machine and a simple harmonic motion having an amplitude of 0.8 mm (1.6 mm maximum total excursion) is applied,\n(B) the frequency is varied in steps of 1 Hz each minute between the limits of 10 Hz and 55 Hz,\n(C) the entire range of frequencies and return is traversed in 95 \u00b1 5 minutes with 2 minutes spent at each frequency for each mounting position (direction of vibration) of the battery, and\n(D) the battery is tested in three mutually perpendicular positions (to include testing with fill openings and vents, if any, in an inverted position) for equal time periods, and\n(ii) after the vibration test, a pressure differential test, in which\n(A) the battery is stored for 6 hours at 24\u00b0C \u00b1 4\u00b0C while subjected to a pressure differential greater than or equal to 88 kPa, and\n(B) the battery is tested in three mutually perpendicular positions (to include testing with fill openings and vents, if any, in an inverted position) for at least 6 hours in each position.\n(2) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to UN2800, BATTERIES, WET, NON-SPILLABLE, electric storage, that are not intended for disposal, if SOR/2014-306\n(a) at a temperature of 55\u00b0C, electrolyte will not flow from a ruptured or cracked battery case and there is no free liquid to flow; and\n(b) when the battery is prepared for transport, the battery\u2019s terminals are protected from short circuits."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 32,
+    "fields": {
+      "code": 40,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to these articles if each article SOR/2014-306\n(a) has a gas space capacity less than or equal to 1.6 L and a charge pressure less than or equal to 28 000 kPa and, when the capacity (litres) is multiplied by the charge pressure (kilopascals) and then divided by 100, the result is less than or equal to 80;\n(b) has a minimum burst pressure that is 4 times the charge pressure at 20\u00b0C for an article that has a gas space capacity less than or equal to 0.5 L and 5 times the charge pressure at 20\u00b0C for an article that has a gas space capacity greater than 0.5 L;\n(c) is manufactured from material that will not fragment if ruptured; and\n(d) is protected from rupture by means of a fire degradable seal or a pressure relief device to relieve internal pressure."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 33,
+    "fields": {
+      "code": 41,
+      "description": "(1) A person must not handle, offer for transport or transport UN3356, OXYGEN GENERATOR, CHEMICAL, that contains dangerous goods included in Class 5.1, Oxidizing Substances, unless:\n(a) the oxygen generator is capable of withstanding a 1.8 m drop test onto a rigid, non-resilient, flat and horizontal surface, in the position that is most likely to cause damage, without loss of its contents and without its activation;\n(b) if the oxygen generator is equipped with an activating device, it has at least two positive means to prevent an unintentional activation; and\n(c) the oxygen generator is transported in a means of containment that is inside another means of containment so that, if the oxygen generator is activated,\n(i) it will not activate other oxygen generators being transported in the same means of transport,\n(ii) the means of containment will not ignite, and\n(iii) the outside surface temperature of the outer means of containment will not exceed 100\u00b0C.\n(2) A person must not handle, offer for transport or transport an oxygen generator under this shipping name if it is equipped with an activating device that meets the criteria for inclusion in Class 1, Explosives."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 34,
+    "fields": {
+      "code": 43,
+      "description": "Despite section 2.1 of Part 2, Classification, these dangerous goods are assigned to this classification based on human experience."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 35,
+    "fields": {
+      "code": 45,
+      "description": "Maneb and maneb preparations that have been stabilized against self-heating do not have to be classified with a primary class of Class 4.2 or be assigned the UN number UN2210 if it can be demonstrated by testing that l m3 of the substance does not self-ignite and that the temperature at the centre of a l m3 sample does not exceed 200\u00b0C when the sample is kept in a storage area maintained at a temperature of not less than 75\u00b0C \u00b1 2\u00b0C for a period of 24 hours. In this case, the dangerous goods have the classification assigned to the UN number UN2968."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 36,
+    "fields": {
+      "code": 55,
+      "description": "Aqueous solutions of inorganic nitrate substances do not meet the criteria for inclusion in Class 5.1 if the concentration of the inorganic nitrate substances in the aqueous solution at the minimum temperature that may be encountered in transport is not more than 80 per cent of the saturation limit of the inorganic nitrate substance in solution."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 37,
+    "fields": {
+      "code": 56,
+      "description": "(1) When solids that are not dangerous goods, and liquids included in Class 3, Flammable Liquids, are in a mixture, the mixture may be handled, offered for transport or transported under this shipping name without the tests and criteria for including substances in Class 4.1, Flammable Solids, first being applied to them, if\n(a) there is no visible liquid at the time the mixture is loaded into a means of containment or at the time the means of containment is closed; and\n(b) each means of containment is leakproof.\n(2) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to a sealed packet or article containing less than 10 mL of dangerous goods included in Class 3, Flammable Liquids, packing group II or III, if there is no free liquid in the packet or article."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 38,
+    "fields": {
+      "code": 57,
+      "description": "When solids that are not dangerous goods and liquids included in Class 6.1, Toxic Substances, are in a mixture, the mixture may be handled, offered for transport or transported under this shipping name without the tests and criteria for including substances in Class 6.1, Toxic Substances, first being applied, if\n(a) the mixture is included in Packing Group II or III;\n(b) there is no free liquid visible at the time the mixture is loaded into a means of containment or at the time the means of containment is closed; and\n(c) each means of containment is leakproof."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 39,
+    "fields": {
+      "code": 58,
+      "description": "When solids that are not dangerous goods and liquids included in Class 8, Corrosives, are in a mixture, the mixture may be handled, offered for transport or transported under this shipping name without the tests and criteria for including substances in Class 8, Corrosives, first being applied, if\n(a) there is no free liquid visible at the time the mixture is loaded into a means of containment or at the time the means of containment is closed; and\n(b) each means of containment is leakproof."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 40,
+    "fields": {
+      "code": 61,
+      "description": "This substance may be handled, offered for transport or transported under a class other than Class 1 if it is packed so that the percentage of water that it contains will not, at any time during transport, fall below the percentage stated in the descriptive text associated with the shipping name. When phlegmatized with water and inorganic inert material the content of urea nitrate must not exceed 75 per cent by mass and the mixture must not be capable of being detonated by the Test Series 1 type (a) test referred to in section 11 of Part I in the Manual of Tests and Criteria."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 41,
+    "fields": {
+      "code": 62,
+      "description": "These dangerous goods may be handled, offered for transport or transported under Class 4.1 if they are packed in a means of containment so that the percentage of diluent in them will not, at any time during transport, fall below the percentage stated for the diluent in the descriptive text associated with the shipping name."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 42,
+    "fields": {
+      "code": 63,
+      "description": "These Regulations do not apply to these dangerous goods unless they are to be transported by aircraft."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 43,
+    "fields": {
+      "code": 64,
+      "description": "(1) These Regulations do not apply to these dangerous goods unless they are to be transported by vessel.\nSOR/2017-253\n(2) These dangerous goods must not be transported by vessel when they are wet, damp or contaminated with oil."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 44,
+    "fields": {
+      "code": 65,
+      "description": "(1) A chemical kit or first aid kit must be included in the packing group that is the most stringent packing group assigned to any one of the dangerous goods in the kit, and the kit must not contain\n(a) dangerous goods that are not allowed to be transported as limited quantities or that are forbidden for transport in Schedule 1 or Schedule 3;\n(b) dangerous goods that react dangerously with each other; or\n(c) a total quantity of dangerous goods that is greater than 1 L or 1 kg.\n(2) A chemical kit or first aid kit containing dangerous goods in inner packagings that do not exceed the quantity limits for limited quantities applicable to individual substances as specified in column 6(a) of Schedule 1 may be transported in accordance with section 1.17 of Part 1 (Coming into force, Repeal, Interpretation, General Provisions and Special Cases).\nThe shipping name CHEMICAL KIT or FIRST AID KIT is intended for boxes and cases containing small quantities of various dangerous goods that are used, for example, for medical, analytical, or testing or repair purposes.\nKits that are carried on board road vehicles, railway vehicles, vessels or aircraft for first-aid or operating purposes are not subject to these Regulations."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 45,
+    "fields": {
+      "code": 66,
+      "description": "These dangerous goods are forbidden for transport by vessel."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 46,
+    "fields": {
+      "code": 67,
+      "description": "(1) The UN number and shipping name UN3171, BATTERY-POWERED VEHICLE applies to vehicles powered by wet batteries, sodium batteries, lithium metal batteries or lithium ion batteries and that are transported with these batteries installed, including vehicles that are transported in a means of containment.\n(2) For greater certainty, in the case of a vehicle transported in a means of containment, subsection (1) applies to a vehicle that is transported with some parts detached from its frame in order to fit into the means of containment.\nSOR/2017-253\n(3) The UN number and shipping name UN3171, BATTERY-POWERED EQUIPMENT applies to equipment that is powered by wet batteries or sodium batteries and that is transported with these batteries installed.\n(4) Equipment powered by lithium metal batteries or lithium ion batteries must be handled, offered for transport or transported under the UN number and shipping name\n(a) UN3091, LITHIUM METAL BATTERIES CONTAINED IN EQUIPMENT;\n(b) UN3091, LITHIUM METAL BATTERIES PACKED WITH EQUIPMENT;\n(c) UN3481, LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT; or\n(d) UN3481, LITHIUM ION BATTERIES PACKED WITH EQUIPMENT.\n(5) A hybrid electric vehicle that is powered by an internal combustion engine and by wet batteries, sodium batteries, lithium metal batteries or lithium ion batteries and that is transported with the batteries installed must be handled, offered for transport or transported under the UN number and shipping name\n(a) UN3166, VEHICLE, FLAMMABLE GAS POWERED; or\n(b) UN3166, VEHICLE, FLAMMABLE LIQUID POWERED.\n(6) A vehicle that contains a fuel cell must be handled, offered for transport or transported under the UN number and shipping name\n(a) UN3166, VEHICLE, FUEL CELL, FLAMMABLE GAS POWERED; or\n(b) UN3166, VEHICLE, FUEL CELL, FLAMMABLE LIQUID POWERED.\n(7) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to the handling, offering for transport, transport or import of dangerous goods other than batteries that are contained in a vehicle and that are required for the functioning or safe operation of the vehicle, if they are on a road vehicle, a railway vehicle or a vessel on a domestic voyage."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 47,
+    "fields": {
+      "code": 68,
+      "description": "These dangerous goods are forbidden for transport by vessel if they contain one or more of the following substances:\nSOR/2017-253\n(a) AMMONIUM HYPOCHLORITE;\n(b) AMMONIUM NITRATE liable to self-heating sufficient to initiate decomposition;\n(c) AMMONIUM NITRITES and mixtures of an inorganic nitrite with an ammonium salt;\n(d) CHLORIC ACID, AQUEOUS SOLUTION, with more than 10 per cent chloric acid;\n(e) ETHYL NITRITE, pure;\n(f) HYDROCYANIC ACID, AQUEOUS SOLUTION (HYDROGEN CYANIDE, AQUEOUS SOLUTION) with more than 20% hydrogen cyanide;\n(g) HYDROGEN CHLORIDE, REFRIGERATED LIQUID;\n(h) HYDROGEN CYANIDE, SOLUTION IN ALCOHOL with more than 45% hydrogen cyanide;\n(i) MERCURY OXYCYANIDE, pure;\n(j) METHYL NITRITE;\n(k) PERCHLORIC ACID with more than 72% acid, by mass;\n(l) SILVER PICRATE, dry or wetted with less than 30% water, by mass; or\n(m) ZINC AMMONIUM NITRITE."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 48,
+    "fields": {
+      "code": 69,
+      "description": "The following definitions apply to matches:\n(a) fusee matches are matches the heads of which are prepared with a friction-sensitive igniter composition and a pyrotechnic composition that burns with little or no flame but with intense heat;\n(b) safety matches are matches that are combined with or attached to the box, book or card and that can be ignited by friction only on a prepared surface;\n(c) strike-anywhere matches are matches that can be ignited by friction on a solid surface; and\n(d) Wax Vesta matches are matches that can be ignited by friction either on a prepared surface or on a solid surface."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 49,
+    "fields": {
+      "code": 70,
+      "description": "(1) These dangerous goods must be formulated so that during transport they remain homogeneous and do not separate.\n(2) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to formulations of these dangerous goods when they have a low nitrocellulose content and SOR/2014-306\n(a) are not capable of detonating or deflagrating when tested using the Test Series 1 type (a) test referred to in section 11 of Part I of the Manual of Tests and Criteria;\n(b) do not explode when heated under confinement when tested using the Test Series 1 type (b) test and Test Series 1 type (c) test referred to in section 11 of Part I of the Manual of Tests and Criteria; and\n(c) are not flammable solids when tested using Test N.1 referred to in section 33.2.1.4 of Part III of the Manual of Tests and Criteria; to perform this test, the particle size of the nitrocellulose must be less than 1.25 mm or the nitrocellulose must be crushed and sieved to this size."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 50,
+    "fields": {
+      "code": 71,
+      "description": "Ammonium nitrites and mixtures of an inorganic nitrite with an ammonium salt are forbidden for transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 51,
+    "fields": {
+      "code": 72,
+      "description": "Despite paragraph 2.5(d) of Part 2, Classification, if these dangerous goods meet the definitions and criteria for inclusion in other classes in accordance with Part 2, Classification, the subsidiary class or classes must be shown on a shipping document along with the primary class for the dangerous goods."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 52,
+    "fields": {
+      "code": 73,
+      "description": "During transport, these dangerous goods must be protected from direct sunlight and stored away from all sources of heat in a cool and well-ventilated place."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 53,
+    "fields": {
+      "code": 74,
+      "description": "(1) If these dangerous goods have a subsidiary class or classes, they must be assigned to Packing Group I, II or III, as appropriate, in accordance with the criteria in Part 2, Classification, for the subsidiary class that takes precedence.\n(2) The description of the subsidiary class or classes of the dangerous goods and the labels and placards must be displayed on a means of containment in accordance with the requirements in Part 4, Dangerous Goods Safety Marks.\n(3) The description of the subsidiary class or classes on a shipping document must be in accordance with Part 3, Documentation.\n(4) The name of the constituents which predominantly contribute to the subsidiary class or classes must be shown in parentheses, after the shipping name on the shipping document."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 54,
+    "fields": {
+      "code": 76,
+      "description": "Despite section 5.7 of Part 5, Means of Containment, any combination of these dangerous goods included in Class 1, Explosives, may be handled, offered for transport or transported in a road vehicle if\n(a) the total quantity of all the dangerous goods included in Class 1, expressed in net explosives quantity, is less than or equal to 5 kg;\n(b) the total number of articles of dangerous goods subject to special provision 86 is less than or equal to 100 articles; and\n(c) the operator of the road vehicle has a valid Pyrotechnic Card that has been issued to the operator by the Explosives Regulatory Division of Natural Resources Canada."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 55,
+    "fields": {
+      "code": 78,
+      "description": "These dangerous goods do not include ammonium permanganate which is forbidden for transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 56,
+    "fields": {
+      "code": 79,
+      "description": "These dangerous goods are forbidden for transport if they contain less alcohol, water or phlegmatizer than specified in the descriptive text associated with the shipping name."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 57,
+    "fields": {
+      "code": 84,
+      "description": "The infectious substances identified in subsection 7.1(7) of Part 7, Emergency Response Assistance Plan, require an emergency response assistance plan."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 58,
+    "fields": {
+      "code": 85,
+      "description": "Despite the index number in column 6(a) of Schedule 1, these dangerous goods may be handled, offered for transport or transported in accordance with section 1.31 of Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) when they are in a quantity that is less than or equal to 15 000 articles."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 59,
+    "fields": {
+      "code": 86,
+      "description": "Despite the index number in column 6(a) of Schedule 1, these dangerous goods may be handled, offered for transport or transported in accordance with section 1.31 of Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) when they are in a quantity that is less than or equal to 100 articles."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 60,
+    "fields": {
+      "code": 87,
+      "description": "Despite the word \u201cForbidden\u201d in column 9 of Schedule 1, these dangerous goods may be transported on a passenger carrying road vehicle or a passenger carrying railway vehicle in accordance with section 1.15 of Part 1, Coming into Force, Repeal, Interpretation, General Provisions and Special Cases, when they are used for medical purposes during transport and are in a means of containment with a capacity less than or equal to 1 L."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 61,
+    "fields": {
+      "code": 88,
+      "description": "Despite the quantity limits in column 9 of Schedule 1 for these dangerous goods, a road vehicle is not a passenger carrying road vehicle unless the passengers in it are transported for hire or reward."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 62,
+    "fields": {
+      "code": 90,
+      "description": "These Regulations, except for Part 1, Coming into Force, Repeal, Interpretation, General Provisions and Special Cases, and Part 2, Classification, do not apply to the handling, offering for transport or transporting of these dangerous goods on a road vehicle, a railway vehicle or on vessel on a domestic voyage if\nSOR/2017-253\n(a) these dangerous goods are contained in small means of containment that\n(i) are constructed of metal or robust, electrically conductive plastic,\n(ii) are designed, constructed, filled, closed, secured and maintained so that under normal conditions of transport, including handling, there will be no accidental release of these dangerous goods that could endanger public safety, and\n(iii) each have a capacity that is less than or equal to 500 g;\n(b) the gross mass of all these dangerous goods is 12 kg or less;\n(c) the gross mass of all the dangerous goods, including that of these dangerous goods,\n(i) is less than or equal to 150 kg for dangerous goods transported on the road vehicle or the railway vehicle, and\n(ii) is less than or equal to 150 kg for dangerous goods transported on the vessel, excluding dangerous goods in a road vehicle or railway vehicle being transported on the vessel; and\nSOR/2017-253\n(d) these dangerous goods are in a quantity or concentration available to the general public and are transported by\n(i) a user or purchaser of these dangerous goods, or\n(ii) a retailer to or from a user or purchaser of these dangerous goods."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 63,
+    "fields": {
+      "code": 92,
+      "description": "(1) The consignor must classify these dangerous goods on the basis of samples.\n(2) The consignor must make available to the Minister, on reasonable notice given by the Minister, a document that explains the sampling method and includes the following information:\n(a) the scope of the method;\n(b) the sampling apparatus;\n(c) the sampling procedures;\n(d) the frequency and conditions of sampling; and\n(e) a description of the quality control management system in place.\nMany methods are available for the sampling of petroleum products. An example can be found in American Society for Testing and Materials Standard ASTM D4057-12, \u201cStandard Practice for Manual Sampling of Petroleum and Petroleum Products\u201d.\nThe frequency and conditions of sampling should allow for the variability of the dangerous goods to ensure representativeness. The classification assigned to the dangerous goods should reflect the properties of the dangerous goods during transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 64,
+    "fields": {
+      "code": 93,
+      "description": "(1) A vehicle that contains an internal combustion engine must be transported under UN3166, VEHICLE, FLAMMABLE GAS POWERED, or UN3166, VEHICLE, FLAMMABLE LIQUID POWERED, as appropriate. This shipping name applies to hybrid electric vehicles that are powered by an internal combustion engine and by wet batteries, sodium batteries, lithium metal batteries or lithium ion batteries and that are transported with the batteries installed.\n(2) A vehicle that contains a fuel cell must be handled, offered for transport or transported under the UN number and shipping name\n(a) UN3166, VEHICLE, FUEL CELL, FLAMMABLE GAS POWERED; or\n(b) UN3166, VEHICLE, FUEL CELL, FLAMMABLE LIQUID POWERED."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 65,
+    "fields": {
+      "code": 94,
+      "description": "When these dangerous goods are in transport, they must be kept out of direct sunlight and away from all sources of heat, and must be placed in adequately ventilated areas.\nThese dangerous goods are liable to exothermic decomposition at elevated temperatures. Decomposition can be initiated by heat or by impurities such as powdered metals like iron, manganese, cobalt, magnesium and their compounds.\nCalcium hypochlorite is a self-heating substance that decomposes rapidly and releases toxic chlorine gas when heated or exposed to sunlight."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 66,
+    "fields": {
+      "code": 95,
+      "description": "For the purposes of this shipping name, \u201cFUMIGATED UNIT\u201d is a large means of containment and includes a road vehicle, a railway vehicle, a freight container and a portable tank. These Regulations, except for subsection 3.5(3) of Part 3 (Documentation) and section 4.21 of Part 4 (Dangerous Goods Safety Marks), do not apply to fumigated units containing no other dangerous goods."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 67,
+    "fields": {
+      "code": 96,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to these dangerous goods unless they are transported by aircraft or by vessel."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 68,
+    "fields": {
+      "code": 97,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to these dangerous goods unless they are transported by vessel."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 69,
+    "fields": {
+      "code": 98,
+      "description": "If these dangerous goods are composed of more than 10 percent ethanol, they must be transported under UN3475, ETHANOL AND GASOLINE MIXTURE."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 70,
+    "fields": {
+      "code": 99,
+      "description": "(1) Mixtures of solids that are not dangerous goods and liquids or solids that are UN3077, ENVIRONMENTALLY HAZARDOUS SUBSTANCE, SOLID, N.O.S., or UN3082, ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S., may be\nhandled, offered for transport or transported as UN3077 if there is no visible liquid when the dangerous goods are loaded into a means containment and during transport.\n(2) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to the handling, offering for transport or transporting of less than 450 kg of UN3077, ENVIRONMENTALLY HAZARDOUS SUBSTANCE, SOLID, N.O.S., or less than 450 L of UN3082, ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S., on a road vehicle or a railway vehicle. The dangerous goods must be contained in one or more small means of containment designed, constructed, filled, closed, secured and maintained so that under normal conditions of transport, including handling, there will be no accidental release of the dangerous goods that could endanger public safety."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 71,
+    "fields": {
+      "code": 100,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to magnesium nitrate hexahydrate."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 72,
+    "fields": {
+      "code": 101,
+      "description": "(1) This shipping name applies to fuel cell cartridges, including fuel cell cartridges contained in equipment or packed with equipment. Fuel cell cartridges installed in or integral to a fuel cell system are considered as contained in equipment. Fuel cell cartridges, including fuel cell cartridges contained in equipment, must be designed and constructed to prevent fuel leakage under normal conditions of transport.\n(2) Fuel cell cartridge design types must pass the following tests:\n(a) an internal pressure test at a pressure of 100 kPa (gauge) without leakage, if the fuel cell cartridge design type uses liquids as fuels; and\n(b) a 1.2 m drop test onto an unyielding surface, in the orientation most likely to result in failure of the containment system, with no loss of contents.\n(3) When lithium metal or lithium ion batteries are contained in the fuel cell system, the following UN number and shipping name must be assigned, as appropriate:\n(a) UN3091, LITHIUM METAL BATTERIES CONTAINED IN EQUIPMENT; or\n(b) UN3481, LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 73,
+    "fields": {
+      "code": 102,
+      "description": "(1) Fuel cell cartridges that contain hydrogen in a metal hydride and that are transported under this shipping name must have a capacity less than or equal to 120 mL. The fuel cell cartridges must be designed and constructed to prevent fuel leakage under normal conditions of transport.\n(2) The pressure in the fuel cell cartridge must not exceed 5 MPa at 55\u00b0C. The design type must be capable of withstanding, without leakage or bursting, a pressure of at least two times the design pressure of the cartridge at 55\u00b0C or 200 kPa more than the design pressure of the cartridge at 55\u00b0C, whichever is greater.\nThe pressure at which this test is conducted is referred to as the \u201cminimum shell burst pressure\u201d in paragraph 4(c) in relation to the drop test and in subsection (7) in relation to the hydrogen cycling test.\n(3) Fuel cell cartridges must be filled in accordance with procedures specified by the manufacturer and the manufacturer must provide, with each fuel cell cartridge, the following information:\n(a) inspection procedures to be carried out before initial filling and before refilling of the fuel cell cartridge;\n(b) safety precautions and potential hazards;\n(c) method for determining when the rated capacity has been achieved;\n(d) minimum and maximum pressure range;\n(e) minimum and maximum temperature range; and\n(f) any other requirements to be met for initial filling and refilling, including the type of equipment to be used for these operations.\n(4) Each cartridge design type, including cartridges integral to a fuel cell, must\n(a) withstand a 1.8 m drop test onto an unyielding surface in the four following orientations:\n(i) vertically, on the end containing the shut-off valve,\n(ii) vertically, on the end opposite to the shut-off valve,\n(iii) horizontally, onto a steel apex with a diameter of 38 mm, with the steel apex in the upward position; and\n(iv) at a 45\u00b0 angle on the end containing the shut-off valve;\n(b) show no leakage, determined by using a soap bubble solution or other equivalent means on all possible leak locations, when the cartridge is charged to its rated charging pressure; and\n(c) be hydrostatically pressurized to destruction with a recorded burst pressure that exceeds 85 per cent of the minimum shell burst pressure.\n(5) Each cartridge design type, including the design types for cartridges integral to a fuel cell, must pass a fire engulfment test using a fuel cell cartridge filled to rated capacity with hydrogen. The cartridge design type, which may have a vent feature integral to it, is deemed to have passed the fire engulfment test if\n(a) the internal pressure vents to zero pressure without rupture of the cartridge; or\n(b) the cartridge withstands the fire for a minimum of 20 minutes without rupture.\n(6) Each cartridge design type, including the design types for cartridges integral to a fuel cell, must pass a hydrogen cycling test in which the fuel cell cartridge is cycled, for at least 100 cycles, from not more than 5 per cent rated hydrogen capacity to not less than 95 per cent rated hydrogen capacity and then back to not more than 5 per cent rated hydrogen capacity. The rated charging pressure must be used for charging, and temperatures must be held within the operating temperature range.\n(7) Following the hydrogen cycling test, the fuel cell cartridge must be charged, and the water volume displaced by the cartridge must be measured. The cartridge design type is deemed to have passed the hydrogen cycling test if the water volume displaced by the cycled cartridge does not exceed the water volume displaced by an uncycled cartridge charged to 95 per cent rated capacity and pressurized to 75 per cent of its minimum shell burst pressure.\n(8) Each cartridge design type, including the design types for cartridges integral to a fuel cell, must pass a production leak test in which the fuel cell cartridge is tested for leaks at 15\u00baC \u00b1 5\u00baC while pressurized to its rated charging pressure. There must be no leakage, determined by using a soap bubble solution or other equivalent means on all possible leak locations.\n(9) Each fuel cell cartridge must be permanently marked with the following information:\n(a) the rated charging pressure, in megapascals (MPa);\n(b) the manufacturer\u2019s serial number or the unique identification number of the fuel cell cartridge; and\n(c) the date of expiry, based on the maximum service life (four digits for the year, two digits for the month)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 74,
+    "fields": {
+      "code": 103,
+      "description": "Each fuel cell designed to contain a liquefied flammable gas and transported under this shipping name must\n(a) be capable of withstanding, without leakage or bursting, a pressure of at least two times the equilibrium pressure of the contents at 55\u00baC;\n(b) contain a liquefied flammable gas that is in a quantity less than or equal to 200 mL and that has a vapour pressure less than or equal to 1 000 kPa at 55\u00baC; and\n(c) pass the hot water bath test described in section 6.2.4.1 of the UN Recommendations."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 75,
+    "fields": {
+      "code": 104,
+      "description": "(1) Flammable liquefied gases must be contained within refrigerating-machine components. These components must be designed to withstand at least three times the working pressure of the machinery and must be tested to ensure they meet that requirement. The refrigerating machines must be designed and constructed to contain the liquefied gas and to preclude the risk of the pressure-retaining components bursting or cracking during normal conditions of transport.\n(2) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to the handling, offering for transport or transporting, on a road vehicle, a railway vehicle or a vessel on a domestic voyage, of refrigerating machines and refrigerating-machine components transported that contains less than 12 kg of gas."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 76,
+    "fields": {
+      "code": 105,
+      "description": "This shipping name must not be used unless the results of Test series 6(d) in Part I of the Manual of Tests and Criteria have demonstrated that any hazardous effects arising from functioning are confined within the means of containment."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 77,
+    "fields": {
+      "code": 106,
+      "description": "When petroleum crude oil contains hydrogen sulphide in sufficient concentration that vapours evolved from the crude oil can present an inhalation hazard, the words \u201ctoxic by inhalation\u201d or \u201ctoxic \u2014 inhalation hazard\u201d or \u201ctoxique par inhalation\u201d or \u201ctoxicit\u00e9 par inhalation\u201d must be included\n(a) on a large means of containment, next to the placard for the primary class; and\n(b) on the shipping document, after the description required under section 3.5(1)(c) of Part 3 (Documentation)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 78,
+    "fields": {
+      "code": 108,
+      "description": "These dangerous goods must, at the time the containment system is closed, be at a pressure that corresponds to atmospheric pressure and that does not exceed 105 kPa absolute."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 79,
+    "fields": {
+      "code": 109,
+      "description": "The following fire extinguishers may be equipped with actuating cartridges included in Class 1.4C or 1.4S, without changing the classification of Class 2.2, if the total quantity of deflagrating (propellant) explosives in each fire extinguisher does not exceed 3.2 g:\n(a) portable fire extinguishers for manual handling and operation;\n(b) fire extinguishers for installation on board aircraft;\n(c) fire extinguishers mounted on wheels for manual handling;\n(d) fire extinguishing equipment or machinery mounted on wheels, on wheeled platforms or on units of transport similar to trailers; and\n(e) fire extinguishers composed of a pressure drum and of equipment without wheels, and handled by fork lift or crane, for example, whether loaded or unloaded."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 80,
+    "fields": {
+      "code": 110,
+      "description": "(1) If these dangerous goods contain at least 90 per cent, by mass, of phlegmatizer, then lactose, glucose or similar substances may be used as a phlegmatizer. The mixture of the dangerous goods and the phlegmatizer may be classified in Class 4.1 in accordance with Test Series 6(c) of Section 16 of Part I of the Manual of Tests and Criteria. The tests in the Test Series 6(c) must be performed on at least three means of containment prepared as if for transport.\n(2) A person is not required to display a class 6.1 label on a means of containment that contains a mixture of the dangerous goods and the phlegmatizer if the mixture contains not less than 90 per cent, by mass, of phlegmatizer.\n(3) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to a mixture of the dangerous goods and the phlegmatizer if the mixture contains not less than 98 per cent, by mass, of phlegmatizer."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 81,
+    "fields": {
+      "code": 111,
+      "description": "This shipping name must not be used for the transport of non-activated batteries unless they contain dry potassium hydroxide and are intended to be activated prior to use by the addition of an appropriate amount of water to each cell."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 82,
+    "fields": {
+      "code": 112,
+      "description": "To determine the content of ammonium nitrate in substances that are mixtures and that are transported under UN2067, AMMONIUM NITRATE BASED FERTILIZER, all nitrate ions for which a molecular equivalent of ammonium ions is present in the mixture must be calculated as a mass of ammonium nitrate."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 83,
+    "fields": {
+      "code": 113,
+      "description": "The shipping name UN 2067, AMMONIUM NITRATE BASED FERTILIZER, must not be used for mixtures containing ammonium nitrate as the main constituent unless the mixtures are within the following limits:\n(a) at least 90 per cent ammonium nitrate with 0.2 per cent or less of total combustible or organic material calculated as carbon and with material, if any, that is inorganic and inert towards ammonium nitrate;\n(b) less than 90 per cent but more than 70 per cent ammonium nitrate with other inorganic materials, or more than 80 per cent but less than 90 per cent ammonium nitrate mixed with calcium carbonate, dolomite or mineral calcium sulphate and not more than 0.4 per cent total combustible or organic material calculated as carbon; or\n(c) nitrogen-type ammonium nitrate based fertilizers containing mixtures of ammonium nitrate and ammonium sulphate with more than 45 per cent but less than 70 per cent ammonium nitrate and not more than 0.4 per cent total combustible or organic material calculated as carbon such that the sum of the percentage compositions of ammonium nitrate and ammonium sulphate exceeds 70 per cent."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 84,
+    "fields": {
+      "code": 114,
+      "description": "(1) The shipping name UN2071, AMMONIUM NITRATE BASED FERTILIZER, and the data in columns 3 to 9 of Schedule 1 must not be used for uniform ammonium nitrate based fertilizer mixtures of the nitrogen, phosphate or potash type unless the mixtures are within the following composition limits:\n(a) 70 per cent or less of ammonium nitrate and 0.4 per cent or less of total combustible or organic material calculated as carbon; or\n(b) 45 per cent or less of ammonium nitrate and unrestricted combustible material.\n(2) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to fertilizers within the composition limits if the fertilizers are shown not to be liable to self-sustaining decomposition by the Trough Test referred to subsection 38.2 of Part III of the Manual of Tests and Criteria."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 85,
+    "fields": {
+      "code": 115,
+      "description": "Dangerous goods included in Class 6.1 that meet the inhalation toxicity criteria for Packing Group I set out in paragraph 2.29(2)(d) of Part 2 (Classification) must, as applicable, be offered for transport, handled or transported under UN3381, UN3382, UN3383, UN3384, UN3385, UN3386, UN3387, UN3388, UN3389, UN3390, UN3488, UN3489, UN3490 or UN3491."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 86,
+    "fields": {
+      "code": 116,
+      "description": "This shipping name applies only to calcium hypochlorite, dry, when transported in non-friable tablet form."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 87,
+    "fields": {
+      "code": 117,
+      "description": "When transported in non-friable tablet form, these dangerous goods are included in Packing Group III."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 88,
+    "fields": {
+      "code": 118,
+      "description": "Mixtures of a hypochlorite with an ammonium salt are forbidden for transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 89,
+    "fields": {
+      "code": 119,
+      "description": "Ammonium bromate and its aqueous solutions and mixtures of a bromate with an ammonium salt are forbidden for transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 90,
+    "fields": {
+      "code": 120,
+      "description": "Ammonium chlorate and its aqueous solutions and mixtures of a chlorate with an ammonium salt are forbidden for transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 91,
+    "fields": {
+      "code": 121,
+      "description": "Ammonium chlorite and its aqueous solutions and mixtures of a chlorite with an ammonium salt are forbidden for transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 92,
+    "fields": {
+      "code": 122,
+      "description": "Ammonium permanganate and its aqueous solutions and mixtures of a permanganate with an ammonium salt are forbidden for transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 93,
+    "fields": {
+      "code": 124,
+      "description": "(1) This shipping name applies to electric double layer capacitors if the energy storage capacity of each capacitor, calculated using the nominal voltage and capacitance, is greater than 0.3 Wh.\n(2) A capacitor must\n(a) be transported in an uncharged state, if it is not installed in equipment;\n(b) be transported in an uncharged state or be protected against short circuit, if it is installed in equipment; and\n(c) be marked with the energy storage capacity in Wh, if it was manufactured after December 31, 2013.\n(3) When the energy storage capacity of a capacitor is less than or equal to 10 Wh, the capacitor must, when it is in transport and when it is in a module in transport, be protected against short circuit or fitted with a metal strap connecting the terminals.\n(4) When the energy storage capacity of a capacitor is greater than 10 Wh, the capacitor must, when it is in transport and when it is in a module in transport, be fitted with a metal strap connecting the terminals.\n(5) A capacitor containing dangerous goods must be designed to withstand a 95 kPa pressure differential.\n(6) A capacitor must be designed and constructed so that any pressure that may build up in use may be safely relieved through a vent or a weak point in the capacitor casing. Any liquid that is released upon venting must be contained by the means of containment containing the capacitor or by the equipment in which the capacitor is installed.\n(7) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to\n(a) a capacitor that contains an electrolyte that does not meet the criteria for inclusion in any class of dangerous goods;\n(b) a capacitor that contains an electrolyte that meets the criteria for inclusion in a class of dangerous goods, that has an energy storage capacity of 10 Wh or less, and that is capable of withstanding a 1.2 m drop test on an unyielding surface, unpackaged, without loss of contents; or\n(c) a capacitor that is installed in equipment and contains an electrolyte that meets the criteria for inclusion in a class of dangerous goods, if the equipment is in a means of containment that is designed, constructed, filled, closed and secured so that under normal conditions of transport, including handling, there will be no accidental functioning of the capacitor or release of the dangerous goods that could endanger public safety.\n(8) Large equipment containing a capacitor may be transported without a means of containment or on pallets, if the capacitor is afforded equivalent protected by the equipment in which it is contained."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 94,
+    "fields": {
+      "code": 125,
+      "description": "These dangerous goods may be handled, offered for transport or transported in accordance with subsections 1.17 (2) to (4) of Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) on a road vehicle, a railway vehicle or a vessel on a domestic voyage if\nSOR/2017-253\n(a) the dangerous goods are classified and authorized in accordance with the \u201cExplosives Regulations, 2013\u201d;\n(b) the dangerous goods are contained in inner means of containment that are placed in a strong outer means of containment designed, constructed, filled, closed, secured and maintained so that under normal conditions of transport, including handling, there will be no accidental release of the dangerous goods that could endanger public safety;\n(c) each inner means of containment has a gross mass less than or equal to 5 kg;\n(d) the outer means of containment has a gross mass less than or equal to 30 kg; and\n(e) the outermeans of containment, as presented for transport, is capable of passing a test in accordance with Test Series 6(d) of Part I of the Manual of Tests and Criteria."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 95,
+    "fields": {
+      "code": 126,
+      "description": "Manufactured instruments and articles containing mercury may be handled, offered for transport or transported under the UN number and shipping name UN3506, MERCURY CONTAINED IN MANUFACTURED ARTICLES."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 96,
+    "fields": {
+      "code": 127,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to the handling, offering for transport or transporting of articles containing a quantity of mercury that is less than or equal to 1 kg that are transported on a road vehicle, a railway vehicle or a vessel on a domestic voyage."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 97,
+    "fields": {
+      "code": 128,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to decontaminated medical or clinical wastes that previously contained infectious substances, unless the decontaminated medical or clinical wastes meet the criteria for inclusion in another class."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 98,
+    "fields": {
+      "code": 129,
+      "description": "These dangerous goods must be in a means of containment that is in compliance with Packing Instruction P621, IBC620 or LP621 of the UN Recommendations."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 99,
+    "fields": {
+      "code": 130,
+      "description": "(1) This shipping name applies to chemicals under pressure, including liquids, pastes or powders that are pressurized with a propellant that meets the criteria set out in section 2.2.1.2 of the UN Recommendation for a compressed gas or a liquefied gas.\n(2) These dangerous goods must be assigned to\n(a) primary Class 2.1, Flammable Gases, if one of the components, which can be a pure substance or a mixture, is classified as a flammable component under subsection (3); and\n(b) subsidiary Class 6.1, Toxic Substances, or Class 8, Corrosives, if one of the liquid or solid components is included in Class 6.1, Toxic Substances, Packing Group II or III, or Class 8, Corrosives, Packing Group II or III.\n(3) A flammable component is\n(a) a liquid that has a flashpoint of 60\u00b0C or less;\n(b) a solid that meets the criterion set out in subparagraph 2.21(a)(i) of Part 2 (Classification); and\n(c) a gas that meets the criteria set out in paragraph 2.14(a) of Part 2 (Classification).\n(4) This shipping name must not be used to transport\n(a) gases included in both primary Class 2.3, Toxic Gases, and subsidiary Class 5.1, Oxidizing Substances;\n(b) substances included in Packing Group I of Class 6.1, Toxic Substances, or Class 8, Corrosives:\n(c) liquid desensitized explosives included in Class 3, Flammable Liquids;\n(d) self-reactive substances and solid desensitized explosives included in Class 4.1, Flammable Solids; or\n(e) dangerous good included in\n(i) Class 4.2, Substances Liable to Spontaneous Combustion;\n(ii) Class 4.3, Water-reactive Substances;\n(iii) Class 5.1, Oxidizing Substances;\n(iv) Class 5.2, Organic Peroxides;\n(v) Class 6.2, Infectious Substances; or\n(vi) Class 7, Radioactive Materials.\n(5) Dangerous goods to which special packing provision PP86 or TP7 is assigned in Column 9 and Column 11 of the Dangerous Goods List in Chapter 3.2 of the UN Recommendations, and that therefore require air to be eliminated from the vapour space, must not be transported under this shipping name, but must be transported under their respective shipping names as listed in the Dangerous Goods List of Chapter 3.2 of the UN Recommendations.\nA chemical under pressure contained in an aerosol container must be transported under UN1950, AEROSOLS."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 100,
+    "fields": {
+      "code": 131,
+      "description": "These dangerous goods must not be transported if the temperature of the dangerous goods at the time of loading exceeds the higher of 35\u00b0C or 5\u00b0C above the ambient temperature."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 101,
+    "fields": {
+      "code": 132,
+      "description": "These dangerous goods must not be transported by vessel if they contain less than 100 ppm of an antioxidant (ethoxyquin)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 102,
+    "fields": {
+      "code": 133,
+      "description": "This shipping name must not be used to transport UN3155, PENTACHLOROPHENOL."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 103,
+    "fields": {
+      "code": 134,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to nitrocellulose membrane filters, each with a mass not exceeding 0.5 g, if they are contained individually in an article or a sealed packet."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 104,
+    "fields": {
+      "code": 135,
+      "description": "This shipping name applies to articles that contain dangerous goods included in Class 1, Explosives, and that may also contain dangerous goods included in other classes.\nThese articles are used to enhance safety in vehicles, vessels or aircraft. They include air bag inflators, air bag modules, seat-belt pretensioners, and pyromechanical devices."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 105,
+    "fields": {
+      "code": 136,
+      "description": "This shipping name applies to safety devices for road vehicles, railway vehicles, vessels or aircraft, such as air bag inflators, air bag modules, seat-belt pretensioners and pyromechanical devices, that are transported as component parts and that, before being presented for transport, have been tested in accordance with the Series 6 type (c) test in Section 16 of Part I of the Manual of Tests and Criteria, with no explosion of the device tested, no fragmentation of the device casing or pressure vessel, and no projection hazard or thermal effect that could hinder fire fighting or other emergency response."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 106,
+    "fields": {
+      "code": 139,
+      "description": "(1) Asbestos that is immersed or fixed in a natural or artificial binder in such a way that no release of hazardous quantities of respirable asbestos fibres can occur during transport is not subject to these Regulations.\nMinerals are examples of natural binders; cement, asphalt, resins and plastics are examples of artificial binders.\n(2) Manufactured articles containing asbestos that is not immersed or fixed in accordance with subsection (1) are not subject to these Regulations when packed so that no release of hazardous quantities of respirable asbestos fibres can occur during transport."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 107,
+    "fields": {
+      "code": 140,
+      "description": "This shipping name applies to\n(a) ammonium nitrate with more than 0.2 per cent combustible substances, including any organic substance calculated as carbon, to the exclusion of any other added substance; and\n(b) ammonium nitrate that contains not more than 0.2 per cent combustible substances, including any organic substance calculated as carbon, to the exclusion of any other added substance, and that gives a positive result for acceptance into Class 1, Explosives, when tested in accordance with Test Series 2 of Part 1 of the Manual of Tests and Criteria, Part I."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 108,
+    "fields": {
+      "code": 141,
+      "description": "(1) Any dangerous goods may be transported under any of these shipping names if\n(a) the dangerous goods are contained in a chemical kit, first aid kit or polyester resin kit; and\n(b) the quantities do not exceed the limits that apply to the dangerous goods as determined in accordance with column 6(b) of Schedule 1 and the table to subsection 1.17.1(2).\n(2) Despite paragraph (1)(b), in the case of dangerous goods that are included in Class 5.2, Organic Peroxides, the quantity limits must be determined using the alphanumeric code E2."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 109,
+    "fields": {
+      "code": 143,
+      "description": "(1) This shipping name also applies to articles containing a small pressure receptacle with a release device if\n(a) the water capacity of the pressure receptacle does not exceed 0.5 L and the working pressure does not exceed 2 500 KPa at 15\u00b0C;\n(b) the minimum burst pressure of the pressure receptacle is at least four times the pressure of the gas at 15\u00b0C;\n(c) each article is manufactured in such a way that unintentional firing or release is avoided under normal conditions of handling, packing, transport and use;\nThis requirement may be met by mounting an additional locking device linked to the activator.\n(d) each article is manufactured in such a way as to prevent hazardous projections of the pressure receptacle or its parts;\n(e) each pressure receptacle is manufactured from material that will not fragment upon rupture;\n(f) the design type of each article is subjected to a fire test; and\n(g) the design type of each article must be subjected to a single package test.\n(2) For the purposes of the fire test referred to in paragraph (1)(f), the provisions of section 16.6.1.2, with the exception of paragraph (g), and sections 16.6.1.3.1 to 16.6.1.3.6, 16.6.1.3.7 (b) and section 16.6.1.3.8 of the Manual of Tests and Criteria must be applied. It must be demonstrated that the article relieves its pressure by means of a fire degradable seal or other pressure relief device in such a way that the pressure receptacle will not fragment and that the article or fragments of the article do not rocket more than 10 m.\n(3) For the purposes of the single package test referred to in paragraph (1)(g), a stimulating mechanism must be used to initiate one article in the middle of the means of containment. There must be no hazardous effects outside the means of containment, such as bursting of the means of containment, or projection of metal fragments or the receptacle itself through the means of containment.\n(4) The manufacturer must keep technical documentation on the design type and its manufacture, as well as on the tests and their results, and must apply procedures to ensure that articles manufactured in series conform to the design type and meet the conditions set out in subsection (1)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 110,
+    "fields": {
+      "code": 144,
+      "description": "(1) All asymmetric capacitors assigned to this shipping name must meet the following conditions:\n(a) capacitors or modules are protected against short circuit;\n(b) capacitors are designed and constructed so that any pressure that may build up in use may be safely relieved through a vent or a weak point in the capacitor casing, and any liquid that is released upon venting is contained by packaging or by the equipment in which the capacitors are installed;\n(c) capacitors manufactured after December 31, 2015 are marked with the energy storage capacity in Wh; and\n(d) capacitors that contain an electrolyte meeting the classification criteria of any class of dangerous goods are designed to withstand a 95 kPa pressure differential.\nEnergy storage capacity means the energy stored in a capacitor, as calculated according to the following equation:\nWh = 1/2CN(UR2\u2013UL2) \u00d7 (1/3600),\nwhere (CN) is the nominal capacitance, (UR) is the rated voltage, and (UL) is the rated lower limit voltage\n(2) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to\n(a) capacitors with an energy storage capacity less than or equal to 0.3 Wh;\n(b) capacitors that contain an electrolyte not included in at least one of the 9 classes of dangerous goods, including when configured in a module or when installed in equipment;\n(c) capacitors that contain an electrolyte not included in at least one of the 9 classes of dangerous goods, with an energy storage capacity less than or equal to 20 Wh, including when configured in a module if the capacitors are capable of withstanding a 1.2 m drop test on an unyielding surface, unpackaged, without loss of contents; and\n(d) capacitors that are installed in equipment and contain an electrolyte included in at least one of the 9 classes of dangerous goods, if the equipment is contained in a strong outer means of containment that is designed, constructed, filled, closed, secured and maintained so that under normal conditions of transport, including handling, there will be no accidental release of the dangerous goods or accidental functioning of capacitors that could endanger public safety.\nLarge robust equipment containing capacitors may be offered for transport unpackaged or on pallets if the capacitors are afforded equivalent protection by the equipment in which they are contained.\n(3) Despite subsections (1) and (2), nickel-carbon asymmetric capacitors containing Class 8 alkaline electrolytes must be transported as UN2795, BATTERIES, WET, FILLED WITH ALKALI, electric storage."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 111,
+    "fields": {
+      "code": 145,
+      "description": "(1) Neutron radiation detectors containing non-pressurized boron trifluoride gas may transported under this shipping name if\n(a) the absolute pressure in each detector does not exceed 105 kPa at 20\u00b0C;\n(b) the amount of gas does not exceed 13 g per detector;\n(c) each detector is manufactured under a quality assurance program;\nISO 9001:2008 is an example of a quality assurance program.\n(d) each detector is of welded metal construction with brazed metal to ceramic feed through assemblies;\n(e) each detector has a minimum burst pressure of 1 800 kPa, demonstrated by design type qualification testing; and\n(f) each detector is tested to a 1 \u00d7 10-10 cm3/s leaktightness standard before being filled.\n(2) Neutron radiation detectors containing non-pressurized boron trifluoride gas transported as individual components must be offered for transport and transported as follows:\n(a) they must be packed in a sealed intermediate plastics liner with sufficient absorbent material to absorb the entire gas contents;\n(b) they must be packed in a strong outer means of containment;\n(c) in their outer means of containment, they must be capable of withstanding a 1.8 m drop test without any leakage of the gas contained in the detectors; and\n(d) the total amount of gas contained in all the detectors in each outer means of containment must not exceed 52 g.\n(3) Completed neutron radiation detection systems containing detectors that meet the requirements of subsection (1) must be offered for transport and transported as follows:\n(a) the detectors must be housed in a strong sealed outer casing;\n(b) the casing must contain sufficient absorbent material to absorb the entire gas contents of the detectors; and\n(c) unless the outer casing affords equivalent protection, the completed systems must be packed in a strong outer means of containment capable of withstanding a 1.8 m drop test without any leakage of the gas contained in the detectors.\n(4) The shipping document must include the statement \u201cTransported in accordance with special provision 145\u201d or \u201cTransport\u00e9 conform\u00e9ment \u00e0 la disposition special 145\u201d.\n(5) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to\n(a) neutron radiation detectors, including those with solder glass joints, containing not more than 1 g of boron trifluoride gas, if they may be transported under this shipping name under subsection (1) and are packed in accordance with subsection (2); and\n(b) radiation detection systems containing detectors described in paragraph (a) if the systems are packed in accordance with subsection (3)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 112,
+    "fields": {
+      "code": 146,
+      "description": "This shipping name must not be used for small means of containment, large means of containments or intermediate bulk containers (IBC), or parts of them, unless they\n(a) have contained dangerous goods other than radioactive materials;\n(b) are transported for disposal, recycling, or recovery of their material other than for the purpose of reconditioning, repair, routine maintenance, remanufacturing or reuse; and\n(c) have, when offered for transport, been emptied to the extent that only residues of dangerous goods adhering to parts of the means of containment are present."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 113,
+    "fields": {
+      "code": 147,
+      "description": "Despite explosives packing instruction EP 17 of CGSB-43.151, a person must not handle, offer for transport or transport these dangerous goods in a UN portable tank or a highway tank."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 114,
+    "fields": {
+      "code": 150,
+      "description": "An emergency response assistance plan (ERAP) is required for these dangerous goods under subsection 7.1(6) of Part 7 (Emergency Response Assistance Plan)."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 115,
+    "fields": {
+      "code": 152,
+      "description": "Plastic moulding compounds that are made from polystyrene, poly(methyl methacrylate) or other polymeric material may be offered for transport, handled or transported under this shipping name."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 116,
+    "fields": {
+      "code": 153,
+      "description": "(1) This shipping name applies to polyester resin kits that consist of\n(a) a base material that is a dangerous good included in Class 3 or 4.1 and in Packing Group II or III; and\n(b) an activator that is an organic peroxide of type D, E or F that is included in Class 5.2 and does not require temperature control.\nSOR/2017-253\n(2) The quantity of the base material in an inner means of containment must\n(a) in the case of a solid, have a mass that is less than or equal to the number set out in column 1 of the table to subsection 1.17.1(2) of Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) for the corresponding alphanumeric code set out in column 6(b) of Schedule 1, if that number is expressed in grams; and\n(b) in the case of a liquid, have a volume that is less than or equal to the number set out in column 1 of the table to subsection 1.17.1(2) of Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) for the corresponding alphanumeric code set out in column 6(b) of Schedule 1, if that number is expressed in millilitres."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 117,
+    "fields": {
+      "code": 154,
+      "description": "(1) These shipping names apply to engines or machinery that include internal combustion systems or fuel cells that run on and contain fuels that are dangerous goods. The engines or machinery include combustion engines, generators, compressors, turbines and heating units.\n(2) Engines or machinery containing fuels that are included in Class 3, may be imported, offered for transport, handled or transported under UN3528, ENGINE, INTERNAL COMBUSTION, FLAMMABLE LIQUID POWERED or UN3528, ENGINE, FUEL CELL, FLAMMABLE LIQUID POWERED or UN3528, MACHINERY, INTERNAL COMBUSTION, FLAMMABLE LIQUID POWERED or UN3528, MACHINERY, FUEL CELL, FLAMMABLE LIQUID POWERED, as appropriate.\n(3) Engines or machinery containing fuels that are included in Class 2.1 and engines or machinery that run on both a flammable gas and a flammable liquid may be imported, offered for transport, handled or transported under UN3529, ENGINE, INTERNAL COMBUSTION, FLAMMABLE GAS POWERED or UN3529, ENGINE, FUEL CELL, FLAMMABLE GAS POWERED or UN3529, MACHINERY, INTERNAL COMBUSTION, FLAMMABLE GAS POWERED or UN3529, MACHINERY, FUEL CELL, FLAMMABLE GAS POWERED, as appropriate.\n(4) Engines or machinery containing liquid fuels that are included in Class 9 but do not meet the classification criteria of any other class, may be imported, offered for transport, handled or transported under UN3530, ENGINE, INTERNAL COMBUSTION or UN3530, MACHINERY, INTERNAL COMBUSTION, as appropriate.\nSOR/2017-253\n(5) A person must not import, offer for transport, handle or transport an engine or a piece of machinery under one of these shipping names unless it\n(a) is oriented to prevent inadvertent leakage of the fuel it contains; and\n(b) is secured by means that will prevent any movement during transport which would change its orientation or cause it to be damaged.\n(6) A person must not transport an engine or piece of machinery under one of these shipping names unless all valves and openings, including venting devices, are closed during transport.\n(7) Despite the requirements in Part 4 (Dangerous Goods Safety Marks) of these Regulations, if an engine or piece of machinery is imported, offered for transport, handled or transported under one of these shipping names, either of the following safety marks must be displayed on the engine or piece of machinery:\n(a) a placard and UN number on two opposite sides; or\n(b) a label, a UN number and a shipping name on two opposite sides.\n(8) An engine or piece of machinery must not be imported, offered for transport, handled or transported under one of these shipping names unless\n(a) in the case of an engine or piece of machinery that contains or is intended to contain a liquid fuel included in Class 3 or 9, the fuel tank meets the applicable requirements of Part 5 (Means of Containment) for that fuel; and\n(b) in the case of an engine or piece of machinery that contains or is intended to contain a gaseous fuel included in Class 2.1, the fuel tank meets the applicable requirements of Part 5 (Means of Containment) for that fuel.\n(9) If an engine or piece of machinery is imported, offered for transport, handled or transported under one of these shipping names, it must be packed in accordance with Packing Instruction P005 of the UN Recommendations.\n(10) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to UN3528, ENGINE, INTERNAL COMBUSTION, FLAMMABLE LIQUID POWERED, UN3528, ENGINE, FUEL CELL, FLAMMABLE LIQUID POWERED, UN3528, MACHINERY, INTERNAL COMBUSTION, FLAMMABLE LIQUID POWERED, UN3528, MACHINERY, FUEL CELL, FLAMMABLE LIQUID POWERED, UN3530, ENGINE, INTERNAL COMBUSTION or UN3530, MACHINERY, INTERNAL COMBUSTION, that are on a road vehicle, a railway vehicle or a vessel on a domestic voyage if\nSOR/2017-253\n(a) the engine or piece of machinery has a fuel tank with a capacity of 450 L or less; and\n(b) the fuel contained in the engine or piece of machinery is a liquid contained in a means of containment that is designed, constructed, filled, closed, secured and maintained so that under normal conditions of transport, including handling, there will be no release of the fuel that could endanger public safety.\n(11) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to dangerous goods other than fuel that are contained in an engine or piece of machinery and that are required for the functioning or safe operation of the engine or piece of machinery if the engine or piece of machinery is on a road vehicle, a railway vehicle or a vessel on a domestic voyage. The dangerous goods other than fuel include batteries, fire extinguishers, compressed gas accumulators and safety devices."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 118,
+    "fields": {
+      "code": 155,
+      "description": "(1) If these dangerous goods are stabilized by temperature control, they must be offered for transport, handled and transported in accordance with section 7.1.6 of the UN Recommendations.\n(2) If chemical stabilization is employed, the person offering the means of containment for transport must ensure that the level of stabilization will prevent a dangerous polymerization of the dangerous goods at a bulk mean temperature of 50\u00b0C in the case of a small means of containment or an intermediate bulk container (IBC) or, in the case of a large means of containment that is not an IBC, at a bulk mean temperature of 45\u00b0C.\n(3) If chemical stabilization may become ineffective at lower temperatures within the anticipated duration of transport, temperature control is required. In determining whether chemical stabilization may become ineffective at lower temperatures, the person offering the means of containment for transport must take at least the following the factors into consideration:\n(a) the capacity and geometry of the means of containment and the effect of any insulation;\n(b) the temperature of the dangerous goods when offered for transport;\n(c) the duration of the transport and the seasonal ambient temperature conditions typically encountered during transport; and\n(d) the effectiveness and other physical or chemical properties of the stabilizer employed."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 119,
+    "fields": {
+      "code": 156,
+      "description": "If a vehicle is powered by an internal combustion engine that runs on a flammable liquid and a flammable gas, the vehicle must be offered for transport, handled and transported under UN3166 VEHICLE, FLAMMABLE GAS POWERED."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 120,
+    "fields": {
+      "code": 157,
+      "description": "(1) This shipping name applies to vehicles that are powered by internal combustion engines or fuel cells that run a flammable liquid or gas.\n(2) For the purposes of this special provision, vehicles are self-propelled apparatus designed to carry persons or goods. Examples include cars, motorcycles, trucks, locomotives, scooters, three- and four-wheeled vehicles or motorcycles, lawn tractors, self-propelled farming and construction equipment, boats and aircraft.\n(3) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply to dangerous goods other than fuels that are contained in integral components of a vehicle if those components are securely installed and are necessary for the operation of the vehicle or for the safety of its operator or passengers. Examples include fire extinguishers, compressed gas accumulators and other safety devices."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 121,
+    "fields": {
+      "code": 158,
+      "description": "(1) These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply in respect of anhydrous ammonia that is adsorbed or absorbed on a solid material that is contained in an ammonia dispensing system or in a pressure receptacle that is intended to form part of an ammonia dispensing system if\n(a) the adsorption or absorption presents the following properties:\n(i) the pressure at a temperature of 20\u00b0C in the receptacle is less than 60 kPa (0.6 bar),\n(ii) the pressure at a temperature of 35\u00b0C in the receptacle is less than 100 kPa (1 bar), and\n(iii) the pressure at a temperature of 85\u00b0C in the receptacle is less than 1.2 MPa (12 bar);\n(b) the adsorbent or absorbent material does not meet the criteria in Part 2 (Classification) for inclusion in any of Classes 1 to 8;\n(c) the pressure receptacle\n(i) does not contain more than 10 kg of ammonia,\n(ii) is made of a material that, as specified in special provision 379 of the UN Recommendations, is compatible with ammonia,\n(iii) is hermetically sealed and able to contain the generated ammonia,\n(iv) has a means of closure that hermetically seals the pressure receptacle and is able to contain the generated ammonia,\n(v) is able to withstand the pressure generated at 85\u00b0C with a volumetric expansion of 0.1% or less,\n(vi) is fitted with a pressure release device that allows for gas evacuation without violent rupture, explosion or projection once pressure exceeds 1.5 MPa (15 bar), and\n(vii) is able to withstand a pressure of 2 MPa (20 bar) without leakage when the pressure relief device is deactivated; and\n(d) in the case of a pressure receptacle that is contained in an ammonia dispensing system, the pressure receptacle is connected to the system in such a way that the whole system has the same strength as a pressure receptacle that is not contained in an ammonia dispensing system.\n(2) The mechanical strength properties set out in subsection (1) must be tested\n(a) using a prototype of a pressure receptacle that is filled to nominal capacity or a prototype of a pressure receptacle that is filled to nominal capacity and is contained in an ammonia dispensing system; and\n(b) by increasing the temperature until the pressures specified in subsection (1) are reached."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 122,
+    "fields": {
+      "code": 160,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases) and Part 2 (Classification), do not apply in respect of the offering for transport, handling or transporting of table tennis balls that are manufactured from celluloid if the net mass of each table tennis ball is less than or equal to 3 g and the total net mass of table tennis balls is less than or equal to 500 g per package."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 123,
+    "fields": {
+      "code": 161,
+      "description": "(1) Before loading, these dangerous goods must be cooled to ambient temperature, unless they have been calcined to remove moisture.\n(2) During transport, a large means of containment containing bulk loads of these dangerous goods must be ventilated and protected against ingress of water."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 124,
+    "fields": {
+      "code": 162,
+      "description": "(1) Uranium hexafluoride must not be offered for transport, handled or transported under this shipping name unless the requirements of the \u201cPackaging and Transport of Nuclear Substances Regulations, 2015\u201d have been met.\n(2) Despite section 4.10 of Part 4 (Dangerous Goods Safety Marks), a Class 6.1 label and a Class 8 label must be displayed on a means of containment that contains uranium hexafluoride."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 125,
+    "fields": {
+      "code": 163,
+      "description": "These Regulations, except for Part 1 (Coming into Force, Repeal, Interpretation, General Provisions and Special Cases), Part 2 (Classification), Part 4 (Dangerous Goods Safety Marks) and Part 5 (Means of Containment), do not apply to the offering for transport, handling or transporting on a road vehicle, a railway vehicle or a vessel on a domestic voyage of safety matches and wax \u201cVesta\u201d matches if the outer packaging has a gross mass less than or equal to 25 kg."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 126,
+    "fields": {
+      "code": 164,
+      "description": "(1) Other dangerous goods must not be packed in the same small means of containment as dangerous goods that are Class 6.2, Infectious Substances unless\n(a) the other dangerous goods are necessary for maintaining the viability or stability of the dangerous goods that are Class 6.2, Infectious Substances, for preventing their degradation or for neutralizing the hazards that they represent;\n(b) the other dangerous goods are included in Class 3, 8 or 9;\n(c) the quantity of the other dangerous goods packed in each primary receptacle does not exceed 30 mL; and\n(d) the other dangerous goods are packed in accordance with the applicable packing instruction set out in CGSB-43.125.\n(2) Part 3 (Documentation), Part 4 (Dangerous Goods Safety Marks) and Part 5 (Means of Containment) do not apply to the offering for transport, handling or transporting of the other dangerous goods if the requirements in subsection (1) are met."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 127,
+    "fields": {
+      "code": 165,
+      "description": "Despite section 4.2 of Part 4 (Dangerous Goods Safety Marks) or section 6.1 of the Act, the marking for a Type P650 packaging that is set out in CGSB-43.125 may be displayed on an empty packaging."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 128,
+    "fields": {
+      "code": 166,
+      "description": "Dangerous goods that are included in Class 6.1 due to inhalation toxicity in accordance with paragraph 2.28(c) of Part 2 (Classification) must, as applicable, be offered for transport, handled or transported under UN3381, UN3382, UN3383, UN3384, UN3385, UN3386, UN3387, UN3388, UN3389, UN3390, UN3488, UN3489, UN3490 or UN3491."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 129,
+    "fields": {
+      "code": 167,
+      "description": "(1) This shipping name applies only to an apparatus, piece of equipment or piece of machinery if it contains dangerous goods as an integral element. This shipping name must not be used for an apparatus, piece of equipment or piece of machinery for which a shipping name already exists in Schedule 1.\n(2) Part 3 (Documentation), Part 4 (Dangerous Goods Safety Marks) and Part 5 (Means of Containment) do not apply to the offering for transport, handling or transporting of an apparatus, piece of equipment or piece of machinery under this shipping name if\n(a) the apparatus, piece of equipment or piece of machinery is on a road vehicle, a railway vehicle or a vessel on a domestic voyage;\nSOR/2017-253\n(b) the apparatus, piece of equipment or piece of machinery is designed to perform a function other than solely to contain the dangerous goods;\n(c) the dangerous goods that the apparatus, piece of equipment or piece of machinery contains\n(i) are not explosives,\n(ii) are not intended to be discharged from the apparatus, piece of equipment or piece of machinery, and\n(iii) have a number that is set out in column 6(a) of Schedule 1 and\n(A) have, in the case of a solid, a mass that is less than or equal to that number when it is expressed in kilograms,\n(B) have, in the case of a liquid, a volume that is less than or equal to that number when it is expressed in litres, and\n(C) are, in the case of a gas, including a gas in a liquefied form, contained in one or more means of containment whose total capacity is less than or equal to that number when it is expressed in litres.\n(3) Part 3 (Documentation), Part 4 (Dangerous Goods Safety Marks) and Part 5 (Means of Containment) do not apply to the offering for transport, handling or transporting of an apparatus, piece of equipment or piece of machinery under this shipping name if\n(a) the apparatus, piece of equipment or piece of machinery is on a road vehicle, a railway vehicle or a vessel on a domestic voyage;\nSOR/2017-253\n(b) the apparatus, piece of equipment or piece of machinery is designed to perform a function other than solely to contain the dangerous goods and, once it contains the dangerous goods, is not classified as an explosive in accordance with the \u201cExplosives Regulations, 2013\u201d; and\n(c) the dangerous goods that the apparatus, piece of equipment or piece of machinery contains\n(i) are explosives,\n(ii) are not intended to be discharged from the apparatus, piece of equipment or piece of machinery,\n(iii) have, in the case of explosives that are not subject to special provision 85 or 86, a number that is set out in column 6(a) of Schedule 1 and have a net explosives quantity that is less than or equal to that number when it is expressed in kilo-grams,\n(iv) are, in the case of explosives that are subject to special provision 85, in a quantity that is less than or equal to 15,000 articles, and\n(v) are, in the case of explosives that are subject to special provision 86, in a quantity that is less than or equal to 100 articles.\n(4) If an apparatus, piece of machinery or piece of equipment is offered for transport, handled or transported under this shipping name and it contains more than one item of dangerous goods, the items must not be capable of reacting dangerously with one another in a way that causes\n(a) the combustion or evolution of considerable heat;\n(b) the evolution of flammable, toxic or asphyxiant gases;\n(c) the formation of corrosive substances; or\n(d) the formation of unstable substances."
+    }
+  },
+  {
+    "model": "api.dangerousgoodgroundspecialprovision",
+    "pk": 130,
+    "fields": {
+      "code": 168,
+      "description": "Subparagraph 3.5(1)(c)(vii), section 4.23, Part 7 (Emergency Response Assistance Plan) and special provision 23 do not apply to UN1831, SULFURIC ACID, FUMING with less than 30 % free SULFUR TRIOXIDE."
+    }
+  }
+]

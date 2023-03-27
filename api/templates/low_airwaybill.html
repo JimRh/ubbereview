@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Low Airwaybills Notification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin: 0; padding: 0; background-color: white">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="700" style="border-collapse: collapse;">
+        <tr>
+            <td bgcolor="" style="padding: 40px 30px 40px 30px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="color: #141B4D; font-family: sans-serif; font-size: 24px;" align="center">
+                            <h1 style="font-size: 45px;text-align: center;line-height: 1.1;color: #141B4D;display: block;margin: 0;padding: 0;font-style: normal;font-weight: 800;letter-spacing: normal;"><strong>Low Airwaybills Notification</strong></h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="line-height: 15px">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px 0 30px 0; color: #141B4D; font-family: sans-serif; font-size: 16px; line-height: 20px;">
+                            Please be advised we are running low on the following carrier airway bills. Once new AWBs are acquired, please send them over to developeer@bbex.com in excel format for upload into ubbe.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr style="line-height: 1.1">
+                                    <td><strong style="font-size: 18px; line-height: 1.6;">Code</strong></td>
+                                    <td><strong style="font-size: 18px; line-height: 1.6;">Carrier</strong></td>
+                                    <td><strong style="font-size: 18px; line-height: 1.6;">Remaining</strong></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                        <div style="height: 3px; width: 100%; background-color: #141B4D; margin-top: 5px; margin-bottom: 10px;"></div>
+                                    </td>
+                                </tr>
+
+                                {% for carrier in carriers %}
+                                    <tr style="line-height: 1.6">
+                                        <td>{{ carrier.carrier_code }}</td>
+                                        <td>{{ carrier.carrier_name }}</td>
+                                        <td>{{ carrier.remaining }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="line-height: 35px">
+                             &nbsp;
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

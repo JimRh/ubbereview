@@ -1,0 +1,11 @@
+[
+  {
+    "model": "api.skylineaccount",
+    "pk": 14,
+    "fields": {
+      "sub_account": 1,
+      "skyline_account": "22232",
+      "customer_id": 128
+    }
+  }
+]

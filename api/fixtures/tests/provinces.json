@@ -1,0 +1,128 @@
+[
+  {
+    "model": "api.province",
+    "pk": 1,
+    "fields": {
+      "name": "Alberta",
+      "code": "AB",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 2,
+    "fields": {
+      "name": "British Columbia",
+      "code": "BC",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 3,
+    "fields": {
+      "name": "Manitoba",
+      "code": "MB",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 4,
+    "fields": {
+      "name": "New Brunswick",
+      "code": "NB",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 5,
+    "fields": {
+      "name": "Newfoundland and Labrador",
+      "code": "NL",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 6,
+    "fields": {
+      "name": "Nova Scotia",
+      "code": "NS",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 7,
+    "fields": {
+      "name": "Northwest Territories",
+      "code": "NT",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 13,
+    "fields": {
+      "name": "Nunavut",
+      "code": "NU",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 8,
+    "fields": {
+      "name": "Ontario",
+      "code": "ON",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 9,
+    "fields": {
+      "name": "Prince Edward Island",
+      "code": "PE",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 10,
+    "fields": {
+      "name": "Quebec",
+      "code": "QC",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 11,
+    "fields": {
+      "name": "Saskatchewan",
+      "code": "SK",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 12,
+    "fields": {
+      "name": "Yukon",
+      "code": "YT",
+      "country": 1
+    }
+  },
+  {
+    "model": "api.province",
+    "pk": 14,
+    "fields": {
+      "name": "Missouri",
+      "code": "MO",
+      "country": 2
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "model": "api.markup",
+    "pk": 1,
+    "fields": {
+      "name": "Tier Two",
+      "default_percentage": "15",
+      "description": "Some Awesome Description"
+    }
+  },
+  {
+    "model": "api.markup",
+    "pk": 2,
+    "fields": {
+      "name": "Tier Three",
+      "default_percentage": "25",
+      "description": "Some Description"
+    }
+  }
+]

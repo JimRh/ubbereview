@@ -1,0 +1,50 @@
+[
+  {
+    "model": "api.trackingstatus",
+    "pk": 1,
+    "fields": {
+      "leg": 1,
+      "delivered_datetime": "2018-05-08T13:00:00.000000-00:00",
+      "estimated_delivery_datetime": "2018-05-08T13:00:00.000000-00:00",
+      "updated_datetime": "0001-01-01T00:00:00-00:00",
+      "status": "In processing",
+      "details": "The shipment is processing"
+    }
+  },
+  {
+    "model": "api.trackingstatus",
+    "pk": 2,
+    "fields": {
+      "leg": 1,
+      "delivered_datetime": "2018-05-08T13:00:00.000000-00:00",
+      "estimated_delivery_datetime": "2018-05-08T13:00:00.000000-00:00",
+      "updated_datetime": "0001-01-01T00:00:00-00:00",
+      "status": "In transit",
+      "details": "The shipment is in transit"
+    }
+  },
+  {
+    "model": "api.trackingstatus",
+    "pk": 3,
+    "fields": {
+      "leg": 1,
+      "delivered_datetime": "2018-05-08T13:00:00.000000-00:00",
+      "estimated_delivery_datetime": "2018-05-08T14:00:00.000000-00:00",
+      "updated_datetime": "0001-01-01T00:00:00-00:00",
+      "status": "Delivered",
+      "details": "The shipment is delivered"
+    }
+  },
+  {
+    "model": "api.trackingstatus",
+    "pk": 4,
+    "fields": {
+      "leg": 2,
+      "delivered_datetime": "2018-05-08T13:00:00.000000-00:00",
+      "estimated_delivery_datetime": "2018-05-08T13:00:00.000000-00:00",
+      "updated_datetime": "0001-01-01T00:00:00-00:00",
+      "status": "In transit",
+      "details": "The shipment is in transit"
+    }
+  }
+]

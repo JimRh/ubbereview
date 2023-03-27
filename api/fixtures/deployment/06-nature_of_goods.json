@@ -1,0 +1,314 @@
+[
+  {
+    "model": "api.natureofgood",
+    "pk": 1,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 1,
+      "rate_priority_code": "GEN",
+      "rate_priority_description": "General",
+      "nog_id": 417,
+      "nog_type": "DR",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 2,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 1,
+      "rate_priority_code": "GEN",
+      "rate_priority_description": "General",
+      "nog_id": 416,
+      "nog_type": "FR",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 3,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 1,
+      "rate_priority_code": "GEN",
+      "rate_priority_description": "General",
+      "nog_id": 415,
+      "nog_type": "DG",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 4,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 1,
+      "rate_priority_code": "GEN",
+      "rate_priority_description": "General",
+      "nog_id": 414,
+      "nog_type": "CO",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 5,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 35,
+      "rate_priority_code": "GAD",
+      "rate_priority_description": "Guaranteed",
+      "nog_id": 393,
+      "nog_type": "DR",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 6,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 35,
+      "rate_priority_code": "GAD",
+      "rate_priority_description": "Guaranteed",
+      "nog_id": 394,
+      "nog_type": "DG",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 7,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 35,
+      "rate_priority_code": "GAD",
+      "rate_priority_description": "Guaranteed",
+      "nog_id": 403,
+      "nog_type": "CO",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 8,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 35,
+      "rate_priority_code": "GAD",
+      "rate_priority_description": "Guaranteed",
+      "nog_id": 298,
+      "nog_type": "FR",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 9,
+    "fields": {
+      "skyline_account": 2,
+      "rate_priority_id": 47,
+      "rate_priority_code": "ENV",
+      "rate_priority_description": "Envelope",
+      "nog_id": 131,
+      "nog_type": "DR",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 10,
+    "fields": {
+      "skyline_account": 1,
+      "rate_priority_id": 38,
+      "rate_priority_code": "SCR",
+      "rate_priority_description": "SCR2000 Food",
+      "nog_id": 420,
+      "nog_type": "CO",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 11,
+    "fields": {
+      "skyline_account": 1,
+      "rate_priority_id": 38,
+      "rate_priority_code": "SCR",
+      "rate_priority_description": "SCR2000 Food",
+      "nog_id": 421,
+      "nog_type": "FR",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 12,
+    "fields": {
+      "skyline_account": 1,
+      "rate_priority_id": 38,
+      "rate_priority_code": "SCR",
+      "rate_priority_description": "SCR2000 Food",
+      "nog_id": 440,
+      "nog_type": "DR",
+      "transit": 0
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 13,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 65,
+      "rate_priority_code": "F07",
+      "rate_priority_description": "Get It",
+      "nog_id": 443,
+      "nog_type": "DR",
+      "transit": 7
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 14,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 65,
+      "rate_priority_code": "F07",
+      "rate_priority_description": "Get It",
+      "nog_id": 441,
+      "nog_type": "CO",
+      "transit": 7
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 15,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 65,
+      "rate_priority_code": "F07",
+      "rate_priority_description": "Get It",
+      "nog_id": 442,
+      "nog_type": "FR",
+      "transit": 7
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 16,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 65,
+      "rate_priority_code": "F07",
+      "rate_priority_description": "Get It",
+      "nog_id": 444,
+      "nog_type": "DG",
+      "transit": 7
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 17,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 66,
+      "rate_priority_code": "F04",
+      "rate_priority_description": "Get It Fast",
+      "nog_id": 447,
+      "nog_type": "DR",
+      "transit": 4
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 18,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 66,
+      "rate_priority_code": "F04",
+      "rate_priority_description": "Get It Fast",
+      "nog_id": 445,
+      "nog_type": "CO",
+      "transit": 4
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 19,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 66,
+      "rate_priority_code": "F04",
+      "rate_priority_description": "Get It Fast",
+      "nog_id": 446,
+      "nog_type": "FR",
+      "transit": 4
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 20,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 66,
+      "rate_priority_code": "F04",
+      "rate_priority_description": "Get It Fast",
+      "nog_id": 448,
+      "nog_type": "DG",
+      "transit": 4
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 21,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 67,
+      "rate_priority_code": "F02",
+      "rate_priority_description": "Get It Now",
+      "nog_id": 451,
+      "nog_type": "DR",
+      "transit": 2
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 22,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 67,
+      "rate_priority_code": "F02",
+      "rate_priority_description": "Get It Now",
+      "nog_id": 449,
+      "nog_type": "CO",
+      "transit": 2
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 23,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 67,
+      "rate_priority_code": "F02",
+      "rate_priority_description": "Get It Now",
+      "nog_id": 450,
+      "nog_type": "FR",
+      "transit": 2
+    }
+  },
+  {
+    "model": "api.natureofgood",
+    "pk": 24,
+    "fields": {
+      "skyline_account": 3,
+      "rate_priority_id": 67,
+      "rate_priority_code": "F02",
+      "rate_priority_description": "Get It Now",
+      "nog_id": 452,
+      "nog_type": "DG",
+      "transit": 2
+    }
+  }
+]

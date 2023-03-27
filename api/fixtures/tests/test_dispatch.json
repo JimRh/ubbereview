@@ -1,0 +1,22 @@
+[
+  {
+    "model": "api.dispatch",
+    "pk": 1,
+    "fields": {
+      "carrier": 17,
+      "contact": 1,
+      "location": "Edmonton",
+      "is_default": true
+    }
+  },
+  {
+    "model": "api.dispatch",
+    "pk": 2,
+    "fields": {
+      "carrier": 1,
+      "contact": 1,
+      "location": "Edmonton",
+      "is_default": true
+    }
+  }
+]

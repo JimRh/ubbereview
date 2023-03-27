@@ -1,0 +1,210 @@
+[
+  {
+    "model": "api.api",
+    "pk": 1,
+    "fields": {
+      "name": "Skyline",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 2,
+    "fields": {
+      "name": "TwoShip",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 3,
+    "fields": {
+      "name": "WestJet",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 4,
+    "fields": {
+      "name": "NorthernRoadBan",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 5,
+    "fields": {
+      "name": "WestJetLowBatchAWB",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 6,
+    "fields": {
+      "name": "CanadaPost",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 7,
+    "fields": {
+      "name": "DayAndRoss",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 8,
+    "fields": {
+      "name": "FedEx",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 9,
+    "fields": {
+      "name": "Loomis",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 10,
+    "fields": {
+      "name": "Manitoulin",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 11,
+    "fields": {
+      "name": "Purolator",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 12,
+    "fields": {
+      "name": "RateSheets",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 13,
+    "fields": {
+      "name": "TaxJar",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 14,
+    "fields": {
+      "name": "BBE",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 15,
+    "fields": {
+      "name": "Sealift",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 16,
+    "fields": {
+      "name": "ShipmentMetrics",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 17,
+    "fields": {
+      "name": "LegMetrics",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 18,
+    "fields": {
+      "name": "FinanceMetrics",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 19,
+    "fields": {
+      "name": "DistanceApi",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 20,
+    "fields": {
+      "name": "UBBEML",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 21,
+    "fields": {
+      "name": "GoogleTimezoneApi",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 22,
+    "fields": {
+      "name": "GoogleGeocodeApi",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 23,
+    "fields": {
+      "name": "ActionExpress",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 24,
+    "fields": {
+      "name": "Cargojet",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 25,
+    "fields": {
+      "name": "YRC",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 26,
+    "fields": {
+      "name": "ABFFreight",
+      "active": true
+    }
+  }
+]

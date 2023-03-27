@@ -1,0 +1,110 @@
+[
+  {
+    "model": "api.ratesheet",
+    "pk": 4,
+    "fields": {
+      "sub_account": 1,
+      "expiry_date": "2040-01-01T00:00:00Z",
+      "origin_province": 1,
+      "destination_province": 1,
+      "carrier": 1,
+      "origin_city": "TEST",
+      "destination_city": "TEST",
+      "minimum_charge": 2.22,
+      "transit_days": 1,
+      "service_code": "TEST",
+      "service_name": "TEST",
+      "availability": "TEST"
+    }
+  },
+  {
+    "model": "api.ratesheet",
+    "pk": 2,
+    "fields": {
+      "sub_account": 1,
+      "expiry_date": "2040-01-01T00:00:00Z",
+      "origin_province": 1,
+      "destination_province": 1,
+      "carrier": 1,
+      "origin_city": "TEST",
+      "destination_city": "TEST",
+      "minimum_charge": 2.22,
+      "transit_days": 1,
+      "service_code": "TEST",
+      "service_name": "TEST",
+      "availability": "TEST"
+    }
+  },
+  {
+    "model": "api.ratesheet",
+    "pk": 3,
+    "fields": {
+      "sub_account": 1,
+      "expiry_date": "2040-01-01T00:00:00Z",
+      "origin_province": 1,
+      "destination_province": 1,
+      "carrier": 1,
+      "origin_city": "TEST",
+      "destination_city": "TEST",
+      "minimum_charge": 2.22,
+      "transit_days": 1,
+      "service_code": "TEST",
+      "service_name": "TEST",
+      "availability": "TEST"
+    }
+  },
+  {
+    "model": "api.ratesheet",
+    "pk": 3,
+    "fields": {
+      "sub_account": 1,
+      "expiry_date": "2040-01-01T00:00:00Z",
+      "origin_province": 1,
+      "destination_province": 1,
+      "carrier": 1,
+      "origin_city": "TEST",
+      "destination_city": "TEST",
+      "minimum_charge": 2.22,
+      "transit_days": -1,
+      "service_code": "TEST",
+      "service_name": "TEST",
+      "availability": "TEST"
+    }
+  },
+  {
+    "model": "api.ratesheet",
+    "pk": 1,
+    "fields": {
+      "sub_account": 1,
+      "expiry_date": "2040-01-01T00:00:00Z",
+      "origin_province": 1,
+      "destination_province": 1,
+      "carrier": 32,
+      "origin_city": "TEST",
+      "destination_city": "TEST",
+      "minimum_charge": 2.22,
+      "transit_days": 1,
+      "service_code": "TEST",
+      "service_name": "TEST",
+      "availability": "TEST"
+    }
+  },
+  {
+    "model": "api.ratesheet",
+    "pk": 5,
+    "fields": {
+      "sub_account": 1,
+      "expiry_date": "2040-01-01T00:00:00Z",
+      "origin_province": 1,
+      "destination_province": 1,
+      "carrier": 36,
+      "origin_city": "TEST",
+      "destination_city": "TEST",
+      "minimum_charge": 2.22,
+      "transit_days": 1,
+      "service_code": "NB",
+      "service_name": "TEST",
+      "availability": "TEST"
+    }
+  }
+]

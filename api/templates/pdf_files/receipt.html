@@ -1,0 +1,234 @@
+{% load static %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ubbe Receipt</title>
+        <meta name="description" content="ubbe Receipt">
+        <meta name="author" content="BBE">
+        <style>
+            @page {
+                size: 3in 6in;
+                margin: 2cm;
+
+                @frame content_frame {
+                    left: .2in; width: 2.6in; top: .2in; height: 5.4in;
+                    {#-pdf-frame-border: 1#}
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <table>
+            <tbody>
+
+                <tr>
+                    <td>
+                        <span style="font-size: 20px; font-weight: bold">UBBE</span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+
+                        &nbsp;
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+
+                        &nbsp;
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        TRANSACTION RECORD
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="border-bottom: black solid 1px">
+                        &nbsp;
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        &nbsp;
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        TYPE
+                    </td>
+                    <td>
+                        PURCHASE
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        &nbsp;
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        ORDER ID
+                    </td>
+                    <td>
+                        {{ shipment_id }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        CARD NUM
+                    </td>
+                    <td>
+                        **** **** **** ****
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ACCOUNT
+                    </td>
+                    <td>
+
+                        {% if card_type == "M" %}
+                            MASTERCARD
+                        {% elif card_type == "V" %}
+                            VISA
+                        {% elif card_type == "AX" %}
+                            AMEX
+                        {% elif card_type == "C1" %}
+                            JCB
+                        {% elif card_type == "NO" %}
+                            DISCOVER
+                        {% else %}
+
+                        {% endif %}
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        &nbsp;
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        DATE
+                    </td>
+                    <td>
+                        {{ payment_date }} {{ payment_time }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        REF NUM
+                    </td>
+                    <td>
+                        {{ transaction_number }} M
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        AUTH CODE
+                    </td>
+                    <td>
+                        {{ auth_code }}
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        &nbsp;
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        ------------------------
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        AMOUNT (CAD)
+                    </td>
+                    <td>
+                        {{ transaction_amount }}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        ------------------------
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+
+                        &nbsp;
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+
+                        &nbsp;
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center; font-weight: bold; font-size: 14px">
+
+                        {{ transaction_type }} APPROVED - THANK YOU {{ code }}
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+
+                        &nbsp;
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+
+                        &nbsp;
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center">
+
+                        - IMPORTANT - <br>
+                        Retain this copy for your records
+
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+  </body>
+
+</html>

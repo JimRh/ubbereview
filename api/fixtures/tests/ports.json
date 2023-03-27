@@ -1,0 +1,20 @@
+[
+  {
+    "model": "api.port",
+    "pk": 1,
+    "fields": {
+      "name": "Victoria",
+      "address": 1,
+      "code": "VIC"
+    }
+  },
+  {
+    "model": "api.port",
+    "pk": 2,
+    "fields": {
+      "name": "VAN",
+      "address": 2,
+      "code": "VAN"
+    }
+  }
+]

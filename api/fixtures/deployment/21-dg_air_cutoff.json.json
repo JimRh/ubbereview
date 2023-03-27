@@ -1,0 +1,551 @@
+[
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 1,
+    "fields": {
+      "cutoff_value": "75.0",
+      "packing_instruction": 5,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 2,
+    "fields": {
+      "cutoff_value": "0.0",
+      "packing_instruction": 223,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 3,
+    "fields": {
+      "cutoff_value": "75.0",
+      "packing_instruction": 16,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 4,
+    "fields": {
+      "cutoff_value": "150.0",
+      "packing_instruction": 16,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 5,
+    "fields": {
+      "cutoff_value": "1.0",
+      "packing_instruction": 7,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 6,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 8,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 7,
+    "fields": {
+      "cutoff_value": "1.0",
+      "packing_instruction": 9,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 8,
+    "fields": {
+      "cutoff_value": "5.0",
+      "packing_instruction": 10,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 9,
+    "fields": {
+      "cutoff_value": "60.0",
+      "packing_instruction": 11,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 10,
+    "fields": {
+      "cutoff_value": "10.0",
+      "packing_instruction": 12,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 11,
+    "fields": {
+      "cutoff_value": "60.0",
+      "packing_instruction": 13,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 12,
+    "fields": {
+      "cutoff_value": "220.0",
+      "packing_instruction": 14,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 13,
+    "fields": {
+      "cutoff_value": "10.0",
+      "packing_instruction": 21,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 14,
+    "fields": {
+      "cutoff_value": "25.0",
+      "packing_instruction": 22,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 15,
+    "fields": {
+      "cutoff_value": "100.0",
+      "packing_instruction": 23,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 16,
+    "fields": {
+      "cutoff_value": "0.5",
+      "packing_instruction": 185,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 17,
+    "fields": {
+      "cutoff_value": "2.5",
+      "packing_instruction": 186,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 18,
+    "fields": {
+      "cutoff_value": "0.5",
+      "packing_instruction": 24,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 19,
+    "fields": {
+      "cutoff_value": "1.0",
+      "packing_instruction": 25,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 20,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 26,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 21,
+    "fields": {
+      "cutoff_value": "1.0",
+      "packing_instruction": 27,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 22,
+    "fields": {
+      "cutoff_value": "5.0",
+      "packing_instruction": 28,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 23,
+    "fields": {
+      "cutoff_value": "60.0",
+      "packing_instruction": 29,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 24,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 3,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 25,
+    "fields": {
+      "cutoff_value": "75.0",
+      "packing_instruction": 3,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 26,
+    "fields": {
+      "cutoff_value": "150.0",
+      "packing_instruction": 3,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 27,
+    "fields": {
+      "cutoff_value": "50.0",
+      "packing_instruction": 44,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 28,
+    "fields": {
+      "cutoff_value": "500.0",
+      "packing_instruction": 44,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 29,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 210,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 30,
+    "fields": {
+      "cutoff_value": "400.0",
+      "packing_instruction": 210,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 31,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 218,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 32,
+    "fields": {
+      "cutoff_value": "450.0",
+      "packing_instruction": 218,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 33,
+    "fields": {
+      "cutoff_value": "35.0",
+      "packing_instruction": 17,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 34,
+    "fields": {
+      "cutoff_value": "5.0",
+      "packing_instruction": 18,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 35,
+    "fields": {
+      "cutoff_value": "35.0",
+      "packing_instruction": 18,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 36,
+    "fields": {
+      "cutoff_value": "1.0",
+      "packing_instruction": 216,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 37,
+    "fields": {
+      "cutoff_value": "1.0",
+      "packing_instruction": 155,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 38,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 160,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 39,
+    "fields": {
+      "cutoff_value": "1.0",
+      "packing_instruction": 149,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 40,
+    "fields": {
+      "cutoff_value": "5.0",
+      "packing_instruction": 157,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 41,
+    "fields": {
+      "cutoff_value": "60.0",
+      "packing_instruction": 164,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 42,
+    "fields": {
+      "cutoff_value": "2.0",
+      "packing_instruction": 150,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 43,
+    "fields": {
+      "cutoff_value": "60.0",
+      "packing_instruction": 158,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 44,
+    "fields": {
+      "cutoff_value": "220.0",
+      "packing_instruction": 165,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 45,
+    "fields": {
+      "cutoff_value": "35.0",
+      "packing_instruction": 19,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 46,
+    "fields": {
+      "cutoff_value": "5.0",
+      "packing_instruction": 20,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 47,
+    "fields": {
+      "cutoff_value": "35.0",
+      "packing_instruction": 20,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 48,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 217,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 49,
+    "fields": {
+      "cutoff_value": "5.0",
+      "packing_instruction": 219,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 50,
+    "fields": {
+      "cutoff_value": "35.0",
+      "packing_instruction": 219,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 51,
+    "fields": {
+      "cutoff_value": "5.0",
+      "packing_instruction": 220,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 52,
+    "fields": {
+      "cutoff_value": "35.0",
+      "packing_instruction": 220,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 53,
+    "fields": {
+      "cutoff_value": "0.0",
+      "packing_instruction": 223,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 54,
+    "fields": {
+      "cutoff_value": "0.0",
+      "packing_instruction": 223,
+      "type": "C"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 55,
+    "fields": {
+      "cutoff_value": "75.0",
+      "packing_instruction": 5,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 56,
+    "fields": {
+      "cutoff_value": "75.0",
+      "packing_instruction": 5,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 57,
+    "fields": {
+      "cutoff_value": "400.0",
+      "packing_instruction": 210,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 58,
+    "fields": {
+      "cutoff_value": "450.0",
+      "packing_instruction": 218,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 59,
+    "fields": {
+      "cutoff_value": "1.0",
+      "packing_instruction": 216,
+      "type": "P"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 60,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 217,
+      "type": "L"
+    }
+  },
+  {
+    "model": "api.dangerousgoodaircutoff",
+    "pk": 61,
+    "fields": {
+      "cutoff_value": "30.0",
+      "packing_instruction": 217,
+      "type": "P"
+    }
+  }
+]

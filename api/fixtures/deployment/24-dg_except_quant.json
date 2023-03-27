@@ -1,0 +1,56 @@
+[
+  {
+    "model": "api.dangerousgoodexceptedquantity",
+    "pk": 1,
+    "fields": {
+      "excepted_quantity_code": 0,
+      "inner_cutoff_value": "0.000",
+      "outer_cutoff_value": "0.000"
+    }
+  },
+  {
+    "model": "api.dangerousgoodexceptedquantity",
+    "pk": 2,
+    "fields": {
+      "excepted_quantity_code": 1,
+      "inner_cutoff_value": "0.030",
+      "outer_cutoff_value": "1.000"
+    }
+  },
+  {
+    "model": "api.dangerousgoodexceptedquantity",
+    "pk": 3,
+    "fields": {
+      "excepted_quantity_code": 2,
+      "inner_cutoff_value": "0.030",
+      "outer_cutoff_value": "0.500"
+    }
+  },
+  {
+    "model": "api.dangerousgoodexceptedquantity",
+    "pk": 4,
+    "fields": {
+      "excepted_quantity_code": 3,
+      "inner_cutoff_value": "0.030",
+      "outer_cutoff_value": "0.300"
+    }
+  },
+  {
+    "model": "api.dangerousgoodexceptedquantity",
+    "pk": 5,
+    "fields": {
+      "excepted_quantity_code": 4,
+      "inner_cutoff_value": "0.001",
+      "outer_cutoff_value": "0.500"
+    }
+  },
+  {
+    "model": "api.dangerousgoodexceptedquantity",
+    "pk": 6,
+    "fields": {
+      "excepted_quantity_code": 5,
+      "inner_cutoff_value": "0.001",
+      "outer_cutoff_value": "0.300"
+    }
+  }
+]

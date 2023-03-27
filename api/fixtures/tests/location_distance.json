@@ -1,0 +1,14 @@
+[
+  {
+    "model": "api.locationdistance",
+    "pk": 1,
+    "fields": {
+      "origin_city": "edmonton international airport",
+      "origin_province": 1,
+      "destination_city": "ottawa",
+      "destination_province": 8,
+      "distance": "2846.00",
+      "duration": "4.00"
+    }
+  }
+]

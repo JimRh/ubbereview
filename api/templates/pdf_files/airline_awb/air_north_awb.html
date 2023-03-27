@@ -1,0 +1,624 @@
+{% load static %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ bol_number }}</title>
+        <meta name="description" content="BOL">
+        <meta name="BBE" content="BBE">
+        <style>
+            @page {
+                size: letter portrait;
+                margin: 1cm;
+
+                @frame header_frame {
+                    -pdf-frame-content: header_content;
+                    left: 20pt; width: 567pt; top: 20pt; height: 30pt;
+                }
+                @frame content_frame {
+                    left: 20pt; width: 567pt; top: 50pt; height: 722pt;
+                }
+                @frame footer_frame {
+                    -pdf-frame-content: footer_content;
+                    left: 20pt; width: 567pt; top: 772pt; height: 20pt;
+                }
+
+              }
+
+            .awb-border-left {
+                border-left: 1px solid grey;
+            }
+
+            .awb-border-right {
+                border-right: 1px solid grey;
+            }
+
+            .awb-border-bottom {
+                border-bottom: 1px solid grey;
+            }
+
+            .awb-border-top {
+                border-top: 1px solid grey;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="header_content">
+            <table>
+                <tr>
+                    <td style="font-size: 20px; font-weight: bold">
+                        {{ awb }}
+                    </td>
+                    <td style="text-align: center; padding-bottom: 6px">
+                        {% if awb %}
+                            <pdf:barcode value="{{ awb }}" type="code128" humanreadable="0" align="middle" barheight="20" checksum="0"/>
+                        {% endif %}
+                    </td>
+                    <td style="text-align: right;font-size: 20px; font-weight: bold">
+                        {{ awb }}
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div id="footer_content">
+            <div style="text-align: center; font-size: 10px; padding-top: 3px">
+                <pdf:pagenumber> of <pdf:pagecount>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <td colspan="2">
+
+                    <table>
+                        <tr>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-top awb-border-left awb-border-right">Shippers Name & Address<br>Nom et adresse de l'expediteur</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">Shippers Account Number<br>No de compte de l'expediteur</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+
+                                {{ ultimate_origin.company_name }}<br>
+                                {{ ultimate_origin.name }}<br>
+                                {{ ultimate_origin.address }}<br>
+                                {{ ultimate_origin.city }}, {{ ultimate_origin.postal_code }}, {{ ultimate_origin.province }}, {{ ultimate_origin.country }}<br>
+                                Tel: {{ ultimate_origin.phone }}<br>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-top awb-border-left awb-border-right">Consignee's Name & Address<br>Nom et adresse du destinataire</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">Consignee's Account Number<br>No de compte du destinataire</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+
+                                {{ ultimate_destination.company_name }}<br>
+                                {{ ultimate_destination.name }}<br>
+                                {{ ultimate_destination.address }}<br>
+                                {{ ultimate_destination.city }}, {{ ultimate_destination.postal_code }}, {{ ultimate_destination.province }}, {{ ultimate_destination.country }}<br>
+                                Tel: {{ ultimate_destination.phone }}<br>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">Issuing Carrier's Agent Name and City/Nom et ville de l'agent du transporteur emetteur</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">Agent's IATA Code/Code IATA de l'agent</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">Account Number/Numéro de compte</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                            <td style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="2" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">
+
+                    <table>
+                        <tr>
+                            <td style="text-align: left; padding-left: 4px;">
+                                Not negotiable<br>
+                                <span style="font-weight: bold">Air Waybill</span><br>
+                                Issued by
+                            </td>
+                            <td>
+                                <div style="text-align: center">
+                                    <img src="{% static 'img/airline_logos/logo-air-north.png' %}" alt="Air North">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: left; padding-left: 2px; padding-top: 2px;border-top: 1px solid grey !important;" class="awb-border-top awb-border-left awb-border-right">It is agreed that the goods described here are apparent good order and</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-left: 2px; padding-top: 2px" class="awb-border-left awb-border-right">
+                                <p style="text-align: justify; font-size: 8px">
+                                    condition (except as noted) for carriage SUBJECT TO THE CONDITIONS OF CONTRACT ON THE
+                                    REVERSE HEREOF, THE SHIPPER's ATTENTION IS DRAWN TO THE NOTICE
+                                    CONCERNING CARRIERS LIMITATION OF LIABILITY. Shipper may increase such
+                                    limitation of liability by declaring a higher value for carriage and paying a
+                                    supplemental charge if required.
+
+                                    TO EXPEDITE MOVEMENT, SHIPMENT MAY BE DIVERTED TO MOTOR OR OTHER CARRIER AS PER
+                                    TARIFF RULE UNLESS SHIPPER GIVES OTHER INSTRUCTIONS HEREON
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-right awb-border-top">Accounting Information</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px;" class="awb-border-right">
+
+                                Please third party bill to BBE Expediting Ltd.<br>
+                                Account: BRAEXP<br>
+                                &nbsp;<br>
+                                &nbsp;<br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td colspan="3">
+                    <table>
+                        <tr>
+                            <td colspan="3" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">Airport of Departure/Aeroport de depart</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="padding-left: 4px; padding-top: 2px; font-size: 10px; text-align: center; font-weight: bold" class="awb-border-left awb-border-right awb-border-bottom">{{ origin.city }}, {{ origin.base }}</td>
+                        </tr>
+                    </table>
+                </td>
+                <td colspan="3">
+                    <table>
+                        <tr>
+                            <td colspan="1" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">Reference Number</td>
+                            <td colspan="1" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom">Optional Shipping Information</td>
+                            <td colspan="1" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="padding-top: 4px; padding-left: 4px; font-size: 8px;" class="awb-border-left awb-border-bottom">{{ order_number }}</td>
+                            <td colspan="1" style="padding-top: 4px; padding-left: 4px; font-size: 8px;" class="awb-border-left awb-border-right awb-border-bottom">{{ reference_one }}</td>
+                            <td colspan="1" style="padding-top: 4px; padding-left: 4px; font-size: 8px;" class="awb-border-right awb-border-bottom">{{ reference_two }}</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+        <table>
+            <tr>
+                <td colspan="10">
+                    <table>
+                        <tr>
+                            <td colspan="6" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">Routing and destination</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">To/à</td>
+                            <td colspan="5" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">First Carrier/premier transport</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">To/à</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">by/par</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">To/à</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">by/par</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-top: 2px; padding-left: 4px; font-weight: bold" class="awb-border-left awb-border-right awb-border-bottom">{{ destination.base }}</td>
+                            <td colspan="5" style="padding-top: 2px; padding-left: 4px; font-weight: bold" class="awb-border-left awb-border-right awb-border-bottom">4N</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">Airport of Destination/Aeroport de destination</td>
+                            <td colspan="5" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left">Flight Date/Vol Date</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="padding-top: 2px; padding-left: 4px; font-weight: bold; font-size: 10px" class="awb-border-left awb-border-right awb-border-bottom">{{ destination.city }}, {{ destination.base }}</td>
+                            <td colspan="5" style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                        </tr>
+                    </table>
+
+                </td>
+                <td colspan="10">
+                    <table>
+                        <tr>
+                            <td style="padding-top: 2px; padding-left: 2px; font-size: 6px" class="awb-border-left awb-border-right">Currency</td>
+                            <td style="padding-top: 2px; padding-left: 2px; font-size: 6px" class="awb-border-left awb-border-right">CHGS</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 2px; text-align: center; font-size: 6px" class="awb-border-left awb-border-right">WT</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 2px; text-align: center; font-size: 6px" class="awb-border-left awb-border-right">Other</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px; font-size: 5px" class="awb-border-left awb-border-right">Declared Value for Carriage</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px; font-size: 5px" class="awb-border-left awb-border-right">Declared value for Customs</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 6px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">PPD</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 6px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">COLL</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 6px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">PPD</td>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 6px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">COLL</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right">&nbsp;</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom">CAD</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-bottom">PP</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">X</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">&nbsp;</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">X</td>
+                            <td style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">&nbsp;</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">NDV</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">NCV</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="padding-top: 2px; padding-left: 4px; font-size: 6px" class="awb-border-left">Amount of Insurance</td>
+                            <td colspan="6" style="font-size: 4px; padding-left: 2px;" class="awb-border-left awb-border-right">INSURANCE - If carrier offers insurance, and such insurance is requested in accordance with the conditions thereof, indicate amount to be insured in figures in box marked "Amount of Insurance".</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="padding-top: 2px; padding-left: 4px" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                            <td colspan="6" style="font-size: 4px; padding-left: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                ASSURANCE - Si le transporteur propose une assurance et que l'expediteur en fait la demande conformement aux presentes conditions, indiquer le montant a assurer en chiffres dans la case "Montant de l'assurance".
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td colspan="9" class="awb-border-left awb-border-top" style="padding-top: 2px; padding-left: 4px;font-size: 8px">
+                    Handling Information/Renseignements pour le traitement de l'expedition
+                </td>
+                <td colspan="1" class="awb-border-right">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="awb-border-left" style="padding-top: 1px; padding-left: 4px">
+                    {{ special_instructions }}
+                    {% if other_legs %}
+                        {% if other_legs.delivery_carrier %}
+                            <br><strong>Please hold for {{ other_legs.delivery_carrier }} for furtherance to {{ ultimate_destination.city }}</strong>
+                        {% endif %}
+                    {% endif %}
+                </td>
+                <td colspan="1" class="awb-border-right">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="8" class="awb-border-left awb-border-bottom">&nbsp;</td>
+                <td colspan="2" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px; padding-left: 4px; text-align: center">
+                    NS - (Not Screened)
+                </td>
+            </tr>
+        </table>
+
+        {% for list, is_next in awb_packages %}
+
+            <table style="min-height: 400px !important;">
+                <tr>
+                    <td width="5%" style="padding-top: 1px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">No. of Pieces</td>
+                    <td width="10%" style="padding-top: 1px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">Gross Weight</td>
+                    <td width="5%" style="padding-top: 1px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">kg lb</td>
+                    <td width="10%" style="padding-top: 1px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">Rate Class</td>
+                    <td width="10%" style="padding-top: 1px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">Chargeable Weight</td>
+                    <td width="6%" style="padding-top: 1px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">Rate</td>
+                    <td width="6%" style="padding-top: 1px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">Total</td>
+                    <td width="48%" style="padding-top: 1px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom awb-border-top">Nature and Quantity of Goods (inc. Dimensions or Volume)</td>
+                </tr>
+
+                {% for package in list %}
+
+                    <tr>
+                        <td class="awb-border-left awb-border-right" style="padding-top: 2px;text-align: center;">{{ package.quantity }}</td>
+                        <td class="awb-border-left awb-border-right" style="padding-top: 2px;text-align: center;">{{ package.weight }} kg</td>
+                        <td class="awb-border-left awb-border-right" style="padding-top: 2px;text-align: center;">K</td>
+                        <td class="awb-border-left awb-border-right" style="padding-top: 2px;text-align: center;">{{ service_name }}</td>
+                        <td class="awb-border-left awb-border-right" style="padding-top: 2px;text-align: center;"></td>
+                        <td class="awb-border-left awb-border-right" style="padding-top: 2px;text-align: center;"></td>
+                        <td class="awb-border-left awb-border-right" style="padding-top: 2px;text-align: center;"></td>
+                        <td class="awb-border-left awb-border-right" style="padding-top: 2px; padding-left: 4px">
+                            {{ package.package_type_name }}{% if package.is_time_sensitive %}: <span style="color: red">Time Sensitive: {{ package.time_sensitive_hours }} Hours</span>{% endif %}<br>
+                            {{ package.description }} - {{ package.length }}x{{ package.width }}x{{ package.height }}cm<br>
+                            {% if package.is_cos %}
+                                <span style="color: red">Chain of Signature Required</span>
+                            {% endif %}
+                            {% if package.is_dangerous_good %}
+                                <span style="color: red">{{ package.un_number }} - {{ package.proper_shipping_name }} {% if package.is_nos %}({{ package.nos }}){% endif %}</span><br>
+                            {% endif %}
+                        </td>
+                    </tr>
+
+                {% endfor %}
+            </table>
+
+            {% if is_next %}
+                <pdf:nextpage />
+            {% endif %}
+
+        {% endfor %}
+
+        {% if is_move_both %}
+            <pdf:nextpage />
+        {% endif %}
+
+        <table>
+            <tr>
+                <td width="5%" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px;text-align: center;">{{ total_pieces }}</td>
+                <td width="10%" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px;text-align: center;">{{ total_weight }}</td>
+                <td width="5%" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px;text-align: center;">&nbsp;</td>
+                <td width="10%" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px;text-align: center;">&nbsp;</td>
+                <td width="10%" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px;text-align: center;">&nbsp;</td>
+                <td width="6%" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px;text-align: center;">&nbsp;</td>
+                <td width="6%" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px;text-align: center;">&nbsp;</td>
+                <td width="48%" class="awb-border-left awb-border-right awb-border-top awb-border-bottom" style="padding-top: 2px;text-align: center;">&nbsp;</td>
+            </tr>
+        </table>
+
+        {% if is_bottom %}
+            <pdf:nextpage />
+        {% endif %}
+
+        <table>
+            <tr>
+                <td colspan="4">
+
+                    <table>
+                        <tr>
+                            <td colspan="1" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-top awb-border-left awb-border-right">Prepiad</td>
+                            <td colspan="2" style="padding-top: 2px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">Weight Charge</td>
+                            <td colspan="1" style="padding-top: 2px; padding-right: 4px; text-align: right; font-size: 8px" class="awb-border-left awb-border-right awb-border-top">Collect</td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="padding-top: 2px; font-size: 8px" class="awb-border-top awb-border-left awb-border-right">&nbsp;</td>
+                            <td colspan="2" style="padding-top: 2px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">Valuation Charge</td>
+                            <td colspan="1" style="padding-top: 2px; text-align: right; font-size: 8px" class="awb-border-left awb-border-right awb-border-top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="padding-top: 2px; font-size: 8px" class="awb-border-top awb-border-left awb-border-right">&nbsp;</td>
+                            <td colspan="2" style="padding-top: 2px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">Tax</td>
+                            <td colspan="1" style="padding-top: 2px; text-align: right; font-size: 8px" class="awb-border-left awb-border-right awb-border-top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="padding-top: 2px; font-size: 8px" class="awb-border-top awb-border-left awb-border-right">&nbsp;</td>
+                            <td colspan="2" style="padding-top: 2px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">Total other Charges Due Agent</td>
+                            <td colspan="1" style="padding-top: 2px; text-align: right; font-size: 8px" class="awb-border-left awb-border-right awb-border-top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="padding-top: 2px; font-size: 8px" class="awb-border-top awb-border-left awb-border-right">&nbsp;</td>
+                            <td colspan="2" style="padding-top: 2px; text-align: center; font-size: 8px" class="awb-border-left awb-border-right awb-border-top awb-border-bottom">Total other Charges Due Carrier</td>
+                            <td colspan="1" style="padding-top: 2px; text-align: right; font-size: 8px" class="awb-border-left awb-border-right awb-border-top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px; background-color: darkgrey" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px; background-color: darkgrey" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-top: 2px; padding-right: 4px; text-align: right; font-size: 8px" class="awb-border-top awb-border-left awb-border-right">Total Prepaid / Total port paye</td>
+                            <td colspan="2" style="padding-top: 2px; padding-left: 4px; font-size: 8px" class="awb-border-left awb-border-right awb-border-top">Total collect / Total port du</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                            <td colspan="2" style="text-align: center; padding-top: 2px; padding-bottom: 2px;" class="awb-border-left awb-border-right awb-border-bottom">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px; background-color: darkgrey" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px; background-color: darkgrey" class="awb-border-left awb-border-right awb-border-bottom">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-left: 4px; padding-top: 2px; padding-bottom: 2px; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom">
+                                For Carrier's use only at destination
+                            </td>
+                            <td colspan="2" style="padding-top: 2px; padding-bottom: 2px; font-size: 8px" class="awb-border-left awb-border-right awb-border-bottom">
+                                Charges at destination
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </td>
+                <td colspan="6">
+
+                    <table>
+                        <tr>
+                            <td colspan="6" style="text-align: left; padding-left: 2px; padding-top: 2px;" class="awb-border-left awb-border-right awb-border-top">Other Charges</td>
+                        </tr>
+                        <tr style="height: 200px !important;">
+                            <td colspan="6" style="padding-left: 2px; padding-top: 2px; height: 200px !important;" class="awb-border-left awb-border-right">
+                                <textarea style="font-size: 8px; height: 200px  !important;" rows="8">
+
+
+                                </textarea>
+                            </td>
+                        </tr>
+                        <tr style="height: 200px !important;">
+                            <td colspan="6" style="padding-left: 2px; padding-top: 2px; height: 200px !important;" class="awb-border-left awb-border-right">
+
+                            </td>
+                        </tr>
+                        <tr style="height: 200px !important;">
+                            <td colspan="6" style="padding-left: 2px; padding-top: 2px; height: 200px !important;" class="awb-border-left awb-border-right">
+
+                            </td>
+                        </tr>
+                        <tr style="height: 200px !important;">
+                            <td colspan="6" style="padding-left: 2px; padding-top: 2px; height: 200px !important;" class="awb-border-left awb-border-right">
+
+                            </td>
+                        </tr>
+                        <tr style="height: 200px !important;">
+                            <td colspan="6" style="padding-left: 2px; padding-top: 2px; height: 200px !important;" class="awb-border-left awb-border-right awb-border-bottom">
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="6" style="padding-left: 2px; padding-top: 2px;" class="awb-border-left awb-border-right">
+                                <p style="font-size: 8px;">
+                                    Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment contains dangerous goods, such part is properly described by name and is in proper condition for carriage by air according to the applicable Dangerous Goods Regulations.<br>
+                                    L'expéditeur certifie que les indications portées sur le présent document sont exactes et que dans la mesure ou une partie quelconque de l'expédition contient des marchandises dangereuses, cette partie de d'expédition est correctement dénommée et bien préparée pour le transport par air conformément à la réglementation applicable.
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" style="padding-left: 2px; padding-top: 4px;" class="awb-border-left">
+                                {{ ultimate_origin.name }}
+                            </td>
+                            <td colspan="3" style="padding-left: 6px; padding-top: 4px;" class="awb-border-right">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="padding-left: 2px; padding-top: 2px;" class="awb-border-left awb-border-bottom">
+                                <p style="font-size: 8px;" class="awb-border-top">
+                                   Print Name (Shipper) - Nom en lettres moulées (Expéditeur)
+                                </p>
+                            </td>
+                            <td colspan="3" style="padding-left: 6px; padding-top: 2px;" class="awb-border-right awb-border-bottom">
+                                <p style="font-size: 8px;" class="awb-border-top">
+                                    Signature
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="padding-left: 2px;" class="awb-border-left">
+                                <p style="font-size: 8px;">
+                                   &nbsp;
+                                </p>
+                            </td>
+                            <td colspan="1" style="padding-left: 2px;" class="">
+                                <p style="font-size: 8px;">
+                                   &nbsp;
+                                </p>
+                            </td>
+                            <td colspan="2" style="padding-left: 2px;" class="">
+                                <p style="font-size: 8px;">
+                                   &nbsp;
+                                </p>
+                            </td>
+                            <td colspan="2" style="padding-left: 2px;" class="awb-border-right">
+                                <p style="font-size: 8px;">
+                                     &nbsp;
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-left: 2px;" class="awb-border-left">
+                                <p style="font-size: 8px;">
+                                    {{ request_date }}
+                                </p>
+                            </td>
+                            <td colspan="2" style="padding-left: 2px;" class="">
+                                <p style="font-size: 8px;">
+                                    {{ origin.city }}
+                                </p>
+                            </td>
+                            <td colspan="2" style="padding-left: 2px;" class="awb-border-right">
+                                <p style="font-size: 8px;">
+
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="padding-left: 2px;" class="awb-border-left awb-border-bottom">
+                                <p style="font-size: 8px;" class="awb-border-top">
+                                    Executed on Date
+                                </p>
+                            </td>
+                            <td colspan="2" style="padding-left: 2px" class="awb-border-bottom">
+                                <p style="font-size: 8px;" class="awb-border-top">
+                                  Place
+                                </p>
+                            </td>
+                            <td colspan="2" style="padding-left: 2px;" class="awb-border-right awb-border-bottom">
+                                <p style="font-size: 8px;" class="awb-border-top">
+                                    Agent's Name
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" style="padding-left: 2px; padding-top: 4px;" class="awb-border-left awb-border-bottom awb-border-right">
+                                Total Collect Charges / Total Due<br>
+                                &nbsp;
+                            </td>
+                            <td colspan="3" style="padding-right: 2px; padding-top: 4px; text-align: right" class="awb-border-right awb-border-bottom">
+                                {{ awb }}
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>

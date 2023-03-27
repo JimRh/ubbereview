@@ -1,0 +1,452 @@
+[
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 11,
+    "fields": {
+      "packaging_type": "D",
+      "material": "ST",
+      "details": "Non-removable head",
+      "code": "1A1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 12,
+    "fields": {
+      "packaging_type": "D",
+      "material": "ST",
+      "details": "Removable head",
+      "code": "1A2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 13,
+    "fields": {
+      "packaging_type": "D",
+      "material": "AL",
+      "details": "Non-removable head",
+      "code": "1B1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 14,
+    "fields": {
+      "packaging_type": "D",
+      "material": "AL",
+      "details": "Removable head",
+      "code": "1B2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 15,
+    "fields": {
+      "packaging_type": "D",
+      "material": "PW",
+      "details": "",
+      "code": "1D"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 16,
+    "fields": {
+      "packaging_type": "D",
+      "material": "FI",
+      "details": "",
+      "code": "1G"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 17,
+    "fields": {
+      "packaging_type": "J",
+      "material": "ST",
+      "details": "Non-removable head",
+      "code": "3A1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 18,
+    "fields": {
+      "packaging_type": "J",
+      "material": "ST",
+      "details": "Removable head",
+      "code": "3A2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 19,
+    "fields": {
+      "packaging_type": "J",
+      "material": "AL",
+      "details": "Non-removable head",
+      "code": "3B1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 20,
+    "fields": {
+      "packaging_type": "J",
+      "material": "AL",
+      "details": "Removable head",
+      "code": "3B2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 21,
+    "fields": {
+      "packaging_type": "D",
+      "material": "PL",
+      "details": "Non-removable head",
+      "code": "1H1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 22,
+    "fields": {
+      "packaging_type": "J",
+      "material": "PL",
+      "details": "Non-removable head",
+      "code": "3H1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 23,
+    "fields": {
+      "packaging_type": "D",
+      "material": "PL",
+      "details": "Removable head",
+      "code": "1H2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 24,
+    "fields": {
+      "packaging_type": "J",
+      "material": "PL",
+      "details": "Removable head",
+      "code": "3H2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 25,
+    "fields": {
+      "packaging_type": "D",
+      "material": "ME",
+      "details": "Non-removable head",
+      "code": "1N1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 26,
+    "fields": {
+      "packaging_type": "D",
+      "material": "ME",
+      "details": "Removable head",
+      "code": "1N2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 27,
+    "fields": {
+      "packaging_type": "B",
+      "material": "ST",
+      "details": "",
+      "code": "4A"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 28,
+    "fields": {
+      "packaging_type": "B",
+      "material": "AL",
+      "details": "",
+      "code": "4B"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 29,
+    "fields": {
+      "packaging_type": "B",
+      "material": "ME",
+      "details": "",
+      "code": "4N"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 30,
+    "fields": {
+      "packaging_type": "B",
+      "material": "NA",
+      "details": "Ordinary",
+      "code": "4C1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 31,
+    "fields": {
+      "packaging_type": "B",
+      "material": "NA",
+      "details": "With stiff-proof walls",
+      "code": "4C2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 32,
+    "fields": {
+      "packaging_type": "B",
+      "material": "PW",
+      "details": "",
+      "code": "4D"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 33,
+    "fields": {
+      "packaging_type": "B",
+      "material": "RE",
+      "details": "",
+      "code": "4F"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 34,
+    "fields": {
+      "packaging_type": "B",
+      "material": "FB",
+      "details": "",
+      "code": "4G"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 35,
+    "fields": {
+      "packaging_type": "B",
+      "material": "PL",
+      "details": "Expanded",
+      "code": "4H1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 36,
+    "fields": {
+      "packaging_type": "B",
+      "material": "PL",
+      "details": "Solid",
+      "code": "4H2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 37,
+    "fields": {
+      "packaging_type": "A",
+      "material": "TE",
+      "details": "Sift-proof",
+      "code": "5L2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 38,
+    "fields": {
+      "packaging_type": "A",
+      "material": "TE",
+      "details": "Water-resistant",
+      "code": "5L3"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 39,
+    "fields": {
+      "packaging_type": "A",
+      "material": "PL",
+      "details": "Without inner lining or coating",
+      "code": "5H1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 40,
+    "fields": {
+      "packaging_type": "A",
+      "material": "PL",
+      "details": "Sift-proof",
+      "code": "5H2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 41,
+    "fields": {
+      "packaging_type": "A",
+      "material": "PL",
+      "details": "Water resistant",
+      "code": "5H3"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 42,
+    "fields": {
+      "packaging_type": "A",
+      "material": "PL",
+      "details": "Film",
+      "code": "5H4"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 43,
+    "fields": {
+      "packaging_type": "A",
+      "material": "PA",
+      "details": "Multi-wall",
+      "code": "5M1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 44,
+    "fields": {
+      "packaging_type": "A",
+      "material": "PA",
+      "details": "Multi-wall, water resistant",
+      "code": "5M2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 45,
+    "fields": {
+      "packaging_type": "D",
+      "material": "CO",
+      "details": "Plastic receptacle with outer steel drum",
+      "code": "6HA1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 46,
+    "fields": {
+      "packaging_type": "B",
+      "material": "CO",
+      "details": "Plastic receptacle with outer steel crate or box",
+      "code": "6HA2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 47,
+    "fields": {
+      "packaging_type": "D",
+      "material": "CO",
+      "details": "Plastic receptacle with outer aluminium drum",
+      "code": "6HB1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 48,
+    "fields": {
+      "packaging_type": "B",
+      "material": "CO",
+      "details": "Plastic receptacle with outer aluminium crate */or box",
+      "code": "6HB2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 49,
+    "fields": {
+      "packaging_type": "B",
+      "material": "CO",
+      "details": "Plastic receptacle with outer wooden box",
+      "code": "6HC"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 50,
+    "fields": {
+      "packaging_type": "D",
+      "material": "CO",
+      "details": "Plastic receptacle with outer plywood drum",
+      "code": "6HD1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 51,
+    "fields": {
+      "packaging_type": "B",
+      "material": "CO",
+      "details": "Plastic receptacle with outer plywood box",
+      "code": "6HD2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 52,
+    "fields": {
+      "packaging_type": "D",
+      "material": "CO",
+      "details": "Plastic receptacle with outer fibre drum",
+      "code": "6HG1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 53,
+    "fields": {
+      "packaging_type": "B",
+      "material": "CO",
+      "details": "Plastic receptacle with outer fibreboard box",
+      "code": "6HG2"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 54,
+    "fields": {
+      "packaging_type": "D",
+      "material": "CO",
+      "details": "Plastic receptacle with outer plastic drum",
+      "code": "6HH1"
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackagingtype",
+    "pk": 55,
+    "fields": {
+      "packaging_type": "B",
+      "material": "CO",
+      "details": "Plastic receptacle with outer solid plastic box",
+      "code": "6HH2"
+    }
+  }
+]

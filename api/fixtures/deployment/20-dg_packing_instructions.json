@@ -1,0 +1,2454 @@
+[
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 1,
+    "fields": {
+      "code": 100,
+      "packaging_types": [
+        28
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 3,
+    "fields": {
+      "code": 203,
+      "packaging_types": [
+        28,
+        14,
+        34,
+        16,
+        29,
+        26,
+        30,
+        31,
+        35,
+        36,
+        23,
+        32,
+        15,
+        33,
+        27,
+        12
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 5,
+    "fields": {
+      "code": 135,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 6,
+    "fields": {
+      "code": 130,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 7,
+    "fields": {
+      "code": 351,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 8,
+    "fields": {
+      "code": 361,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 9,
+    "fields": {
+      "code": 341,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 10,
+    "fields": {
+      "code": 353,
+      "packaging_types": [
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 11,
+    "fields": {
+      "code": 364,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 12,
+    "fields": {
+      "code": 344,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 13,
+    "fields": {
+      "code": 355,
+      "packaging_types": [
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 14,
+    "fields": {
+      "code": 366,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 16,
+    "fields": {
+      "code": 200,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 17,
+    "fields": {
+      "code": 968,
+      "packaging_types": [
+        28,
+        14,
+        20,
+        34,
+        16,
+        29,
+        26,
+        30,
+        31,
+        36,
+        23,
+        24,
+        32,
+        15,
+        33,
+        27,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 18,
+    "fields": {
+      "code": 970,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 19,
+    "fields": {
+      "code": 965,
+      "packaging_types": [
+        28,
+        14,
+        20,
+        34,
+        16,
+        29,
+        26,
+        30,
+        31,
+        36,
+        23,
+        24,
+        32,
+        15,
+        33,
+        27,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 20,
+    "fields": {
+      "code": 966,
+      "packaging_types": [
+        28,
+        14,
+        20,
+        34,
+        16,
+        29,
+        26,
+        30,
+        31,
+        36,
+        23,
+        24,
+        32,
+        15,
+        33,
+        27,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 21,
+    "fields": {
+      "code": 443,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 22,
+    "fields": {
+      "code": 446,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 23,
+    "fields": {
+      "code": 449,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 24,
+    "fields": {
+      "code": 840,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 25,
+    "fields": {
+      "code": 851,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 26,
+    "fields": {
+      "code": 855,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 27,
+    "fields": {
+      "code": 841,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 28,
+    "fields": {
+      "code": 852,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 29,
+    "fields": {
+      "code": 856,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 30,
+    "fields": {
+      "code": 101,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 31,
+    "fields": {
+      "code": 114,
+      "packaging_types": [
+        13,
+        14,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        21,
+        23,
+        32,
+        15,
+        33,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 32,
+    "fields": {
+      "code": 131,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 33,
+    "fields": {
+      "code": 133,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 34,
+    "fields": {
+      "code": 134,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 35,
+    "fields": {
+      "code": 136,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 36,
+    "fields": {
+      "code": 137,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 37,
+    "fields": {
+      "code": 138,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 38,
+    "fields": {
+      "code": 139,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 39,
+    "fields": {
+      "code": 140,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 40,
+    "fields": {
+      "code": 141,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 41,
+    "fields": {
+      "code": 142,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 42,
+    "fields": {
+      "code": 143,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 43,
+    "fields": {
+      "code": 201,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 44,
+    "fields": {
+      "code": 202,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 45,
+    "fields": {
+      "code": 206,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 46,
+    "fields": {
+      "code": 208,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 47,
+    "fields": {
+      "code": 211,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 48,
+    "fields": {
+      "code": 213,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 49,
+    "fields": {
+      "code": 214,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 50,
+    "fields": {
+      "code": 215,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 51,
+    "fields": {
+      "code": 216,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 52,
+    "fields": {
+      "code": 217,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 53,
+    "fields": {
+      "code": 218,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 54,
+    "fields": {
+      "code": 219,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 55,
+    "fields": {
+      "code": 220,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 56,
+    "fields": {
+      "code": 340,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 57,
+    "fields": {
+      "code": 342,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 58,
+    "fields": {
+      "code": 343,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 59,
+    "fields": {
+      "code": 350,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 60,
+    "fields": {
+      "code": 352,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 61,
+    "fields": {
+      "code": 354,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 62,
+    "fields": {
+      "code": 360,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 63,
+    "fields": {
+      "code": 362,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 64,
+    "fields": {
+      "code": 363,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 65,
+    "fields": {
+      "code": 365,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 66,
+    "fields": {
+      "code": 370,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 67,
+    "fields": {
+      "code": 371,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 68,
+    "fields": {
+      "code": 372,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 69,
+    "fields": {
+      "code": 373,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 70,
+    "fields": {
+      "code": 374,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 71,
+    "fields": {
+      "code": 375,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 72,
+    "fields": {
+      "code": 376,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 73,
+    "fields": {
+      "code": 377,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 74,
+    "fields": {
+      "code": 378,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 75,
+    "fields": {
+      "code": 440,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 76,
+    "fields": {
+      "code": 441,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 77,
+    "fields": {
+      "code": 442,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 78,
+    "fields": {
+      "code": 445,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 79,
+    "fields": {
+      "code": 448,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 80,
+    "fields": {
+      "code": 450,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 81,
+    "fields": {
+      "code": 451,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 82,
+    "fields": {
+      "code": 452,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 83,
+    "fields": {
+      "code": 453,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 84,
+    "fields": {
+      "code": 454,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 85,
+    "fields": {
+      "code": 455,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 86,
+    "fields": {
+      "code": 456,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 87,
+    "fields": {
+      "code": 457,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 88,
+    "fields": {
+      "code": 458,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 89,
+    "fields": {
+      "code": 459,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 90,
+    "fields": {
+      "code": 462,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 91,
+    "fields": {
+      "code": 463,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 92,
+    "fields": {
+      "code": 464,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 93,
+    "fields": {
+      "code": 465,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 94,
+    "fields": {
+      "code": 466,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 95,
+    "fields": {
+      "code": 467,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 96,
+    "fields": {
+      "code": 468,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 97,
+    "fields": {
+      "code": 469,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 98,
+    "fields": {
+      "code": 470,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 99,
+    "fields": {
+      "code": 471,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 100,
+    "fields": {
+      "code": 472,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 101,
+    "fields": {
+      "code": 473,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 102,
+    "fields": {
+      "code": 474,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 103,
+    "fields": {
+      "code": 475,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 104,
+    "fields": {
+      "code": 476,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 105,
+    "fields": {
+      "code": 477,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 106,
+    "fields": {
+      "code": 478,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 107,
+    "fields": {
+      "code": 479,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 108,
+    "fields": {
+      "code": 480,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 109,
+    "fields": {
+      "code": 481,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 110,
+    "fields": {
+      "code": 482,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 111,
+    "fields": {
+      "code": 483,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 112,
+    "fields": {
+      "code": 484,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 113,
+    "fields": {
+      "code": 485,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 114,
+    "fields": {
+      "code": 486,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 115,
+    "fields": {
+      "code": 487,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 116,
+    "fields": {
+      "code": 488,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 117,
+    "fields": {
+      "code": 489,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 118,
+    "fields": {
+      "code": 490,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 119,
+    "fields": {
+      "code": 491,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 120,
+    "fields": {
+      "code": 492,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 121,
+    "fields": {
+      "code": 493,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 122,
+    "fields": {
+      "code": 494,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 123,
+    "fields": {
+      "code": 495,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 124,
+    "fields": {
+      "code": 496,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 125,
+    "fields": {
+      "code": 497,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 126,
+    "fields": {
+      "code": 540,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 127,
+    "fields": {
+      "code": 541,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 128,
+    "fields": {
+      "code": 543,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 129,
+    "fields": {
+      "code": 544,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 130,
+    "fields": {
+      "code": 545,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 131,
+    "fields": {
+      "code": 546,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 132,
+    "fields": {
+      "code": 550,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 133,
+    "fields": {
+      "code": 551,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 134,
+    "fields": {
+      "code": 553,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 135,
+    "fields": {
+      "code": 554,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 136,
+    "fields": {
+      "code": 555,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 137,
+    "fields": {
+      "code": 557,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 138,
+    "fields": {
+      "code": 558,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 139,
+    "fields": {
+      "code": 559,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 140,
+    "fields": {
+      "code": 561,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 141,
+    "fields": {
+      "code": 562,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 142,
+    "fields": {
+      "code": 563,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 143,
+    "fields": {
+      "code": 565,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 144,
+    "fields": {
+      "code": 570,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 145,
+    "fields": {
+      "code": 603,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 146,
+    "fields": {
+      "code": 620,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 147,
+    "fields": {
+      "code": 622,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 148,
+    "fields": {
+      "code": 640,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 149,
+    "fields": {
+      "code": 641,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 150,
+    "fields": {
+      "code": 642,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 151,
+    "fields": {
+      "code": 644,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 152,
+    "fields": {
+      "code": 645,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 153,
+    "fields": {
+      "code": 650,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 154,
+    "fields": {
+      "code": 651,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 155,
+    "fields": {
+      "code": 652,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 156,
+    "fields": {
+      "code": 653,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 157,
+    "fields": {
+      "code": 654,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 158,
+    "fields": {
+      "code": 655,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 159,
+    "fields": {
+      "code": 657,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 160,
+    "fields": {
+      "code": 658,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 161,
+    "fields": {
+      "code": 659,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 162,
+    "fields": {
+      "code": 660,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 163,
+    "fields": {
+      "code": 661,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 164,
+    "fields": {
+      "code": 662,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 165,
+    "fields": {
+      "code": 663,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 166,
+    "fields": {
+      "code": 665,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 167,
+    "fields": {
+      "code": 666,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 168,
+    "fields": {
+      "code": 667,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 169,
+    "fields": {
+      "code": 668,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 170,
+    "fields": {
+      "code": 669,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 171,
+    "fields": {
+      "code": 670,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 172,
+    "fields": {
+      "code": 672,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 173,
+    "fields": {
+      "code": 673,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 174,
+    "fields": {
+      "code": 674,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 175,
+    "fields": {
+      "code": 675,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 176,
+    "fields": {
+      "code": 676,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 177,
+    "fields": {
+      "code": 677,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 178,
+    "fields": {
+      "code": 679,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 179,
+    "fields": {
+      "code": 680,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 180,
+    "fields": {
+      "code": 681,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 181,
+    "fields": {
+      "code": 699,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 182,
+    "fields": {
+      "code": 843,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 183,
+    "fields": {
+      "code": 844,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 184,
+    "fields": {
+      "code": 845,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 185,
+    "fields": {
+      "code": 850,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 186,
+    "fields": {
+      "code": 854,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 187,
+    "fields": {
+      "code": 858,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 188,
+    "fields": {
+      "code": 859,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 189,
+    "fields": {
+      "code": 860,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 190,
+    "fields": {
+      "code": 862,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 191,
+    "fields": {
+      "code": 863,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 192,
+    "fields": {
+      "code": 864,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 193,
+    "fields": {
+      "code": 866,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 194,
+    "fields": {
+      "code": 867,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 195,
+    "fields": {
+      "code": 868,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 196,
+    "fields": {
+      "code": 869,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 197,
+    "fields": {
+      "code": 870,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 198,
+    "fields": {
+      "code": 871,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 199,
+    "fields": {
+      "code": 872,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 200,
+    "fields": {
+      "code": 873,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 201,
+    "fields": {
+      "code": 874,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 202,
+    "fields": {
+      "code": 875,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 203,
+    "fields": {
+      "code": 876,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 204,
+    "fields": {
+      "code": 950,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 205,
+    "fields": {
+      "code": 951,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 206,
+    "fields": {
+      "code": 952,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 207,
+    "fields": {
+      "code": 953,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 208,
+    "fields": {
+      "code": 954,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 209,
+    "fields": {
+      "code": 955,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 210,
+    "fields": {
+      "code": 956,
+      "packaging_types": [
+        28,
+        13,
+        14,
+        19,
+        20,
+        34,
+        16,
+        29,
+        25,
+        26,
+        30,
+        31,
+        35,
+        36,
+        21,
+        23,
+        22,
+        24,
+        32,
+        15,
+        33,
+        27,
+        11,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 211,
+    "fields": {
+      "code": 957,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 212,
+    "fields": {
+      "code": 958,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 213,
+    "fields": {
+      "code": 959,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 214,
+    "fields": {
+      "code": 960,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 215,
+    "fields": {
+      "code": 961,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 216,
+    "fields": {
+      "code": 962,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 217,
+    "fields": {
+      "code": 963,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 218,
+    "fields": {
+      "code": 964,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 219,
+    "fields": {
+      "code": 967,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 220,
+    "fields": {
+      "code": 969,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 221,
+    "fields": {
+      "code": 971,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 222,
+    "fields": {
+      "code": 972,
+      "packaging_types": []
+    }
+  },
+  {
+    "model": "api.dangerousgoodpackinginstruction",
+    "pk": 223,
+    "fields": {
+      "code": 0,
+      "packaging_types": []
+    }
+  }
+]

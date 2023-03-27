@@ -1,0 +1,125 @@
+$font-family: Verdana, Arial, sans-serif;
+$breakpoint-small: 600px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-extra-large: 1280px;
+
+// New Colors
+$ubbe_blue: #25215F;
+$ubbe_yellow: #FFCF01;
+$ubbe_yellow_75: #FFDB40;
+$ubbe_yellow_55: #FFE573;
+$ubbe_yellow_light: #FFFEF8;
+$ubbe_dark_black: #333333;
+$ubbe_order_sand: #FFE388;
+$ubbe_extra_light: #FFF3D0;
+
+.ubbe-blue {
+  color: $ubbe_blue
+}
+
+.ubbe-yellow {
+  color: $ubbe_yellow
+}
+
+.ubbe-yellow-light {
+  color: $ubbe_yellow_light
+}
+
+.ubbe-yellow-bg {
+  background-color: $ubbe_yellow
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+  --bg-color: white;
+  --text-color: black;
+  --title-color: #25215F;
+}
+
+.ubbe-logo-size {
+  height: 3em;
+}
+
+/***********************
+       Font
+************************/
+
+html, body, label, p {
+  font-family: $font-family;
+}
+
+.link-no-style {
+  text-decoration: none;
+  color: unset;
+}
+
+/***********************
+        Card Style
+************************/
+
+.ubbe-card {
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  background-color: rgba(255,255,255,0.2);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ubbe-card:hover {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+/***********************
+        Inputs
+************************/
+
+.ubbe-input, textarea, .ubbe-textarea {
+  background-color: $ubbe_yellow_light !important;
+  border: 2px solid $ubbe_blue !important;
+}
+
+.no-border-input {
+  border: unset !important;
+  background-color: unset !important;
+}
+
+.dropdown-style {
+  background-color: $ubbe_yellow_light !important;
+  border: 2px solid $ubbe_blue !important;
+  border-radius: .25rem
+}
+
+/***********************
+        Buttons
+************************/
+
+.btn-ubbe {
+    color: $ubbe_dark_black;
+    background-color: $ubbe_yellow;
+    border-color: $ubbe_yellow;
+}
+
+.btn-ubbe:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+/***********************
+        RESPONSIVE
+************************/
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: $breakpoint-extra-large) {
+
+}
+
+@media (min-width: 1400px ) {
+
+  .ubbe-card-login-size {
+    margin: 10%;
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "model": "api.api",
+    "pk": 1,
+    "fields": {
+      "name": "Skyline",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 2,
+    "fields": {
+      "name": "TwoShip",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 3,
+    "fields": {
+      "name": "WestJet",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 4,
+    "fields": {
+      "name": "NorthernRoadBan",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 5,
+    "fields": {
+      "name": "WestJetLowBatchAWB",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 6,
+    "fields": {
+      "name": "CanadaPost",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 7,
+    "fields": {
+      "name": "DayAndRoss",
+      "active": true
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 8,
+    "fields": {
+      "name": "FedEx",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 9,
+    "fields": {
+      "name": "Loomis",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 10,
+    "fields": {
+      "name": "Manitoulin",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 11,
+    "fields": {
+      "name": "Purolator",
+      "active": false
+    }
+  },
+  {
+    "model": "api.api",
+    "pk": 12,
+    "fields": {
+      "name": "RateSheets",
+      "active": true
+    }
+  }
+]

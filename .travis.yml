@@ -1,0 +1,37 @@
+language: python
+python:
+  - "3.9"
+
+services:
+  - mysql
+
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+# command to run tests
+
+env:
+  - DJANGO_VERSION=4.1
+
+notifications:
+  email:
+    recipients:
+      - kcarmichael@bbex.com
+    on_success: never
+    on_failure: always # default: always
+
+before_script:
+  - mkdir logs
+  - mkdir logs/info
+  - mkdir logs/critical
+  - mkdir logs/warning
+  - mkdir logs/error
+  - mkdir logs/debug
+  - redis-server --port 6379 &
+  - celery -A brain worker -l info &
+  - python manage.py makemigrations api
+  - python manage.py makemigrations books
+  - python manage.py migrate
+
+script:
+  - python manage.py test
